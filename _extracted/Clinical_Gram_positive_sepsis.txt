@@ -1,0 +1,676 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===ITEM BREAK===
+
+
+
+
+
+
+
+
+
+Clinical Gram-positive sepsis: Does it fundamentally differ from Gram-negative bacterial sepsis?
+
+
+Opal Steven M. MD; Cohen, Jonathan MD
+
+
+Critical Care MedicineCritical Care Medicine.
+      27:p 1608-1616, August 1999.
+
+
+Author Information
+
+
+From Brown University School of Medicine, Providence, RI (Dr. Opal); and Royal Post Graduate Medical School, Hammersmith Hospital, London, UK (Dr. Cohen).
+
+
+Address requests for reprints to: Steven M. Opal, MD, Infectious Disease Division, Memorial Hospital of Rhode Island, 111 Brewster Street, Pawtucket, RI 02860. E-mail: Steven_Opal@brown.edu.
+
+
+Abstract
+
+
+To review the basic differences between Gram-positive and Gram-negative sepsis and to assess the effect of these differences on current and future therapeutic strategies for sepsis.
+
+
+Literature review of the past 30 yrs of laboratory and clinical reports that analyze the microbial aspects of sepsis and the immunologic response to systemic infection.
+
+
+The increasing prevalence of sepsis from Gram-positive bacterial pathogens necessitates reevaluation of many of the basic assumptions about the molecular pathogenesis of septic shock. It has been assumed that the initiation of the systemic inflammatory response with activation of the proinflammatory cytokine networks and other mediators results in a similar pathophysiologic process, regardless of the causative microbic pathogen. Yet, there is increasing experimental evidence that fundamental differences exist in the host response to Gram-positive bacterial pathogens compared with the host response to Gram-negative organisms. Systemic immune activation during sepsis may promote the clearance of the microbic pathogen; however, generalized inflammation also contributes to the pathogenesis of septic shock. The balance between these beneficial and deleterious effects may differ between Gram-positive and Gram-negative pathogens.
+
+
+Results of antimediator therapies in clinical trials in septic shock are inconclusive but suggest that the response may differ, depending on the type of microbic pathogen. The immune-mediated pathophysiologic mechanisms that underlie Gram-positive sepsis and the potential interactions between the infecting microorganism and efficacy of anticytokine therapies require further investigation. Treatment strategies that explain the causative organism may be necessary for optimal use of immunoadjuvants in the future. (Crit Care Med 1999; 27:1608-1616)
+
+
+Key Words: sepsis; septic shock; cytokines; anticytokines; endotoxin; immunotherapy; superantigen; Gram-positive sepsis; endotoxemia
+
+
+Remarkable changes have occurred in the incidence and nature of septic shock during the past three decades. According to Centers for Disease Control and Prevention data, sepsis is an increasing cause of mortality among Americans and is the cause of <or=to250,000 deaths annually 
+[1]
+. Sepsis is a principal cause of death in critical care units worldwide and consumes considerable healthcare resources in acute care hospitals 
+[2,3]
+. Although great strides have been made in supportive care of critically ill patients 
+[4]
+, the mortality rate from septic shock remains unacceptably high at 35%-45% 
+[5]
+.
+
+
+The basic paradigm of septic shock contends that microbially derived mediators (such as bacterial endotoxin) and other cell wall components (such as lipoteichoic acid) initiate an uncontrolled network of host-derived proinflammatory mediators, which ultimately lead to cardiovascular failure and death 
+[2,5]
+. This widely held hypothesis provides the therapeutic rationale for the numerous clinical trials with anti-inflammatory agents for sepsis.
+
+
+It is important to realize that the conventional view of the molecular mechanisms of septic shock was derived from extensive preclinical investigations into the pathogenesis of endotoxic shock 
+[6,7]
+. The primary cause of shock after bloodstream infection with Gram-negative bacteria is endotoxin. This complex macromolecule is common to the outer membrane of essentially all clinically significant aerobic Gram-negative bacteria found in human infections. Endotoxin alone is sufficient to induce shock when given experimentally to laboratory animals or human volunteers 
+[8,9]
+. Attention to this critical molecule is based on the traditional view that Gram-negative bacteria are the most important cause of septic shock in patients in the antimicrobial era 
+[10]
+.
+
+
+The role of Gram-positive bacterial pathogens in the pathogenesis of septic shock has received less emphasis because these organisms were thought to be quantitatively less important than Gram-negative bacteria as a cause of septic shock.  It was generally assumed that the pathogenesis of sepsis from Gram-positive organisms was sufficiently similar to endotoxic shock from Gram-negative bacteria, so that the same basic mechanisms would apply.
+
+
+These views have been challenged in the context of data that indicate that Gram-positive pathogens are increasing in prevalence in septic patients. The mortality from sepsis from Gram-positive pathogens is substantial and may match or exceed mortality from Gram-negative organisms 
+[11-13]
+. Moreover, the pathogenetic mechanisms that underlie Gram-positive sepsis clearly differ from endotoxin-induced shock 
+[14,15]
+.
+
+
+It is generally assumed that novel therapeutic agents that interfere with the inflammatory mediators of sepsis should be equally effective in septic patients, regardless of the infecting microorganism. Although this may ultimately prove to be true, interactions between the host immune response and Gram-positive organisms differ considerably from the response to Gram-negative pathogens. Whether these fundamental differences affect the relative efficacy of anti-inflammatory agents for sepsis remains to be determined. This brief review focuses on the molecular pathogenesis of sepsis by the type of infecting microorganism, the experimental evidence for differential responsiveness of Gram-positive and Gram-negative sepsis to anti-inflammatory agents, and the practical consequences of Gram-positive sepsis in the evaluation of new treatment strategies for septic shock.
+
+
+Back to Top
+
+
+MATERIALS AND METHODS
+
+
+A literature review was conducted in the National Library of Medicine MEDLINE service in the English language from 1966 to 1997 using the following search words: Gram-positive sepsis; immunopathogenesis of sepsis or septic shock; immune response to bacterial sepsis; and pathogenesis of Gram-negative and Gram-positive sepsis. A total of 198 articles were found, of which 114 were reviewed in detail. Previous clinical reviews, preliminary reports, or articles that recapitulate earlier studies were not reviewed. Articles were qualitatively reviewed and decisions about inclusion of each article into this study were determined by mutual agreement by both authors.
+
+
+Clinical reports of sepsis trials that investigated the efficacy of anti-inflammatory agents were analyzed if they specifically classified the treatment results by the type of microorganism that caused the septic event. In the figures that depict clinical trial results, patients randomized to the control group are compared with the highest dose of the anti-inflammatory agent tested when multiple different dosing regimens were used (
+Figure 3
+ and 
+Figure 4
+). If the treatment group responded better than the control group, the magnitude of this difference is indicated by the height of the bar above the zero line. If the treatment group responded worse than the control group, the magnitude of this difference is indicated by the level of the bar below the zero line.
+
+
+The difference in mortality between placebo and highest-dose treatment groups in sepsis trials with anti-inflammatory agents based on the type of infecting microorganism. IL-1ra, interleukin-1 receptor antagonist [79]; PAF = platelet-activating factor [77]; Bradykinin Antagonist, deltibant (CP 0127) [78]; Corticosteroids, steroids [76]; solid bars, Gram-negative pathogens; hatched bars, Gram-positive pathogens.
+
+
+The difference in mortality between placebo and highest-dose treatment groups in sepsis trials with antitumor necrosis factor (TNF) agents based on the type of infecting microorganism. CB6, anti-TNF murine monoclonal antibody [72]; BAYx1351, anti-TNF murine monoclonal antibody [80]; sTNFr:Fc(II), soluble TNF receptor type II Fc fusion protein [81]; sTNFr:Fc(I), soluble TNF receptor type I Fc fusion protein [82]; solid bars, Gram-negative pathogens; hatched bars, Gram-positive pathogens.
+
+
+Back to Top
+
+
+RESULTS
+
+
+Back to Top
+
+
+Microbiology of Sepsis
+
+
+The prevalence of Gram-positive bacterial pathogens as a cause of sepsis has been increasing in relation to Gram-negative pathogens for many years. This has been amply demonstrated in serial studies of bacteremia in neutropenic patients during the past 20 yrs 
+[16]
+. The expanding role of Gram-positive pathogens in intensive care unit sepsis was emphasized in a review by Bone 
+[17]
+, and similar findings were reported by Cockerill and associates 
+[18]
+ and others 
+[19]
+.
+
+
+The reasons for the increasing frequency of Gram-positive sepsis include the following: a) empiric antimicrobial regimens designed primarily against Gram-negative pathogens have selected out resistant Gram-positive pathogens; b) increasing use of long-term intravascular catheters; c) widespread use of surgically implanted foreign materials (e.g., prosthetic joints, valves, vessels); d) changing epidemiology of certain Gram-positive pathogens (group A streptococci, enterococci); e) the spread of antibiotic resistance among Gram-positive organisms (e.g., methicillin-resistant Staphylococcus aureus, penicillin-resistant Streptococcus pneumoniae, vancomycin-resistant Enterococcus faecium).
+
+
+Not only are nosocomial infections more commonly caused by multiresistant Gram-positive organisms such as coagulase-negative staphylococci, penicillin-resistant viridans streptococci, methicillin-resistant S. aureus, and vancomycin-resistant E. faecium, but also penicillin-resistant S. pneumoniae and macrolide-resistant group A streptococci are increasing in incidence in community-acquired infections 
+[20,21]
+. The clinical consequences of these trends will be the continued reduction of Gram-negative pathogens as a cause of sepsis in relation to the increasing prevalence of Gram-positive sepsis.
+
+
+The necessity for an intact host immune response to Gram-positive pathogens may alter the risk-benefit ratio associated with anti-inflammatory agents in septic patients. The risks associated with the disruption of the host immune clearance mechanisms with anticytokine agents may be greater with Gram-positive organisms than with Gram-negative organisms. This appears to be so in some 
+[22-25]
+ animal models of sepsis in which Gram-negative challenges tend to benefit from anticytokine therapy, whereas Gram-positive bacterial challenges do not benefit or are worsened by anti-inflammatory agents. The molecular basis for these potential differences is incompletely understood. Some important clues are found in the complex interactions between Gram-positive pathogens and the human immune system.
+
+
+Back to Top
+
+
+The Immunopathogenesis of Gram-Positive Sepsis
+
+
+Microbial Factors. It is frequently taught that one of the fundamental differences between Gram-positive and Gram-negative bacteria is the way in which they initiate disease. Gram-positive bacteria depend on the production of powerful exotoxins (e.g., tetanus, botulism, diphtheria); with Gram-negative bacteria, it is principally the cell wall component, endotoxin, that is implicated in pathogenesis. Gram-positive sepsis differs from Gram-negative sepsis in that the organisms often arise from skin, wounds, soft-tissue structures, and catheter sites rather than enteric or genitourinary sources 
+[17]
+. Additionally, Gram-positive organisms require a highly orchestrated host response, with intracellular killing by neutrophils and macrophages. This is often not the case for Gram-negative pathogens, which may be readily killed in the extracellular space by antibody and complement 
+[26]
+.
+
+
+Cell Wall Components. In Gram-negative bacteria, an inner lipid plasma bilayer is covered with a thin layer of peptidoglycan. Overlying this is an outer membrane, in the outer part of which is endotoxin (
+Figure 1
+). There is compelling evidence that endotoxin plays a key role in the pathogenesis of Gram-negative infection 
+[27]
+. Endotoxin is a lipopolysaccharide, the biochemical structure of which is well known. Most of the toxicity of endotoxin resides in the innermost core region, which consists of lipid A. The structure of lipid A is remarkably well conserved in most common Gram-negative bacteria, irrespective of the species from which it is obtained. Indeed, the clinical features of sepsis caused by Escherichia coli are no different than those caused by Klebsiella or Proteus species.
+
+
+Principal elements of the cell wall of Gram-negative microbic pathogens. The inner membrane consists of a phospholipid bilayer with transport proteins; the outer membrane consists of a thin layer of peptidoglycan and is covered by a complex array of lipoproteins, lipopolysaccharide, outer membrane proteins, and capsular polysaccharide.
+
+
+Endotoxin can be found in the blood of patients with Gram-negative sepsis. In some cases, such as meningococcemia 
+[28]
+, there is a good correlation between the plasma level of endotoxin and the outcome; even in more "general" types of Gram-negative infection, the presence of endotoxemia correlates with more severe physiologic variables 
+[29,30]
+. Finally, some data suggest that patients with high natural antibody titers to endotoxin have a better outcome in sepsis 
+[31]
+ and fewer complications after major surgery than those with low anticore endotoxin antibody titers 
+[32]
+.
+
+
+Taken together, these and other data provide persuasive evidence that endotoxin is the principal component of Gram-negative bacteria responsible for initiating the process of sepsis. Nevertheless, it must be acknowledged that endotoxemia cannot be demonstrated in all cases of Gram-negative sepsis and that endotoxemia and bacteremia are not necessarily synonymous. Even more curiously, endotoxemia can sometimes occur in patients with Gram-positive bacteremia, presumably as a consequence of damage to the integrity of the mucosal barrier in the gastrointestinal tract 
+[33]
+.
+
+
+Endotoxin is not present in Gram-positive bacteria. Instead, the cell wall contains a thick (20-80 nm) layer of peptidoglycan, which lies directly over the plasma membrane. Embedded in the peptidoglycan are molecules of lipoteichoic acid (
+Figure 2
+). Several in vitro studies have demonstrated that these structural components of Gram-positive cell walls are able to mimic some of the properties of endotoxin, for example, in their ability to induce proinflammatory cytokines from mononuclear cells 
+[34]
+. Furthermore, data from work with S. aureus suggest that there is a complex synergistic relation between peptidoglycan and lipoteichoic acid in their ability to cause shock; some have even advanced toward identifying the precise structural components of the molecules responsible for this effect 
+[35,36]
+. What is not clear is whether these processes are of clinical significance; there is no doubt that peptidoglycan is considerably less potent than endotoxin, and it is not  known whether the amounts of these Gram-positive cell wall components that are present during infection (locally or systemically) are sufficient to reproduce the effects seen in vitro. Nevertheless, these data are intriguing and suggest that in some circumstances, Gram-positive cell wall fractions may play a role in pathogenesis.
+
+
+Elements of the cell wall of a typical pathogenic Gram-positive bacterium, Streptococcus pyogenes (group A streptococcus). The inner membrane is covered by a thick layer of peptidoglycan and several outer membrane proteins, some of which (e.g., M protein) are important in the virulence properties of the organism. Group-specific carbohydrates and lipoteichoic acid exist in the membrane structure. A polysaccharide exocapsule covers the surface of the organism.
+
+
+Soluble Factors. The production of soluble extracellular toxins is one of the hallmarks of disease caused by Gram-positive bacteria. The list is extensive, but examples include the toxins of clostridial species (gas gangrene, antibiotic-associated colitis); diphtheria (Corynebacterium diphtheriae); food poisoning (Bacillus cereus, S. aureus); and anthrax (Bacillus anthracis). The mode of action of many of these toxins is highly specific and well understood. For the Gram-positive bacteria associated with septic shock, however, toxins of a different kind seem to be involved.
+
+
+The paradigm is toxic-shock syndrome toxin-1, a 194-amino acid protein produced by certain strains of S. aureus. In the 1980s, cases of menstruation-associated staphylococcal infection in healthy young women called attention to a syndrome of fever and profound shock, often followed by conjunctival hyperemia and desquamation 
+[37]
+. This condition proved to be associated with the production of an exotoxin, toxic-shock syndrome toxin-1, by strains of S. aureus and later it became clear that toxic-shock syndrome toxin-1 was a so-called superantigen.
+
+
+Superantigens are unusual because they do not require previous processing and highly specific presentation by antigen-presenting cells. Thus, they are able to bind to and activate more lymphocytes than conventional processed antigens, hence the term "superantigen" 
+[38,39]
+. The range of microbic products thought to act as superantigens is somewhat wide: it includes the staphylococcal enterotoxins, streptococcal pyrogenic exotoxins, the Yersinia pseudotuberculosis toxin, and even some viruses. Superantigens may also play a role in conditions such as Kawasaki's disease 
+[40]
+ and guttate psoriasis 
+[41]
+. Many microbial products are T-cell mitogens but some are remarkable because they activate only those lymphocytes that express particular variable beta chains in the T-cell receptor, to which they bind with high affinity.
+
+
+In septic shock, the clearest associations are with staphylococcal infection and with streptococcal shock syndrome caused by Streptococcus pyogenes 
+[42]
+. The working hypothesis is that infection leads to local or systemic release of toxins, massive lymphocyte activation, and release of T-cell cytokines, resulting in cellular injury and organ failure. Attempts to modulate T-cell activation in experimental models of superantigen-induced injury with glucocorticoids 
+[43]
+, cyclosporine A 
+[44]
+, interleukin (IL)-2 deletion 
+[45]
+, or antibodies directed against cytokines 
+[46]
+ or superantigens 
+[47]
+ have generally proved to be beneficial. The value of this type of intervention in human diseases from superantigen-mediated immune activation is not known but is a promising area for further clinical research.
+
+
+Although there is no conclusive proof that superantigenic toxins cause septic shock, the increased incidence of severe infections caused by group A beta-hemolytic streptococci provides a good example of the evidence 
+[48]
+. First, these infections have been epidemiologically associated with strains that produce pyrogenic exotoxin A (SPEA) 
+[49]
+. Second, sera from patients with more severe disease are less able to inhibit streptococcal antigens that act as T-cell mitogens 
+[50]
+. Third, preliminary data from a few patients suggest that there is selective activation of lymphocytes with particular variable beta chain classes. Finally, there is both experimental 
+[39]
+ and clinical 
+[51]
+ evidence that SPEA is present in sufficient quantities in vivo to be able to cause these effects.
+
+
+Another distinct group of toxins that may be associated with septic shock are the pore-forming exotoxins. Examples include the alpha-toxin of S. aureus, streptolysin-O of S. pyogenes, and the alpha-hemolysin of E. coli 
+[52]
+. The cellular consequences of binding these proteins to cell walls have been elegantly characterized, although their clinical significance remains uncertain 
+[52]
+.
+
+
+In summary, although the notion that Gram-negative bacteria cause shock by their endotoxin, whereas shock caused by Gram-positive bacteria is produced by exotoxins, has been shown to be oversimplistic, it is clear that there are fundamental differences in the ways in which these two groups of organisms assault the immune system. Therapeutic strategies designed to alter the host response to bacterial sepsis may need to explain these basic differences in the pathophysiology of septic shock caused by Gram-positive or Gram-negative organisms.
+
+
+Host Factors. A detailed discussion of the physiologic host responses to bacteria is beyond the scope of this review. We are concerned with the host response to severe sepsis and septic shock and, particularly, whether there are consistent differences between the responses to Gram-positive and Gram-negative infection.
+
+
+There is good evidence that in Gram-negative infections, it is the monocyte-macrophage that is the first cell to respond to endotoxin 
+[27]
+. Endotoxin first binds to lipopolysaccharide-binding protein, an acute-phase protein produced by the liver. The endotoxin-lipopolysaccharide-binding protein complex acts as the ligand for CD14 (a cell-surface receptor on mononuclear cells), and signal transduction results in cell activation, leading to cytokine release, among many other things 
+[53]
+. It has become clear that endotoxin processing is somewhat more complex: There are several normal human proteins that have the ability to bind endotoxin 
+[54]
+, which is "shuttled" between them and CD14 
+[55]
+.
+
+
+It appears that the CD14 mechanism is not limited to endotoxin-lipopolysaccharide-binding protein but that it is a pattern-recognition molecule that can also respond to components of the Gram-positive bacterial cell wall, such as peptidoglycan and lipoteichoic acid 
+[56,57]
+. Less is known about signal-transduction pathways after activation of CD14, but data suggest differences in the pattern of activation of protein kinases (ERK, p38, and c-Jun) between staphylococcal peptidoglycan and lipopolysaccharide 
+[58]
+. Thus, recognition of a variety of microbic components by CD14 initiates a different pattern of intracellular transcription factors from Gram-positive and Gram-negative organisms.
+
+
+Cytokines and Other Mediator Cascades. The activation of monocytes leads to the production of the proinflammatory cytokines, particularly tumor necrosis factor (TNF)-alpha and IL-1, and then in turn other mediator cascades, including the complement and coagulation pathways, inflammatory prostanoids, and production of reactive oxygen intermediates 
+[59]
+. Although it is known that peptidoglycans and other Gram-positive cell wall components can activate complement and cause coagulopathies, formal comparisons with Gram-negative endotoxin have not been conducted. Most attention has focused on the ability of these bacteria to cause cytokine release.
+
+
+Andersson and coworkers 
+[60]
+ performed a detailed study of toxin-induced cytokine induction at the single-cell level and compared endotoxin with staphylococcal enterotoxin A and streptococcal SPEA. There were differences in both the nature and timing of the responses. Endotoxin induced a brisk response of proinflammatory cytokines, primarily TNF-alpha, IL-1, IL-6, and IL-8. In contrast, the Gram-positive toxins induced a typical Th-1-type cytokine response, dominated by TNF-beta (now called lymphotoxin-alpha) and interferon-gamma. TNF-alpha and IL-1 were produced but less than in response to endotoxin. Furthermore, the tempo of the cytokine response to Gram-positive toxins was distinct from the Gram-negative response, with the peak response being delayed to perhaps 50-75 hrs after the challenge, in contrast to the 1- to 5-hrs response to endotoxin.
+
+
+In a separate study, Gram-negative endotoxin and exotoxins from Gram-positive bacteria were used to stimulate human peripheral blood mononuclear cells. Again, there were clear differences in the responses: IL-8 was the most abundant cytokine produced in response to the exotoxins, whereas endotoxin was most active in inducing IL-1, IL-6, and TNF-alpha 
+[61]
+.
+
+
+Although these and other in vitro studies show clear differences in cytokine responses in the controlled environment of the test tube, they do not necessarily reflect what happens in the more complex situation of an intact host. Many studies have been conducted in animals, in which cytokines have been measured in response to both purified bacterial components and, perhaps more informatively, live bacterial infection. Intravenous injection of live E. coli in mice 
+[62]
+, rabbits 
+[63]
+, or baboons 
+[64]
+ results in a consistent picture in which proinflammatory cytokines, such as IL-1, IL-6, IL-8, and TNF-alpha, are released in a well-ordered sequence, followed by interferon-gamma and then counterregulatory cytokines, such as IL-10. This picture is similar to that seen when endotoxin is injected into humans, intentionally 
+[65]
+ or otherwise 
+[66]
+. Nevertheless, these models are not representative of what happens in clinical infection, wherein there is rarely a sudden large bolus of organisms appearing in the bloodstream (with the possible exception of meningococcal sepsis) 
+[28]
+.
+
+
+Animal models of Gram-positive infection present a more varied picture. Intravenous injection of Staphylococcus epidermidis in rabbits produced a shock-like state and a cytokine response similar to that seen with Gram-negative bacteremia 
+[67]
+, although considerably larger inocula were required of the Gram-positive organism. S. epidermidis is a uncommon cause of septic shock, however, and the large doses of bacteria that are required make this study somewhat nonphysiologic. In contrast, in a mouse model of necrotizing fasciitis caused by S. pyogenes, in which a smaller inoculum initiates the infection in the soft tissue and later spreads to cause bacteremia, the predominant cytokine response was IL-6; little TNF was produced, except in the most severely ill animals just before they died 
+[48]
+.
+
+
+Silverstein and colleagues 
+[68]
+ reported that fundamental differences in the response to corticosteroids exist in D-galactosamine-treated animals, depending on the type of bacterial challenge used in the experiment. D-Galactosamine inhibits uridine metabolism and functions as a reversible hepatotoxin in experimental animal models. Pretreatment of animals with corticosteroids resulted in a 150-fold reduction in the median lethal dose with an intraperitoneal challenge with E. coli, whereas no reduction in mortality was observed when S. aureus was the challenge strain. These results paralleled the differential macrophage responses to graded doses of bacteria. The E. coli strain produced a more pronounced TNF-alpha response than the S. aureus strain over a wide range of bacterial concentrations.
+
+
+Perhaps surprisingly, there are few data comparing cytokine levels in septic patients with Gram-positive or Gram-negative infections. Some small studies found no apparent differences 
+[69,70]
+, but larger analyses and our unpublished observations note that patients with Gram-negative sepsis tend to have higher TNF-alpha and IL-6 levels 
+[71,72]
+. Further systematic studies to compare cytokine responses with different infective agents will be important in the selection of specific anticytokine agents that are likely to become available in a few years.
+
+
+Cytokine responses to microbial pathogens are further complicated by  intrinsic variability in host cytokine production. Westendorp and associates 
+[73]
+ showed that first-degree relatives of patients with meningococcal disease vary substantially in their ability to generate TNF and IL-10 in response to endotoxin. Families with low TNF and high IL-10 synthetic capacity are at greatest risk of death from meningococcal infection.
+
+
+Stuber and colleagues 
+[74]
+ found that septic patients produced markedly different systemic TNF levels and that these differences were associated with DNA polymorphisms at a regulatory element in an intron region of the lymphotoxin gene. Patients with high TNF synthetic capacity were more likely to succumb from septic shock than those patients with low TNF-producing abilities.
+
+
+Genetic variability in interferon-gamma re-ceptors 
+[75]
+, macrophage membrane proteins 
+[76]
+, and crystallizable fraction of immunoglobulin-gamma receptor genotypes 
+[77]
+ has been identified as an important determinant of susceptibility to specific microbial pathogens. Certain crystallizable fraction of immunoglobulin-gamma genotypes have been found that alter the predilection of children with sickle cell disease to Gram-positive or Gram-negative bacterial pathogens. Numerous innate genetic polymorphisms that alter responsiveness to infection will undoubtedly be discovered as the human genome project is completed.
+
+
+Hemodynamic Responses. If cytokines and other inflammatory mediators are responsible for the clinical features of the sepsis, are there differences in the hemodynamic responses to Gram-positive and Gram-negative bacteria? Few data are available; one early report 
+[78]
+ suggested that such differences exist but they were not confirmed 
+[79]
+. The most recent report, which was a retrospective study of 59 patients, concluded that no differences were apparent 
+[80]
+. This conclusion may be premature; the study size was small, and there were important differences between the groups.
+
+
+Clinical Evidence of Differential Responsiveness to Anti-Inflammatory Agents. Many clinical trials in patients with severe sepsis or septic shock have been undertaken in the last 10 yrs with anticytokine and other anti-inflammatory treatment strategies 
+[81-87]
+. These trials have been predicated on the hypothesis that the systemic inflammatory response is deleterious in sepsis and that blockade of the critical mediators of sepsis would provide a survival advantage for the patient. It is assumed that the disruption of the host inflammatory response does not exacerbate the underlying infection that initiated the septic episode. Presumably, the primary cause of sepsis should be readily identifiable and amenable to standard bactericidal antimicrobic agents. Furthermore, the identity of the causative organism may not be essential to successful treatment with anticytokine therapy because the therapy is targeted specifically at the host-derived inflammatory mediators and not the infecting organism.
+
+
+Because the systemic inflammatory response is thought to be similar in a qualitative sense to that of Gram-positive and Gram-negative pathogens 
+[34,62]
+, therapeutic strategies directed toward the host inflammatory response should equally benefit septic patients, regardless of the causative organism. This is the central hypothesis on which anti-inflammatory therapy for sepsis is based. This is an attractive paradigm because the identity of the causative organism is frequently not known at the onset of sepsis. Compelling experimental data support the rationale for early intervention in septic shock. If the nature of the infecting microorganism is not relevant to determining the efficacy of an antisepsis agent, valuable time can be saved in the initial evaluation of septic patients. If it is necessary to confirm the identity of the causative organism in septic patients, however, it invariably results in delays in treatment and limits the therapeutic opportunities of antisepsis agents 
+[88]
+.
+
+
+The most remarkable demonstration of the potential differential effects of anticytokine therapy in septic patients is the soluble type II (p75) TNF receptor:Fc fusion protein study. In this phase II clinical trial of septic shock, a statistically significant worsening of outcome was observed with increasing doses of the anti-TNF therapy 
+[86]
+. Although there are several potential explanations for these disturbing results, the detrimental effects of treatment were largely confined to the patients with Gram-positive sepsis and not seen in patients with documented Gram-negative infections. This difference was not observed with the type I (p55) soluble TNF receptor:immunoglobulin molecule; treatment appeared to benefit patients with both Gram-positive and Gram-negative sepsis 
+[87]
+. Because the anti-inflammatory agents in these trials were similar in structure and immunologic action, the explanation for this difference is not clear. It may be explained by the differential binding characteristics of the two TNF receptors (p55 and p75) for the TNF-alpha ligand in the systemic circulation 
+[86,87]
+.
+
+
+Favorable trends in survival have been observed in a variety of clinical trials of sepsis with anti-inflammatory agents during the past decade. The potential differences in responsiveness to antimediator strategies between Gram-positive and Gram-negative sepsis are depicted in 
+Figure 3
+ and 
+Figure 4
+. The data include only those published studies in which the effect of each experimental agent is categorized by the microbiologic findings in septic patients. Anti-inflammatory agents for sepsis generally appeared to benefit patients with Gram-negative organisms as the cause of sepsis (
+Figure 3
+). This finding is less consistent with anti-TNF strategies (
+Figure 4
+) than with other anti-inflammatory agents.
+
+
+Back to Top
+
+
+CONCLUSIONS
+
+
+Although a great deal of information has become available on the molecular pathogenesis of septic shock, a complete understanding of fundamental elements that ultimately determine outcome remains incomplete 
+[59,88]
+. These gaps in knowledge are beginning to be filled as laboratory and clinical research become more focused on the common patterns and subtle differences in the pathogenesis of Gram-positive and Gram-negative bacterial sepsis.
+
+
+Faced with a septic patient, the clinician can only respond in the same manner that has been the practice for a generation: Early recognition and efforts to remove the precipitating cause of sepsis, aggressive fluid and vasopressor therapy, optimal supportive care for organ dysfunction, and empiric antimicrobic therapy for the most likely microbic pathogens remain the standard of care for septic shock 
+[2,5]
+. Agents that intervene at the specific molecular level to reverse the immunopathogenesis of sepsis remain experimental.
+
+
+The complexities of host-pathogen interactions to a wide variety of potential human pathogens make it likely that response to therapeutic agents that affect the immune response varies substantially from patient to patient. A multitude of variables may interact to determine the responsiveness to anti-inflammatory agents in sepsis. Among those variables may be the nature of the infecting organism.
+
+
+Gram-positive organisms lack endotoxin but possess an array of potential virulence factors that contribute to their ability to evade host defenses and to disseminate in the systemic circulation. Antiphagocytic capsules and outer membrane proteins, various exotoxins, lipoteichoic acid, intrinsic resistance to extracellular bacteriolysis, and invasive properties of many Gram-positive pathogens necessitate a coordinated host response for effective microbe clearance. The relative importance of the proinflammatory cytokine response by the host innate immune response in clearance of microorganisms may differ between microbic pathogens. This may alter the risk-benefit relation of anti-inflammatory agents in the treatment of Gram-positive vs. Gram-negative pathogens. Results of several clinical trials with anti-inflammatory drugs for sepsis 
+[81-87]
+ indicate that responsiveness may differ, depending on the causative bacterial pathogen or pathogens.
+
+
+Because most of our understanding of the molecular pathogenesis of sepsis is derived from endotoxin-based experimental models, it remains unclear whether responsiveness to antisepsis drugs in these standard animal models can be assumed to be equally effective for Gram-negative and Gram-positive pathogens. Because the frequency of Gram-positive bacterial organisms as a cause of septic shock is increasing, it is evident that greater emphasis needs to be placed on Gram-positive bacterial sepsis.
+
+
+Clinically relevant experimental models of Gram-positive sepsis are ongoing 
+[26,48]
+ and need to be expanded. Immunotherapeutic strategies specifically directed toward major Gram-positive pathogens (e.g., enterococci, S. pneumoniae, S. aureus) should be a research priority, as should work on bacterial superantigens and bacterial exotoxins. The potential for treatment interactions between the type of infecting microorganism and specific antisepsis drugs needs to be considered in the design and conduct of clinical trials of sepsis. A fuller appreciation of the complexities of host-pathogen interactions in sepsis is essential to further advances in septic shock research. The microbial components of this interaction may prove to be as important to our understanding of sepsis as the intricacies of the human immune response.
+
+
+Abstract
+
+
+To determine the allele frequency and genotype distribution of a bi-allelic tumor necrosis factor (TNF) gene polymorphism and plasma TNF-alpha concentrations in postoperative intensive care unit (ICU) patients suffering from severe sepsis.
+
+
+Prospective, consecutive entry study of patients with severe sepsis in a postoperative ICU.
+
+
+University hospital.
+
+
+Forty patients with diagnosis of severe sepsis, admitted to the ICU between June 1993 and December 1994.
+
+
+None.
+
+
+A 782 basepairs fragment of genomic DNA, including the polymorphic site of the restriction enzyme Ncol within the TNF locus, was amplified by means of polymerase chain reaction. The genotype of each patient was determined after Ncol digestion of the amplified product and subsequent agarose gel electrophoresis. Reading the size of the resulting DNA bands from the agarose gel demonstrated the genotype, as defined by the two alleles TNFB1 and TNFB2. Serial blood samples were drawn every sixth hour during the first 48 hrs and every 12th hour thereafter, for less than equals 96 hrs after diagnosis. TNF-alpha plasma concentrations were detected by an enzyme-linked immunosorbent assay. Assessment of organ dysfunction was performed by calculating a Multiple Organ Failure score.
+
+
+The overall allele frequency (TNFB1 0.35; TNFB2 0.65) and genotype distribution (TNFB1 homozygotes 10%; TNFB1/TNFB2 heterozygotes 48%; TNFB2 homozygotes 42%) in 40 patients with severe sepsis were comparable with those values found in normal individuals. Development of multiple organ failure occurred in 33 (82.5%) of 40 patients, whereas 23 (57.5%) of 40 patients did not survive. In contrast to the overall allele frequency, nonsurvivors showed a significantly higher prevalence of the allele TNFB2 (p less than .005). Patients homozygous for the allele TNFB2 demonstrated a higher mortality rate than heterozygous (TNFB1/TNFB2) patients (p equals .0022). In addition, patients with TNFB2 homozygotes displayed higher circulating TNF-alpha concentrations as well as higher Multiple Organ Failure scores compared with heterozygous (TNFB1/TNFB2) patients.
+
+
+The bi-allelic Ncol polymorphism within the TNF locus is a genomic marker for patients with increased TNF-alpha response and poor prognosis in severe sepsis. The amount of TNF released in situations of severe infection and sepsis appears to be influenced genetically. TNFB2 homozygous individuals displaying increased circulating TNF plasma concentrations combined with high mortality rate may be included in future studies testing anti-TNF strategies in severe sepsis.
+
+
+(Crit Care Med 1996; 24:381-384)
+
+
+Abstract
+
+
+To determine the safety and efficacy of BAY times 1351, a murine monoclonal antibody to recombinant human tumor necrosis factor (TNF)-alpha, in patients with sepsis.
+
+
+An international, multicenter, prospective, placebo-controlled trial in patients with sepsis, stratified into shock/nonshock groups.
+
+
+Forty acute clinical care facilities in 14 countries.
+
+
+Of the 564 patients enrolled in the study, 553 patients received study drug or placebo.
+
+
+Patients received 15 mg/kg or 3 mg/kg of BAY times 1351, or placebo, as a single intravenous infusion.
+
+
+The patients were well matched for severity of illness and for risk factors known to influence the outcome of sepsis. There was no difference in 28-day mortality rates between groups (placebo group 66 [39.5%] of 167; 3 mg/kg group 57 [31.5%] of 181; 15 mg/kg group 87 [42.4%] of 205). Approximately 9 months after this study had begun, an interim safety examination of NORASEPT, a North American Sepsis Trial using the same monoclonal antibody, indicated that there was no benefit to patients in the nonshock group and further enrollment of these nonshock septic patients into INTERSEPT was stopped. The analysis therefore focused on the 420 patients in shock. The primary efficacy variable was the 28-day, all-cause mortality rate: placebo group 57 (42.9%) of 133; 3-mg/kg group 51 (36.7%) of 139; and 15-mg/kg group 66 (44.6%) of 148 (not significant). Two secondary efficacy variables were identified prospectively: shock reversal and frequency of organ failures. Life-table analysis showed that in patients who survived 28 days, there was a more rapid reversal of shock in both treatment groups compared with placebo (15-mg/kg group vs. placebo group log-rank statistic p = .007, 3-mg/kg group vs. placebo group p = .01). Similarly, in patients surviving 28 days, there was a significant delay in the time to the onset of first organ failure (log rank 15 mg/kg vs. placebo p = .03, 3 mg/kg vs. placebo p = .07), and more patients in the placebo group developed at least one organ failure: 15-mg/kg group 33 (40.2%) of 82; 3-mg/kg group 39 (44.3%) of 88; and placebo group 45 (59.2%) of 76 (15 mg/kg vs. placebo p = .03, 3 mg/kg vs. placebo p = .06). No significant adverse events were associated with the monoclonal antibody treatment.
+
+
+INTERSEPT provides additional clinical data implicating TNF-alpha as an integral mediator of septic shock. The study suggested a possible role for anti-TNF antibody as adjunctive therapy, but this possibility requires confirmation by another clinical trial.
+
+
+(Crit Care Med 1996; 24:1431-1440)
+
+
+
+
+Back to Top
+
+
+REFERENCES
+1. Wenzel RP: Anti-endotoxin monoclonal antibodies: A second look. N Engl J Med 1992; 326:1151-1153
+Cited Here...
+2. Parrillo JE, Parker MM, Natanson C, et al: Septic shock in humans. Ann Intern Med 1990; 113:227-242
+Cited Here...
+3. Brun-Buisson C, Doyan F, Carlet J, et al: Incidence, risk factors, and outcome of severe sepsis and septic shock in adults. JAMA 1995; 274:968-974
+Cited Here...
+4. Milberg JA, Davis DR, Steinberg KP, et al: Improved survival of patients with acute respiratory distress syndrome (ARDS): 1983-1993. JAMA 1995; 273:306-309
+Cited Here...
+5. Bone RC: Pathophysiology of sepsis. Ann Intern Med 1991; 115:457-469
+Cited Here...
+6. Greisman SE, DuBuy JB, Woodward CL: Experimental gram-negative bacterial sepsis: Prevention of mortality not preventable by antibiotics alone. Infect Immun 1979; 25: 538-557
+Cited Here...
+7. Ulevitch RJ, Tobias PS: Recognition of endotoxin by cells leading to transmembrane signaling. Curr Opin Immunol 1994; 6:125-130
+Cited Here...
+8. Natanson C, Danner RL, Ulin RJ, et al: Role of endotoxemia in cardiovascular dysfunction and mortality. J Clin Invest 1989; 83:243-251
+Cited Here...
+9. Wolff SM: Biological effects of bacterial endotoxins in man. J Infect Dis 1973; 128:S259-S264
+Cited Here...
+10. Bone RC: Gram-negative sepsis: A dilemma of modern medicine. Clin Microbiol Rev 1993; 6:57-68
+Cited Here...
+11. Leibovici L, Smara Z, Koigsberger H, et al: Long-term survival following bacteremia or fungemia. JAMA 1995; 274:807-812
+Cited Here...
+12. Bates DW, Pruess KE, Lee TH: How bad are bacteremia and sepsis? Outcomes in a cohort with suspected bacteremia. Arch Intern Med 1995; 155:593-598
+Cited Here...
+13. Geerdes HF, Ziegler D, Lode H, et al: Septicemia in 980 patients at a university hospital in Berlin: Prospective studies during four selected years between 1979 and 1989. Clin Infect Dis 1992; 15:991-1002
+Cited Here...
+14. Wright ST: CD14 and innate recognition of bacteria. J Immunol 1995; 155:6-8
+Cited Here...
+15. Mollick JA, Chintagumpala M, Cook RC, et al: Staphylococcal exotoxin activation of T cells. J Immunol 1991; 146:463-468
+Cited Here...
+16. Bochud P-Y, Calandra T, Francioli P: Bacteremia due to viridans streptococci in neutropenic patients: A review. N Engl J Med 1994; 97:256-264
+Cited Here...
+17. Bone RC: Gram-positive organisms and sepsis. Arch Intern Med 1994; 154:26-34
+Cited Here...
+18. Cockerill FR, Hughes JG, Vetter EA, et al: Analysis of 281,797 consecutive blood cultures performed over an 8-year period: Trends in microorganisms isolated and the value of anaerobic culture of blood. Clin Infect Dis 1997; 24:403-408
+Cited Here...
+19. Valles J, Leon C, Alvarez-Ledrma, et al: Nosocomial bacteremia in critically ill patients: A multicenter study evaluating epidemiology and prognosis. Clin Infect Dis 1997; 24:387-395
+Cited Here...
+20. Breiman RF, Butler JC, Tenover FC, et al: Emergence of drug-resistant pneumococcal infections in the United States. JAMA 1994; 271:1831-1835
+Cited Here...
+21. Seppala H, Klaukka T, Lehtonen R, et al: Outpatient use of erythromycin: Linked to increased erythromycin resistance in group A streptococci. Clin Infect Dis 1995; 21:1378-1385
+Cited Here...
+22. Takashima K, Tateda K, Matsumoto T, et al: Role of tumor necrosis factor-alpha in pathogenesis of pneumococcal pneumonia in mice. Infect Immun 1997; 65:257-260
+Cited Here...
+23. Havell EA, Moldawer LL, Helfgott D, et al: Type I IL-1 receptor blockade exacerbates murine listeriosis. J Immunol 1992; 148:1486-1492
+Cited Here...
+24. Dirkes K, Harris BH, Connolly RJ, et al: Platelet activating factor antagonist improves survival in experimental staphylococcal septicemia. J Pediatr Surg 1994; 29:1055-1057
+Cited Here...
+25. Aiura K, Gelfand JA, Burke JF, et al: Interleukin-1(IL-1) receptor antagonist prevents Staphylococcus epidermidis-induced hypotension and reduces circulating levels of tumor necrosis factor and IL-1 beta in rabbits. Infect Immun 1993; 61:3342-3350
+Cited Here...
+26. Cross AS, Opal SM, Sadoff JD, et al: Choice of bacteria in animal models of sepsis. Infect Immun 1993; 61:2741-2744
+Cited Here...
+27. Morrison DC, Danner RL, Dinarello CA, et al: Bacterial endotoxins and pathogenesis of gram-negative infections: Current status and future direction. J Endotoxin Res 1994; 1:71-83
+Cited Here...
+28. Brandtzaeg P, Kerrulf P, Gaustad P, et al: Plasma endotoxin as a predictor of multiple organ failure and death in systemic meningococcal disease. J Infect Dis 1989; 159:195-204
+Cited Here...
+29. Danner RL, Elin RJ, Hosseini JM, et al: Endotoxemia in human septic shock. Chest 1991; 99:169-175
+Cited Here...
+30. Opal SM, Palardy JE, Parejo N, et al: Endotoxemia in sepsis: Therapeutic and prognostic implications. 35th ICAAC 1995, San Francisco, CA. (Abstract#G88)
+Cited Here...
+31. Goldie AS, Fearson KCH, Ross JA, et al: Natural cytokine antagonists and endogenous antiendotoxin core antibodies in sepsis syndrome. JAMA 1995; 274:172-177
+Cited Here...
+32. Bennett-Guerrero E, Ayuso L, Hamilton-Davies C, et al: Relationship of preoperative antiendotoxin core antibodies and adverse outcomes following cardiac surgery. JAMA 1997; 277:646-650
+Cited Here...
+33. Hurley JC: Concordance of endotoxemia with gram-negative bacteremia in patients with gram-negative sepsis: A meta-analysis. J Clin Microbiol 1994; 32:2120-2127
+Cited Here...
+34. Timmerman CP, Mattsson E, Martinez-Martinez L, et al: Induction of release of tumor necrosis factor from human monocytes by staphylococci and staphylococcal peptidoglycans. Infect Immun 1993; 61:4167-4172
+Cited Here...
+35. De Kimpe SJ, Kengatharan M, Thiemermann C, et al: The cell wall components peptidoglycan and lipoteichoic acid from Staphylococcus aureus act in synergy to cause shock and multiple organ failure. Proc Natl Acad Sci USA 1995; 92:10359-10363
+Cited Here...
+36. Kengatharan KM, De Kimpe SJ, Thiemermann C: Role of nitric oxide in the circulatory failure and organ injury in a rodent model of gram-positive shock. Br J Pharmacol 1996; 119:1411-1421
+Cited Here...
+37. Bohach GA, Fast DJ, Nelson RD, et al: Staphylococcal and streptococcal pyrogenic toxins involved in toxic shock syndrome and related illnesses. CRC Crit Rev Microbiol 1990; 17:251-272
+Cited Here...
+38. Schlievert PM: The role of superantigens in human disease. Curr Opin Infect Dis 1995;8:170
+Cited Here...
+39. Kotb M: Bacterial pyrogenic exotoxins as superantigens. Clin Microbiol Rev 1995; 8:411-426
+Cited Here...
+40. Leung DY, Giorno RC, Kazemi LV, et al: Evidence for superantigen involvement in cardiovascular injury due to Kawasaki syndrome. J Immunol 1995; 155:5018-5021
+Cited Here...
+41. Leung DY, Travers JB, Giorno R, et al: Evidence for a streptococcal superantigen-driven process in acute guttate psoriasis. J Clin Invest 1995; 96:2106-2112
+Cited Here...
+42. Redpath S, Alam SM, Lin CM, et al: Trimolecular interaction of TCR with MHC class II and bacterial superantigen shows a similar affinity to MHC: Peptide ligands. J Immunol 1999; 163:6-10
+Cited Here...
+43. Gonzalo JA, Gonzalez GA, Martinez C, et al: Glucocorticoid-mediated control of the activation and clonal deletion of peripheral T cell in vivo. J Exp Med 1993; 177:1239-1246
+Cited Here...
+44. Heeg K, Bendigs S, Miethke T, et al: Induction of unresponsiveness to the superantigen staphylococcal enterotoxin B: Cyclosporin A resistant split unresponsiveness unfolds in vivo without preceding clonal expansion. Int Immunol 1993; 5:929-937
+Cited Here...
+45. Kneitz B, Herrmann T, Yonehara S, et al: Normal clonal expansion but impaired Fas-mediated cell death and anergy induction in interleukin-2-deficient mice. Eur J Immunol 1995; 25:2572-2577
+Cited Here...
+46. Meithke T Wahl C, Regele D, et al: Superantigen mediated shock: A cytokine release syndrome. Immunobiology 1993; 189:270-284
+Cited Here...
+47. Norrby-Teglund A, Kaul R, Low DE, et al: Evidence for the presence of streptococcal-superantigen-neutralizing antibodies in normal polyspecific immunoglobulin G. Infect Immun 1996; 64:5395-5398
+Cited Here...
+48. Sriskandan S, Moyes D, Buttery LD, et al: Streptococcal pyrogenic exotoxin A release, distribution and role in a murine model of fasciitis and multi-organ failure due to Streptococcus pyogenes. J Infect Dis 1996; 173:1399-1407
+Cited Here...
+49. Chaussee MS, Liu J, Stevens DL, et al: Genetic and phenotypic diversity among isolates of Streptococcus pyogenes from invasive infections. J Infect Dis 1996; 173:901-908
+Cited Here...
+50. Norrby-Teglund A, Pauksens K, Holm SE, et al: Relation between low capacity of human sera to inhibit streptococcal mitogens and serious manifestation of disease. J Infect Dis 1994; 170:585-591
+Cited Here...
+51. Sriskandan S, Moyes D, Cohen J: Detection of circulating bacterial superantigen and lymphotoxin in patients with streptococcal toxic-shock syndrome. Lancet 1996; 348:1315-1316
+Cited Here...
+52. Seeger W, Schutte H, Grimminger F, et al: Bacterial exotoxins and sepsis. In: Sepsis: Current Perspectives in Pathophysiology and Therapy. Reinhart K, Eyrich K, Sprung C. (Eds). Berlin, Springer-Verlag, 1994, pp 61-85
+Cited Here...
+53. Ulevitch RJ, Tobias PS: Receptor-dependent mechanisms of cell stimulation by bacterial endotoxin. Annu Rev Immunol 1995; 13:437-457
+Cited Here...
+54. Weersink AJ: Human lipopolysaccharide binding proteins. Rev Med Micobiol 1995; 6:101-108
+Cited Here...
+55. Wurfel MM, Hailman E, Wright SD: Soluble CD14 acts as a shuttle in the neutralization of lipopolysaccharide (LPS) by LPS-binding protein and reconstituted high density lipoprotein. J Exp Med 1995; 181:1743-1754
+Cited Here...
+56. Pugin J, Heumann ID, Tomasz A, et al: CD14 is a pattern recognition receptor. Immunity 1994; 1:509-516
+Cited Here...
+57. Cleveland MG, Gorham JD, Murphy TL, et al: Lipoteichoic acid preparations of gram-positive bacteria induce interleukin-12 through a CD14-dependent pathway. Infect Immun 1996; 64:1906-1912
+Cited Here...
+58. Dziarski R, Jin Y-P, Gupta D: Differential activation of extracellular signal-regulated kinase (ERK)1, ERK2, p38, and c-Jun NH2-terminal kinase mitogen-activated protein kinases by bacterial peptidoglycan. J Infect Dis 1996; 174:777-785
+Cited Here...
+59. Sriskandan S, Cohen J: The pathogenesis of septic shock. J Infect 1995; 30:201-206
+Cited Here...
+60. Andersson J, Nagy S, Bjork L, et al: Bacterial toxin-induced cytokine production studied at the single-cell level. Immunol Rev 1992; 127:69-96
+Cited Here...
+61. Muller-Alouf H, Alouf JE, Gerlach D, et al: Comparative study of cytokine release by human peripheral blood mononuclear cells stimulated with Streptococcus pyogenes superantigenic erythrogenic toxins, heat-killed streptococci, and lipopolysaccharide. Infect Immun 1994; 62:4915-4921
+Cited Here...
+62. Silva AT, Bayston KF, Cohen J: Prophylactic and therapeutic effects of a monoclonal antibody to tumor necrosis factor-alpha in experimental gram-negative shock. J Infect Dis 1990; 162:421-427
+Cited Here...
+63. Mathison JC, Wolfson E, Ulevitch RJ: Participation of tumor necrosis factor in the mediation of gram-negative bacterial lipopolysaccharide-induced injury in rabbits. J Clin Invest 1988; 81:1925-1937
+Cited Here...
+64. Hesse DG, Tracey KJ, Fong Y, et al: Cytokine appearance in human endotoxemia and primate bacteremia. Surg Gynecol Obstet 1988; 166:147-153
+Cited Here...
+65. Von der Mohlen M, Kimmings AN, Wedel N, et al: Inhibition of endotoxin-induced cytokine release and neutrophil activation in humans by use of recombinant bactericidal/permeability-increasing protein. J Infect Dis 1995; 172:144-151
+Cited Here...
+66. Taveira da Silva AM, Kaulback HC, Chuidian FS, et al: Shock and multiple-organ dysfunction after self-administration of Salmonella endotoxin. N Engl J Med 1993; 328: 1457-1460
+Cited Here...
+67. Wakabayashi G, Gelfand JA, Jung WK, et al: Staphylococcus epidermidis induces complement activation, tumor necrosis factor and interleukin-1, a shock-like state and tissue injury in rabbits without endotoxemia: Comparison to Escherichia coli. J Clin Invest 1991; 87:1925-1935
+Cited Here...
+68. Silverstein R, Norimatsu M, Morrison DC: Fundamental differences during gram-positive vs. gram-negative sepsis become apparent during bacterial challenge of D-galactosamine-treated mice. J Endotoxin Res 1997; 4:173-181
+Cited Here...
+69. Marks JD, Marks CB, Luce JM, et al: Plasma tumor necrosis factor in patients with septic shock: Mortality rate, incidence of adult respiratory distress syndrome, and effects of methyl prednisolone administration. Am Rev Respir Dis 1990; 141:94-97
+Cited Here...
+70. Friedland JS, Porter JC, Daryanani S, et al: Plasma proinflammatory cytokine concentrations, Acute Physiology and Chronic Health Evaluation (APACHE) III scores and survival in patients in an intensive care unit. Crit Care Med 1996; 24:1775-1781
+Cited Here...
+71. Lemm G, Carlet J, Cohen J, et al: Cytokine levels in patients with the sepsis syndrome treated with a monoclonal antibody to human TNF-alpha (INTERSEPT trial). Abstr. Clin Intensive Care 1995; 6:68
+Cited Here...
+72. Fisher CJ, Opal SM, Dhainaut J-F, et al: Influence of a murine anti-TNF monoclonal antibody (CB0006) on cytokine levels in patients in sepsis. Crit Care Med 1993; 21:318-327
+Cited Here...
+73. Westendorp RGJ, Langemans JAM, Huizinga TWJ, et al: Genetic influence on cytokine production and fatal meningococcal disease. Lancet 1997; 349:170-173
+Cited Here...
+74. Stuber F, Petersen M, Bokelmann F, et al: Agenomic polymorphism within the tumor necrosis factor locus influences plasma tumor necrosis factor-alpha concentrations and outcome of patients with severe sepsis. Crit Care Med 1996; 24:381-384
+Cited Here...
+75. Newport MJ, Huxley CM, Huston S, et al: A mutation in the interferon-gamma-receptor gene and susceptibility to mycobacterial infection. N Engl J Med 1996; 335:1941-1949
+Cited Here...
+76. Bellamy R, Ruwende C, Corrah T, et al: Variations in the NRAMP1 gene and susceptibility to tuberculosis in West Africans. N Engl J Med 1998; 338:640-644
+Cited Here...
+77. Norris C, Surrey S, Bunin GR, et al: Relationship between Fc receptor 11A polymorphism and infection in children with sickle cell disease. J Pediatr 1996; 128:813-819
+Cited Here...
+78. Kwaan HM, Weil MH: Differences in the mechanism of shock caused by bacterial infections. Surg Gynecol Obstet 1969; 128:37-45
+Cited Here...
+79. Wiles JB, Cerra FB, Siegel JH, et al: The systemic septic response: Does the organism matter? Crit Care Med 1980; 8:55-60
+Cited Here...
+80. Ahmed J, Fruse JA, Haupt MT, et al: Hemodynamic responses to gram-positive versus gram-negative sepsis in critically ill patients with and without circulatory shock. Crit Care Med 1991; 19:1520-1525
+Cited Here...
+81. The Veteran's Administration Systemic Sepsis Co-operative Study Group: Effective of high-dose glucocorticoid therapy on mortality in patients with clinical signs of systemic sepsis. N Engl J Med 1987; 317:659-665
+Cited Here...
+82. Dhainaut JF, Tenaillon A, LeTulzo Y, et al: Platelet-activating factor receptor antagonist BN52021 in the treatment of severe sepsis: A randomized, double-blind, placebo-controlled, multi-center clinical trial. Crit Care Med 1994; 22:1720-1728
+Cited Here...
+83. Fein AM, Bernard GR, Criner GJ, et al: Treatment of severe systemic inflammatory response syndrome and sepsis with a novel bradykinin antagonist, deltibant(CP-0127). JAMA 1997; 277:482-487
+Cited Here...
+84. Fisher CJ, Dhainaut J-F, Opal SM, et al: Recombinant human interleukin-1 receptor antagonist in the treatment of patients with sepsis syndrome. JAMA 1994; 271:1836-1843
+Cited Here...
+85. Cohen J, Carlet J, for the INTERSEPT study group: INTERSEPT: An international, multicenter, placebo-controlled trial of monoclonal antibody to human tumor necrosis factor-alpha in patients with sepsis. Crit Care Med 1996; 24:1431-1440
+Cited Here...
+86. Fisher CJ, Agosti J, Opal SM, et al: A phase II, double-blind, randomized, clinical trial of soluble TNF receptor:Fc fusion protein in the treatment of severe sepsis. N Engl J Med 1996; 334:1697-1702
+Cited Here...
+87. Abraham E, Glauser MP, Butler T, et al: P55 tumor necrosis factor receptor fusion protein in the treatment of patients with severe sepsis and septic shock. JAMA 1997; 277:1531-1538
+Cited Here...
+88. Opal SM: Lessons learned in recent clinical trials from sepsis. J Endotoxin Res 1995; 2:221-226
+Cited Here...
+
+
+© 1999 Lippincott Williams & Wilkins, Inc.
+ 
+
+
+

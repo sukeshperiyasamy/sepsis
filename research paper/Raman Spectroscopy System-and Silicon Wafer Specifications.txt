@@ -1,0 +1,28 @@
+1. Raman Spectroscopy System
+Parameter	Specification
+Instrument	BWTEK i-Raman Plus
+Model	BWS465-785H
+Laser Wavelength	785 nm
+Maximum Laser Output	495 mW
+Laser Class	Class 3B
+Microscope	BAC102-785E Raman Microscope
+Objectives Used	20× Plan Objective, 50× LMPlan Objective (NA 0.50, WD 10.5 mm)
+2. Silicon Wafer Specifications
+Parameter	Specification
+Material	Single-Crystal Silicon (Si)
+Conductivity Type	n-Type
+Dopant	Phosphorus (P)
+Crystal Orientation	⟨100⟩
+Resistivity	1–10 Ω·cm
+Diameter	2 inch (50.8 mm)
+Thickness	280 ± 25 µm
+Surface Finish	Single-Side Polished (SSP)
+Growth Method	Czochralski (CZ)
+3. Substrate Description
+Base substrate: Single-crystal n-type Si(100)
+Surface: Single-side polished
+Metal coating: Silver (Ag)
+Application: Surface-Enhanced Raman Spectroscopy (SERS) substrate for biomarker detection
+Paper-Ready Description
+
+Raman measurements were performed using a BWTEK i-Raman Plus (Model: BWS465-785H) equipped with a 785 nm excitation laser (maximum output 495 mW) and a BAC102-785E Raman microscope using 20× and 50× objectives. The SERS substrates were fabricated on 2-inch, single-crystal, n-type phosphorus-doped silicon wafers with ⟨100⟩ crystal orientation, 1–10 Ω·cm resistivity, 280 ± 25 µm thickness, and a single-side polished surface, grown by the Czochralski (CZ) method. Silver was deposited onto the polished silicon surface to generate plasmonic hotspots for SERS measurements.

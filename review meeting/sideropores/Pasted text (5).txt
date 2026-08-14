@@ -1,0 +1,278 @@
+# Feasibility of SERS Detection of Bacterial Siderophores as Early Sepsis Biomarkers
+
+## Executive overview
+
+Bacterial siderophores such as enterobactin and yersiniabactin are central to iron acquisition, virulence, and host–pathogen interactions in bloodstream infections, and they are produced at concentrations that are, in principle, compatible with modern SERS limits of detection after suitable enrichment. However, translation into a practical sepsis diagnostic faces major challenges: (1) siderophores occur in multiple forms (apo, Fe-bound, other metal-bound, and host protein–bound), (2) their Raman/SERS spectra overlap with abundant blood components and bacterial purine metabolites, and (3) complex matrices and protein corona formation strongly impair adsorption to SERS substrates. The most realistic near‑term application is not a single-step, label‑free SERS readout from whole blood, but a workflow combining selective capture or extraction, controlled Fe–siderophore dissociation, engineered SERS substrates, and machine‑learning (ML) classifiers.[1][2][3][4][5][6][7]
+
+***
+
+## 1. Biological and clinical relevance of siderophores in sepsis
+
+### 1.1 Role in virulence and host–pathogen interaction
+
+Siderophores are low-molecular-weight iron chelators secreted by bacteria and fungi to acquire Fe under iron-limited conditions such as those imposed by mammalian nutritional immunity. Enterobactin is a triscatecholate siderophore produced by Enterobacteriaceae (including commensal and pathogenic Escherichia coli and Klebsiella), with an extremely high stability constant for Fe³⁺ that outcompetes transferrin and lactoferrin. Yersiniabactin is a mixed-type siderophore encoded on the high-pathogenicity island and is associated with virulence in Yersinia, uropathogenic E. coli (UPEC), and Klebsiella pneumoniae.[8][2][9][7][1]
+
+Host defense proteins, notably lipocalin‑2 (Lcn2, also called siderocalin/NGAL), bind Fe–enterobactin and related catecholate siderophores to block bacterial iron uptake, illustrating that siderophore production and neutralization are core elements of host–pathogen crosstalk. To evade Lcn2, pathogens often express "stealth" siderophores such as salmochelin (C‑glucosylated enterobactin) and yersiniabactin, which are poorly recognized by lipocalin‑2 and confer a fitness advantage during inflammation when Lcn2 is highly induced.[3][10][11][12][1]
+
+### 1.2 Siderophore systems in urinary and systemic infections
+
+Isolates of UPEC from urinary tract infections typically express the enterobactin system plus additional siderophore systems such as yersiniabactin, salmochelin, and aerobactin, and mutants lacking multiple systems show reduced growth and virulence in urine and in murine UTI models. Yersiniabactin also functions as a quorum-sensing autoinducer in UPEC, with expression showing density-dependent transcriptional upregulation, implying that siderophore production is tightly linked to population dynamics and microenvironment. During extraintestinal infections, siderophore diversity affects tissue tropism and disease manifestations; for example, in K. pneumoniae, different siderophore repertoires correlate with pneumonia, UTI, or septicemia niches.[13][2][14][7][1][3]
+
+### 1.3 Secretion dynamics and concentration ranges
+
+Direct quantitative data for siderophore concentrations in human blood during sepsis are scarce, and most concentration information comes from in vitro cultures, urine, or environmental matrices analyzed by LC‑MS. In iron-limited culture, enterobactin and related catecholate siderophores can reach low micromolar concentrations in supernatants, while yersiniabactin and other siderophores are often in the 0.1–10 µM range depending on strain and conditions. Environmental and soil studies using LC‑MS methods report siderophore levels spanning low nanomolar to micromolar after extraction, suggesting that in vivo concentrations in infected tissues or urine are likely in a similar band, although matrix binding can mask free siderophore levels.[9][15][16][3]
+
+In the urinary tract, UPEC expresses siderophore systems at high levels, and siderophore gene expression is among the most strongly upregulated fitness determinants in patient urine, implying substantial siderophore production during infection. However, serum iron is strongly bound to host proteins, and many siderophores may remain cell-associated, protein-bound, or rapidly recycled by bacterial uptake receptors, limiting the free circulating fraction that a SERS assay could detect.[1][3]
+
+### 1.4 Correlation with sepsis severity and biomarker context
+
+Lipocalin‑2 levels are robustly elevated in experimental and clinical sepsis and correlate with severity and organ dysfunction, reflecting both inflammatory signaling and increased siderophore burden. Polymicrobial sepsis models show sustained Lcn2 expression in liver and lung, which has been proposed as a sepsis biomarker, although it is an indirect reporter of siderophore activity rather than a specific siderophore readout. Metabolomic studies in sepsis patients highlight perturbed purine, lipid, and amino-acid metabolism, but targeted quantification of specific siderophores in serum remains rare, underlining a key research gap.[10][17][18][19][20][21]
+
+Taken together, siderophore production is mechanistically central to sepsis pathophysiology, but their direct quantification in blood has not yet been established as a routine clinical biomarker, creating an opportunity for novel analytical methods including SERS.
+
+***
+
+## 2. Molecular structure and spectroscopic behavior
+
+### 2.1 Structural motifs of enterobactin and yersiniabactin
+
+Enterobactin is a trilactone macrocycle composed of three 2,3‑dihydroxybenzoylserine (DHBS) units, yielding a hexadentate triscatecholate chelator for Fe³⁺ in the Fe(III)–enterobactin complex. The three catechol rings provide six phenolate oxygen donors, and the amide and ester linkages form a rigid, preorganized scaffold that contributes to the extremely high Fe³⁺ affinity (stability constant log K ≈ 49). Yersiniabactin is a mixed-type siderophore containing phenolate–thiazoline–thiazolidine–salicylate-like motifs that form a tetradentate or hexadentate chelator, capable of binding Fe³⁺ and multiple other metals (Cu²⁺, Ni²⁺, Co²⁺, etc.).[22][7][16][9]
+
+Catechol-based siderophores (enterobactin, salmochelin) share aromatic catechol rings and amide linkers, whereas salicylate- or phenolate-thiazoline-based siderophores (yersiniabactin, pyoverdine fragments) include heterocycles that shift π-conjugation and ligand-to-metal charge transfer energies. These structural differences lead to distinguishable UV–vis and resonance Raman signatures in their Fe³⁺ complexes and influence adsorption on metal surfaces relevant to SERS.[23][7][16][22][1]
+
+### 2.2 Raman-active vibrational modes (500–2000 cm⁻¹)
+
+Resonance Raman studies of Fe(III)–enterobactin, Fe(III)–catechol, and Fe(III)–N‑methyl‑2,3‑dihydroxybenzamide (MDHB) demonstrate that excitation into ligand-to-metal charge-transfer and ligand π–π* bands strongly enhances benzene ring and catecholate vibrational modes. Prominent peaks in Fe(III)–catecholate complexes arise from aromatic C=C stretching (typically 1500–1650 cm⁻¹), C–O(phenolate) stretching and C–O–Fe modes (1200–1500 cm⁻¹), and in-ring breathing and deformation modes near 600–800 cm⁻¹, while amide C=O and C–N stretches appear around 1600–1700 cm⁻¹ and 1300–1400 cm⁻¹. In enterobactin, density functional analysis of DHBS-like fragments and surface-bound catecholate–TiO₂ complexes confirms strong modes for substituted benzene ring vibrations near 1600, 1500, 1280–1350, and 600–800 cm⁻¹, with mode patterns that are sensitive to coordination geometry.[24][25][26][22]
+
+For salicylate-type chelators and yersiniabactin-like ligands, Raman spectra include additional contributions from heterocycles (C=N and C–S stretches) and salicylate C–O/COO⁻ modes, typically appearing around 700–800 cm⁻¹, 1100–1300 cm⁻¹, and 1600 cm⁻¹. Metal-bound complexes show shifts in these bands upon coordination, especially in C–O(phenolate/salicylate) stretching and ring modes, which can be exploited for distinguishing apo vs metal-loaded forms in resonance conditions.[7][27][22]
+
+### 2.3 Contribution of aromatic rings, hydroxyls, and peptide backbone
+
+The dominant Raman intensity in catechol-based siderophores arises from the aromatic ring C=C stretches and catecholate C–O modes, particularly when excitation overlaps with ligand π–π* or LMCT bands. Hydrogen bonding and deprotonation of catechol hydroxyls significantly shift the C–O stretching frequencies and intensity distribution, indicating that pH and metal binding strongly modulate spectral fingerprints. Amide backbone and peptide linkage modes (C=O stretch, C–N stretch, N–H bend) contribute bands in the 1200–1700 cm⁻¹ region, but these are generally weaker than the aromatic modes unless the excitation is far from resonance with the aromatic chromophore.[26][22][24][23]
+
+Compared with interfering metabolites such as purine derivatives (adenine, hypoxanthine) dominant in bacterial SERS spectra, catechol siderophores lack the intense purine ring breathing modes near 730–740 cm⁻¹ and 1330–1370 cm⁻¹, offering a basis for spectral discrimination when sufficient signal-to-noise and preprocessing are available. Phenazine metabolites such as pyocyanin from Pseudomonas also show distinct aromatic ring peaks near 1350–1600 cm⁻¹ and 700–800 cm⁻¹, potentially overlapping with siderophore bands, but their occurrence is species-specific, which can be exploited in classification models.[4][28][29]
+
+***
+
+## 3. Metal complexation effects on Raman/SERS signatures
+
+### 3.1 Apo vs Fe³⁺, Cu²⁺, and Zn²⁺ complexes
+
+Fe(III)–enterobactin and related triscatecholate complexes display characteristic electronic absorption bands corresponding to ligand-to-metal charge transfer (LMCT) in the visible region, which give rise to strong resonance enhancement of catechol aromatic modes upon visible excitation. Comparative resonance Raman measurements on Fe(III) complexes of enterobactin, catechol, and MDHB show that while overall band patterns are similar, the presence of amide groups and macrocyclic preorganization in enterobactin leads to subtle frequency shifts and intensity redistribution among ring modes, indicating a different electronic structure compared with simple catechol complexes.[25][22]
+
+Yersiniabactin forms complexes not only with Fe³⁺ but also with Cu²⁺, Ni²⁺, Co²⁺, Cr³⁺, and Ga³⁺, and mass spectrometry plus UV–vis studies reveal that metal-specific spectra differ in LMCT energies and ligand field transitions. Copper(II)–yersiniabactin complexes are structurally distinct and do not competitively inhibit uptake of Fe(III)–yersiniabactin via FyuA, implying different coordination geometry and potentially different vibrational fingerprints. For other catechol and phosphonate chelators, Raman and FTIR studies show that metal binding (Fe vs Cu vs Zn) shifts C–O and P–O stretching frequencies and changes intensity patterns, consistent with altered electron density in donor groups.[27][26][7]
+
+### 3.2 LMCT and resonance Raman behavior
+
+In Fe(III)–catecholate and Fe(III)–enterobactin complexes, visible LMCT bands (ligand O(phenolate) → Fe³⁺) act as resonance windows that selectively enhance catechol ring modes and C–O stretching vibrations, yielding large Raman cross-sections near LMCT maxima. Similar principles have been exploited in other siderophore systems such as deferoxamine (DFO), where Fe–DFO binding on carbon nanotubes produces strong changes in UV–vis and resonant Raman signals due to electron transfer between Fe–DFO complexes and the nanocarbon substrate. Thus, tuning the excitation wavelength near LMCT bands of Fe–siderophore complexes could significantly boost SERS sensitivity, effectively giving resonance-SERS (SERRS) conditions.[22][25][23]
+
+For yersiniabactin and related metallophores, LMCT transitions involve phenolate/salicylate and thiazoline donors to various metals, and the resulting complexes absorb in the visible–near-UV region, suggesting that appropriately chosen excitation (e.g., 532 or 633 nm) could preferentially enhance metal-bound yersiniabactin modes over apo forms. However, in whole blood matrices, overlapping LMCT or heme transitions from hemoglobin complicate selection of excitation wavelengths, as discussed later.[7][27]
+
+***
+
+## 4. SERS enhancement mechanisms for catechol–metal systems
+
+### 4.1 Electromagnetic (EM) vs chemical enhancement
+
+SERS signal arises from a combination of EM enhancement due to localized surface plasmon resonances (LSPR) in metallic nanostructures and chemical (charge-transfer) enhancement involving electronic coupling between the analyte and the metal surface. For catechol–metal complexes, strong interaction between phenolate oxygens and metal nanoparticles facilitates charge transfer and oriented adsorption, which can provide additional chemical enhancement on top of EM hot spots, particularly when excitation overlaps with LMCT bands.[30][26][23]
+
+Studies on nanocrystal-based SERS show that activation by metal cations can markedly increase Raman cross-sections by tuning surface electronic structure and promoting resonant charge-transfer states. For Fe–siderophore complexes or catecholates adsorbed on Ag/Au, similar mechanisms are expected: electron-rich catechol donors may engage in surface-to-molecule or molecule-to-surface charge transfer, modulating intensity of specific vibrational modes, especially those associated with C–O and ring vibrations.[26][23][30][22]
+
+### 4.2 Adsorption orientation of siderophores on metal/oxide surfaces
+
+In situ ATR–IR experiments on enterobactin adsorption to TiO₂, boehmite (AlOOH), and Cr₂O₃–OH films show that binding occurs via the 2,3‑dihydroxybenzoyl moieties acting as catecholate-type chelators to surface metal centers, with the trilactone macrocycle playing a limited role in direct coordination. DFT-based vibrational analysis indicates that catecholate-type surface complexes dominate over salicylate-type configurations, and coordination causes reorientation of the amide group, consistent with bidentate binding of deprotonated catechol oxygens.[24]
+
+On plasmonic metals (Ag, Au), catecholates typically bind via deprotonated oxygens and possibly π-interactions with aromatic rings, leading to preferential orientations where ring planes are tilted relative to the surface, which impacts which vibrational modes experience maximum SERS enhancement. In complex siderophores like yersiniabactin, additional heterocyclic donors and backbone groups may lead to multiple binding geometries, potentially broadening spectral features and complicating peak assignment at SERS-active interfaces.[23][26][7]
+
+### 4.3 Influence of nanoparticle composition and hotspot engineering
+
+Silver nanoparticles generally provide higher SERS enhancement factors than gold for visible and near-IR excitation, but gold offers better biocompatibility and stability in biological media; bimetallic Ag–Au or core–shell structures can balance these properties and tune the LSPR to desired wavelengths. Recent SERS platforms for sepsis biomarkers (e.g., IL‑3, procalcitonin) have used AgNPs grown on 2D materials like black phosphorus to achieve enhancement factors on the order of 10¹⁴ and limits of detection down to 10⁻¹³–10⁻¹⁵ M for protein analytes. Label-free or aptamer-based SERS methods have also achieved detection of whole bacteria at 1–10 CFU/mL and direct analysis from blood cultures by exploiting engineered nanoparticle aggregates that generate strong hot spots.[31][32][33][34][30]
+
+Hotspot engineering (nanogaps, core–shell dimers, nanoparticle-on-mirror configurations) is essential for pushing detection limits into the low-nanomolar or picomolar range needed for sidereophore detection in diluted clinical matrices. However, hotspot reproducibility remains a major challenge, leading to significant signal fluctuations and requiring internal standards or ratiometric strategies, as developed for purine-based SERS AST using purine as an internal standard.[35][36][28][37][30]
+
+***
+
+## 5. Clinical sample challenges for siderophore SERS
+
+### 5.1 Protein corona formation and impact on adsorption
+
+When nanoparticles are introduced into serum or plasma, proteins rapidly adsorb to form a "protein corona" that changes nanoparticle surface charge, colloidal stability, and biological identity, and often shields or competes with small-molecule analytes for adsorption sites. Experimental studies with polymer and inorganic nanoparticles show that corona composition depends strongly on serum type and concentration, with abundant proteins (albumin, immunoglobulins) dominating at high serum content and higher-affinity but less abundant proteins enriching at lower concentrations. Recent work directly linking protein corona to SERS performance demonstrates that corona formation can severely attenuate target signals and alter analyte orientation, and that corona composition correlates with SERS signal loss.[5][38][39][6]
+
+For siderophore detection, corona formation on Ag/Au nanoparticles in plasma would likely reduce direct adsorption of siderophores, particularly hydrophilic or anionic forms, and could also sequester siderophores via protein–ligand interactions, further reducing the free analyte fraction. Therefore, strategies that either (a) remove proteins prior to SERS, (b) pre-form controlled coronas that favor siderophore access, or (c) use capture ligands to outcompete corona proteins are essential.[6][5][1]
+
+### 5.2 Hemoglobin and serum spectral interference
+
+Hemoglobin exhibits strong resonance Raman bands when excited near its Soret or Q-band absorptions (e.g., 408 or 532 nm), with intense heme marker modes such as ν₄ (oxidation state marker) near 1355–1380 cm⁻¹ and other modes between 1500 and 1650 cm⁻¹. These strong bands dominate Raman spectra of whole blood and erythrocytes and are used for noninvasive determination of oxygen saturation, highlighting their intensity relative to other components. Even in fractionated plasma, residual free hemoglobin and other chromophores can contribute background Raman features, complicating detection of low-abundance metabolites.[40][41][42][43]
+
+Serum and plasma also contain a complex mixture of amino acids, lipids, purines, and other metabolites whose Raman bands overlap the 500–2000 cm⁻¹ region where siderophore peaks lie, further complicating direct label-free detection. Consequently, whole blood is an unfavorable direct SERS matrix for siderophores; plasma or serum after microfluidic fractionation, dilution, or selective extraction is more realistic.[19][34][41][21]
+
+### 5.3 Deproteinization, extraction, and enrichment strategies
+
+Several strategies from metabolomics and environmental siderophore analysis can be adapted:
+
+- Organic solvent precipitation (acetonitrile, methanol) and acidification can precipitate proteins while retaining small, polar siderophores in solution, suitable for subsequent concentration and SERS measurement.[15][19]
+- Solid-phase extraction (SPE) using reversed-phase or mixed-mode ion-exchange cartridges has been developed to isolate structurally diverse siderophores from soil and aqueous samples, achieving enrichment and desalting prior to LC–MS; these protocols can likely be adapted to serum with optimization for protein removal.[16][15]
+- Chromatographic or chelation-based methods (immobilized metal affinity, siderophore-functionalized resins) can selectively capture Fe–siderophore complexes or apo forms and release them in a controlled elution buffer compatible with SERS substrates.[44][45][16]
+
+For SERS, analyte enrichment by one to two orders of magnitude (e.g., concentrating 500 µL plasma into 5–10 µL of extract) is highly desirable to reach nanomolar effective concentrations at the SERS interface. Microfluidic plasma fractionation devices integrated with Raman detection have already been demonstrated for hemoglobin and plasma analysis, suggesting a technical pathway for online plasma preparation preceding SERS measurement.[34][41][21]
+
+### 5.4 Dissociation of Fe–siderophore complexes
+
+In circulation, many enterobactin and yersiniabactin molecules will be Fe‑bound or complexed with other metals (Cu, Ni, Co, etc.), and Fe–enterobactin may also be bound to lipocalin‑2 or albumin. Analytical methods must decide whether to detect total siderophore (apo + metal-bound) or only free forms; for structural fingerprinting, apo forms may provide cleaner and more comparable spectra across metals.[3][1][7]
+
+Fe–catecholate complexes are sensitive to pH and chelators: lowering pH protonates phenolate oxygens and can destabilize Fe(III) complexes, while stronger competing chelators (e.g., EDTA or hydroxamate ligands) can strip Fe from catecholates. Environmental and soil siderophore extraction protocols often use mild acidification (e.g., pH 2–3) followed by SPE to capture both apo and Fe-bound species, with subsequent metal removal in controlled conditions for structural analysis.[15][16][26]
+
+For SERS, a feasible approach is to (1) capture Fe–siderophore complexes from plasma, (2) apply a dissociation buffer (low pH plus chelator) to generate apo siderophores, and (3) neutralize to a pH that ensures deprotonated catechols for strong adsorption on Ag/Au surfaces. The trade‑off is that Fe–siderophore LMCT-based resonance enhancement may be lost if all Fe is removed; thus, dual conditions could be considered: one measurement targeting total Fe–siderophore (resonance-SERS) and another targeting apo-siderophore fingerprints.[24][26][15]
+
+***
+
+## 6. Current SERS landscape for sepsis and bacterial metabolites
+
+### 6.1 SERS detection of bacterial metabolites (purines, phenazines, etc.)
+
+A substantial body of work uses SERS to detect bacterial metabolites, especially purine derivatives (adenine, hypoxanthine, guanine), which dominate SERS spectra of bacteria due to their strong adsorption and high Raman cross-sections. SERS-based antibiotic susceptibility tests (SERS-AST) monitor changes in purine-derived SERS peaks from bacteria in culture or blood cultures after antibiotic exposure, enabling susceptibility determination within a few hours without full MIC curves. These spectra are typically acquired from washed bacterial pellets or supernatants mixed with Ag/Au nanoparticles, and characteristic peaks near 730–740, 1330–1370, and 1570 cm⁻¹ serve as quantitative markers.[32][28][37][4]
+
+Other bacterial metabolites, such as pyocyanin (a phenazine), indole, and other pigments, have also been detected via SERS in model systems, often taking advantage of inherent chromophores and surface affinity. SERS-based aptasensors and imprinted substrates have been developed for label-free detection of intact bacteria in food, water, and clinical matrices, with detection limits down to single-digit CFU/mL when strong hot spots and specific capture are used.[46][47][29][31][4]
+
+### 6.2 SERS in sepsis diagnostics
+
+Recent work has demonstrated SERS-based rapid AST directly from positive blood cultures of bacteremia patients, using variations in bacterial purine metabolite SERS signals after antibiotic exposure. A clinical trial framework combining SERS and metabolomics in sepsis patients aims to use plasma SERS spectra plus LC–MS profiling to identify pathogen-specific metabolite signatures and drug resistance patterns. Additionally, SERS platforms using AgNPs on black phosphorus have achieved ultra-sensitive detection of sepsis biomarkers such as IL‑3 and procalcitonin at femtomolar levels, highlighting that the SERS detection limits for proteins and small molecules can reach medically relevant ranges.[33][21][37][32][34]
+
+Despite these advances, most SERS sepsis studies focus on either host biomarkers (cytokines, PCT) or generic bacterial metabolites (purines) rather than pathogen-specific small molecules like siderophores. SERS has not yet been widely adopted clinically due to challenges in standardizing substrates, handling complex matrices, and achieving robust quantification across batches and instruments.[21][28][4][34]
+
+### 6.3 Existing work on siderophores in SERS or related spectroscopy
+
+Direct SERS studies on bacterial siderophores in clinical-like matrices are scarce; however, several related lines exist:
+
+- Resonance Raman and UV–vis studies of Fe–enterobactin and Fe–catechol complexes have characterized key vibrational modes and LMCT bands, providing a foundation for SERRS approaches.[25][22]
+- Deferoxamine and other siderophore analogues have been used as ligands on carbon nanotubes and other nanomaterials, where Fe binding induces large changes in UV–vis and Raman signatures, enabling ultrasensitive Fe³⁺ detection.[16][23]
+- Environmental and soil studies use LC–MS to detect diverse siderophores after extraction, showing that analytical detection of low-nanomolar siderophores in complex matrices is feasible with adequate cleanup, though not yet with SERS.[15][16]
+
+There is also conceptual work using surface-bound siderophores (e.g., immobilized desferrioxamine B) for selective capture of viable bacteria, leveraging the specificity of siderophore uptake systems, which could be adapted for siderophore-focused biosensors including SERS.[45][44]
+
+***
+
+## 7. Research gaps and innovation opportunities
+
+### 7.1 Lack of SERS studies on siderophores in clinical samples
+
+No substantial reports were identified that directly measure enterobactin or yersiniabactin in human serum or plasma using SERS, either label-free or with labels, indicating a clear gap in the literature. Most siderophore analytical methods rely on LC–MS with prior extraction, while SERS work in infection settings has focused on purines, host proteins, and whole-cell fingerprints. Bridging these domains – applying SERS to purified or enriched siderophore fractions from clinical samples, with guidance from LC–MS – is an obvious innovation path.[4][34][21][16][15]
+
+### 7.2 Need for selective capture (aptamers, antibodies, lipocalin‑2)
+
+Because siderophores are small, hydrophilic, and present at low concentrations in a crowded matrix, selective capture is critical to achieve both enrichment and specificity before SERS readout.
+Promising capture options include:
+
+- Aptamers raised against Fe–enterobactin, Fe–yersiniabactin, or apo forms, which can be immobilized on SERS-active nanoparticles or substrates to form sandwich-type or competitive sensors.
+- Monoclonal antibodies against siderophore epitopes (e.g., salmochelin or yersiniabactin), similar to immuno-SERS approaches used for PCT and IL‑3, where a Raman reporter is linked to the detection antibody.[34]
+- Lipocalin‑2 or engineered variants that bind enterobactin-family siderophores with high affinity; immobilized Lcn2 could selectively capture Fe–enterobactin and analogues from plasma, though stealth siderophores like yersiniabactin would escape, which could itself be diagnostically informative.[11][10][1]
+
+Combining capture ligands with magnetic beads or microfluidic surfaces that are simultaneously SERS-active (e.g., AuNP-coated beads) can enable washing steps to remove proteins and salts while retaining siderophore–ligand complexes.[46][35]
+
+### 7.3 Dual-wavelength Raman/SERS strategies
+
+Dual-wavelength Raman approaches have been used for blood analysis, employing a resonant excitation (e.g., 408 nm) to detect hemoglobin and a near-IR excitation (e.g., 785 nm) to access plasma biochemistry with reduced fluorescence and heme interference. For siderophores, a dual-mode system could use:[41][42][40]
+
+- A visible excitation tuned near LMCT bands of Fe–siderophore complexes (e.g., 514–532 nm) to exploit resonance enhancement for total Fe–siderophore detection.
+- A near-IR excitation (785–830 nm) for label-free SERS of apo siderophores or Raman reporters with minimal hemoglobin interference.
+
+Such a system could also combine conventional Raman (for whole blood hemoglobin status) and SERS (for enriched siderophore fractions), potentially providing multiparametric sepsis diagnostics.
+
+### 7.4 Integration with machine learning for spectral classification
+
+SERS sepsis studies already use pattern recognition and, in some cases, machine learning to classify pathogens or resistance phenotypes based on complex spectra. ML models (e.g., PCA–LDA, SVM, random forests, or CNNs) are well-suited to distinguishing subtle differences among siderophore spectra (enterobactin vs yersiniabactin vs salmochelin) and to separating them from background metabolites and noise.[36][32][21][4]
+
+For siderophore detection, ML could be trained on libraries of reference spectra of apo and metal-bound siderophores, plus spectra from spiked plasma extracts at known concentrations, enabling robust classification and partial quantification even when peaks overlap or are weak. Transfer learning could allow models trained on one SERS substrate type to be adapted to others, provided internal standards (e.g., purine, known reporter bands) are included to correct for substrate-to-substrate variability.[28]
+
+***
+
+## 8. Experimental feasibility of siderophores as SERS biomarkers
+
+### 8.1 Can siderophores serve as pathogen-specific biomarkers?
+
+Enterobactin is produced by both commensal and pathogenic Enterobacteriaceae and is not, by itself, pathogen-specific; however, its presence in blood at significant levels would imply Gram-negative bacteremia with functional siderophore systems. Yersiniabactin, salmochelin, and other "stealth" siderophores are associated with high-pathogenicity islands and virulence plasmids and are more tightly correlated with specific lineages of UPEC, K. pneumoniae, and other pathogens. Thus, a panel of siderophores – rather than a single molecule – could provide information about both the presence of infection and the likely pathogen group.[8][9][1][3][7]
+
+Nevertheless, host and microbial factors complicate interpretation: siderophore expression is regulated by iron availability, quorum sensing, and host responses, and some siderophores are masked by lipocalin‑2 or rapidly re-imported, which may decouple circulating levels from bacterial load in certain contexts. Therefore, siderophores are best viewed as complementary biomarkers that could augment existing sepsis panels (PCT, IL‑6, etc.) and help infer pathogen class and virulence potential rather than as stand-alone diagnostics.[13][10][11]
+
+### 8.2 Optimal preprocessing and detection workflow
+
+Based on current evidence, a feasible experimental workflow for SERS-based siderophore detection in suspected sepsis could be:
+
+1. **Sample acquisition and plasma preparation**  
+   - Draw whole blood into anticoagulant tubes and rapidly separate plasma (or serum) via centrifugation or microfluidic fractionation.[41]
+
+2. **Deproteinization and initial enrichment**  
+   - Precipitate proteins with cold acetonitrile or methanol (e.g., 1:3 v/v), centrifuge, and collect supernatant; optionally acidify to pH 2–3 to stabilize siderophores and disrupt protein binding.[19][15]
+   - Concentrate the supernatant under vacuum or nitrogen to a small volume (e.g., 10–20× enrichment).
+
+3. **Selective capture of siderophores**  
+   - Pass the extract through SPE cartridges optimized for siderophores (e.g., mixed-mode cation/anion exchange or hydrophilic interaction) or through columns/particles functionalized with lipocalin‑2, siderophore-specific aptamers, or antibodies.[44][16][15]
+   - Wash to remove salts and non-binding metabolites; elute siderophores with a small volume of buffer (e.g., low-ionic-strength aqueous/organic mixture).
+
+4. **Metal-state control**  
+   - Split the eluate: treat one aliquot with Fe³⁺ at controlled pH to standardize Fe–siderophore complexes for resonance-SERS, and treat another with a chelator/acid to generate apo siderophores for non-resonant SERS.[22][26][7]
+
+5. **SERS substrate and measurement**  
+   - Mix aliquots with engineered Ag–Au nanoparticle substrates (e.g., core–shell dimers, nanoparticle-on-mirror structures, or AgNP-decorated 2D materials) optimized for the chosen excitation wavelength.[30][34]
+   - Acquire SERS spectra at two excitations (e.g., 532 nm for Fe–siderophore resonance; 785 nm for apo siderophore / reporter-dominated spectra) in a microfluidic or droplet format to minimize sample consumption.[40][41]
+
+6. **Data processing and ML classification**  
+   - Perform baseline correction, denoising, and normalization, then use multivariate methods and ML models trained on reference spectra to classify the presence and type of siderophores and to estimate relative abundance.[36][28][4]
+
+This workflow is experimentally complex but plausible in a research setting and could be incrementally simplified (e.g., by integrating SPE and SERS into a single cartridge) for eventual clinical translation.
+
+### 8.3 Recommended substrate design and detection strategy
+
+Key design recommendations for SERS substrates and assay architecture are:
+
+- **Substrate**: Use Ag or Ag–Au bimetallic nanostructures with controlled nanogaps (<5 nm) on inert supports or beads, designed to be stable in buffered, low-protein environments; 2D materials like black phosphorus or graphene may be used as scaffolds to improve hotspot density and stability.[34][30]
+- **Surface chemistry**: Functionalize with capture ligands (aptamers, lipocalin‑2, antibodies) and passivating layers (e.g., PEG) to minimize nonspecific protein adsorption; consider pre-forming a "designed" corona enriched in proteins that do not bind siderophores to improve selectivity.[39][5][6]
+- **Excitation wavelengths**: Combine a visible wavelength tuned to Fe–siderophore LMCT bands for SERRS with a near-IR wavelength to reduce matrix fluorescence and heme interference; use notch filters and short acquisition times to avoid photodegradation.[42][40][22]
+- **Internal standards**: Incorporate an internal Raman label (e.g., a non-overlapping reporter attached to the substrate) or exploit endogenous purine bands as internal standards for signal normalization across substrates and runs.[28]
+
+***
+
+## 9. Unresolved challenges and roadmap for validation
+
+### 9.1 Key unresolved challenges
+
+- **Unknown in vivo concentration and speciation**: Quantitative data on free and protein-bound siderophore concentrations in human plasma during sepsis are lacking, making it difficult to set design targets for LOD and dynamic range.[19][16]
+- **Matrix complexity and variability**: Patient-to-patient variation in protein levels, metabolites, and inflammatory state will alter extraction efficiency, corona formation, and background spectra, complicating assay standardization.[5][6][19]
+- **Substrate reproducibility**: Batch-to-batch variability in SERS substrates remains a major obstacle; while internal standards and ML can mitigate this, clinical deployment requires robust manufacturing and quality control.[28][30]
+- **Specificity vs redundancy**: Many pathogens share siderophore systems or express multiple siderophores; conversely, some high-risk pathogens may rely on siderophores evading particular capture ligands (e.g., Lcn2), which may confound simple interpretation of "siderophore-positive" signals.[1][3][7]
+
+### 9.2 Roadmap for experimental validation
+
+A stepwise validation path could be:
+
+1. **Phase 1 – Fundamental spectroscopy**  
+   - Measure Raman and SERS spectra of pure enterobactin, salmochelin, yersiniabactin, and representative metal complexes (Fe³⁺, Cu²⁺, Zn²⁺) using multiple excitation wavelengths; assign peaks in 500–2000 cm⁻¹ region with DFT support.[7][22][24]
+   - Evaluate the impact of pH, ionic strength, and surface chemistry (Ag vs Au vs bimetallic) on spectral signatures and enhancement factors.
+
+2. **Phase 2 – Spiked plasma and extraction optimization**  
+   - Spike pooled human plasma with physiologically plausible concentrations of siderophores (e.g., 1–1000 nM) and test different deproteinization and SPE protocols to maximize recovery and SERS signal.[16][19][15]
+   - Quantify recovery and matrix effects using orthogonal LC–MS analysis as a reference.[15]
+
+3. **Phase 3 – Capture ligand development**  
+   - Generate and screen aptamers or antibodies against enterobactin and yersiniabactin; characterize binding kinetics and specificity in plasma-like buffers.[44][16]
+   - Engineer lipocalin‑2 variants with tailored specificity profiles (e.g., high affinity for enterobactin, reduced off-target binding) and immobilize them on SERS substrates.
+
+4. **Phase 4 – Integrated SERS assay prototyping**  
+   - Build microfluidic cartridges that integrate plasma fractionation, deproteinization, capture, and SERS readout; implement dual-wavelength excitation and internal standards.[21][41]
+   - Train ML classifiers on spectra from known siderophore mixtures and spiked clinical matrices; evaluate classification accuracy for pathogen-type inference.
+
+5. **Phase 5 – Pilot clinical studies**  
+   - Enroll small cohorts of patients with culture-confirmed Gram-negative sepsis and matched controls; collect plasma samples for parallel LC–MS and SERS analysis of siderophore profiles.[21]
+   - Correlate siderophore signals with pathogen identity, siderophore gene content (from WGS), lipocalin‑2 levels, and clinical outcomes to assess biomarker value.
+
+6. **Phase 6 – Refinement and regulatory pathway**  
+   - Address manufacturing reproducibility, stability, and quality control of SERS substrates and cartridges; develop standardized calibration protocols and QC metrics.[30][28]
+   - Engage with regulatory frameworks for diagnostic devices, demonstrating analytical validity (LOD, specificity, reproducibility) and clinical utility (improved time-to-diagnosis or risk stratification).
+
+***
+
+## 10. Overall feasibility assessment
+
+From a physics and chemistry standpoint, SERS detection of siderophores is feasible: catechol and salicylate siderophores possess strong Raman-active modes, can benefit from LMCT-based resonance enhancement, and exist in concentration regimes that are compatible with state-of-the-art SERS detection limits after enrichment. Biological and clinical data underscore their central role in virulence and host–pathogen interactions, making them attractive mechanistic biomarkers. However, lack of quantitative in vivo concentration data, complex speciation, and severe matrix and corona effects in blood mean that a simple, label-free SERS measurement on whole blood is unlikely to succeed.[2][23][1][22][34][7]
+
+The most promising path is a targeted, chemistry-informed workflow that uses selective capture and enrichment, controlled metal-state manipulation, engineered SERS substrates, and ML-based spectral analysis, with LC–MS serving as a validation standard. If these hurdles are addressed, siderophore-focused SERS assays could emerge as part of multi-analyte sepsis panels, adding pathogen- and virulence-specific information beyond what is provided by generic host biomarkers and purine-based SERS tests.

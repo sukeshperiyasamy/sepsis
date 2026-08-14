@@ -1,0 +1,43 @@
+FILE: Bacterial_Surface_Markers_Evidence_Dossier_Updated.pdf
+NPAGES: 1
+
+--- page 1 ---
+Bacterial Surface Markers in Blood — Evidence Dossier
+(Updated)
+This dossier summarizes bacterial-specific, surface-exposed markers detectable in blood with diagnostic and
+therapeutic potential in sepsis and invasive infections. It integrates classical markers (LPS, LTA, PGN) with
+additional targets (autolysins, OMPs, porins, WTA, sortase-anchored proteins, capsules, pili/flagella, biofilm
+components).
+Top validated blood-detectable markers (clinical/translational evidence):
+Marker Why bacterial-specific Clinical/Diagnostic use Therapeutic potential
+LPS (Lipid A / O-antigen) Gram-negative outer membrane; aEbnsdeontto ixni ne uaksasaryyost e(LsAL), MS, species seroEtynpdinogtoxin neutralizers, LPS vaccines
+Peptidoglycan fragments (MDUPni)versal bacterial cell wall compoEnLeInStA/LC-MS; NOD2 biomarker PGN sensing modulators, decoys
+Lipoteichoic acid (LTA) Gram-positive cell-wall glycolipid ELISA; plasma marker for Gram+ bacteremAinati-LTA mAbs, imaging agents
+Capsular polysaccharides (CSPpSe)cies/serotype-specific capsuleRsapid antigen tests (urine/serum), ELISA Conjugate vaccines, capsule inhibitors
+Flagellin (FliC) Structural protein of bacterial flageEllLaI S(mAo; tTileL Rb5a-crteesrpiao)nse biomarkers Anti-flagellin vaccines
+Outer membrane proteins & b-Pboarrirnesl proteins unique to Gram-neOgMatViv/esserum proteomics; antibody assays Vaccine antigens; OMP-targeting peptides
+Autolysins (murein hydrolasePse)ptidoglycan-remodeling enzymeEsn uznymiquee a tsos abyasc;t earniatibody detection Autolysin inhibitors (antivirulence)
+Wall teichoic acids (WTA) Anionic glycopolymers in Gram-poSspiteivceiess-specific antigen detection; MS WTA biosynthesis inhibitors
+Sortase-anchored proteins (eL.PgX., TPGro-atenicnh Ao)red Gram-positive sIumrfmacuen oparostseainyss, flow cytometry Sortase inhibitors; antibody therapies
+Pili/Fimbriae & Adhesins Bacterial-specific appendages Glycan arrays; antigen detection Anti-adhesion therapeutics (mannosides)
+Biofilm matrix components (aUlgniinqautee ,e cxetrlalucleolsluel)ar polymers in bOacptteortiraacers; matrix antigen detection Matrix-disrupting enzymes; anti-biofilm drugs
+S-layer proteins Crystalline surface arrays in manyE bMac/itmermiaunoassays for species ID Vaccine platforms; assembly inhibitors
+Recommended diagnostic panel (near-term, evidence-backed):
+1) LPS (endotoxin) assay — Gram-negative detection (LAL/MS confirmation). 2) Peptidoglycan fragment assay
+(MDP/PGN LC-MS or ELISA) — pan-bacterial detection. 3) Capsular antigen tests — pathogen-specific rapid ID
+(e.g., pneumococcal BinaxNOW). 4) LTA ELISA — Gram-positive support marker (S. aureus, S. pneumoniae). 5)
+Optional: Flagellin or OMV proteomics for added sensitivity to motile pathogens or species-specific protein
+signatures.
+Pre-analytical & analytical considerations:
+(cid:127) Blood matrix interference: LPS and other markers may be masked by serum proteins; sample prep and inhibitor removal are
+crucial.
+(cid:127) Timing: PGN fragments and soluble proteins can be transient — early sampling improves sensitivity.
+(cid:127) Multiplexing: Combining broad (PGN) and specific (CPS, LPS) markers improves diagnostic accuracy.
+(cid:127) Validation: Use culture-confirmed sepsis cohorts to validate sensitivity/specificity and clinical cutoffs.
+Suggested next steps for translation:
+(cid:127) Assemble retrospective plasma/serum samples from culture-proven Gram-positive and Gram-negative sepsis cases. (cid:127) Run
+LPS (LAL/MS), PGN LC-MS/ELISA, and CPS rapid tests in parallel to generate ROC curves. (cid:127) Validate in prospective cohorts;
+refine pre-analytics; pursue regulatory pathway for diagnostic approval.
+Prepared by: ChatGPT — evidence synthesis for diagnostic development
+Note: Specific literature citations and assay protocols can be appended on request.
+

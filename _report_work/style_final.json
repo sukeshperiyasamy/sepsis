@@ -1,0 +1,171 @@
+{
+  "input": "C:\\Users\\sukes\\Downloads\\mtp\\Project_Status_Report_Sepsis_SERS_As_of_August_2026.docx",
+  "fonts_by_char_count": {
+    "Aptos": 31520,
+    "Aptos Display": 73
+  },
+  "direct_run_formatting_runs": 374,
+  "direct_paragraph_formatting_paragraphs": 122,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 4,
+      "text": "PROJECT STATUS REPORT",
+      "style": "Normal"
+    },
+    {
+      "para_index": 5,
+      "text": "Sepsis Biomarkers Analysis Using a\nSERS-Based Sensor",
+      "style": "Normal"
+    },
+    {
+      "para_index": 147,
+      "text": "Prepared by",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 149,
+      "text": "Programme / ID",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 151,
+      "text": "Institution",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 153,
+      "text": "Evidence cutoff",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 155,
+      "text": "Report purpose",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 158,
+      "text": "Inventory category",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 159,
+      "text": "Observed contents",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 160,
+      "text": "Interpretation for this report",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 177,
+      "text": "Target",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 178,
+      "text": "Biological relevance",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 179,
+      "text": "Modelling / measurement strategy",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 192,
+      "text": "Period / phase",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 193,
+      "text": "Work completed",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 194,
+      "text": "Evidence in the folder",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 214,
+      "text": "Modelling stream",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 215,
+      "text": "Completed implementation",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 216,
+      "text": "Purpose",
+      "style": "Table Text"
+    },
+    {
+      "para_index": 230,
+      "text": "Metric",
+      "style": "Table Text"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "text": "PROJECT STATUS REPORT",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "text": "Sepsis Biomarkers Analysis Using a\nSERS-Based Sensor",
+        "style": "Normal"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 4,
+        "run_text": "PROJECT STATUS REPORT",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "run_text": "Sepsis Biomarkers Analysis Using a\nSERS-Based Sensor",
+        "style": "Normal"
+      },
+      {
+        "para_index": 6,
+        "run_text": "Consolidated report of work completed to date",
+        "style": "Normal"
+      },
+      {
+        "para_index": 9,
+        "run_text": "Compiled from the project folder contents",
+        "style": "Normal"
+      },
+      {
+        "para_index": 10,
+        "run_text": "This report distinguishes completed evidence, preliminary results, and proposed ",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

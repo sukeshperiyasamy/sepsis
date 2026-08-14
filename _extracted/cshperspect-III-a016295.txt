@@ -1,0 +1,1047 @@
+FILE: cshperspect-III-a016295.pdf
+NPAGES: 16
+
+--- page 1 ---
+IL-6 in Inflammation, Immunity, and Disease
+ToshioTanaka1,2,MasashiNarazaki3,andTadamitsuKishimoto4
+1DepartmentofClinicalApplicationofBiologics,OsakaUniversityGraduateSchoolofMedicine,Osaka
+University,Osaka565-0871,Japan
+2DepartmentofImmunopathology,WorldPremierInternationalImmunologyFrontierResearchCenter,Osaka
+University,Osaka565-0871,Japan
+3DepartmentofRespiratoryMedicine,AllergyandRheumaticDiseases,OsakaUniversityGraduateSchool
+ofMedicine,OsakaUniversity,Osaka565-0871,Japan
+4LaboratoryofImmuneRegulation,WorldPremierInternationalImmunologyFrontierResearchCenter,Osaka
+University,Osaka565-0871,Japan
+Correspondence:kishimoto@ifrec.osaka-u.ac.jp
+Interleukin6(IL-6),promptlyandtransientlyproducedinresponsetoinfectionsandtissue
+injuries,contributestohostdefensethroughthestimulationofacutephaseresponses,he-
+matopoiesis,andimmunereactions.Althoughitsexpressionisstrictlycontrolledbytran-
+scriptional and posttranscriptional mechanisms, dysregulated continual synthesis of IL-6
+plays a pathological effect on chronic inflammation and autoimmunity. For this reason,
+tocilizumab, a humanized anti-IL-6 receptor antibody was developed. Various clinical
+trialshavesinceshowntheexceptionalefficacyoftocilizumab,whichresultedinitsapproval
+forthetreatmentofrheumatoidarthritisandjuvenileidiopathicarthritis.Moreover,tocili-
+zumabisexpectedtobeeffectiveforotherintractableimmune-mediateddiseases.Inthis
+context,themechanismforthecontinualsynthesisofIL-6needstobeelucidatedtofacilitate
+thedevelopmentofmorespecifictherapeuticapproachesandanalysisofthepathogenesisof
+specificdiseases.
+IL-6 is a soluble mediator with a pleiotropic the name hybridoma growth factor (HGF) on
+effect on inflammation, immune response, the enhancement of growth of fusion cells be-
+and hematopoiesis. At first, distinct functions tween plasma cells and myeloma cells, or the
+of IL-6 were studied and given distinct names nameinterferon(IFN)-b2owingtoitsIFNan-
+basedontheirbiologicalactivity.Forexample, tiviralactivity.WhentheBSF-2cDNAwassuc-
+the name B-cell stimulatory factor 2 (BSF-2) cessfully cloned in 1986 (Hirano et al. 1986),
+was based on the ability to induce differentia- however, it was found that the molecules with
+tionofactivatedBcellsintoantibody(Ab)-pro- differentnamesstudiedbyvariousgroupswere
+ducingcells(Kishimoto1985),thenamehepa- infactidentical,resultinginthesinglenameIL-
+tocyte-stimulatingfactor(HSF)ontheeffectof 6(Kishimoto1989).HumanIL-6ismadeupof
+acute phase protein synthesis on hepatocytes, 212 amino acids, including a 28-amino-acid
+Editor:RuslanM.Medzhitov
+AdditionalPerspectivesonInnateImmunityandInflammationavailableatwww.cshperspectives.org
+Copyright#2014ColdSpringHarborLaboratoryPress;allrightsreserved;doi:10.1101/cshperspect.a016295
+CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295
+1
+
+--- page 2 ---
+T.Tanakaetal.
+signalpeptide,anditsgenehasbeenmappedto diseases through the generation of amyloid A
+chromosome 7p21. Although the core protein amyloidosis(Gillmoreetal.2001).Thisresults
+is (cid:2)20kDa,glycosylationaccountsforthesize inamyloidfibrildeposition,whichcausespro-
+of21–26kDaofnaturalIL-6. gressivedeteriorationinvariousorgans.IL-6is
+alsoinvolvedintheregulationofserumironand
+zinc levels viacontrol of their transporters. As
+BIOLOGICALEFFECTOFIL-6ON
+forserumiron,IL-6induceshepcidinproduc-
+INFLAMMATIONANDIMMUNITY
+tion,whichblockstheactionofirontransporter
+AfterIL-6issynthesizedinalocallesioninthe ferroportin 1 on gut and, thus, reduces serum
+initial stage of inflammation, it moves to the iron levels (Nemeth et al. 2004). This means
+liver through the bloodstream, followed by thattheIL-6-hepcidinaxisisresponsibleforhy-
+the rapid induction of an extensive range of poferremiaandanemiaassociatedwithchronic
+acute phase proteins such as C-reactive pro- inflammation.IL-6alsoenhanceszincimporter
+tein(CRP),serumamyloidA(SAA),fibrinogen, ZIP14expressiononhepatocytesandsoinduces
+haptoglobin,anda1-antichymotrypsin(Fig.1) hypozincemia seen in inflammation (Liuzzi et
+(Heinrichetal.1990).Ontheotherhand,IL-6 al.2005).WhenIL-6reachesthebonemarrow,
+reduces the production of fibronectin, albu- it promotes megakaryocyte maturation, thus
+min, and transferrin. These biological effects leading to the release of platelets (Ishibashi et
+on hepatocytes were at first studied as belong- al.1989).Thesechangesinacutephaseprotein
+ingtoHSF.Whenhigh-levelconcentrationsof levelsandredbloodcellandplateletcountsare
+SAApersistforalongtime,itleadstoaserious usedfortheevaluationofinflammatorysever-
+complication of several chronic inflammatory ityinroutineclinicallaboratoryexaminations.
+CRP
+Serum amyloid A Amyloid A amyloidosis
+Hepatocyte Fibrinogen Cardiovascular event
+Albumin Edema
+Hepcidin Anemia of inflammation
+IL-6
+Bone marrow Platelet Thrombocytosis
+CD4 T cell Th17 differentiation
+inhibition Autoimmunity
+CD4 T cell Treg differentiation chronic inflammation
+CD8 T cell Cytotoxic T-cell
+differentiation
+B cell Antibody Autoantibody
+production hypergammaglobulinemia
+RANKL
+Osteoclast Osteoporosis
+Synovial differentiation bone fracture
+fibroblast
+VEGF
+Angiogenesis Joint swelling
+edema
+Vascular permeability
+Dermal
+fibroblast Collagen Fibrosis
+Figure 1. IL-6 in inflammation, immunity, and disease. IL-6 is a cytokine featuring pleiotropic activity; it
+inducessynthesisofacutephaseproteinssuchasCRP,serumamyloidA,fibrinogen,andhepcidininhepato-
+cytes,whereasitinhibitsproductionofalbumin.IL-6alsoplaysanimportantroleonacquiredimmuneresponse
+bystimulationofantibodyproductionandofeffectorT-celldevelopment.Moreover,IL-6canpromotediffer-
+entiationorproliferationofseveralnonimmunecells.Becauseofthepleiotropicactivity,dysregulatedcontinual
+production of IL-6 leads to the onset or development of various diseases. Treg, regulatory T cell; RANKL,
+receptoractivatorofnuclearfactorkB(NF-kB)ligand;VEGF,vascularendothelialgrowthfactor.
+2 CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295
+
+--- page 3 ---
+IL-6inInflammation,Immunity,andDisease
+Furthermore,IL-6promotesspecificdiffer- fibroblaststhatmayaccountforchangesinthe
+entiationofna¨ıveCD4þTcells,thusperforming skinofpatientswithsystemicsclerosis(Duncan
+animportantfunctioninthelinkingofinnate andBerman1991).
+toacquiredimmuneresponse.Ithasbeenshown
+that IL-6, in combination with transforming
+REGULATIONOFIL-6SYNTHESIS
+growth factor (TGF)-b, is indispensable for
+Th17 differentiation from na¨ıve CD4þ T cells IL-6functionsasamediatorfornotificationof
+(Korn et al. 2009), but that IL-6 also inhibits theoccurrenceofsomeemergentevent.IL-6is
+TGF-b-induced Treg differentiation (Bettelli generatedinaninfectiouslesionandsendsouta
+et al. 2006). Up-regulation of the Th17/Treg warningsignaltotheentirebody.Thesignature
+balanceis considered to be responsible for the of exogenous pathogens, known as pathogen-
+disruption of immunological tolerance, and is associated molecularpatterns, is recognized in
+thuspathologicallyinvolvedinthedevelopment theinfectedlesionbypathogen-recognitionre-
+ofautoimmuneandchronicinflammatorydis- ceptors(PRRs)ofimmunecellssuchasmono-
+eases(KimuraandKishimoto2010).Ithasbeen cytesandmacrophages(Kumaretal.2011).These
+furthershownthatIL-6alsopromotesT-follic- PRRs compriseToll-likereceptors(TLRs),ret-
+ularhelper-celldifferentiationaswellasproduc- inoic acid-inducible gene-1-like receptors, nu-
+tionofIL-21(Maetal.2012),whichregulates cleotide-binding oligomerization domain-like
+immunoglobulin (Ig) synthesis and IgG4 pro- receptors, and DNA receptors. They stimulate
+ductioninparticular.IL-6alsoinducesthedif- arangeofsignalingpathwaysincludingNF-kB,
+ferentiation of CD8þ T cells into cytotoxic T and enhance the transcription of the mRNA
+cells(Okadaetal.1988).Underoneofitsprevi- ofinflammatorycytokinessuchasIL-6,tumor
+ousnames,BSF-2,IL-6wasfoundtobeableto necrosisfactor(TNF)-a,andIL-1b.TNF-aand
+induce the differentiation of activated B cells IL-1balsoactivatetranscriptionfactorstopro-
+intoAb-producingplasmacells,sothatcontin- duceIL-6.
+uousoversynthesisofIL-6resultsinhypergam- IL-6alsoissuesawarningsignalintheevent
+maglobulinemiaandautoantibodyproduction. oftissuedamage.Damage-associatedmolecular
+IL-6exertsvariouseffectsother thanthose patterns (DAMPs), which are released from
+onhepatocytesandlymphocytesandtheseare damagedordyingcellsinnoninfectiousinflam-
+frequently detected in chronic inflammatory mations such as burn or trauma, directly or
+diseases (Kishimoto 1989; Hirano et al. 1990; indirectlypromoteinflammation.Duringster-
+Akira et al. 1993). One of these effects is that, ilesurgicaloperations,anincreaseinserumIL-
+whenIL-6isgeneratedinbonemarrowstromal 6levelsprecedeselevationofbodytemperature
+cells,itstimulatestheRANKL(Hashizumeetal. and serum acute phase protein concentration
+2008),whichisindispensableforthedifferenti- (Nishimoto et al. 1989). DAMPs from injured
+ation and activation of osteoclasts (Kotake et cellscontainavarietyofmoleculessuchasmi-
+al.1996),andthisleadstoboneresorptionand tochondrial (mt) DNA, high mobility group
+osteoporosis(Polietal.1994).IL-6alsoinduces box 1 (HMGB1), and S100 proteins (Bianchi
+excessproductionofVEGF,leadingtoenhanced 2007).SerummtDNAlevelsintraumapatients
+angiogenesisandincreasedvascularpermeabil- are thousands of times higher than in con-
+ity, which are pathological features of inflam- trolsandthiselevation leadstoTLR9stimula-
+matory lesions and are seen in, for example, tionandNF-kBactivation(Zhangetal.2010),
+synovial tissues of rheumatoid arthritis (RA) whereas binding of HMGB1 to TLR2, TLR4,
+or edema of remitting seronegative symmetri- and the receptor of advanced glycation end
+cal synovitis with pitting edema (RS3PE) syn- products (RAGE) can promote inflammation.
+drome(Nakaharaetal.2003;Hashizumeetal. The S100 family of proteins comprises more
+2009). Finally, it has been reported that IL-6 than25 members, some of which also interact
+aidskeratinocyteproliferation(Grossmanetal. withRAGEtoevokesterileinflammation(Sims
+1989) or the generation of collagen in dermal etal.2010).
+CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295 3
+
+--- page 4 ---
+T.Tanakaetal.
+Inadditiontoimmune-mediatedcells,mes- and interferon regulatory factor 1 (Libermann
+enchymalcells,endothelialcells,fibroblasts,and andBaltimore1990;AkiraandKishimoto1992;
+manyothercellsareinvolvedintheproduction Matsusaka et al. 1993). Activation of cis-regu-
+of IL-6 in response to various stimuli (Akira latoryelements bystimulationwithIL-1,TNF,
+etal.1993).ThefactthatIL-6issuesawarning TLR-mediatedsignal,andforskolinleadtoacti-
+signal to indicate occurrence of an emergency vationoftheIL-6promoter.
+accountsforthestrictregulationofIL-6synthe- Apolymorphismatposition-174oftheIL-6
+sis both gene transcriptionally and posttran- promoter region is reportedly associated with
+scriptionally.Anumberoftranscriptionfactors systemic onset juvenile idiopathic arthritis
+havebeenshowntoregulatetheIL-6genetran- (Fishman et al. 1998) andsusceptibility to RA
+scription (Fig. 2). The functional cis-regula- inEuropeans(Leeetal.2012).Stimulationwith
+toryelementsinthehumanIL-6gene50 flank- lipopolysaccharide(LPS)andIL-1didnotevoke
+ing region are found binding sites for NF-kB, any response in a reporter assay using -174 C
+specificity protein 1 (SP1), nuclear factor IL-6 construct. A -174 G construct, on the other
+(NF-IL-6) (also known as CAAT/enhancer- hand, was found to promote transcription of
+bindingproteinb),activatorprotein1(AP-1), thereportergene,suggestingthatageneticback-
+Protein MicroRNA
+Promotion NF-κB, SP-1
+NF-IL-6, AP-1
+IRF1, Tax
+TAT, HBVX Protein MicroRNA
+Mutant p53 Stabilization Arid5a
+Repression Ahr,GR, ER miR-155 (targeting NF-IL-6) P38α
+p53, Rb miR-146a/b (targeting IRAK1) ORF57
+PPARα miR-223 (targeting STAT3) Degradation Regnase-1 miR-365
+TTP miR-608
+Transcriptional regulation
+BRF1
+BRF2
+AP-1 IRF1 Posttranscriptional regulation
+-283 ∼ -227 -267 ∼ -254
+5′-AUUUUAAUUAUUUUUAAUUUAUUGAUAAUUUAAAUAAGU
+N
+-1
+F
+4
+-
+5
+I
+∼
+L -
+-
+6 158-
+M
+15
+R
+1 ∼
+E -173 AAA CUUUAAGUUAAUUUA
+A
+U
+U
+G
+-
+A
+ri
+U
+ch
+U
+e
+G
+le
+A
+m
+UA
+en
+U
+t
+U
+s
+UAUUAUUUUUA-3′
+5′ 3′
+SP-1 5′UTR IL-6 mRNA 3′UTR
+-123 ∼ -119
+-108
+S
+∼
+P
+-1
+-1
+04 - N 87 F ∼ - - I 7 L 6 -6 -7 N 5 F ∼ - - κ 63 B
+Figure2.TranscriptionalandposttranscriptionalregulationofIL-6gene.TheexpressionanddegradationofIL-
+6mRNAisregulatedtranscriptionallyandposttranscriptionallybyseveralproteinsandmicroRNAs.Activation
+of these proteins and microRNAs determinesthe fate of IL-6 mRNA. NF-IL-6, nuclear factorof IL-6; Tax,
+transactivatorprotein;TAT,transactivatorofthetranscription;HBVX,hepatitisBvirusXprotein;Ahr,aryl
+hydrocarbonreceptor;GR,glucocorticoidreceptor;ER,estrogenreceptor;Rb,retinoblastoma;PPARa,perox-
+isomeproliferator–activatedreceptora;miR,microRNA;IRAK1,IL-1receptor–associatedkinase1;STAT3,
+signaltransducerandactivatoroftranscription3;ORF,openreadingframe;TTP,tristetraprolin;BRF1,butyrate
+responsefactor1.
+4 CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295
+
+--- page 5 ---
+IL-6inInflammation,Immunity,andDisease
+ground of excess IL-6 production constitutes 1 and STAT3 (Chen et al. 2012; Zilahi et al.
+a risk factor for juvenile idiopathic arthritis 2012).
+andRA.
+An interesting finding is that some viral
+PRODUCTIONANDFUNCTIONOFIL-6
+productsenhancetheDNA-bindingactivityof
+ANDARYLHYDROCARBONRECEPTOR
+NF-kBandNF-IL-6,resultinginanincreasein
+IL-6 mRNA transcription. An instance of this Aryl hydrocarbon receptor (Ahr) not only
+phenomenonisthatinteractionwithNF-kBof affectsIL-6transcription,butalsoregulatesin-
+theTaxderivedfromthehumanTlymphotropic nateandacquiredimmuneresponse.Ahr,also
+virus1enhancesIL-6production(Ballardetal. known as the dioxin receptor, is a ligand-acti-
+1988;LeungandNabel1988).Anotherexample vated transcription factor that belongs to the
+istheenhancementofbothNF-kBandNF-IL-6 basic helix-loop-helix PER-ARNT-SIM family
+DNA-binding activity by the transactivator of (Burbach et al. 1992; Ema et al. 1992). Ahr
+theTATproteinofthehumanimmunodeficien- is present in the cytoplasm, where it forms a
+cy virus 1 (Scala et al. 1994; Ambrosino et al. complex with Ahr-interacting protein (Bell
+1997). Moreover, it has been shown that DNA and Poland 2000). On binding with a ligand,
+bindingofNF-IL-6canbeenhancedbythehu- Ahr moves to the nucleus and dimerizes with
+man hepatitis B virus X protein (Mahe et al. theAhrnucleartranslocator(Arnt).Withinthe
+1991;Ohnoetal.1999). nucleus,theAhr/Arntheterodimerthenbinds
+Ontheotherhand,sometranscriptionfac- to the xenobiotic response element (XRE),
+torssuppressIL-6expression.Peroxisomepro- whichleadstovarioustoxicologicaleffects(Fu-
+liferator–activated receptors (PPARs) are li- jii-Kuriyama et al. 1994; Dragan and Schrenk
+gand-activated transcription factors consisting 2000;Ohtakeetal.2003;Pugaetal.2005).Al-
+of three subtypes: a, b, and g. Among three though the physiological ligands for Ahr are
+PPARs,fibrates-activatedPPARainteractswith not well known, indoleamine 2,3-dioxygenase
+c-Junandp65NF-kBsubunits,whichnegatively (IDO), which catalyzestryptophan into kynu-
+regulateIL-6transcription(Deleriveetal.1999). renine, is induced by Ahr signaling and kynu-
+Inaddition,somehormonereceptorshavebeen renineisoneoftheligandsofAhr(Vogeletal.
+identifiedasrepressorsofIL-6expression.The 2008;Juxetal.2009).
+increaseinserumIL-6aftermenopauseorovar- An animal model of RAwas used to show
+ectomy is reportedly associated with suppres- the essential role of Ahr in the induction of
+sion of IL-6 expression by estrogen receptors Th17 cells and Th17-dependent collagen-in-
+(Jilkaetal.1992),whereasactivationoftheglu- ducedarthritis(CIA)(Kimuraetal.2008;Na-
+cocorticoidreceptorcanrepressIL-6expression, kahamaetal.2011).Stimulationofna¨ıveTcells
+and this is thought to be one of mechanisms with IL-6 plus TGF-b (Th17 cell–inducing
+responsible for the anti-inflammatory effects condition) induced Ahr expression and dele-
+of corticosteroids (Rayand Prefontaine 1994). tionoftheAhrgenenullifiedtheinductionof
+It has further been shown that retinoblastoma Th17cells.
+proteinandp53represstheIL-6genepromoter, Ahr interacted with and inhibited the ac-
+whereasitisup-regulatedbymutantp53(San- tivities of STAT1 or STAT5, which mediate the
+thanametal.1991). anti-inflammatory signals of IL-27 and IFN-
+In addition, some microRNAs directly or g,orIL-2,respectively(Harringtonetal.2005;
+indirectly regulate transcription activity. Inter- Stumhofer et al. 2006; Laurence et al. 2007;
+action of microRNA-155 with the 30 untrans- Kimuraetal.2008),thussuppressingtheinhib-
+latedregions(UTR)ofNF-IL-6resultsinsup- itory signals for the induction of Th17 cells.
+pressionofNF-IL-6expression(Heetal.2009), Retinoid-related orphan receptors (ROR) g
+whereas microRNA-146a/b and -223 indirect- anda,whichareactivatedbySTAT3,areessen-
+ly suppress transcription of IL-6 by respec- tialtranscriptionfactorsforTh17-cellinduction
+tivelytargetingIL-1receptor–associatedkinase (Ivanovetal.2006;Yangetal.2008)andAhrwas
+CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295 5
+
+--- page 6 ---
+T.Tanakaetal.
+found not to affect the ROR-g and -a expres- STABILIZATIONANDDEGRADATIONOF
+sion.IntheAhrgene–deficientmice,noarthri- IL-6MRNA(ARID5AANDREGNASE-1)
+tisdevelopedinCIA.Moreover,withT-cell-spe-
+cificdeletionoftheAhrgene,nodevelopmentof As for posttranscriptional regulation of cyto-
+CIAwasobserved(Nakahamaetal.2011).These kine expression, cytokine mRNA is controlled
+resultsclearlyshowthatCIAisaT-cell-depen- throughboththe50and30UTR(ChenandShyu
+dentdiseaseandthepresenceofAhrisessential 1995; Anderson 2008). Initiation of mRNA
+foritsdevelopment.IntheseAhr-deficientmice, translation is determined by the 50UTR, and
+thenumberofTh17cellsdecreasedandthatof the stability of mRNA by the 30UTR. IL-6
+Th1 cells increased but no significant changes mRNA is regulated by modulation of AU-rich
+wereobservedinFoxp3-expressingTregcells. elementslocatedinthe30UTRregion,whereas
+Ahr also regulates Th17-cell induction anumberofRNA-bindingproteinsandmicro-
+throughregulationofmicroRNAs.Inourstudy, RNAs bind to the 30UTRs and regulate the
+Ahr-inducedmicroRNA-132/212clusterunder stability of IL-6 mRNA (Fig. 2). For example,
+Th17cell–inducingconditionsandtransfection IL-6mRNAstabilizationispromotedbymito-
+ofmicroRNA-212intona¨ıveTcellsunderthese gen-activatedproteinkinase(MAPK)p38avia
+circumstancesaugmentedtheexpressionofIL- 30UTRsofIL-6(Zhaoetal.2008),andthesta-
+17-relatedgenessuchasIL-17A,IL-22,andIL- bilizationofbothviralandhumanIL-6mRNA
+23R(Nakahamaetal.2013).Oneofthetarget by the Kaposi’s sarcoma–associated herpesvi-
+genesofthismicroRNAisB-celllymphoma6, rus (KSHV) ORF-57 by competing with the
+whichisknownasaninhibitorofTh17-cellin- binding of microRNA-1293 to the viral or
+duction (Yu et al. 2009). All of these findings of microRNA-608 to the human IL-6 mRNA
+showthatAhracceleratesinflammationthrough (Kang et al. 2011). RNA-binding proteins,
+theenhancementofTh17-cellinductionbysev- such as TTP and BRF1 and 2, on the other
+eralmechanisms. hand,promoteIL-6mRNAdegradation(Pala-
+Interestingly, Ahr showed a negative reg- nisamyetal.2012),whereasIL-6mRNAlevels
+ulatory effect on peritoneal macrophages and arereducedbymicroRNAssuchasmicroRNA-
+bonemarrow–deriveddendriticcells(BMDC) 365and-608throughdirectinteractionwithIL-
+(Nguyen et al. 2010). In the absence of Ahr, 630UTR(Kangetal.2011;Xuetal.2011).
+LPS-induced production of inflammatory cy- Itwasrecentlyfoundthatanucleaseknown
+tokines such as IL-6, TNF, and IL-12 showed asregulatoryRNase-1(regnase-1)(alsoknown
+major increases in macrophages, indicating as Zc3h12a) plays a part in the destabilization
+thatAhrnegatively regulatesinflammatorycy- ofIL-6mRNA,andthattherelevantknockout
+tokine production. Ahr interacts with STAT1 mice spontaneously develop autoimmune dis-
+andNF-kBandtheresultantcomplexofAhr/ easesaccompaniedbysplenomegalyandlymph-
+STAT1 and NF-kB leads to inhibition of the adenopathy (Matsushita et al. 2009). The in-
+promoteractivityofIL-6andotherinflamma- hibitor of NF-kB (IkB) kinase (IKK) complex
+torycytokines(Kimuraetal.2009).InBMDC, controlsIL-6mRNAstabilitybyphosphorylat-
+AhrisrequiredfortheactivationofIDOleading ing regnase-1 in response to IL-1R/TLR stim-
+tokynurenineproductionbecausethedeletion ulation (Iwasaki et al. 2011). Phosphorylated
+ofAhrinBMDCleadstolossofIL-10andky- regnase-1underwentubiquitinationanddegra-
+nurenineproduction.Cocultureofna¨ıveTcells dation. Regnase-1 re-expressed in IL-1R/TLR-
+with Ahr-deficient BMDC in the presence of activatedcellswasfoundtofeaturedelayedki-
+LPSresultedinreductionofTreg-cellinduction, netics, and regnase-1 mRNA to be negatively
+whereasadditionofkynureninerescuedthein- regulatedbyregnase-1itselfviaastem-loopre-
+duction of Treg cells by BMDC (Nguyen et al. gionpresentintheregnase-130UTR.Thesefind-
+2010). These findings indicate that Ahr is re- ingsshowthatIKKcomplexphosphorylatesnot
+quired for the regulatory BMDC cellsthrough onlyIkBa,activatingtranscription,butalsoreg-
+theinductionofIDO. nase-1, releasing the brake on IL-6 mRNA ex-
+6 CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295
+
+--- page 7 ---
+IL-6inInflammation,Immunity,andDisease
+pression.Regnase-1alsoregulatesthemRNAsof roleinIL-6mRNAstability.Alloftheseresults
+asetofgenes,includingc-Rel,Ox40,andIL-2 suggest that posttranscriptional regulation of
+throughcleavageoftheir30UTRsinTcells.T- IL-6mRNAbyArid5aandregnase-1mayplay
+cellreceptorengagementthenleadstocleavage animportantroleintheexpressionofIL-6and
+of regnase-1, which frees T cells from regnase- thatthepredominanceofArid5aoverregnase-1
+mediatedsuppression,thusindicatingthatreg- promotesinflammatoryprocessesandpossibly
+nase-1mayplayacrucialroleinT-cellactivation induces the development of autoimmune in-
+(Uehataetal.2013). flammatorydiseases.
+We have recently identified a novel RNA- Duringtheso-called“cytokinestorm,”apo-
+binding protein, AT-rich interactive domain- tentiallyfatalimmunereactioninducedbyhy-
+containing protein 5a (Arid5a), which binds peractivation of T cells, a major boost in IL-6
+to the 30UTR of IL-6 mRNA, resulting in the productionisobservedbutwithoutcomparable
+selectivestabilizationofIL-6butnotofTNF-a productionofotherinflammatorycytokines.A
+or IL-12 mRNA (Masuda et al. 2013). Arid5a recent study showed that the cytokine storm
+expressionwasfoundtobeenhancedinmacro- induced by cancer immunotherapy using T-
+phagesinresponsetoLPS,IL-1b,andIL-6,and cell transfection was counteracted by the anti-
+alsotobeinducedunderTh17-polarizingcon- IL-6 receptorantibody, tocilizumab (Grupp et
+ditionsinTcells.WealsofoundthatArid5agene al.2013).Experimentally,inhalationbymiceof
+deficiency inhibited elevation of IL-6 levels in peroxidized phospholipids induced a cytokine
+LPS-injected mice and preferential Th17-cell stormresultingfromagreatlymarkedincrease
+developmentinexperimentalautoimmuneen- in the production of IL-6 but not TNF (Imai
+cephalomyelitis.Moreover,Arid5acounteracted etal.2008).
+thedestabilizingfunctionofregnase-1onIL-6 TheseresultsshowingtheIL-6-specificele-
+mRNA(Fig.3),indicatingthatthebalancebe- vationwithout anyeffect on the other inflam-
+tweenArid5aandregnase-1playsanimportant matory cytokines strongly suggest the impor-
+LPS
+TLR4
+IL-6
+MD2
+Arid5a
+MyD88
+IκΒ Regnase-1
+IL-6
+5′UTR IL-6 mRNA 3′UTR
+NF-κΒ Arid5a
+Regnase-1
+Regnase-1
+NF-κΒ mRNA
+5′UTR IL-6 mRNA 3′UTR
+degradation
+Figure 3. IL-6 synthesis and regulation of IL-6 mRNA stability by Arid5a. Pathogen-associated molecular
+patternsarerecognizedbypathogen-recognitionreceptorstoinduceproinflammatorycytokines;inthisfigure,
+TLR4 recognizes LPS and induces IL-6 mRNAvia activation of the NF-kB signaling pathway. Regnase-1
+promotes IL-6 mRNA degradation, whereas Arid5a inhibits destabilizing effects of regnase-1. The balance
+betweenArid5aandregnase-1isimportantfortheregulationofIL-6mRNA.MD2,myeloiddifferentiation
+protein2;MyD88,myeloiddifferentiationprimaryresponse88;IkB,inhibitorofNF-kB.
+CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295 7
+
+--- page 8 ---
+T.Tanakaetal.
+tanceofposttranscriptionalmodificationofIL- ofIL-6toIL-6R,theIL-6/IL-6Rcomplexinturn
+6mRNAbyArid5aandregnase-1.Thebalance induces homodimerization of gp130 and trig-
+between Arid5a and regnase-1 may determine gersadownstreamsignalcascade(Fig.4)(Mu-
+thepathologicalincreaseofIL-6invariousdis- rakamietal.1993).TheactivatedIL-6receptor
+eases including autoimmunity and even cyto- complexisgeneratedintheformofahexamer-
+kinestorm. ic structure comprising two molecules each of
+IL-6,IL-6R,andgp130(Boulangeretal.2003).
+Of these components, IL-6R is aunique bind-
+IL-6RECEPTOR–MEDIATEDSIGNALING
+ing-receptorforIL-6,whereasthesignal-trans-
+SYSTEM
+ducingchaingp130issharedbymembersofthe
+TheIL-6receptor–signalingsystemismadeup IL-6 family of cytokines, that is, leukemia in-
+of two receptor chains and downstream sig- hibitoryfactor,oncostatinM,ciliaryneurotro-
+naling molecules (Kishimoto et al. 1992). The phic factor, IL-11, cardiotrophin 1, cardiotro-
+IL-6receptor(IL-6R)constitutestheIL-6-bind- phin-likecytokine,IL-27,andIL-35.Although
+ing chain, which occurs in two forms, 80kDa allofthesecytokinesthusbindtotheirspecific
+transmembraneand50–55kDa–solubleIL-6R bindingreceptors,theyusethesamegp130for
+(sIL-6R), whereas 130kDa gp130 constitutes theirsignals(Kishimotoetal.1994,1995).The
+the signal-transducing chain. Both of these onlyexception is virus-encoded IL-6, which is
+proteinsbelongtothecytokinereceptorfamily the product of KSHV (also known as human
+withaTrp-Ser-X-Trp-Sermotif(Yamasakietal. herpesvirus 8), and directly binds to and acti-
+1988;Hibietal.1990).sIL-6Rwithoutthecy- vatesgp130(Aokietal.2001).Themechanism
+toplasmicregionispresentinhumanserumand that the IL-6 cytokine family members use to
+afterIL-6bindingtosIL-6R;theresultantcom- employ the common signal transducer makes
+plexinducestheIL-6signalongp130-express- it clear why members of the IL-6 family show
+ingcells(Narazakietal.1993).Thepleiotropic functionalredundancy.Themolecularelucida-
+effect of IL-6 onvarious cells derives from the tion of the IL-6-signaling system finallysolved
+broad range of gp130 expression observed on thelong-standingmysteryofwhycytokinesfea-
+cells(TagaandKishimoto1997).Afterbinding turedpleiotropyandredundancy.
+Tocilizumab
+IL-6
+Soluble IL-6
+IL-6 receptor receptor
+gp130
+JAKs
+STAT3 SHP-2
+MAPKs
+Figure4.IL-6receptorsystemandIL-6blocker,ahumanizedanti-IL-6receptorantibodytocilizumab.IL-6
+bindstosolubleandtransmembraneIL-6Randthecomplex,theninduceshomodimerizationofgp130,leading
+to activation of the signaling system. A humanized anti-IL-6R antibody, tocilizumab, blocks IL-6-mediated
+signalingpathwaybyitsinhibitionofIL-6bindingtobothreceptors.JAKs,Januskinases;SHP-2,SH2-domain
+containingproteintyrosinephosphatase-2.
+8 CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295
+
+--- page 9 ---
+IL-6inInflammation,Immunity,andDisease
+Activationofgp130inturntriggersactiva- (Yoshizakietal.1989),myelomacells(Kawano
+tionofdownstreamsignalingmolecules,thatis, et al. 1988), and peripheral blood cells or in-
+theJanuskinase(JAK)-STAT3pathwayandthe volved tissues in various other autoimmune
+JAK-SHP-2-mitogen-activated protein (MAP) and chronic inflammatory diseases and even
+kinase pathway. The regulation of various sets malignant cells in cancers (Nishimoto et al.
+ofIL-6responsivegenes,includingacutephase 1989,2005).
+proteins, is accounted for by the transcription Moreover, the pathological role of IL-6 in
+factorSTAT3,whichalsoinducesthesuppressor diseasedevelopmenthasbeenshowninnumer-
+of cytokine signaling 1 (SOCS1) and SOCS3, ousanimalmodelsofdiseasesaswellasthefact
+which share the SH2-domain. In this context, thatIL-6blockadebymeansofgeneknockoutor
+SOCS1 binds to tyrosine-phosphorylated JAK administration of anti-IL-6 or anti-IL-6R Ab
+(Naka et al. 1997), whereas SOCS3 binds to canresultinthepreventiveortherapeuticsup-
+tyrosine-phosphorylated gp130 (Schmitz et al. pression of disease development. Forexample,
+2000)tostopIL-6signalingbymeansofaneg- IL-6 blockade resulted in a noticeable reduc-
+ativefeedbackloop. tion in susceptibility to Castleman’s disease–
+likesymptomsinIL-6transgenicmice(Katsume
+et al. 2002). Similar effects were observed in
+IL-6ANDDISEASE
+models of RA (Alonzi et al. 1998; Ohshima et
+AnimmediateandtransientexpressionofIL-6 al. 1998; Fujimoto et al. 2008), systemic lupus
+isgeneratedinresponsetoenvironmentalstress erythematosus (Mihara et al. 1998), systemic
+factors such as infections and tissue injuries. sclerosis(Kitabaetal.2012),inflammatorymy-
+Thisexpressiontriggersanalarmsignalandac- opathies (Okiyama et al. 2009), experimental
+tivates hostdefense mechanismsagainststress. autoimmuneuveoretinitis(Harutaetal.2011),
+Removal of the source of stress from the host experimental autoimmune encephalomyelitis
+is followed by cessation of IL-6-mediated acti- (Seradaetal.2008),andmanyotherdiseases.
+vation of the signal-transduction cascade by
+negative regulatory systems such as ligand-in-
+IL-6TARGETINGASSTRATEGYFOR
+ducedinternalizationanddegradationofgp130
+TREATMENTOFIMMUNE-MEDIATED
+andrecruitmentofSOCS(Nakaetal.1997),as
+DISEASES
+wellasdegradationofIL-6mRNAbyregnase-1
+leading to termination of IL-6 production. InviewoftherangeofbiologicalactivitiesofIL-
+However,dysregulatedandpersistentIL-6pro- 6 and its pathological role in various diseases
+duction of mostly unknown etiology, one of describedabove,itwasanticipatedthatIL-6tar-
+which may be the unbalance between Arid5a getingwouldconstituteanoveltreatmentstrat-
+andregnase-1,incertaincellpopulationsleads egyforvariousimmune-mediateddiseases.The
+to the development of various diseases. This developmentoftocilizumabwasadirectresult
+association of IL-6 with disease development ofthishypothesis.Tocilizumabisahumanized
+was first shown in a case of cardiac myxoma. anti-IL-6RmonoclonalAboftheIgG1classthat
+Thecultureoffluidobtainedfromthemyxoma wasgeneratedbygraftingthecomplementarity
+tissues of a patient who presented with fever, determiningregionsofamouseantihumanIL-
+polyarthritiswithpositivityforantinuclearfac- 6RAbontohumanIgG1(Satoetal.1993),and
+tor, elevated CRP level, and hypergammaglo- it blocks IL-6-mediated signal transduction by
+bulinemia, contained a large quantity of IL-6, inhibitingIL-6bindingtotransmembraneand
+which suggested that IL-6 may contribute to solubleIL-6R(Fig.4).Theoutstandingefficacy,
+chronicinflammationandautoimmunity(Hi- tolerability,andsafetyoftocilizumabwerever-
+ranoetal.1987).Subsequentstudieshaveshown ifiedinnumerousworldwideclinicaltrialsini-
+thatdysregulationofIL-6productionoccursin tiatedinthelate1990s.Thishasresultedinthe
+the synovial cells of RA (Hirano et al. 1988), approvalofthisbiologicforthetreatmentofRA
+swollen lymph nodes of Castleman’s disease inmorethan100countries(Tanakaetal.2013),
+CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295 9
+
+--- page 10 ---
+T.Tanakaetal.
+aswellasforsystemicandpolyarticularjuvenile mediateddiseases(TanakaandKishimoto2012;
+idiopathicarthritis(Yokotaetal.2008,2012;De Tanaka et al. 2012). These comprise auto-
+Benedetti et al. 2012) and Castleman’s disease immune,chronicinflammatory,autoinflamma-
+(Nishimotoetal.2005)inseveralcountries.Al- tory,andotherdiseases.Thefirstgroupincludes
+though other biologics including TNF inhibi- systemic sclerosis, inflammatory myopathies,
+tors,T-cellstimulatorblocker,B-celldepletory, largevesselvasculitis,systemiclupuserythema-
+orIL-1Rantagonistarecurrently usedforRA, tosus, relapsing polychondritis, autoimmune
+tocilizumab has proved its superior efficacy hemolyticanemia,acquiredhemophiliaA,neu-
+as monotherapy for moderate-to-severe active romyelitis optica, and Cogan’s syndrome. The
+RA (Tanaka and Kishimoto 2011; Emeryet al. second group includes adult-onset Still’s dis-
+2013) and is recommended as a first-line bio- ease,amyloidAamyloidosis,polymyalgiarheu-
+logic.Moreover,theoutstandingefficacyofto- matica,RS3PE,Bechet’sdisease,uveitis,Crohn’s
+cilizumab for systemic juvenile idiopathic ar- disease, graft-versus-host disease, pulmonary
+thritishasledtotherecognitionofthestartof arterialhypertension,andIgG4-related diseas-
+anewerainthetreatmentofthisdisease,which es.Thethirdgroupcomprisessuchautoinflam-
+was long considered to be one of the most in- matory diseases as TNF-receptor-associated
+tractable juvenile diseases(SandborgandMel- periodic syndrome and chronic inflammato-
+lins2012). ry neurological cutaneous articular syndrome,
+Furthermore, there are strong indications whereas other diseases include atherosclerosis,
+basedonfavorableresultsdetailedinnumerous type2diabetesmellitus,atopicdermatitis,sci-
+recentcasereports,series,andpilotstudiesofthe atica, and cancer-associated cachexia. Clinical
+off-label application of tocilizumab that it can trialsareinprogresstoidentifyadditionalindi-
+be used for the treatment of various immune- cationsfortocilizumab(Table1).
+Table1.Ongoingclinicaltrialsoftocilizumab
+Targeteddiseases Status Identifier
+Diabetesmellitus(type2),obesity Phase2 NCT01073826
+Graves’ophthalmopathy Phase3 NCT01297699
+CardiovasculardiseaseinRA(vs.etanercept) Phase4 NCT01331837
+Polymyalgiarheumatica Phase2 NCT01396317
+Phase2 NCT01713842
+Giant-cellarteritis Phase2 NCT01450137
+Phase3 NCT01791153
+SteroidrefractoryacuteGVHD Phase1/2 NCT01475162
+AfterHSCT Phase2 NCT01757197
+Non-STelevationmyocardialinfarction Phase2 NCT01491074
+Noninfectiousuveitis Phase1/2 NCT01717170
+Systemicsclerosis Phase2/3 NCT01532869
+Transplantratesawaitingkidneytransplantation Phase1/2 NCT01594424
+JIA-associateduveitis Phase1/2 NCT01603355
+Recurrentovariancancer Phase1/2 NCT01637532
+Behcet’ssyndrome Phase2 NCT01693653
+Schizophrenia Phase1 NCT01696929
+Erdheim–Chesterdisease Phase2 NCT01727206
+PrimarySjogren’ssyndrome Phase2/3 NCT01782235
+Fibrousdysplasiaofbone Phase2 NCT01791842
+RegisteredwithClinicalTrials.govfordiseasesotherthanrheumatoidarthritis,juvenileidiopathicarthritis,andCastleman’s
+disease.
+GVHD,graft-versus-hostdisease;HSCT,hematopoietcstemcelltransplant;JIA,juvenileidiopathicarthritis.
+10 CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295
+
+--- page 11 ---
+IL-6inInflammation,Immunity,andDisease
+CONCLUDINGREMARKSANDFUTURE 1mg/ml, CRP remains negative (Nishimoto
+PROSPECTS et al. 2008), indicating that IL-6 plays a major
+roleintheinductionofCRPexpressionandthat
+Thefirstreportoftheexistenceofsolublefactors IL-6maybeinvolvedinthedevelopmentofal-
+fortheenhancementofIgGandIgEAbrespons- most all chronic inflammatory diseases with
+eswaspublishedbyKishimotoandIshizakain CRP elevation. Clinical trials of tocilizumab
+1973,andittook13yearsuntiltheactualcloning started in the late 1990s and this humanized
+oftheIL-6gene(Hiranoetal.1986).Afterthis monoclonalAbwasapprovedforthetreatment
+success, the fundamental research progressed ofCastleman’sdiseasein2005inJapan,nearly
+rapidlyandthewholepictureoftheIL-6signal- 20 years after the successful molecularcloning
+ing system was completed in the early 1990s oftheIL-6gene(Fig.5)(Kishimoto2005).Dur-
+(Kishimotoetal.1994).Inparallelwiththisde- ingthefollowingyears,tocilizumabhasbecome
+velopment,thepathologicalinvolvementofIL-6 afirst-linebiologicforthetreatmentofmoder-
+invariousdiseaseswasalsoestablished(Nishi- ate-to-severe active RA and the only approved
+moto et al. 1989, 2005; Yoshizaki et al. 1989). first-linebiologicforsystemicjuvenileidiopath-
+It was found that if free serum concentration icarthritis.Itisanticipatedthatduringthenext
+of tocilizumab is maintained at more than decadethisIL-6blockerwillbewidelyusedfor
+1986 Cloning of IL-6 1987 IL-6 in myxoma tissue
+1988 Cloning of IL-6 receptor 1988 IL-6 in synovial fluid in RA
+1990 Cloning of gp130 1989 IL-6 in involved LNs in Castleman’s disease
+1992 Gp130, a common signal transducer ∼ IL-6 in various diseases
+for IL-6 family cytokine
+1994 Cloning of STAT3
+CDR
+Development of
+Mouse variable region
+a humanized anti-IL-6R Ab,
+Humanized region
+tocilizumab (TCZ)
+1997 Initiation of clinical trial for RA
+2001 for Castleman’s disease
+2002 for systemic juvenile idiopathic arthritix (sJIA)
+2005 Approval of TCZ for Castleman’s disease in Japan
+2008 for RA and sJIA in Japan
+2009 for RA in the European Union (EU)
+2010 for RA in the United States
+2011 for sJIA in the EU and the United States
+2012 for RA in more than 100 countries
+Additional indication of TCZ for various diseases
+Clarification of pathological mechanism of IL-6 synthesis
+Figure5.MajordiscoveriesinIL-6-relatedresearchandestablishmentofIL-6targetingstrategyforimmune-
+mediateddiseases.BasicresearchregardingIL-6clarifiedthemolecularbasisofthecharacteristicsofcytokine,
+redundancy,andpleiotropy,whereasclinicalresearchrevealeditspathologicalsignificanceindiseasedevelop-
+ment. These findings led to concept that IL-6 targeting would constitute a novel therapeutic strategy for
+immune-mediateddiseasesandindeed,tocilizumab,ahumanizedanti-IL-6Rantibodybecameaninnovative
+biologicforthetreatmentofintractablediseasessuchasRA,systemicjuvenileidiopathicarthritis(sJIA),and
+Castleman’sdisease.Itwillbeexpectedthatthisstrategywouldbewidelyapplicableforotherimmune-mediated
+diseases.LNs,lymphnodes;TCZ,tocilizumab;CDR,complementaritydeterminingregion.
+CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295 11
+
+--- page 12 ---
+T.Tanakaetal.
+the treatment of various as-yet intractable dis- moleculesandinvestigationsintothepathogen-
+easesincludingcytokinestormanditsapplica- esisofspecificdiseases.
+tionwillovercometherefractorinessofsuchdis-
+eases.
+Toachievethisgoal,however,therearesev- ACKNOWLEDGMENTS
+eralhurdlestoovercome.First,additionalclin-
+T.K. holds a patent of tocilizumab and has re-
+icaltrialswillbeneededtoevaluatetheefficacy
+ceivedroyaltiesforActemra.T.T.receivedgrants
+and safetyof tocilizumab for various diseases.
+and payment for lectures including service on
+The second, and also important, hurdle is to
+speaker’sbureausfromChugaiPharmaceutical
+clarifythemechanismsthatrendertocilizumab
+Co., Ltd. M.N. received payment for lectures
+efficaciousforphenotypicallydifferentdiseases.
+including service on speaker’s bureaus from
+InthecaseofamyloidAamyloidosis,theame-
+ChugaiPharmaceuticalCo.,Ltd.
+liorativeeffectoftocilizumabcanbeexplained
+by its potent suppression of serum amyloid A
+protein synthesis (Tanaka et al. 2011). In the
+REFERENCES
+caseofRA,ithasbeenshownthattocilizumab
+treatment led to improvement in systemic and
+AkiraS,KishimotoT.1992.IL-6andNF-IL6inacute-phase
+joint inflammatory markers (Garnero et al. responseandviralinfection.ImmunolRev127:25–50.
+2010; Terpos et al. 2011; Kanbe et al. 2012), AkiraS,TagaT,KishimotoT.1993.Interleukin-6inbiology
+andmedicine.AdvImmunol54:1–78.
+but it remained to be determined whether it
+AlonziT,FattoriE,LazzaroD,CostaP,ProbertL,KolliasG,
+canrectifyfundamentalimmunologicalabnor-
+DeBenedettiF,PoliV,CilibertoG.1998.Interleukin6is
+malities, such as autoantibody production or requiredforthedevelopmentofcollagen-inducedarthri-
+imbalanceofeffectorCD4þT-cellsubsets(Ta- tis.JExpMed187:461–468.
+naka2013).However,recentpreliminaryresults AmbrosinoC,RuoccoMR,ChenX,MallardoM,BaudiF,
+TrematerraS,QuintoI,VenutaS,ScalaG.1997.HIV-1
+indicatethattocilizumabtreatmentcancorrect
+Tatinducestheexpressionoftheinterleukin-6(IL6)gene
+the imbalance between Th17 and Treg in pe- bybindingtotheIL6leaderRNAandbyinteractingwith
+ripheral blood CD4þ T cells (Samson et al. CAATenhancer-binding proteinb (NF-IL6) transcrip-
+tionfactors.JBiolChem272:14883–14892.
+2012;Pesceetal.2013).Moreover,itwasshown
+AndersonP.2008.Post-transcriptionalcontrolofcytokine
+thatthetreatmentcausedareductioninthelevel production.NatureImmunol9:353–359.
+ofserumIgG4-classanticycliccitrullinatedpep- AokiY,NarazakiM,KishimotoT,TosatoG.2001.Receptor
+tideAbinRA(Carboneetal.2013).Anti-aqua- engagement by viral interleukin-6 encoded by Kaposi
+sarcoma-associatedherpesvirus.Blood98:3042–3049.
+porin4(AQP4)Abplaysapathologicalrolein
+ArakiM,AranamiT,MatsuokaT,NakamuraM,MiyakeS,
+neuromyelitisoptica,andtocilizumabtreatment
+Yamamura T. 2013. Clinical improvement in a patient
+was found to improve clinical symptoms and with neuromyelitis optica following therapy with the
+reduceserum anti-AQP4 Abtiters, perhaps by anti-IL-6 receptor monoclonal antibody tocilizumab.
+ModRheumatol23:827–831.
+inhibiting cell survival of the plasmablasts se-
+BallardDW,BohnleinE,LowenthalJW,WanoY,FranzaBR,
+cretingthisAb(Chiharaetal.2011;Arakietal. GreeneWC.1988.HTLV-Itaxinducescellularproteins
+2013).IfIL-6blockadecanactuallycorrectthese thatactivatethekBelementintheIL-2receptoragene.
+Science241:1652–1655.
+immunologicalabnormalities,itwillinfactbe
+Bell DR, Poland A. 2000.Abinding ofaryl hydrocarbon
+possibletousetocilizumabforthetreatmentof
+receptor(AhR)toAhR-interactingprotein.Theroleof
+awidevarietyofimmune-mediateddiseases. hsp90.JBiolChem275:36407–36414.
+Finally,themysteryremainswhyIL-6isper- BettelliE,CarrierY,GaoW,KornT,StromTB,OukkaM,
+sistentlyexpressedindistinctcellpopulationsin WeinerHL,KuchrooVK.2006.Reciprocaldevelopmen-
+tal pathways for the generation of pathogenic effector
+variousdiseases.Accurateanddetailedanalyses
+TH17andregulatoryTcells.Nature441:235–238.
+ofproteinssuchasArid5aandregnase-1andof BianchiME.2007.DAMPs,PAMPsandalarmins:Allwe
+microRNAsthatregulateIL-6synthesiswillbe needtoknowaboutdanger.JLeukocBiol81:1–5.
+helpfulforsolvingthismystery,whereasclarifi- BoulangerMJ,ChowDC,BrevnovaEE,GarciaKC.2003.
+Hexamericstructureandassemblyoftheinterleukin-6/
+cationofthemechanism(s)involvedwillfacil-
+IL-6 a-receptor/gp130 complex. Science 300: 2101–
+itate the identification of more specific target 2104.
+12 CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295
+
+--- page 13 ---
+IL-6inInflammation,Immunity,andDisease
+BurbachKM,PolandA,BradfieldCA.1992.Cloningofthe turnover markers with the anti-interleukin-6 receptor
+Ah-receptorcDNArevealsadistinctiveligand-activated inhibitortocilizumabplusmethotrexateinrheumatoid
+transcriptionfactor.ProcNatlAcadSci89:8185–8189. arthritispatientswithaninadequateresponsetometho-
+CarboneG,WilsonA,DiehlSA,BunnJ,CooperSM,Rincon trexate:Resultsfromasubstudyofthemulticenterdou-
+M.2013.Interleukin-6receptorblockadeselectivelyre- ble-blind, placebo-controlled trial of tocilizumab in
+ducesIL-21productionbyCD4TcellsandIgG4auto- inadequate respondersto methotrexate alone.Arthritis
+antibodiesinrheumatoidarthritis.IntJBiolSci9:279– Rheum62:33–43.
+288. GillmoreJD,LovatLB,PerseyMR,PepysMB,HawkinsPN.
+ChenCY,ShyuAB.1995.AU-richelements:Characteriza- 2001.AmyloidloadandclinicaloutcomeinAAamyloid-
+tionandimportanceinmRNAdegradation.TrendsBio- osisinrelationtocirculatingconcentrationofserumam-
+chemSci20:465–470. yloidAprotein.Lancet358:24–29.
+ChenQ,WangH,LiuY,SongY,LaiL,HanQ,CaoX,Wang GrossmanRM,KruegerJ,YourishD,Granelli-PipernoA,
+Q.2012.InduciblemicroRNA-223down-regulationpro- MurphyDP,MayLT,KupperTS,SehgalPB,GottliebAB.
+motesTLR-triggeredIL-6andIL-1bproductioninmac- 1989.Interleukin6isexpressedinhighlevelsinpsoriatic
+rophagesbytargetingSTAT3.PLoSONE7:e42971. skinandstimulatesproliferationofculturedhumanker-
+ChiharaN,AranamiT,SatoW,MiyazakiY,MiyakeS,Oka- atinocytes.ProcNatlAcadSci86:6367–6371.
+motoT,OgawaM,TodaT,YamamuraT.2011.Interleu- GruppSA,KalosM,BarrettD,AplencR,PorterDL,Rhein-
+kin6signalingpromotesanti-aquaporin4autoantibody goldSR,TeacheyDT,ChewA,HauckB,WrightJF,etal.
+production from plasmablasts in neuromyelitis optica. 2013. Chimeric antigen receptor-modified T cells for
+ProcNatlAcadSci108:3701–3706. acutelymphoidleukemia.NEnglJMed368:1509–1518.
+De Benedetti F, Brunner HI, Ruperto N, Kenwright A, HarringtonLE,HattonRD,ManganPR,TurnerH,Murphy
+Wright S, Calvo I, Cuttica R, Ravelli A, Schneider R, TL,MurphyKM,WeaverCT.2005.Interleukin17-pro-
+WooP,etal.2012.Randomizedtrialoftocilizumabin ducingCD4þeffectorTcellsdevelopviaalineagedis-
+systemicjuvenileidiopathicarthritis.NEnglJMed367: tinctfromtheThelpertype1and2lineages.NatImmu-
+2385–2395.
+nol6:1123–1132.
+DeleriveP,DeBosscherK,BesnardS,VandenBergheW,
+HarutaH,OhguroN,FujimotoM,HohkiS,TerabeF,Serada
+PetersJM,GonzalezFJ,FruchartJC,TedguiA,Haegeman
+S, Nomura S, Nishida K, Kishimoto T, Naka T. 2011.
+G,StaelsB.1999.Peroxisomeproliferator-activatedre-
+Blockadeofinterleukin-6signalingsuppressesnotonly
+ceptoranegativelyregulatesthevascularinflammatory
+th17butalsointerphotoreceptorretinoidbindingpro-
+generesponsebynegativecross-talkwithtranscription
+tein-specificTh1bypromotingregulatoryTcellsinex-
+factorsNF-kBandAP-1.JBiolChem274:32048–32054.
+perimentalautoimmuneuveoretinitis.InvestOphthalmol
+DraganYP,SchrenkD.2000.Animalstudiesaddressingthe VisSci52:3264–3271.
+carcinogenicityofTCDD(orrelatedcompounds)with
+HashizumeM,HayakawaN,MiharaM.2008.IL-6trans-
+anemphasisintumourpromotion.FoodAdditContam
+signalling directly induces RANKL on fibroblast-like
+17:289–302.
+synovial cells and is involved in RANKL induction by
+DuncanMR,BermanB.1991.Stimulationofcollagenand
+TNF-a and IL-17. Rheumatology (Oxford) 47: 1635–
+glycosaminoglycanproductioninculturedhumanadult
+1640.
+dermalfibroblastsbyrecombinanthumaninterleukin6.
+JInvestDermatol97:686–692. HashizumeM,HayakawaN,SuzukiM,MiharaM.2009.IL-
+6/sIL-6Rtrans-signalling,butnotTNF-ainducedangio-
+EmaM,SogawaK,WatanabeN,ChujohY,MatsushitaN,
+genesisinaHUVECandsynovialcellco-culturesystem.
+GotohO,FunaeY,Fujii-KuriyamaY.1992.cDNAcloning
+RheumatolInt29:1449–1454.
+and structure of mouse putative Ah receptor. Biochem
+BiophysResCommun184:246–253. HeM,XuZ,DingT,KuangDM,ZhengL.2009.MicroRNA-
+155regulatesinflammatorycytokineproductionintu-
+EmeryP,SebbaA,HuizingaTW.2013.Biologicandoral
+mor-associatedmacrophagesviatargetingC/EBPb.Cell
+disease-modifyingantirheumaticdrugmonotherapyin
+MolImmunol6:343–352.
+rheumatoidarthritis.AnnRheumDis72:1897–1904.
+HeinrichPC,CastellJV,AndusT.1990.Interleukin-6and
+FishmanD,FauldsG,JefferyR,Mohamed-AliV,YudkinJS,
+theacutephaseresponse.BiochemJ265:621–636.
+HumphriesS,WooP.1998.Theeffectofnovelpolymor-
+phisms in the interleukin-6 (IL-6) gene on IL-6 tran- HibiM,MurakamiM,SaitoM,HiranoT,TagaT,Kishimoto
+scription and plasma IL-6 levels, and an association T. 1990. Molecular cloning and expression of an IL-6
+withsystemic-onsetjuvenilechronicarthritis.JClinIn- signaltransducer,gp130.Cell63:1149–1157.
+vest102:1369–1376. HiranoT,YasukawaK,HaradaH,TagaT,WatanabeY,Mat-
+Fujii-Kuriyama Y, Ema M, Miura J, Sogawa K. 1994. Ah suda T, Kashiwamura S, NakajimaK,KoyamaK,Iwa-
+receptor: A novel ligand-activated transcription factor. matsuA,etal.1986.ComplementaryDNAforanovel
+ExpClinImmunogenet1:65–74. humaninterleukin(BSF-2)thatinducesBlymphocytes
+FujimotoM,SeradaS,MiharaM,UchiyamaY,YoshidaH, toproduceimmunoglobulin.Nature324:73–76.
+KoikeN,OhsugiY,NishikawaT,RipleyB,KimuraA,etal. Hirano T, Taga T, Yasukawa K, Nakajima K, Nakano N,
+2008. Interleukin-6 blockade suppresses autoimmune TakatsukiF,ShimizuM,MurashimaA,TsunasawaS,Sa-
+arthritis in mice by the inhibition of inflammatory kiyamaF,etal.1987.HumanB-celldifferentiationfactor
+Th17responses.ArthritisRheum58:3710–3719. definedbyananti-peptideantibodyanditspossiblerole
+GarneroP,ThompsonE,WoodworthT,SmolenJS.2010. inautoantibodyproduction.ProcNatlAcadSci84:228–
+Rapidandsustainedimprovementinboneandcartilage 231.
+CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295 13
+
+--- page 14 ---
+T.Tanakaetal.
+HiranoT,MatsudaT,TurnerM,MiyasakaN,BuchanG, LPS-induced inflammatory responses. J Exp Med 206:
+TangB,SatoK,ShimizuM,MainiR,FeldmannM,etal. 2027–2035.
+1988.Excessiveproductionofinterleukin6/Bcellstim- KishimotoT.1985.FactorsaffectingB-cellgrowthanddif-
+ulatoryfactor-2inrheumatoidarthritis.EurJImmunol ferentiation.AnnuRevImmunol3:133–157.
+18:1797–1801.
+KishimotoT.1989.Thebiologyofinterleukin-6.Blood74:
+HiranoT,AkiraS,TagaT,KishimotoT.1990.Biologicaland 1–10.
+clinicalaspectsofinterleukin6.ImmunolToday11:443–
+Kishimoto T. 2005. Interleukin-6: From basic science to
+449.
+medicine—40yearsinimmunology.AnnuRevImmunol
+ImaiY,KubaK,NeelyGG,Yaghubian-MalhamiR,Perk-
+23:1–21.
+mannT,vanLooG,ErmolaevaM,VeldhuizenR,Leung
+KishimotoT,IshizakaK.1973.Regulationofantibodyre-
+YH,WangH,etal.2008.Identificationofoxidativestress
+sponseinvitro:VII.EnhancingsolublefactorsforIgG
+andToll-likereceptor4signalingasakeypathwayofacute
+andIgEantibodyresponse.JImmunol111:1194–1205.
+lunginjury.Cell133:235–249.
+IshibashiT,KimuraH,ShikamaY,UchidaT,KariyoneS, KishimotoT,AkiraS,TagaT.1992.Interleukin-6andits
+Hirano T, Kishimoto T, Takatsuki F, Akiyama Y. 1989. receptor: Aparadigmforcytokines.Science258:593–
+Interleukin-6isapotentthrombopoieticfactorinvivo 597.
+inmice.Blood74:1241–1244. KishimotoT,TagaT,AkiraS.1994.Cytokinesignaltrans-
+IvanovII,McKenzieBS,ZhouL,TadokoroCE,LepelleyA, duction.Cell76:253–262.
+LafailleJJ,CuaDJ,LittmanDR.2006.Theorphannucle- KishimotoT,AkiraS,NarazakiM,TagaT.1995.Interleukin-
+arreceptorRORgdirectsthedifferentiationprogramof 6familyofcytokinesandgp130.Blood86:1243–1254.
+proinflammatoryIL-17þThelpercells.Cell126:1121–
+KitabaS,MurotaH,TeraoM,AzukizawaH,TerabeF,Shima
+1133. Y,FujimotoM,TanakaT,NakaT,KishimotoT,etal.2012.
+IwasakiH,TakeuchiO,TeraguchiS,MatsushitaK,UehataT, Blockadeofinterleukin-6 receptoralleviatesdiseasein
+KuniyoshiK,SatohT,SaitohT,MatsushitaM,Standley mousemodelofscleroderma.AmJPathol180:165–176.
+DM,etal.2011.TheIkBkinasecomplexregulatesthe
+KornT,BettelliE,OukkaM,KuchrooVK.2009.IL-17and
+stabilityofcytokine-encodingmRNAinducedbyTLR-
+Th17cells.AnnuRevImmunol27:485–517.
+IL-1Rbycontrollingdegradationofregnase-1.NatIm-
+KotakeS,SatoK,KimKJ,TakahashiN,UdagawaN,Naka-
+munol12:1167–1175.
+muraI,YamaguchiA,KishimotoT,SudaT,Kashiwazaki
+JilkaRL,HangocG,GirasoleG,PasseriG,WilliamsDC,
+S.1996.Interleukin-6andsolubleinterleukin-6receptors
+Abrams JS, Boyce B, Broxmeyer H, Manolagas SC.
+inthesynovialfluidsfromrheumatoidarthritispatients
+1992. Increased osteoclast development after estrogen
+areresponsibleforosteoclast-likecellformation.JBone
+loss:mediationbyinterleukin-6.Science257:88–91.
+MinerRes11:88–95.
+JuxB,KadowS,EsserC.2009.Langerhanscellmaturation
+KumarH,KawaiT,AkiraS.2011.Pathogenrecognitionby
+andcontacthypersensitivityareimpairedinarylhydro-
+theinnateimmunesystem.IntRevImmunol30:16–34.
+carbonreceptor-nullmice.JImmunol182:6709–6717.
+LaurenceA,TatoCM,DavidsonTS,KannoY,ChenZ,YaoZ,
+KanbeK,NakamuraA,InoueY,HoboK.2012.Osteopro-
+Blank RB, Meylan F, Siegel R, Hennighausen L, et al.
+tegerin expression in bone marrow by treatment with
+2007. Interleukin-2 signaling via STAT5 constrains T
+tocilizumabinrheumatoidarthritis.RheumatolInt32:
+helper17cellgeneration.Immunity26:371–381.
+2669–2674.
+LeeYH,BaeSC,ChoiSJ,JiJD,SongGG.2012.Theassoci-
+Kang JG, Pripuzova N, Majerciak V, Kruhlak M, Le SY,
+ationbetweeninterleukin-6polymorphismsandrheu-
+Zheng ZM. 2011. Kaposi’s sarcoma-associated herpes-
+matoidarthritis:Ameta-analysis.InflammRes61:665–
+virusORF57promotesescapeofviralandhumaninter-
+671.
+leukin-6frommicroRNA-mediatedsuppression.JVirol
+85:2620–2630. Leung K, Nabel GJ. 1988.HTLV-1 transactivator induces
+KatsumeA,SaitoH,YamadaY,YorozuK,UedaO,Aka- interleukin-2 receptor expression through an NF-kB-
+matsuK,NishimotoN,KishimotoT,YoshizakiK,Ohsugi likefactor.Nature333:776–778.
+Y.2002.Anti-interleukin6(IL-6)receptorantibodysup- LibermannTA,BaltimoreD.1990.Activationofinterleu-
+pressesCastleman’sdiseaselikesymptomsemergedinIL- kin-6geneexpressionthroughtheNF-kBtranscription
+6transgenicmice.Cytokine20:304–311. factor.MolCellBiol10:2327–2334.
+KawanoM,HiranoT,MatsudaT,TagaT,HoriiY,IwatoK, LiuzziJP,LichtenLA,RiveraS,BlanchardRK,AydemirTB,
+Asaoku H, Tang B, Tanabe O, Tanaka H, et al. 1988. KnutsonMD,GanzT,CousinsRJ.2005.Interleukin-6
+Autocrine generation and requirement of BSF-2/IL-6 regulatesthezinctransporterZip14inliverandcontrib-
+forhumanmultiplemyelomas.Nature332:83–85. utestothehypozincemiaoftheacute-phase response.
+KimuraA,KishimotoT.2010.IL-6:RegulatorofTreg/Th17 ProcNatlAcadSci102:6843–6848.
+balance.EurJImmunol40:1830–1835. MaCS,DeenickEK,BattenM,TangyeSG.2012.Theori-
+KimuraA,NakaT,NoharaK,Fujii-KuriyamaY,Kishimoto gins,function,andregulationofTfollicularhelpercells.
+T.2008.ArylhydrocarbonreceptorregulatesStat1acti- JExpMed209:1241–1253.
+vationandparticipatesinthedevelopmentofTh17cells. MaheY,MukaidaN,KunoK,AkiyamaM,IkedaN,Matsu-
+ProcNatlAcadSci105:9721–9726. shimaK,MurakamiS.1991.HepatitisBvirusXprotein
+KimuraA,NakaT,NakahamaT,ChinenI,MasudaK,No- transactivateshumaninterleukin-8genethroughacting
+haraK,Fujii-KuriyamaY,KishimotoT.2009.Arylhy- onnuclearfactorkBandCCAAT/enhancer-bindingpro-
+drocarbonreceptorincombinationwithStat1regulates tein-likecis-elements.JBiolChem266:13759–13763.
+14 CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295
+
+--- page 15 ---
+IL-6inInflammation,Immunity,andDisease
+Masuda K, Ripley B, Nishimura R, Mino T, Takeuchi O, NishimotoN,KanakuraY,AozasaK,JohkohT,Nakamura
+ShioiG,KiyonariH,KishimotoT.2013.Arid5acontrols M,NakanoS,NakanoN,IkedaY,SasakiT,NishiokaK,
+IL-6mRNAstability,whichcontributestoelevationof etal.2005.Humanizedanti-interleukin-6receptoranti-
+IL-6levelinvivo.ProcNatlAcadSci110:9409–9414. bodytreatmentofmulticentricCastlemandisease.Blood
+MatsusakaT,FujikawaK,NishioY,MukaidaN,Matsushima 106:2627–2632.
+K,KishimotoT,AkiraS.1993.TranscriptionfactorsNF- Nishimoto N, Terao K, Mima T, Nakahara H, Takagi N,
+IL6andNF-kBsynergisticallyactivatetranscription of KakehiT.2008.Mechanismsandpathologicsignificances
+theinflammatorycytokines,interleukin6andinterleu- inincreaseinseruminterleukin-6(IL-6)andsolubleIL-6
+kin8.ProcNatlAcadSci90:10193–10197. receptorafteradministrationofananti-IL-6receptoran-
+MatsushitaK,TakeuchiO,StandleyDM,KumagaiY,Kawa- tibody,tocilizumab,inpatientswithrheumatoidarthritis
+goeT,MiyakeT,SatohT,KatoH,TsujimuraT,Nakamura andCastlemandisease.Blood112:3959–3964.
+H,etal.2009.Zc3h12aisanRNaseessentialforcontrol-
+OhnoH,KanekoS,LinY,KobayashiK,MurakamiS.1999.
+lingimmuneresponsesbyregulatingmRNAdecay.Na-
+HumanhepatitisBvirusXproteinaugmentstheDNA
+ture458:1185–1190.
+bindingofnuclearfactorforIL-6throughitsbasic-leu-
+MiharaM,TakagiN,TakedaY,OhsugiY.1998.IL-6receptor cinezipperdomain.JMedVirol58:11–18.
+blockageinhibitstheonsetofautoimmunekidneydis-
+OhshimaS,SaekiY,MimaT,SasaiM,NishiokaK,Nomura
+easeinNZB/WF1mice.ClinExpImmunol112:397–
+S,KopfM,KatadaY,TanakaT,SuemuraM,etal.1998.
+402.
+Interleukin6playsakeyroleinthedevelopmentofan-
+MurakamiM,HibiM,NakagawaN,NakagawaT,Yasukawa
+tigen-induced arthritis. Proc Natl Acad Sci 95: 8222–
+K,YamanishiK,TagaT,KishimotoT.1993.IL-6-induced
+8226.
+homodimerizationofgp130andassociatedactivationof
+atyrosinekinase.Science260:1808–1810. OhtakeF,TakeyamaK,MatsumotoT,KitagawaH,Yama-
+moto Y, Nohara K, Tohyama C, Krust A, Mimura J,
+NakaT,NarazakiM,HirataM,MatsumotoT,MinamotoS,
+ChambonP,etal.2003.Modulationofoestrogenrecep-
+AonoA,NishimotoN,KajitaT,TagaT,YoshizakiK,etal.
+tor signalling by association with the activated dioxin
+1997. Structure and function of a new STAT-induced
+receptor.Nature423:545–550.
+STATinhibitor.Nature387:924–929.
+OkadaM,KitaharaM,KishimotoS,MatsudaT,HiranoT,
+NakahamaT,KimuraA,NguyenNT,ChinenI,HaniehH,
+KishimotoT.1988.IL-6/BSF-2functionsasakillerhelp-
+Nohara K, Fujii-Kuriyama Y, Kishimoto T. 2011. Aryl
+hydrocarbon receptor deficiency in T cells suppresses erfactorintheinvitroinductionofcytotoxicTcells.J
+the development of collagen-induced arthritis. Proc Immunol141:1543–1549.
+NatlAcadSci108:14222–14227. OkiyamaN,SugiharaT,IwakuraY,YokozekiH,MiyasakaN,
+NakahamaT,HaniehH,NguyenNT,ChinenI,RipleyB, Kohsaka H. 2009. Therapeutic effects of interleukin-6
+MillrineD,LeeS,NyatiKK,DubeyPK,ChowdhuryK, blockadeinamurinemodelofpolymyositisthatdoes
+etal.2013.Arylhydrocarbonreceptor-mediatedinduc- notrequireinterleukin-17A.ArthritisRheum60:2505–
+tionofthemicroRNA-132/212clusterpromotesinter- 2512.
+leukin-17-producing T-helper cell differentiation. Proc Palanisamy V, Jakymiw A, Van Tubergen EA, D’Silva NJ,
+NatlAcadSci110:11964–11969. KirkwoodKL.2012.ControlofcytokinemRNAexpres-
+NakaharaH,SongJ,SugimotoM,HagiharaK,Kishimoto sionbyRNA-bindingproteinsandmicroRNAs.JDent
+T,YoshizakiK,NishimotoN.2003.Anti-interleukin-6 Res91:651–658.
+receptorantibodytherapyreducesvascularendothelial Pesce B, Soto L, Sabugo F, Wurmann P, Cuchacovich M,
+growthfactorproductioninrheumatoidarthritis.Arthri- LopezMN,SoteloPH,MolinaMC,AguillonJC,Catalan
+tisRheum48:1521–1529.
+D.2013.Effectofinterleukin-6receptorblockadeonthe
+NarazakiM,YasukawaK,SaitoT,OhsugiY,FukuiH,Koi- balancebetweenregulatoryTcellsandThelpertype17
+shiharaY,YancopoulosGD,TagaT,KishimotoT.1993. cellsinrheumatoidarthritispatients.ClinExpImmunol
+Solubleformsoftheinterleukin-6signal-transducingre- 171:237–242.
+ceptorcomponentgp130inhumanserumpossessinga
+PoliV,BalenaR,FattoriE,MarkatosA,YamamotoM,Ta-
+potentialtoinhibitsignalsthroughmembrane-anchored
+nakaH,CilibertoG,RodanGA,CostantiniF.1994.In-
+gp130.Blood82:1120–1126.
+terleukin-6deficientmiceareprotectedfromboneloss
+NemethE,RiveraS,GabayanV,KellerC,TaudorfS,Peder-
+causedbyestrogendepletion.EMBOJ13:1189–1196.
+sen BK, Ganz T. 2004. IL-6 mediates hypoferremia of
+Puga A, Tomlinson CR, Xia Y. 2005. Ah receptor signals
+inflammationbyinducingthesynthesisoftheironreg-
+cross-talk with multiple developmental pathways. Bio-
+ulatoryhormonehepcidin.JClinInvest113:1271–1276.
+chemPharmacol69:199–207.
+NguyenNT,KimuraA,NakahamaT,ChinenI,MasudaK,
+Nohara K, Fujii-Kuriyama Y, Kishimoto T. 2010. Aryl RayA,PrefontaineKE.1994.Physicalassociationandfunc-
+hydrocarbonreceptornegativelyregulatesdendriticcell tionalantagonismbetweenthep65subunitoftranscrip-
+immunogenicity via a kynurenine-dependent mecha- tionfactorNF-kBandtheglucocorticoidreceptor.Proc
+nism.ProcNatlAcadSci107:19961–19966. NatlAcadSci91:752–756.
+NishimotoN,YoshizakiK,TagohH,MondenM,Kishimoto Samson M, Audia S, Janikashvili N, Ciudad M, Trad M,
+S,HiranoT,KishimotoT.1989.Elevationofserumin- FraszczakJ,OrnettiP,MaillefertJF,MiossecP,Bonnotte
+terleukin6priortoacutephaseproteinsontheinflam- B.2012.Briefreport:Inhibitionofinterleukin-6function
+mationbysurgicaloperation.ClinImmunolImmunopa- correctsTh17/Tregcellimbalanceinpatientswithrheu-
+thol50:399–401. matoidarthritis.ArthritisRheum64:2499–2503.
+CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295 15
+
+--- page 16 ---
+T.Tanakaetal.
+SandborgC,MellinsED.2012.Anewerainthetreatmentof TerposE,FragiadakiK,KonstaM,BratengeierC,Papatheo-
+systemicjuvenileidiopathicarthritis.NEnglJMed367: dorouA,SfikakisPP.2011.EarlyeffectsofIL-6receptor
+2439–2440. inhibitiononbonehomeostasis:Apilotstudyinwomen
+SanthanamU,RayA,SehgalPB.1991.Repressionofthe withrheumatoidarthritis.ClinExpRheumatol29:921–
+interleukin6genepromoterbyp53andtheretinoblas- 925.
+tomasusceptibilitygeneproduct.ProcNatlAcadSci88: UehataT,IwasakiH,VandenbonA,MatsushitaK,Hernan-
+7605–7609. dez-CuellarE,KuniyoshiK,SatohT,MinoT,SuzukiY,
+Sato K, Tsuchiya M, Saldanha J, Koishihara Y, Ohsugi Y, StandleyDM,etal.2013.Malt1-inducedcleavageofreg-
+Kishimoto T, Bendig MM. 1993. Reshaping a human
+nase-1inCD4þhelperTcellsregulatesimmuneactiva-
+antibodytoinhibittheinterleukin6-dependenttumor tion.Cell153:1036–1049.
+cellgrowth.CancerRes53:851–856. VogelCFA,GothSR,DongB,PessahIN,NatsumuraF.2008.
+Arylhydrocarbonreceptorsignalingmediatesexpression
+ScalaG,RuoccoMR,AmbrosinoC,MallardoM,Giordano
+of indoleamine 2,3-dioxygenase. Biochem Biophys Res
+V,BaldassarreF,DragonettiE,QuintoI,VenutaS.1994.
+Commun375:331–335.
+Theexpressionoftheinterleukin6geneisinducedbythe
+human immunodeficiency virus 1 TAT protein. J Exp XuZ,XiaoSB,XuP,XieQ,CaoL,WangD,LuoR,ZhongY,
+Med179:961–971. Chen HC, Fang LR. 2011. MiR-365, a novel negative
+regulatorof interleukin-6 gene expression, is coopera-
+SchmitzJ,WeissenbachM,HaanS,HeinrichPC,SchaperF.
+tively regulated by Sp1 and NF-kB. J Biol Chem 286:
+2000.SOCS3exertsitsinhibitoryfunctiononinterleu-
+21401–21412.
+kin-6signaltransductionthroughtheSHP2recruitment
+sitesofgp130.JBiolChem275:12848–12856. YamasakiK,TagaT,HirataY,YawataH,KawanishiY,SeedB,
+TaniguchiT,HiranoT,KishimotoT.1988.Cloningand
+SeradaS,FujimotoM,MiharaM,KoikeN,OhsugiY,No-
+expressionofthehumaninterleukin-6(BSF-2/IFN-b2)
+muraS,YoshidaH,NishikawaT,TerabeF,OhkawaraT,
+receptor.Science241:825–828.
+etal.2008.IL-6blockadeinhibitstheinductionofmyelin
+antigen-specificTh17cellsandTh1cellsinexperimental YangXO,PappuBP,NurievaR,AkimzhanovA,KangHS,
+autoimmuneencephalomyelitis.ProcNatlAcadSci105: ChungY,MaL,ShahB,Panopoulos AD, SchlunsKS,
+9041–9046. et al. 2008. T helper 17 lineage differentiation is pro-
+grammed by orphan nuclear receptors RORa and
+SimsGP,RoweDC,RietdijkST,HerbstR,CoyleAJ.2010.
+RORg.Immunity28:29–39.
+HMGB1andRAGEininflammationandcancer.Annu
+RevImmunol28:367–388. YokotaS,ImagawaT,MoriM,MiyamaeT,AiharaY,TakeiS,
+IwataN,UmebayashiH,MurataT,MiyoshiM,etal.2008.
+StumhoferJS,LaurenceA,WilsonEH,HuangE,TatoCM,
+Efficacyandsafetyoftocilizumabinpatientswithsys-
+JohnsonLM,VillarinoAV,HuangQ,YoshimuraA,Sehy
+temic-onsetjuvenileidiopathicarthritis:Arandomised,
+D,etal.2006.Interleukin27negativelyregulatesthede-
+double-blind, placebo-controlled, withdrawal phase III
+velopment of interleukin 17-producing T helper cells
+trial.Lancet371:998–1006.
+duringchronicinflammationofthecentralnervoussys-
+YokotaS,TanakaT,KishimotoT.2012.Efficacy,safetyand
+tem.NatImmunol7:937–945.
+tolerabilityoftocilizumabinpatientswithsystemicjuve-
+Taga T, Kishimoto T. 1997. Gp130 and the interleukin-6
+nileidiopathicarthritis.TherAdv MusculoskeletDis4:
+familyofcytokines.AnnuRevImmunol15:797–819.
+387–397.
+Tanaka T. 2013.Can IL-6blockade rectify imbalance be-
+YoshizakiK,MatsudaT,NishimotoN,KuritaniT,TaehoL,
+tweenTregsandTh17cells?Immunotherapy5:695–697.
+AozasaK,NakahataT,KawaiH,TagohH,KomoriT,etal.
+TanakaT,KishimotoT.2011.Immunotherapyoftocilizu- 1989. Pathogenic significance of interleukin-6 (IL-6/
+mabforrheumatoidarthritis.JClinCellImmunolS6: BSF-2)inCastleman’sdisease.Blood74:1360–1367.
+001.
+YuD,RaoS,TsaiLM,LeeSK,HeY,SutcliffeEL,Srivastava
+TanakaT,KishimotoT.2012.Targetinginterleukin-6:All M,LintermanM,ZhengL,SimpsonN,etal.2009.The
+thewaytotreatautoimmuneandinflammatorydiseases. transcriptional repressor Bcl-6 directs T follicular cell
+IntJBiolSci8:1227–1236. lineagecommitment.Immunity31:457–468.
+TanakaT,HagiharaK,HishitaniY,OgataA.2011.Tocilizu- ZhangQ,RaoofM,ChenY,SumiY,SursalT,JungerW,
+mabforthetreatmentofAAamyloidosis.InAmyloid- BrohiK,ItagakiK,HauserCJ.2010.Circulatingmito-
+osis—Aninsighttodiseaseofsystemsandnoveltherapies chondrialDAMPscauseinflammatoryresponsestoin-
+(ed.IsilAdadanGuvencMD),pp.155–170.InTechOpen jury.Nature464:104–107.
+Access,Rijeka,Croatia. ZhaoW,LiuM,KirkwoodKL.2008.pp38astabilizesinter-
+TanakaT,NarazakiM,KishimotoT.2012.Therapeutictar- leukin-6 mRNAvia multiple AU-rich elements. J Biol
+getingoftheinterleukin-6receptor.AnnuRevPharmacol Chem283:1778–1785.
+Toxicol52:199–219. ZilahiE,TarrT,PappG,GrigerZ,SipkaS,ZeherM.2012.In-
+TanakaT,OgataA,NarazakiM.2013.Tocilizumab:Anup- creased microRNA-146a/b, TRAF6 gene and decreased
+datedreviewofitsuseinthetreatmentofrheumatoid IRAK1geneexpressionsintheperipheralmononuclear
+arthritisanditsapplicationforotherimmune-mediated cellsofpatientswithSjo¨gren’ssyndrome.ImmunolLett
+diseases.ClinMedInsightsTher5:33–52. 141:165–168.
+16 CitethisarticleasColdSpringHarbPerspectBiol2014;6:a016295
+

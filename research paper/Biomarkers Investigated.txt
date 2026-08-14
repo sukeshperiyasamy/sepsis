@@ -1,0 +1,498 @@
+Biomarkers Investigated
+N-Acetylmuramic Acid (NAM) – Peptidoglycan monomer (carbohydrate-rich; Gram-positive & Gram-negative relevance)
+
+Lipopolysaccharide (LPS) – Gram-negative bacterial outer membrane marker (lipid + polysaccharide)
+
+Lipoteichoic Acid (LTA) – Gram-positive bacterial cell wall marker (glycerophosphate polymer)
+
+Phase 1: Sample & Stock Preparation
+Prepared primary stock solutions for each biomarker:
+
+1 mg biomarker dissolved in 1 mL solvent
+
+Stock concentration: 1 mg/mL
+
+Prepared serial 10× dilutions (10⁻¹ to 10⁻⁴ mg/mL) to cover:
+
+High, medium, and low concentration ranges
+
+Below-detection concentration regime for LOD analysis
+
+Phase 2: Solvent & Buffer Strategy
+Ultrapure water (Milli-Q, 18.2 MΩ·cm) selected as the primary solvent:
+
+Minimal Raman background
+
+No spectral overlap with biomarker fingerprint region
+
+Optimal for peak identification and sensitivity studies
+
+PBS intentionally avoided for SERS measurements due to:
+
+Strong phosphate Raman bands (800–1100 cm⁻¹)
+
+Overlap with NAM, LPS, and LTA characteristic peaks
+
+Reduced molecule–substrate adsorption and signal reproducibility
+
+Phase 3: SERS Spectral Acquisition
+For each biomarker and concentration:
+
+Identical drop-casting volume on SERS substrate
+
+Same laser power, acquisition time, and optical settings
+
+Multiple spectra collected per condition to assess:
+
+Reproducibility
+
+Signal stability
+
+Sensor-to-sensor variability
+
+Phase 4: Spectral Validation
+Identified biomarker-specific Raman signatures:
+
+NAM: Dominant carbohydrate and glycosidic vibrations (C–O, C–O–C)
+
+LPS: Lipid-chain CH₂ modes and phosphate vibrations (lipid A region)
+
+LTA: Phosphate backbone and C–O–P stretching modes
+
+Confirmed:
+
+Peak positions remain stable across concentrations
+
+Signal intensity decreases systematically with dilution
+
+Phase 5: Sensitivity & Limit of Detection (LOD)
+Gradual dilution used to identify lowest detectable concentration.
+
+LOD defined as:
+
+“The lowest concentration at which characteristic biomarker peaks remain clearly distinguishable from noise.”
+
+Representative outcome:
+
+Peaks visible down to 10⁻³ mg/mL
+
+Peaks not detectable at 10⁻⁴ mg/mL
+
+Practical LOD ≈ 10⁻³ mg/mL
+
+Phase 6: Data Consolidation
+Compiled concentration vs. peak visibility data
+
+Documented:
+
+Signal-to-noise trends
+
+Reproducibility across sensors
+
+Strengths and limitations of the current SERS setup
+
+TASK 1: Target Concentration of Biomarkers in Infant / Child Blood
+1. Lipopolysaccharide (LPS / Endotoxin)
+
+https://microbeonline.com/wp-content/uploads/2013/04/lipopolysaccharides.jpg
+
+https://www.researchgate.net/publication/233838166/figure/fig1/AS%3A202715033542666%401425342438769/Reaction-mechanism-for-endotoxin-activity-assay-utilizing-anti-lipopolysaccharide.png
+Reported Plasma Levels (Literature Summary)
+Clinical Group	Endotoxin Level
+Healthy / non-infectious neonates	~6–10 pg/mL
+Normal children (upper limit)	~35 pg/mL
+Pre-operative pediatric patients	64 ± 59 pg/mL
+Non-sepsis ICU patients	~157 pg/mL
+Sepsis patients (mean)	~470–580 pg/mL
+Severe infection range	Up to 5.1 ng/mL
+Key Clinical Thresholds
+< 10 pg/mL → normal neonatal level
+
+~35 pg/mL → upper limit of normal in children
+
+> 50 pg/mL → strongly associated with Gram-negative infection
+
+Conclusion:
+➡ Clinically relevant detection window: 10 pg/mL – 1 ng/mL
+
+2. Lipoteichoic Acid (LTA)
+
+https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=137349712&t=l
+
+https://microbeonline.com/wp-content/uploads/2013/04/Gram-positive-cell-wall.jpg
+Reported Concentrations
+Sample Type	LTA Concentration
+Catheter aspirate	0.1 – 8.1 ng/mL
+Mean (catheter)	2.38 ± 1.47 ng/mL
+Systemic blood	0.25 – 15 ng/mL
+Mean (systemic)	3.93 ± 3.39 ng/mL
+Important Note
+Neonatal studies confirm detectability, not absolute baseline levels.
+
+LTA is amphiphilic and circulates bound to lipoproteins.
+
+Conclusion:
+➡ Clinically relevant range: 0.1 – 10 ng/mL
+
+3. Muramic Acid / N-Acetylmuramic Acid (MurNAc)
+
+https://upload.wikimedia.org/wikipedia/commons/5/5e/N-Acetylmuramic_acid.svg
+
+https://www.researchgate.net/publication/265341994/figure/fig2/AS%3A272569622331419%401441997070931/Schematic-representation-of-the-structure-of-peptidoglycan-This-is-the-type-of-structure.png
+Key Findings
+Muramic acid detected inside peripheral blood leukocytes
+
+~60% of young subjects showed detectable MurNAc
+
+Presence decreases with age
+
+No clear disease-specific correlation
+
+Represents bacterial cell wall turnover, not free plasma concentration
+
+Conclusion:
+➡ MurNAc is a qualitative exposure marker, not a quantitative plasma biomarker
+➡ Best suited for sensitive SERS detection, not concentration benchmarking
+
+TASK 2: Aptamers & Antibodies for Biomarker Capture
+1. LPS (E. coli O111:B4)
+Capture Type	Details
+Aptamer	DNA aptamer specific to E. coli O111:B4 LPS
+Probe design	Aptamer-functionalized AuNP SERS probe
+Recognition	High specificity for O-antigen region
+Antibody	Commercial monoclonal anti-LPS antibody
+Supplier	Sigma-Aldrich
+2. LTA (Staphylococcus aureus)
+Capture Type	Details
+Aptamer	Reported LTA-binding aptamers (proof-of-concept studies)
+Antibody	Mouse monoclonal anti-LTA
+Clone	ID-55
+Suppliers	OriGene, Sigma-Aldrich
+Conclusion:
+➡ Antibodies are currently more validated for LTA capture
+➡ Aptamers show promise but are less standardized
+
+TASK 3: Solvent with Highest Solubility (Experimental Design Input)
+Solubility Comparison Table
+Biomarker	Water	PBS (pH 7.2–7.4)	DMSO	DMF	Ethanol
+LTA	~5 mg/mL (hazy)	Moderate (hazy)	Not reported	Not reported	Moderate
+MurNAc	~50 mg/mL (clear)	~10 mg/mL	~30 mg/mL	~2.5 mg/mL	Not reported
+LPS	~5 mg/mL (hazy)	Similar to water	Poor	Unknown	Poor (turbid)
+Key Physical Behavior
+LPS and LTA form micelles in all solvents
+
+Organic solvents do not improve clarity
+
+Heating aqueous solutions increases apparent solubility but remains hazy
+
+Final Summary: Best Solvent for Each Biomarker
+Biomarker	Best Solvent	Reason
+LTA	Water	Highest usable solubility; biologically relevant
+MurNAc	Water	Highest solubility (~50 mg/mL), clear solution
+LPS	Water	Best among tested; organic solvents ineffective
+Overall Take-Home Messages
+Clinically relevant detection targets
+
+LPS: 10 pg/mL – 1 ng/mL
+
+LTA: 0.1 – 10 ng/mL
+
+Water is the optimal solvent for all three biomarkers
+
+MurNAc is exposure-linked, not disease-specific
+
+Antibodies remain gold-standard capture probes
+
+Data strongly supports SERS-based biosensor development
+
+Paper 1: Functionalized Arrays of Raman-Enhancing Nanoparticles for Capture and Culture-Free Analysis of Bacteria in Human Blood
+Key Contribution
+This work demonstrates vancomycin (Van) as a universal capture probe for bacteria by targeting NAM-associated peptidoglycan structures in the bacterial cell wall.
+
+Target Biomarker
+Peptidoglycan (NAM–NAG backbone)
+
+Indirect targeting of N-acetylmuramic acid (NAM) via the D-Ala–D-Ala terminus
+
+Capture Probe
+Vancomycin (Van)
+
+Binding mechanism: Hydrogen bonding between Van carbonyl/amine groups and peptidoglycan
+
+Selective for bacteria over blood cells
+
+Substrate & Sensor Design
+Ag/AAO SERS substrates
+
+Arrays of silver nanoparticles
+
+Vancomycin immobilized on Ag surfaces
+
+Experimental Parameters
+Parameter	Value
+Raman type	SERS
+Laser	He–Ne
+Wavelength	632.8 nm
+Objective	50×
+Acquisition time	~60 s
+Spectral range	400–1800 cm⁻¹
+Vancomycin Functionalization
+Van concentration: 100 mM – 80 μM
+
+Immersion time: 1 hour
+
+Optimal Van surface density: ~4 μg cm⁻²
+
+Key Findings
+~1000-fold increase in bacterial capture efficiency
+
+Blood cells excluded effectively:
+
+Blood cell sticking probability 60× higher on pristine substrates
+
+Bacterial capture 300× lower on pristine substrates
+
+Enables discrimination between:
+
+Van-susceptible Enterococcus (VSE)
+
+Van-resistant Enterococcus (VRE)
+
+Distinct SERS peaks observed for VSE
+
+Relevance to NAM
+Vancomycin captures bacteria by binding NAM-linked peptidoglycan, making it a validated indirect NAM capture probe.
+
+Paper 2: Development of a Magnetically-Assisted SERS Biosensor for Rapid Bacterial Detection
+Key Contribution
+This study combines magnetic capture + WGA-based SERS tagging for ultra-sensitive bacterial detection.
+
+Target Biomarker
+N-acetyl-D-glucosamine (NAG) and its derivatives
+
+Present alongside NAM in peptidoglycan
+
+Capture & Recognition Strategy
+Primary capture probes:
+
+Antibody-modified Fe₃O₄ magnetic gold nanoparticles (MGNPs)
+
+Secondary SERS tags:
+
+Gold nanostars (AuNSs) modified with:
+
+Raman reporter (DTNB)
+
+Wheat Germ Agglutinin (WGA)
+
+Role of WGA
+Strong affinity to NAG/NAM-containing peptidoglycan
+
+Binding via hydrogen bonding
+
+Bacterial Models
+Staphylococcus aureus
+
+Pseudomonas aeruginosa
+
+Experimental Parameters
+Parameter	Value
+Raman type	SERS
+Instrument	B&W Tek i-Raman Plus
+Laser wavelength	785 nm
+Laser power	10 mW
+Integration time	10 s
+Reporter peak	1331 cm⁻¹ (DTNB)
+Performance
+Capture efficiency:
+
+89.13% (S. aureus)
+
+85.31% (P. aeruginosa)
+
+LOD:
+
+7 CFU/mL (S. aureus)
+
+5 CFU/mL (P. aeruginosa)
+
+Linear range: 10–10⁶ CFU/mL
+
+High recovery in urine samples: 84.8%–118.0%
+
+Relevance to NAM
+WGA binds NAM-associated peptidoglycan sugars, making it a semi-specific NAM recognition probe.
+
+Overall Take-Home Message
+Vancomycin → Direct, validated capture probe for NAM-containing peptidoglycan
+
+WGA → Indirect NAM/NAG-targeting recognition probe
+
+Both approaches successfully integrate with SERS platforms for:
+
+Culture-free detection
+
+High sensitivity
+
+Clinical sample compatibility
+
+1. Objective
+To critically review ~10 key Raman/SERS studies related to NAM (N-acetylmuramic acid) and bacterial cell wall components, focusing on:
+
+Laser wavelength & power
+
+Instrumentation
+
+Measurement format (chip vs liquid)
+
+Origin of SERS signals (cell wall vs secreted metabolites)
+
+This task evaluates whether NAM can be directly detected or whether bacterial SERS spectra are dominated by other biochemical contributors.
+
+2. Key Reference Paper (Foundational)
+Biochemical origins of the 785 nm excited SERS spectra of bacteria
+(PMC4911336)
+
+Experimental Parameters
+Parameter	Details
+Instrument	Renishaw RM-2000 Raman microscope
+Objective	50×
+Excitation	785 nm
+Laser power	0.2 – 2 mW
+Exposure time	~10 s
+Substrate	Au nanostructured SERS substrate
+Calibration	Silicon wafer (520 cm⁻¹, ±0.5 cm⁻¹ precision)
+Sample	~10 bacterial cells (~100 µm² FOV)
+Medium	Whole cells & cell-free supernatant
+3. Major Experimental Observation (Critical Finding)
+SERS spectra of whole bacterial cells and their surrounding supernatant are nearly identical.
+
+Evidence:
+Same peak positions
+
+Same spectral shapes
+
+Same molecular fingerprint
+
+Interpretation:
+Bacterial SERS signals do NOT originate from cell wall components (NAM, NAG, peptidoglycan).
+
+Instead, signals arise from small, water-soluble metabolites secreted during washing and stress.
+
+4. Identified Molecular Contributors
+Through spectral fitting, bacterial SERS spectra were explained as a linear combination of purine metabolites:
+
+Adenine (dominant; strong 739 cm⁻¹ band)
+
+Hypoxanthine
+
+Xanthine
+
+Guanine
+
+Uric acid
+
+AMP
+
+Key Insight:
+No peptidoglycan, NAM, NAG, proteins, lipids, or nucleic acids are required to explain 785 nm bacterial SERS spectra.
+
+5. Implication for NAM Detection
+❌ Why NAM is NOT seen in most bacterial SERS:
+NAM is buried within the thick peptidoglycan layer
+
+SERS enhancement only effective within ~1–4 nm of metal surface
+
+Cell wall thickness ≫ plasmonic enhancement distance
+
+Purines dominate due to:
+
+Higher Raman cross-section
+
+Water solubility
+
+Stress-induced secretion during washing
+
+6. Effect of Sample Preparation
+Buffer & Washing Effects (PMC5746774)
+Borate buffer preserves SERS activity
+
+Other buffers suppress SERS signal
+
+Washing induces metabolic stress, increasing purine secretion
+
+Conclusion: SERS acts as a metabolic stress sensor, not a structural probe.
+
+7. Raman Studies Targeting NAM (Without SERS Bias)
+DFT-Assisted Raman Assignments (2024 study)
+NAM & NAG modeled using:
+
+Gaussian09
+
+B3LYP / 6-311++G(d,p)
+
+Characteristic Raman bands validated theoretically
+
+High-wavenumber region (3010–3029 cm⁻¹) used as biomarkers
+
+Pure Raman (not SERS) enables NAM identification
+
+8. Direct NAM SERS Studies (Controlled Conditions)
+Springer Analytical Chemistry Paper
+Parameter	Details
+Molecule	Pure NAM (Sigma-Aldrich)
+Substrate	Ag nanoparticles
+Instrument	Renishaw InVia Reflex
+Excitation	830 nm
+Laser power	0.3 – 3 mW
+Exposure	10 s
+Medium	Liquid SERS
+Key finding	NAM resembles HSA due to amide bonds
+Interpretation:
+NAM can be detected in SERS only as a free molecule
+
+In bacteria, it is spectrally masked
+
+9. Additional Supporting Studies
+NAG/NAM glycosidic ring modes reported near 730–753 cm⁻¹
+
+Observed only in:
+
+Purified compounds
+
+Cell wall extracts
+
+DFT-guided Raman studies
+
+Whole-cell SERS dominated by:
+
+Outer envelope
+
+Secreted metabolites
+
+Purine degradation products
+
+10. Overall Conclusions (Take-Home Points)
+✔ What SERS Detects Reliably:
+Stress-induced extracellular metabolites
+
+Purine degradation products
+
+Metabolic state of bacteria
+
+❌ What SERS Does NOT Detect Reliably:
+NAM / NAG inside intact bacterial cell walls
+
+Peptidoglycan structural features
+
+🔬 Practical Implication for This Project:
+NAM should be treated as a Raman biomarker (pure or extracted systems), not a native bacterial SERS biomarker.
+
+11. Direction for Ongoing Work
+Use pure NAM / NAG standards for spectral library
+
+Combine DFT + Raman, not SERS alone
+
+Treat bacterial SERS as a metabolic fingerprint platform
+
+Carefully control buffer and washing protocols

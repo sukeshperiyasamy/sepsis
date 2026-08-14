@@ -1,0 +1,117 @@
+FILE: SEPSIS.docx.pdf
+NPAGES: 3
+
+--- page 1 ---
+Introduction
+- Sukesh P (m24im1007)
+Sepsis is one of the most severe syndromes resulting in death, which is caused by a dysregulated host
+immune response to infection and leads to organ failure. Although a lot of research has been done in
+this area, early and precise diagnosis is still a very important, difficult task in sepsis treatment.
+Present clinical practice largely relies on non-specific biomarkers of inflammation (e.g., C-reactive
+protein [CRP], procalcitonin [PCT]) or slow blood culture-based methods.[1] These methods are
+non-specific for pathogens, they often cause a delay in targeted therapy, and they cannot
+differentiate bacterial sepsis from viral or fungal infections. The consequence is a heavy dependence
+on broad-spectrum antibiotics, which in turn leads to the problem of antimicrobial resistance
+(AMR).[2]
+In the case of efficient point-of-care diagnostics and precision therapeutics, it is a very pressing issue
+to come up with pathogen-specific biomarkers that are indicative of the presence of bacteria in the
+blood and not the host responses.
+Limitations of Current Diagnostic Approaches
+Blood Cultures: The standard clinical method, but the sensitivity is quite low (30–50%), and it takes
+24–72 hours for the results. The accuracy is also considerably lowered if antibiotics have been
+administered before the test.[3]
+Molecular PCR-based Assays: These have higher sensitivity; however, they also require a pre-lysis
+step, high-quality nucleic acids, and a well-equipped laboratory. Besides, the specificity of primers
+and the inability to detect unknown or mutated strains limit them.[4]
+Host-Derived Biomarkers (CRP, PCT, presepsin): These are pain sensors that only indicate the
+presence of inflammation but do not provide any clues about the causative agent. Besides, they can
+hardly distinguish bacterial from viral or fungal sepsis, limiting the specificity of therapy.[5]
+Mass Spectrometry and ELISA Panels: Extensively processed samples are required; They are
+expensive, and they cannot be used for emergency situations as they do not meet the rapid
+turnaround requirements.[6]
+Therefore, current sepsis diagnostics tools are either too slow, too nonspecific, or too
+resource-intensive to be really helpful as frontline tools.
+Rationale for Bacterial-Specific Biomarkers
+Bacteria differ from viruses and fungi in that they have unique surface-exposed molecules that can
+be direct and discriminative sepsis biomarkers.[7] Besides being structurally conserved,
+immunologically significant, and easily accessible for detection in blood samples by techniques such
+as surface-enhanced Raman spectroscopy (SERS), immunoassays, or biosensors, these markers also
+possess such features. By adopting bacterial outer membrane proteins, lipopolysaccharide (LPS)
+fragments, or capsular antigens as diagnostic targets, they can move from detecting indirect
+inflammation to direct bacterial fingerprinting.[6]
+
+--- page 2 ---
+Potential Bacterial Surface Biomarkers in Sepsis
+1. Lipopolysaccharides (LPS) – Gram-Negative Bacteria. Endotoxins that are released into the
+blood circulation during bacteremia. The lipid A and O-antigen peculiarities can be the base for
+separation of different Gram-negative species. The indication of septic shock and the activation of
+the host immune system can be very strong.[8]
+2. Lipoteichoic Acid (LTA) – Gram-Positive Bacteria. LTA is a component structurally different
+from LPS that is attached to the cell wall and unique to the Gram-positive pathogens. It becomes free
+in blood during infection and causes TLR-mediated inflammation.[9]
+3. Outer Membrane Proteins (OMPs), Examples: OmpA, OmpC, OmpF (Enterobacteriaceae),
+porins in Pseudomonas aeruginosa. Highly immunogenic, that is, they are surface-exposed and
+species-specific. It is possible for them to be not only diagnostic antigens but also therapeutic targets
+at the same time.[10]
+4. Capsular Polysaccharides (CPS), Detected in Klebsiella pneumoniae, Streptococcus
+pneumoniae, and Neisseria meningitidis. Their epitope patterns are serotype-specific allowing
+differentiation of pathogens. During infection, they become shed into the blood and thus can be
+detected by the use of antigen capture methods.[11]
+5. Peptidoglycan Fragments (PGN, Muramyl Dipeptide), New fragments are generated during
+the bacterial growth and lysis.Not present in viral/fungal infections, hence they are highly specific to
+bacterial sepsis.[12]
+6. Flagellin and Pili Proteins, Most that may be found in the cells of bacteria that can move are
+structural proteins uniquely. The host innate immune system (TLR5, mannose receptors) recognizes
+them. They can act as biomarkers indicating that the bacteria are present in real time.[13]
+7. Exotoxins/Secreted Proteins (e.g., α-hemolysin, pneumolysin), Pathogen-specific proteins
+that can be directly detected in plasma. They are signs of an active infection rather than residual
+inflammation.[14]
+Conclusion
+Instead of relying on late, host-derived inflammation markers, direct detection of bacterial fingerprints can
+enable rapid identification and differentiation of Gram-positive versus Gram-negative infections. Techniques
+such as Surface-Enhanced Raman Spectroscopy (SERS) and other nano-enabled biosensors are uniquely suited
+for this task, as they can capture molecular vibrational signatures or antigen-specific interactions within
+minutes. Our primary focus is on SERS-based detection, given its ability to provide rapid, label-free, and highly
+sensitive molecular fingerprinting.[15,16]
+References
+[1] Singer M, Deutschman CS, Seymour C, Shankar-Hari M, Annane D, Bauer M, et al. The third international consensus
+definitions for sepsis and septic shock (sepsis-3). JAMA - Journal of the American Medical Association 2016;315:801–10.
+https://doi.org/10.1001/JAMA.2016.0287,.
+[2] Van Der Poll T, Van De Veerdonk FL, Scicluna BP, Netea MG. The immunopathology of sepsis and potential therapeutic
+targets. Nat Rev Immunol 2017;17:407–20. https://doi.org/10.1038/NRI.2017.36,.
+[3] Opota O, Croxatto A, Prod’hom G, Greub G. Blood culture-based diagnosis of bacteraemia: State of the art. Clinical
+Microbiology and Infection 2015;21:313–22. https://doi.org/10.1016/j.cmi.2015.01.003.
+
+--- page 3 ---
+[4] Fliers E, Bianco AC, Langouche L, Boelen A. Thyroid function in critically ill patients. Lancet Diabetes Endocrinol
+2015;3:816–25. https://doi.org/10.1016/S2213-8587(15)00225-9.
+[5] Koehler P, Bassetti M, Chakrabarti A, Chen SCA, Colombo AL, Hoenigl M, et al. Defining and managing COVID-19-associated
+pulmonary aspergillosis: the 2020 ECMM/ISHAM consensus criteria for research and clinical guidance. Lancet Infect Dis
+2021;21:e149–62.
+https://doi.org/10.1016/S1473-3099(20)30847-1/ASSET/07E9BCDB-A183-4097-8DDB-49FFED35AD67/MAIN.ASSETS/GR1_L
+RG.JPG.
+[6] Sultana R, Mohanto S, Bhunia A, Biswas A, Akhtar MS, Mishra V, et al. Current Progress and Emerging Role of Essential Oils
+in Drug Delivery Therapeutics. Curr Drug Deliv 2024;22:332–57.
+https://doi.org/10.2174/0115672018287719240214075810.
+[7] Han C, Li W, Li Q, Xing W, Luo H, Ji H, et al. CRISPR/Cas12a-Derived electrochemical aptasensor for ultrasensitive detection
+of COVID-19 nucleocapsid protein. Biosens Bioelectron 2022;200. https://doi.org/10.1016/j.bios.2021.113922.
+[8] Raetz CRH, Whitfield C. Lipopolysaccharide endotoxins. Annu Rev Biochem 2002;71:635–700.
+https://doi.org/10.1146/ANNUREV.BIOCHEM.71.110601.135414,.
+[9] Weidenmaier C, Peschel A. Teichoic acids and related cell-wall glycopolymers in Gram-positive physiology and host
+interactions. Nat Rev Microbiol 2008;6:276–87. https://doi.org/10.1038/NRMICRO1861,.
+[10] Cook GM, Berney M, Gebhard S, Heinemann M, Cox RA, Danilchanka O, et al. Physiology of Mycobacteria. Adv Microb
+Physiol 2009;55:81. https://doi.org/10.1016/S0065-2911(09)05502-7.
+[11] Broadbent JR, Neeno-Eckwall EC, Stahl B, Tandee K, Cai H, Morovic W, et al. Analysis of the Lactobacillus casei supragenome
+and its influence in species evolution and lifestyle adaptation. BMC Genomics 2012;13:533.
+https://doi.org/10.1186/1471-2164-13-533.
+[12] Liu C, Xu Z, Gupta D, Dziarski R. Peptidoglycan recognition proteins: A novel family of four human innate immunity pattern
+recognition molecules. Journal of Biological Chemistry 2001;276:34686–94. https://doi.org/10.1074/JBC.M105566200,.
+[13] Chaban B, Hughes HV, Beeby M. The flagellum in bacterial pathogens: For motility and a whole lot more. Semin Cell Dev
+Biol 2015;46:91–103. https://doi.org/10.1016/j.semcdb.2015.10.032.
+[14] Diep BA, Otto M. The role of virulence determinants in community-associated MRSA pathogenesis. Trends Microbiol
+2008;16:361–9. https://doi.org/10.1016/j.tim.2008.05.002.
+[15] Chisanga M, Muhamadali H, Ellis DI, Goodacre R. Surface-Enhanced Raman Scattering (SERS) in Microbiology: Illumination
+and Enhancement of the Microbial World. Appl Spectrosc 2018;72:987–1000. https://doi.org/10.1177/0003702818764672.
+[16] Croxen MA, Law RJ, Scholz R, Keeney KM, Wlodarska M, Finlay BB. Recent advances in understanding enteric pathogenic
+Escherichia coli. Clin Microbiol Rev 2013;26:822–80. https://doi.org/10.1128/CMR.00022-13.
+

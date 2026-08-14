@@ -1,0 +1,183 @@
+# SERS-Based Sepsis Diagnostics and the Unexplored Opportunity of Siderophore Detection
+
+## Executive Summary
+
+Surface-Enhanced Raman Spectroscopy (SERS) has been applied to sepsis diagnostics mainly through three routes: structural bacterial components (LPS, LTA, peptidoglycan fragments), host-response biomarkers (e.g., IL-6, CRP, PCT), and label-free whole-cell fingerprinting dominated by purine metabolites. These approaches have enabled highly sensitive detection and, in some cases, near-real-time classification, but suffer from limited pathogen specificity, requirements for bacterial isolation/enrichment, and reliance on complex data-driven models rather than well-defined molecular markers.[1][2][3][4][5][6][7][8][9][10][11]
+
+Secreted bacterial metabolites with strong Raman activity, such as the phenazine pyocyanin, have emerged as more specific biomarkers and can be detected by SERS at clinically relevant concentrations in complex matrices. However, pyocyanin is essentially restricted to Pseudomonas aeruginosa, limiting its value as a broad sepsis marker. In parallel, there is robust spectroscopic and mechanistic evidence that catechol-containing molecules exhibit strong metal–ligand charge-transfer interactions and can benefit markedly from SERS chemical enhancement, particularly on semiconductor or nanostructured surfaces.[12][13][14][15][16][17][18][19][20]
+
+Siderophores—small, high-affinity iron-chelating molecules such as enterobactin, yersiniabactin, and pyoverdine—are central to bacterial iron acquisition, virulence, and dissemination in the host bloodstream, and are increasingly recognized as clinically relevant biomarkers and therapeutic targets. Many catechol-type siderophores possess aromatic and catechol motifs that are, in principle, highly favorable for SERS detection. Nonetheless, an extensive search reveals no reports of SERS-based detection of canonical siderophores (e.g., enterobactin, yersiniabactin, pyoverdine, aerobactin) in biological or clinical samples, despite earlier work on the resonance Raman spectra of their Fe(III) complexes. This constitutes a genuine and important gap in the SERS diagnostic literature.[21][22][23][2][24][25][3][26][27][28][29]
+
+The report consolidates current knowledge on SERS-based sepsis diagnostics, verifies the main claims regarding purine-dominated bacterial spectra, pyocyanin-based metabolite detection, and catechol-mediated charge-transfer enhancement, and identifies siderophore-focused SERS as a novel, well-justified research direction. It further outlines a concrete experimental strategy based on preprocessing to disrupt Fe–siderophore complexes, followed by SERS detection of the liberated catechol ligand on plasmonic substrates, and proposes an integrated multi-layer diagnostic concept that combines structural, metabolic, and host-response markers.
+
+## Background: Sepsis Diagnostics and Biomarkers
+
+Sepsis is a life-threatening condition arising from a dysregulated host response to infection, and rapid identification of both the syndrome and the underlying pathogen is critical to reduce mortality. Conventional blood culture-based diagnostics are slow (often 24–72 hours), driving interest in rapid molecular and spectroscopic methods, including SERS, that can operate directly on blood or other biological fluids.[2][3][4][7][30][10][31]
+
+A broad range of biomarkers has been evaluated for sepsis, including structural bacterial components (LPS, LTA, peptidoglycan fragments), host inflammatory mediators (IL-6, CRP, PCT, sTREM-1), and pathogen-derived metabolites or virulence factors. While host biomarkers correlate reasonably well with disease severity and outcome, they are inherently non-specific for pathogen identity and cannot, on their own, guide organism-targeted therapy. This motivates complementary pathogen-specific strategies.[5][7][30][9][10][32]
+
+## SERS-Based Detection of Structural Bacterial Components
+
+Several SERS strategies target cell wall components such as lipopolysaccharide (LPS), lipoteichoic acid (LTA), and peptidoglycan-derived structures as broad bacterial markers. These molecules are abundant within bacterial envelopes, and their structural motifs (e.g., lipid A, phosphate groups, glycan backbones) can yield characteristic vibrational signatures when isolated or in model systems.[3][4][33][2]
+
+However, in early-stage bloodstream infection, these components are not necessarily present in high free concentrations in plasma, and their SERS spectra can exhibit broad and overlapping bands from polysaccharide, lipid, and phosphate vibrations. As a result, these targets tend to support generic “bacterial presence” detection rather than robust species-level discrimination, and often still require enrichment or immunocapture steps to reach relevant sensitivity.[4][2][3]
+
+## Host-Response Biomarkers in SERS Diagnostics
+
+Host-response biomarkers such as IL-6, CRP, PCT, and related cytokines or acute-phase proteins are well-established serum markers of sepsis in clinical practice. Numerous studies show that PCT, in particular, offers superior diagnostic performance compared with CRP and IL-6 for distinguishing bacterial sepsis from non-bacterial causes of systemic inflammation.[7][9][10][32][5]
+
+SERS has been applied to these biomarkers primarily via immunoassay formats, in which reporter-tagged nanoparticles are captured in a sandwich configuration with magnetic or planar supports. For example, an Au@4-MBA@Ag core–shell nanoparticle-based magnetic immunoassay achieved IL-6 detection down to about 1.6 pg mL⁻¹ with good linearity up to 1000 pg mL⁻¹ and excellent correlation with chemiluminescence assays in clinical samples. A related SERS-based magnetic immunoassay allowed simultaneous quantification of IL-6 and PCT, demonstrating that SERS can meet or exceed the analytical sensitivity of conventional immunoassays while offering multiplexing and rapid measurement.[34][35]
+
+Despite their clinical relevance, these host markers cannot identify the causative pathogen, and their levels reflect systemic inflammation rather than specific microbial metabolism or virulence mechanisms. Consequently, they are best viewed as complementary to pathogen-specific SERS targets rather than stand-alone solutions for etiologic diagnosis.[9][10][5][7]
+
+## Whole-Cell SERS Fingerprinting and Purine Metabolites
+
+Label-free SERS fingerprinting of intact bacterial cells is a major research area, aimed at rapid classification of bacteria based on their overall spectra. Extensive work has shown that dominant peaks in many bacterial SERS spectra arise from purine metabolites (adenine, hypoxanthine, guanine, xanthine) released during sample preparation, particularly under starvation or mild stress conditions.[6][8][11][1][2][3][4]
+
+Premasiri and co-workers systematically assigned bacterial SERS features to purine degradation products, showing that adenine and hypoxanthine-related modes dominate spectra across very different species when using common preparation protocols. More recent work further demonstrated that washing or acid depurination treatments control the release of purine derivatives from RNA and nucleic acids, dramatically impacting the observed SERS signals and confirming that purine metabolites are central contributors to bacterial SERS signatures. Similar conclusions were drawn in studies focused on ultra-rapid, label-free antibiotic susceptibility testing, where SERS spectra were explicitly attributed to secreted purine nucleotide degradation products.[11][36][1][6]
+
+Machine-learning methods (PCA-LDA, SVM, deep learning) applied to such spectra can achieve high classification accuracy, often exceeding 95–99% for well-controlled datasets. Nevertheless, the underlying molecular signals are not species-specific, and differentiation depends on subtle intensity and band-shape differences rather than unique markers. This limits biological interpretability and can reduce robustness across instruments, substrates, and sample preparation conditions, motivating interest in more chemically specific analytes.[37][8][2][3][4]
+
+## Secreted Bacterial Metabolites and Virulence Factors in SERS
+
+To overcome the limitations of structural components and generic purine fingerprints, several studies have focused on secreted bacterial metabolites and virulence factors with strong Raman activity. Such molecules are actively released during infection, can be present in accessible biofluids, and are often pathogen-specific.[15][17][19][12][2]
+
+### Phenazines and Pyocyanin
+
+Pyocyanin, a phenazine derivative produced by Pseudomonas aeruginosa, is the best-characterized secreted metabolite target in SERS-based bacterial detection. Its extended conjugated ring system and redox activity yield intense Raman bands and favorable interaction with metal nanoparticles, enabling detection at sub- to low-micromolar levels in complex matrices such as wound exudate, artificial sputum, and biological fluids.[17][19][12][15]
+
+For instance, one portable sensor using citrate-coated Ag, AgAu, and Au nanoparticles achieved limits of detection for pyocyanin of approximately 1.1 μM (Ag), 10.9 μM (AgAu), and 17.7 μM (Au) in simulated wound fluid, with a protocol compatible with swab sampling and total analysis times under 5 minutes. Other platforms, including biodegradable SERS substrates and planar nanostructures, have reported detection limits down to about 0.5 μM or lower, well within clinically relevant concentration ranges in samples from infected sites.[19][12][15][17]
+
+These studies collectively demonstrate that metabolite-focused SERS targeting a chemically well-defined virulence factor is feasible and clinically meaningful, but the narrow organism specificity of pyocyanin restricts this strategy primarily to P. aeruginosa infections.[15][19]
+
+### Other Secreted Metabolites and Virulence Factors
+
+Beyond pyocyanin, there are scattered reports on SERS detection of other metabolites (e.g., indole, dipicolinic acid for spores) and on SERS-based immunoassays for secreted proteins or enzymes. However, these targets have not yet been systematically developed into broad sepsis diagnostics, and in many immunoassay formats the SERS signal originates from labels rather than from the biomolecule itself.[2][3]
+
+Overall, secreted metabolite detection remains underexplored compared with structural biomarkers and whole-cell fingerprinting, especially for molecules directly tied to virulence and host–pathogen interactions.
+
+## Catechol-Containing Molecules and Charge-Transfer SERS Enhancement
+
+The magnitude of SERS enhancement depends not only on local electromagnetic field amplification but also on the molecular electronic structure and its interaction with the substrate, especially via metal–molecule charge-transfer (CT) mechanisms. Aromatic molecules with conjugated systems and functional groups capable of coordinating to metal or semiconductor surfaces (e.g., thiols, catechols, amines) often exhibit strong chemical enhancement contributions in addition to electromagnetic enhancement.[14][16]
+
+Catechol-containing molecules, characterized by ortho-dihydroxybenzene motifs, can bind strongly to metal oxides and certain metal surfaces, forming coordination complexes that facilitate CT transitions under typical SERS excitation wavelengths. Studies on trititanate nanotubes and related semiconductor substrates modified with catechol or enediol ligands show that the nature of the functional group dramatically affects SERS intensity, with some catechol derivatives producing pronounced enhancement while others generate negligible signals, consistent with CT-driven selectivity. Additional work on phenols and catechols on engineered plasmonic–semiconductor films confirms the formation of CT complexes and links band-gap alignment to strong SERS responses.[13][18][20]
+
+More general single-molecule SERS studies with molecules such as 4-aminobenzenethiol have demonstrated that CT enhancement factors of 10¹–10³ can occur for a small subset of molecules at appropriate junctions, contributing significantly to overall enhancement and relaxing the requirement for extremely high electromagnetic factors. These findings collectively support the premise that catechol-type ligands, if appropriately adsorbed and electronically coupled to nanostructured substrates, can serve as strong SERS analytes via CT mechanisms.[14]
+
+## Siderophores: Biology, Virulence, and Clinical Relevance
+
+Siderophores are low-molecular-weight, high-affinity iron chelators secreted by bacteria and fungi to acquire iron in iron-limited environments such as the human host. Classical examples include enterobactin (produced by Enterobacteriaceae), yersiniabactin (associated with virulent E. coli and Klebsiella strains), pyoverdine (Pseudomonas aeruginosa), and aerobactin, among others.[22][24][25][26][28]
+
+These molecules are critical virulence factors: they enable growth in serum, promote tissue colonization and dissemination, and modulate host immune responses. For instance, Klebsiella pneumoniae siderophore secretion induces pulmonary inflammation, stabilizes hypoxia-inducible factor 1α (HIF-1α), and facilitates bacterial dissemination to the bloodstream in murine pneumonia models. Similarly, uropathogenic E. coli strains carrying both enterobactin and yersiniabactin systems show density-dependent expression of yersiniabactin, which functions as both a siderophore and a quorum-sensing autoinducer, underscoring the regulatory complexity and pathogenic significance of these molecules.[38][24][25][27][29][22]
+
+Clinically, siderophore production levels correlate with bacteremia risk and sepsis in Klebsiella infections, and siderophore pathways are being explored as targets for “Trojan horse” antibiotic strategies and as biomarkers for severe infections. These observations confirm that siderophores are secreted in vivo, reach bloodstream or tissue compartments, and are mechanistically linked to virulence and host outcomes.[24][26][39][29]
+
+## Raman and SERS Status of Siderophores
+
+Historically, siderophores have been characterized using UV–vis, fluorescence spectroscopy, mass spectrometry, and electrochemical methods, rather than SERS. Seminal work on iron(III) complexes of enterobactin, catechol, and related ligands reported their electronic and resonance Raman spectra, showing that Fe(III) coordination markedly alters vibrational modes and electronic transitions, consistent with strong ligand-to-metal charge transfer.[25][26][21]
+
+Despite this Raman-focused characterization and the extensive recognition of siderophores as key virulence factors, an exhaustive search of the SERS literature reveals no dedicated studies that detect canonical siderophores such as enterobactin, yersiniabactin, pyoverdine, or aerobactin by SERS in biological or clinical samples. Comprehensive reviews on SERS of bacteria and SERS-based pathogen detection do not list siderophores as analytes, focusing instead on cell-wall components, whole-cell fingerprints, and a limited set of metabolites such as pyocyanin and purines. There is also no evidence of SERS-based detection of siderophores in sepsis or bloodstream infection models, even though separate clinical and microbiological literature emphasizes their presence and diagnostic potential.[26][29][24][3][4][2]
+
+This supports the claim that siderophores remain essentially absent from SERS-based diagnostic research, constituting a genuine and not merely overlooked gap.
+
+## Impact of Metal Complexation on Siderophore Raman and SERS Behavior
+
+In biological environments, most siderophores exist as metal complexes, predominantly Fe³⁺–siderophore species but also complexes with other metals such as Cu²⁺, Ni²⁺, Co²⁺, and Ga³⁺. Mass spectrometric and spectroscopic studies of yersiniabactin, for example, show that it can form stable complexes with several metals and that copper(II)–yersiniabactin is structurally distinct and preferentially imported by specific outer membrane receptors.[28][25][26]
+
+Theoretical considerations and resonance Raman data indicate that metal binding changes siderophore electronic structure and vibrational spectra, with ligand-to-metal CT transitions dominating the visible absorption region. From a SERS perspective, strong chelation to Fe³⁺ or other metals could reduce the availability of catechol or heteroatom sites for direct interaction with plasmonic substrates, potentially diminishing adsorption-driven chemical enhancement. However, no experimental SERS studies have systematically compared free versus Fe-bound siderophore spectra, quantified differences in SERS intensity, or tested strategies to restore SERS activity by disrupting metal complexes.[21][25][3][2]
+
+Thus, the hypothesis that Fe³⁺–catechol complexation reduces SERS-active interaction with metal substrates is chemically plausible and supported by indirect spectroscopic evidence, but remains untested in a dedicated SERS framework. This is an identifiable, experimentally tractable research opportunity.
+
+## Comparative Molecular Suitability for SERS Targets
+
+The relative suitability of different molecular classes as SERS targets for sepsis diagnostics can be summarized as follows:
+
+| Feature                         | Phenazines (Pyocyanin)                          | Catechol-Type Siderophores (e.g., Enterobactin)              | Purine Metabolites                 |
+|---------------------------------|-------------------------------------------------|----------------------------------------------------------------|------------------------------------|
+| Raman activity                  | Very strong due to conjugated phenazine ring[15][19] | Theoretically strong via catechol CT and aromatic rings[13][18][20] | Moderate; strong specific bands[1][6][11] |
+| Demonstrated SERS detection limit | Sub- to low-μM in complex matrices[12][15][19]   | Not yet tested in SERS; only resonance Raman of Fe-complexes[21] | nM–μM in whole-cell or media contexts[1][6][11] |
+| Pathogen specificity            | High for P. aeruginosa[15][19]         | Potentially high (species- and system-specific)[22][24][25] | Low; shared across many bacteria[1][6][11] |
+| Biological role                 | Virulence factor, redox-active toxin[15][19] | Iron acquisition, virulence, quorum signaling[22][24][25] | Stress response, nucleotide turnover[1][6] |
+| Research status in SERS         | Mature, multiple platforms and matrices[12][15][17][19] | Unexplored as direct SERS targets[2][3] | Mature in label-free bacterial SERS[1][2][6][11] |
+
+This comparison highlights that catechol-type siderophores combine strong theoretical SERS suitability, high biological relevance, and pathogen specificity, yet have not been exploited in SERS-based diagnostics.
+
+## Literature Gaps and Novelty Assessment
+
+### Absence of Siderophore-Based SERS Detection
+
+Across extensive reviews and primary research papers on SERS of bacteria and SERS-based pathogen detection, there are no reports of direct SERS detection of canonical siderophores such as enterobactin, yersiniabactin, pyoverdine, or aerobactin in biological or clinical samples. Existing siderophore-focused studies rely on fluorescence, mass spectrometry, electrochemistry, or conventional/resonance Raman spectroscopy rather than SERS. Given the central role of siderophores in bloodstream infections, this absence represents a significant and well-defined gap rather than a marginal omission.[25][3][26][4][21][2]
+
+### Underutilization of Catechol Chemistry in SERS Diagnostics
+
+While SERS studies on catechol derivatives, phenols, and related ligands clearly demonstrate the potential for strong CT-based chemical enhancement on both noble-metal and semiconductor substrates, these insights have not been systematically translated into bacterial or sepsis diagnostics. In particular, there are no studies that exploit catechol-based siderophores as intentional SERS analytes, despite their ideal structural features and established biological roles. This underutilization of catechol chemistry is a key conceptual gap.[18][20][13][3][26][2]
+
+### Lack of SERS Studies on Fe-Bound vs Free Siderophores
+
+Although metal complexation profoundly influences siderophore electronic structure, no SERS investigations have been identified that directly compare spectra of free versus Fe-bound siderophores or quantify how complexation affects SERS intensity and spectral features. The absence of such studies leaves a mechanistic blind spot in understanding how these molecules might behave under SERS conditions in biological samples, where they are predominantly metal-bound.[3][21][2][25]
+
+### Limited Integration of Multi-Layer Biomarker Strategies
+
+Current SERS-based diagnostic schemes generally focus on a single biomarker class: structural components (LPS/LTA/NAM), host-response markers (IL-6, CRP, PCT), or whole-cell/metabolite fingerprints dominated by purines. There is little work on integrated platforms that combine bacterial structural markers, secreted metabolites (e.g., pyocyanin, siderophores), and host biomarkers within a unified SERS-based diagnostic algorithm.[35][4][34][2][3]
+
+Yet clinical and experimental evidence shows that siderophore production correlates with inflammation, dissemination, and sepsis risk, while host biomarkers report on systemic response, and structural markers indicate organism class. The lack of multi-layer SERS biosensors that jointly capture these dimensions constitutes a translational gap.[27][29][24][5][7][9]
+
+### Limited Exploration of Secreted Virulence Factors Beyond Pyocyanin
+
+Aside from pyocyanin, very few secreted virulence factors or signaling molecules have been developed as primary SERS targets for sepsis-relevant diagnostics. Quorum-sensing molecules, additional phenazines, carotenoids (e.g., staphyloxanthin), and siderophores have been studied in non-SERS contexts or only indirectly, but not exploited as direct SERS analytes in clinical samples. This leaves a wide chemical space of potentially strong Raman scatterers unused.[19][24][26][28][15][2][25][3]
+
+## Proposed Research Opportunity: SERS Detection of Catechol-Type Siderophores
+
+### Conceptual Strategy
+
+The identified gaps motivate a new SERS-based diagnostic approach centered on catechol-containing siderophores, particularly enterobactin and related ligands, as pathogen-specific metabolic biomarkers for Gram-negative sepsis. The conceptual strategy involves three core steps:[22][24][26][28][25]
+
+1. **Preprocessing to Disrupt Fe³⁺–Siderophore Complexes**  
+   Use chelating agents, controlled pH, or reductive conditions to dissociate Fe³⁺–siderophore complexes in plasma or serum, liberating the free catechol ligand while preserving its structure.[21][25]
+
+2. **Surface Binding and Charge-Transfer Optimization**  
+   Promote adsorption of the liberated siderophore onto tailored plasmonic or plasmonic–semiconductor substrates (e.g., Au/Ag nanoparticles, core–shell structures, or catechol-affinitive oxide-supported metals) designed to maximize catechol coordination and CT enhancement.[16][20][13][18][14]
+
+3. **SERS Detection Under Fluorescence-Minimizing Conditions**  
+   Employ near-infrared excitation (e.g., 785 nm) and, if needed, time-gated or computational background subtraction to mitigate fluorescence from co-existing chromophores such as pyoverdine or heme, while capturing siderophore-specific SERS spectra.[20][13][18][15]
+
+This workflow leverages known siderophore biology (active secretion during infection, presence in bloodstream, pathogen specificity) and catechol SERS chemistry to yield a theoretically robust and experimentally testable approach.
+
+### Candidate Molecules and Prioritization
+
+High-priority siderophore targets for initial SERS studies include:
+
+- **Enterobactin** – a tri-catechol macrocyclic siderophore produced by many Enterobacteriaceae, strongly linked to virulence and bacteremia. Its dense catechol motif and aromatic backbone make it an ideal model for catechol-mediated SERS enhancement.[28][22][25]
+- **Yersiniabactin** – a siderophore–quorum-sensing hybrid with thiazoline/thiazolidine rings, associated with high-virulence E. coli and Klebsiella strains. Its distinctive heterocyclic structure should yield characteristic Raman signatures.[24][22][25]
+
+Secondary targets could include:
+
+- **Pyoverdine** – the fluorescent siderophore of P. aeruginosa, where fluorescence suppression strategies would be essential.[23][26]
+- **Staphyloxanthin** – a carotenoid virulence pigment of Staphylococcus aureus, already known to have strong resonance Raman signals but not widely used in SERS diagnostics.[26][24]
+- **Indole and related metabolites** – signaling molecules that are already SERS-detectable and could complement siderophore profiling.[2][3]
+
+### Integration into a Multi-Layer SERS Biosensor
+
+A forward-looking design is a multi-layer SERS biosensor that hierarchically combines different biomarker classes:
+
+- **Layer 1: Structural Markers** – SERS detection of LPS/LTA/peptidoglycan-derived components for broad Gram status and bacterial presence.[4][3][2]
+- **Layer 2: Secreted Metabolites and Virulence Factors** – SERS detection of pyocyanin, enterobactin/yersiniabactin, and selected metabolites for organism- and virulence-specific information.[15][19][22][24][25]
+- **Layer 3: Host-Response Biomarkers** – SERS immunoassays for IL-6, PCT, CRP, etc., to quantify systemic inflammation and sepsis severity.[10][5][34][9][35]
+
+Data from these layers could be integrated using multivariate or machine-learning models that retain mechanistic interpretability by associating spectral features with specific molecular targets. This would overcome some of the black-box limitations of pure whole-cell fingerprinting while preserving the speed and multiplexing advantages of SERS.
+
+## Novelty Statement
+
+On the basis of the literature reviewed, the following novelty statement is supported:
+
+> To the best of current knowledge, no prior studies have reported the use of SERS for the direct detection of siderophores such as enterobactin or yersiniabactin in biological samples. Comprehensive reviews of SERS in bacterial detection and sepsis diagnostics do not mention siderophores as analytes, despite extensive evidence of their central role in virulence and their favorable catechol-based structures for charge-transfer-mediated SERS enhancement.[22][24][25][3][26][28][21][2]
+
+This confirms that siderophore-based SERS detection constitutes a genuinely novel and scientifically justified research direction.
+
+## Conclusion
+
+The current SERS-based sepsis diagnostic landscape is dominated by structural bacterial markers, host-response biomarkers, and purine-driven whole-cell fingerprints, each with clear strengths but also important limitations in terms of pathogen specificity, interpretability, and clinical applicability. Secreted metabolites and virulence factors, especially pyocyanin, demonstrate that SERS can sensitively and selectively detect pathogen-derived small molecules in complex clinical matrices, but efforts have so far focused on a narrow set of analytes.[12][1][17][5][6][34][9][10][11][19][3][4][15][2]
+
+Catechol-containing siderophores such as enterobactin and yersiniabactin occupy a unique intersection of chemical suitability for SERS, biological centrality in infection, and pathogen specificity, yet remain unexplored as SERS targets. Indirect evidence from catechol SERS studies and siderophore spectroscopy suggests that, with appropriate preprocessing to disrupt metal complexes and optimized substrate design, these molecules could yield strong, distinctive SERS signatures in biological samples.[13][18][20][24][25][26][28][21][22]
+
+Developing preprocessing-enabled SERS assays for siderophores and embedding them within multi-layer SERS biosensors that also capture structural and host-response biomarkers offers a promising pathway toward rapid, sensitive, and pathogen-specific sepsis diagnostics with strong mechanistic grounding and translational potential.[29][27][34][35][24][3][4][2]

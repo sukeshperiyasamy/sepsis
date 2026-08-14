@@ -1,0 +1,41 @@
+{
+  "config": {
+    "GRID_LO": 400.0,
+    "GRID_HI": 1800.0,
+    "GRID_STEP": 1.0,
+    "ALS_LAMBDA": 100000.0,
+    "ALS_P": 0.001,
+    "ALS_ITER": 10,
+    "SG_WINDOW": 11,
+    "SG_ORDER": 3,
+    "NOISE_REGION": 1750.0,
+    "LOCAL_NOISE_HALFWIDTH": 50,
+    "PEAK_PROMINENCE": 0.008,
+    "PEAK_DISTANCE": 6,
+    "SNR_THRESHOLD": 3.0,
+    "REPRO_MIN": 0.5,
+    "MATCH_TOL": 18.0,
+    "SCALE_LO": 0.98,
+    "SCALE_HI": 0.967,
+    "LORENTZ_FWHM": 10.0,
+    "LASER_NM": 785.0,
+    "TEMP_K": 298.15
+  },
+  "reference_sets": [
+    "R2",
+    "R4"
+  ],
+  "n_reference_spectra": 22,
+  "n_bands": 41,
+  "n_high_confidence": 32,
+  "n_tentative": 9,
+  "statistics": {
+    "bands": 41.0,
+    "matched": 30.0,
+    "MAE": 9.274712599999997,
+    "RMSE": 10.285133063876723,
+    "max_abs": 17.188209999999913,
+    "r": 0.9996199783966314,
+    "mean_signed": 1.589205133333356
+  }
+}

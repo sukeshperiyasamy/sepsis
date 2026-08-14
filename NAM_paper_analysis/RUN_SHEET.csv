@@ -1,0 +1,61 @@
+No,Block,Purpose,Power,Integ_s,Acc,Spot,Filename,Note
+1,A,Glass blank,70,25,5,glass 1,GLASS_spot1.csv,empty clean slide
+2,A,Glass blank,70,25,5,glass 2,GLASS_spot2.csv,empty clean slide
+3,A,Glass blank,70,25,5,glass 3,GLASS_spot3.csv,empty clean slide
+4,B,Reference spectrum,70,25,5,fresh 1,NAM_final_spot01.csv,"MOVE stage, fresh powder"
+5,B,Reference spectrum,70,25,5,fresh 2,NAM_final_spot02.csv,"MOVE stage, fresh powder"
+6,B,Reference spectrum,70,25,5,fresh 3,NAM_final_spot03.csv,"MOVE stage, fresh powder"
+7,B,Reference spectrum,70,25,5,fresh 4,NAM_final_spot04.csv,"MOVE stage, fresh powder"
+8,B,Reference spectrum,70,25,5,fresh 5,NAM_final_spot05.csv,"MOVE stage, fresh powder"
+9,B,Reference spectrum,70,25,5,fresh 6,NAM_final_spot06.csv,"MOVE stage, fresh powder"
+10,B,Reference spectrum,70,25,5,fresh 7,NAM_final_spot07.csv,"MOVE stage, fresh powder"
+11,B,Reference spectrum,70,25,5,fresh 8,NAM_final_spot08.csv,"MOVE stage, fresh powder"
+12,B,Reference spectrum,70,25,5,fresh 9,NAM_final_spot09.csv,"MOVE stage, fresh powder"
+13,B,Reference spectrum,70,25,5,fresh 10,NAM_final_spot10.csv,"MOVE stage, fresh powder"
+14,C,Grid vs old data,40,25,5,fresh 1,NAM_grid_p40_t25.csv,randomised order
+15,C,Grid vs old data,40,10,5,fresh 2,NAM_grid_p40_t10.csv,randomised order
+16,C,Grid vs old data,20,5,5,fresh 3,NAM_grid_p20_t5.csv,randomised order
+17,C,Grid vs old data,10,25,5,fresh 4,NAM_grid_p10_t25.csv,randomised order
+18,C,Grid vs old data,80,25,5,fresh 5,NAM_grid_p80_t25.csv,randomised order
+19,C,Grid vs old data,20,15,5,fresh 6,NAM_grid_p20_t15.csv,randomised order
+20,C,Grid vs old data,50,25,5,fresh 7,NAM_grid_p50_t25.csv,randomised order
+21,C,Grid vs old data,20,25,5,fresh 8,NAM_grid_p20_t25.csv,randomised order
+22,C,Grid vs old data,60,5,5,fresh 9,NAM_grid_p60_t5.csv,randomised order
+23,C,Grid vs old data,80,15,5,fresh 10,NAM_grid_p80_t15.csv,randomised order
+24,C,Grid vs old data,50,5,5,fresh 11,NAM_grid_p50_t5.csv,randomised order
+25,C,Grid vs old data,60,10,5,fresh 12,NAM_grid_p60_t10.csv,randomised order
+26,C,Grid vs old data,30,15,5,fresh 13,NAM_grid_p30_t15.csv,randomised order
+27,C,Grid vs old data,80,5,5,fresh 14,NAM_grid_p80_t5.csv,randomised order
+28,C,Grid vs old data,10,5,5,fresh 15,NAM_grid_p10_t5.csv,randomised order
+29,C,Grid vs old data,10,10,5,fresh 16,NAM_grid_p10_t10.csv,randomised order
+30,C,Grid vs old data,40,5,5,fresh 17,NAM_grid_p40_t5.csv,randomised order
+31,C,Grid vs old data,30,25,5,fresh 18,NAM_grid_p30_t25.csv,randomised order
+32,C,Grid vs old data,70,10,5,fresh 19,NAM_grid_p70_t10.csv,randomised order
+33,C,Grid vs old data,50,15,5,fresh 20,NAM_grid_p50_t15.csv,randomised order
+34,C,Grid vs old data,10,15,5,fresh 21,NAM_grid_p10_t15.csv,randomised order
+35,C,Grid vs old data,70,25,5,fresh 22,NAM_grid_p70_t25.csv,randomised order
+36,C,Grid vs old data,60,15,5,fresh 23,NAM_grid_p60_t15.csv,randomised order
+37,C,Grid vs old data,30,10,5,fresh 24,NAM_grid_p30_t10.csv,randomised order
+38,C,Grid vs old data,70,5,5,fresh 25,NAM_grid_p70_t5.csv,randomised order
+39,C,Grid vs old data,40,15,5,fresh 26,NAM_grid_p40_t15.csv,randomised order
+40,C,Grid vs old data,50,10,5,fresh 27,NAM_grid_p50_t10.csv,randomised order
+41,C,Grid vs old data,20,10,5,fresh 28,NAM_grid_p20_t10.csv,randomised order
+42,C,Grid vs old data,60,25,5,fresh 29,NAM_grid_p60_t25.csv,randomised order
+43,C,Grid vs old data,80,10,5,fresh 30,NAM_grid_p80_t10.csv,randomised order
+44,C,Grid vs old data,70,15,5,fresh 31,NAM_grid_p70_t15.csv,randomised order
+45,C,Grid vs old data,30,5,5,fresh 32,NAM_grid_p30_t5.csv,randomised order
+46,D,Weak region 1550-1800,70,25,10,fresh 1,NAM_longacq_spot1.csv,10 accumulations
+47,D,Weak region 1550-1800,70,25,10,fresh 2,NAM_longacq_spot2.csv,10 accumulations
+48,D,Weak region 1550-1800,70,25,10,fresh 3,NAM_longacq_spot3.csv,10 accumulations
+49,D,Weak region 1550-1800,70,25,10,fresh 4,NAM_longacq_spot4.csv,10 accumulations
+50,D,Weak region 1550-1800,70,25,10,fresh 5,NAM_longacq_spot5.csv,10 accumulations
+51,E,Photostability,70,25,5,SAME spot,NAM_stability_run01.csv,do NOT move stage
+52,E,Photostability,70,25,5,SAME spot,NAM_stability_run02.csv,do NOT move stage
+53,E,Photostability,70,25,5,SAME spot,NAM_stability_run03.csv,do NOT move stage
+54,E,Photostability,70,25,5,SAME spot,NAM_stability_run04.csv,do NOT move stage
+55,E,Photostability,70,25,5,SAME spot,NAM_stability_run05.csv,do NOT move stage
+56,E,Photostability,70,25,5,SAME spot,NAM_stability_run06.csv,do NOT move stage
+57,E,Photostability,70,25,5,SAME spot,NAM_stability_run07.csv,do NOT move stage
+58,E,Photostability,70,25,5,SAME spot,NAM_stability_run08.csv,do NOT move stage
+59,E,Photostability,70,25,5,SAME spot,NAM_stability_run09.csv,do NOT move stage
+60,E,Photostability,70,25,5,SAME spot,NAM_stability_run10.csv,do NOT move stage

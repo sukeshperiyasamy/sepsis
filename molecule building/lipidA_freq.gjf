@@ -1,0 +1,8 @@
+%chk=lipidA.chk
+%mem=8GB
+%nprocshared=8
+#p B3LYP/6-31G(d) EmpiricalDispersion=GD3BJ Freq=Raman Geom=AllCheck Guess=Read
+
+Lipid A proxy - IR and Raman frequencies
+Representative of E. coli O111:B4 Lipid A
+

@@ -1,0 +1,17 @@
+Nominal (cm⁻¹),Experimental (cm⁻¹),Simulated (cm⁻¹),Δ (cm⁻¹),Assignment
+720,724.9,736.0,-11.1,P-O-C vibration (phosphodiester)
+735,754.0,753.6,0.4,P-O-C vibration (phosphate backbone)
+870,861.9,885.9,-24.0,C-O-C ring stretch (glycerol)
+890,870.3,885.9,-15.6,C-O-C ring stretch
+1000,999.8,991.8,8.0,C-C skeletal vibration
+1005,999.8,991.8,8.0,C-C ring breathing
+1085,1087.8,1080.0,7.8,PO₂⁻ symmetric stretch
+1090,1087.8,1080.0,7.8,PO₂⁻ stretch (phosphate)
+1120,1103.6,1124.1,-20.5,C-O stretch (ether)
+1130,1149.1,1124.1,25.0,C-O-C symmetric stretch
+1290,1310.0,1274.0,36.0,CH₂ twisting
+1300,1319.0,1282.8,36.2,CH₂ twisting
+1450,1451.8,1450.4,1.4,CH₂ bending / scissoring
+1460,1451.8,1476.9,-25.1,CH₂ deformation
+1650,1669.2,1635.6,33.6,C=O stretch / amide I
+1660,1673.4,1644.4,29.0,C=O amide vibration

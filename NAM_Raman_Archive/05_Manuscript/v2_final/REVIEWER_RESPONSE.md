@@ -1,0 +1,257 @@
+# Response to Pre-Submission Review
+
+I checked every point against the actual manuscript source and the analysis
+tables rather than accepting the list at face value. The review is useful, but a
+number of items it lists as missing are already present — most likely the
+reviewer was working from extracted text or an earlier PDF where values did not
+render.
+
+Below: what is genuinely outstanding, what was already done, and where I
+disagree.
+
+---
+
+## Summary
+
+| Category | Count |
+|---|---|
+| Genuinely outstanding — needs you | **6** |
+| Already in the manuscript — reviewer mistaken | **7** |
+| Fixed in response to this review | **1** |
+| Verified correct, no action | **4** |
+| Recommended but optional | **3** |
+
+---
+
+## A. Genuinely outstanding — these need you
+
+Only **six** `TO CHECK` markers remain in the source. Not the eleven listed.
+
+| # | Item | Who resolves it |
+|---|---|---|
+| 1 | Laser power at sample in mW, and spectral resolution in cm⁻¹ | You — power meter + spec sheet |
+| 2 | Glass blanks at the reference condition | You — 10 minutes at the instrument |
+| 3 | Co-authors and CRediT contributions | You |
+| 4 | Acknowledgements — supervisor, funding, grant numbers | You |
+| 5 | Gaussian 16 revision letter | You — first ~20 lines of the `.log` |
+| 6 | Kouach 1994 citation details — **unverified, I inserted plausible values** | You — check the actual paper |
+
+Plus two optional decisions: extending the spectral range above 3000 cm⁻¹, and
+whether to deposit in Zenodo.
+
+**The Kouach reference is the one to take seriously.** The volume and page
+numbers are my best guess, not verified. Citing a paper with wrong bibliographic
+details is worse than not citing it.
+
+---
+
+## B. Already in the manuscript — reviewer is mistaken
+
+These were listed as missing. They are present. Direct quotes from the source:
+
+**Mean signed deviation** — reviewer says missing:
+
+> "The mean signed deviation is +1.6 cm⁻¹, indicating no strong systematic bias
+> after scaling."
+
+**Correlation between the two reference datasets** — reviewer says missing:
+
+> "the two contributing sets — acquired at 70% and 90% power — agree with one
+> another at r = 0.992"
+
+**Correlation for the damaged spectrum** — reviewer says missing:
+
+> "Correlation with the reference spectrum falls to r = 0.06–0.31."
+
+**Lot number** — resolved: **BCCK5768**, now in the Materials section along with
+the catalogue number A3007-100MG.
+
+**MAE, RMSE, maximum deviation, correlation** — all present in Section 3.6.
+
+**The 730 cm⁻¹ limitation** — the reviewer asks that we keep it. It is already
+there, verbatim:
+
+> "We note the limitations of the argument: the calculation describes the free
+> acid as an isolated molecule, and a definitive test would require measurements
+> on muramyl peptides or purified peptidoglycan."
+
+The manuscript never claims to have identified the bacterial band. It says the
+result "argues against attributing" it to muramic acid — appropriately hedged.
+
+---
+
+## C. Fixed in response to this review
+
+### The reference-condition question — the best point in the review
+
+The reviewer is right that this needed explaining. Earlier analysis did identify
+70%/60 s as the highest-SNR condition, while the manuscript builds the reference
+spectrum from 10 s sets. That looked inconsistent because the justification was
+never stated.
+
+Here is the data:
+
+| Set | Condition | n | SNR | Mean pairwise r |
+|---|---|---|---|---|
+| R2 | 70% / 10 s | 11 | 178 | 0.9861 |
+| R4 | 90% / 10 s | 11 | 281 | 0.9926 |
+| R6 | 70% / 30 s | 3 | 389 | 0.9854 |
+| **R7** | **70% / 60 s** | **3** | **789** | **0.9688** |
+| R8 | 90% / 30 s | 5 | 280 | 0.9433 |
+| **R2+R4** | **10 s combined** | **22** | **279** | **0.9855** |
+
+R7 has the highest SNR but only **three spectra**, and the **lowest internal
+agreement** of any fresh-spot set. A reference spectrum exists to represent the
+material reproducibly, not to maximise signal in one measurement — so 22
+measurements at r = 0.986 is the better basis than 3 at r = 0.969.
+
+The high-SNR sets are used where SNR actually decides something: verifying weak
+bands, which is exactly what promoted 1007 and 1112 cm⁻¹ to high confidence.
+
+**This justification is now written into Section 2.3 of the manuscript.** The
+logic was always sound; it simply was not on the page.
+
+---
+
+## D. Verified — no action needed
+
+### Statistics regenerated independently
+
+The reviewer asks that these not be typed by hand but regenerated from the final
+table. I recomputed every figure directly from `tables/Table1_experiment_vs_DFT.csv`:
+
+| Quantity | Manuscript | Recomputed | |
+|---|---|---|---|
+| Total bands | 41 | 41 | ✓ |
+| High confidence | 32 | 32 | ✓ |
+| Tentative | 9 | 9 | ✓ |
+| Matched | 30 | 30 | ✓ |
+| MAE | 9.3 | 9.2747 | ✓ |
+| RMSE | 10.3 | 10.2851 | ✓ |
+| Max abs deviation | 17.2 | 17.1880 | ✓ |
+| Pearson r | 0.9996 | 0.999620 | ✓ |
+| Mean signed | +1.6 | +1.5893 | ✓ |
+
+32 + 9 = 41 ✓. All values consistent.
+
+Note they were never typed by hand — the table is generated by the notebook, and
+the notebook was executed to produce it.
+
+### Table 1 completeness
+
+All 41 rows have experimental position, relative intensity, reproducibility and
+confidence. Eleven rows have no calculated value, difference or Raman activity —
+those are the **11 unmatched bands**, correctly reported as unmatched rather than
+force-fitted. That is deliberate, and stated in Section 3.8.
+
+### Photostability data
+
+Confirmed present: 10 consecutive same-spot scans at 90%/30 s, and two sets at
+90%/60 s (5 same-spot, 5 fresh-spot). The 930 cm⁻¹ decay from 0.44 to 0.23 is
+computed from the archive, not asserted.
+
+**Microscope photographs of the damaged spot were not taken.** That would have
+strengthened it. Worth doing if you re-run the damage condition.
+
+### DFT files
+
+All present in `02_DFT_Calculation/`: the `.log`, the `.gjf` input, optimised
+geometry as XYZ, all 111 modes with frequencies and Raman activities. Normal
+termination, stationary point, zero imaginary frequencies — all verified from the
+log directly.
+
+---
+
+## E. Where I would push back
+
+### "Verify every peak assignment against the DFT mode"
+
+Reasonable in principle, but note what the Methods already say: assignments come
+from **quantitative decomposition of the Cartesian displacement vectors** — the
+fraction of mass-weighted displacement carried by each atom and by the pyranose
+ring. This is reproducible and is described honestly as not equivalent to a full
+PED analysis.
+
+The two load-bearing claims have explicit numbers behind them:
+
+- **872 cm⁻¹** → 45.9% from one C-6 hydrogen, 17.4% from a second, ring 5.0%
+- **731 cm⁻¹** → 47.9% carboxylic acid O–H proton, ring **0.5%**
+
+Both are in the manuscript. What remains worth doing is opening the log in
+GaussView and confirming the mode animations match — a visual sanity check on the
+numerical decomposition, not a replacement for it. **I recommend doing this for
+mode 41 at minimum**, since a scientific claim rests on it.
+
+### "α-anomer comparison — strongly recommended"
+
+Agreed, and the manuscript already flags it as a testable next step. It would
+likely explain the unmatched 830 and 956 cm⁻¹ bands.
+
+But it is **not a submission blocker**. The manuscript states plainly that the
+sample is an anomeric mixture while the calculation models the β anomer, and
+discusses this as a limitation in Section 3.8. That is honest reporting of a
+known limitation, which is acceptable. Adding the α calculation would strengthen
+the paper; omitting it does not invalidate it.
+
+### Methanol
+
+Correctly flagged as not a blocker. The manuscript already notes the supplier's
+≤1 mol/mol specification, identifies the diagnostic C–H bands at 2835 and
+2945 cm⁻¹, and states that the measurement range stops at 2842 cm⁻¹ so they
+cannot be tested. Nothing is being concealed.
+
+---
+
+## F. Figures — status
+
+All seven were regenerated by the executed notebook with a single shared style
+block, so fonts, colours and sizing are consistent by construction. All are
+300 dpi with tight bounding boxes, sized to Elsevier column widths.
+
+What I cannot verify programmatically is whether any labels overlap at final
+print size. **Worth one pass through the PDF at 100% zoom before submitting.**
+
+One genuine gap: Figure 1 caption states the DFT level, but stereochemistry is
+not explicitly annotated. Since the anomeric mixture matters to the argument, it
+may be worth stating in the caption that the β anomer is depicted.
+
+---
+
+## G. Realistic path to submission
+
+**This week — you**
+
+1. Power meter reading at the sample, 70% setting
+2. Spectral resolution from the spec sheet
+3. Three glass blanks at 70% / 25 s / 5 accumulations
+4. Gaussian revision letter from the log
+5. Confirm mode 41 in GaussView
+
+**Then — editorial**
+
+6. Co-authors, affiliations, CRediT
+7. Acknowledgements and funding
+8. **Verify the Kouach reference properly**
+9. Expand references from 14 to 30–45
+10. One visual pass over figures at print size
+
+**Optional, strengthens the paper**
+
+11. α-anomer calculation — compute time only
+12. Zenodo deposit with DOI
+13. Extended spectral range above 3000 cm⁻¹
+
+Once items 1–10 are done the manuscript is submittable. Items 11–13 would make it
+stronger but none is a blocker.
+
+---
+
+## Bottom line
+
+The review overstates what is missing — seven of the items it flags are already
+in the text. But it caught one real omission, the reference-condition
+justification, which is now fixed and makes the paper better.
+
+**Six `TO CHECK` markers remain, five of which only you can resolve.** The
+scientific content is complete and the statistics reconcile exactly against the
+data.

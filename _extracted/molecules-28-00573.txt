@@ -1,0 +1,851 @@
+FILE: molecules-28-00573.pdf
+NPAGES: 17
+
+--- page 1 ---
+molecules
+Review
+Can DFT Calculations Provide Useful Information for
+SERS Applications?
+MaurizioMuniz-Miranda1,* ,FrancescoMuniz-Miranda2 ,MariaCristinaMenziani2 andAlfonsoPedone2
+1 DipartimentodiChimica“UgoSchiff”,UniversitàdegliStudidiFirenze,ViaLastruccia3,
+50019SestoFiorentino,Italy
+2 DipartimentodiScienzeChimicheeGeologiche,UniversitàdegliStudidiModenaeReggioEmilia,
+ViaCampi103,41125Modena,Italy
+* Correspondence:maurizio.muniz@unifi.it
+Abstract: Densityfunctionaltheory(DFT)calculationsallowustoreproducetheSERS(surface-
+enhancedRamanscattering)spectraofmoleculesadsorbedonnanostructuredmetalsurfacesand
+extractthemostinformationthisspectroscopyispotentiallyabletoprovide.Thelatterpointmainly
+concernstheanchoringmechanismandthebondstrengthbetweenmoleculeandmetalaswellasthe
+structuralandelectronicmodificationsoftheadsorbedmolecule.Thesefindingsareoffundamental
+importancefortheapplicationofthisspectroscopictechnique.Thisreviewpresentsanddiscusses
+someSERS–DFTstudiescarriedoutinItalyasacollaborationbetweentheuniversitiesofModena
+and Reggio-Emilia and of Florence, giving an overview of the information that we can extract
+withacombinationofexperimentalSERSspectraandDFTmodeling. Inaddition,aselectionof
+themostrecentstudiesandadvancementsontheDFTapproachtoSERSspectroscopyisreported
+withcommentary.
+Keywords:SERSspectroscopy;applications;DFTcalculations;metalsurfacemodeling
+1. Introduction
+TheSERS(surfaceenhancedRamanscattering)[1–3]effectisabletohugelyamplify
+Citation:Muniz-Miranda,M.;
+Muniz-Miranda,F.;Menziani,M.C.; theRamanresponseofmoleculesadheringtothenanostructuredsurfacesofmetalssuch
+Pedone,A.CanDFTCalculations assilver,gold,andcopper. Thiseffect,whichusuallyproducesaRamansignaloverone
+ProvideUsefulInformationforSERS milliontimeslargerthanthatobservedinnonadsorbedmolecules,isgenerallyconsidered
+Applications? Molecules2023,28,573. tobetheproductoftwocontributions,oneelectromagneticandanotherchemical. Thefirst
+https://doi.org/10.3390/ contributionmustsatisfytworequirements: (i)thesubstratemustbecomposedofametal
+molecules28020573 withhighopticalreflectivity,thatis,theimaginarypartofthedielectricconstantmustbe
+verysmallinthespectralregionofRamanexcitation;(ii)thewavelengthoftheexciting
+AcademicEditor:FranckRabilloud
+radiationmustfallwithintheplasmonbandofmetalnanoparticlessothatthemolecules
+Received:30November2022 adheringtometalundergoanelectricfieldmuchlargerthanthatatlongdistancesfrom
+Revised:21December2022 thesurface. Thiscontribution,providingRamanenhancementfactorsupto107,allows
+Accepted:3January2023 observationofthespectraofmolecularsubmonolayersadsorbedonnanostructuredmetals
+Published:6January2023
+anddoesnotrequiretheformationofchemicalbondsbetweenmoleculesandmetal. The
+secondcontributiontotheSERSenhancement,whichisobservedwhenthemoleculeis
+chemisorbedonactivesitesofthemetalsurface,dependsonthechangeofthemolecular
+polarizability due to the formation of metal–molecule complexes. The electromagnetic
+Copyright: © 2023 by the authors.
+contributionisessentialtotheSERSeffect,butthechemicalone,evenifitprovidesRaman
+Licensee MDPI, Basel, Switzerland.
+enhancementfactorsuptoonly100,isimportantindeterminingthespectralpattern,as
+This article is an open access article
+the formation of surface complexes produces significant frequency-shifts and intensity
+distributed under the terms and
+changesintheSERSbandswithrespecttothoseobservedinthenormalRamanspectraof
+conditionsoftheCreativeCommons
+Attribution(CCBY)license(https:// nonadsorbedmolecules.
+creativecommons.org/licenses/by/ Inthisrespect,thedensityfunctionaltheory(DFT)approachcanbeusedforinterpret-
+4.0/). ingtheSERSspectraofchemisorbedmolecules. Infact,theseDFTcalculationsarebased
+Molecules2023,28,573.https://doi.org/10.3390/molecules28020573 https://www.mdpi.com/journal/molecules
+
+--- page 2 ---
+Molecules 2023, 28, x FOR PEER REVIEW 2 of 17
+In this respect, the density functional theory (DFT) approach can be used for inter-
+Molecules2023,28,573 preting the SERS spectra of chemisorbed molecules. In fact, these DFT calculation2so afr1e7
+based on complexes constituted by molecular ligands and active sites of the metal surface,
+which are modeled as adatoms or adclusters with one or a few atoms, considered almost
+oisnolcaotmedp loenx etsheco mnsettiatul tseudrfbaycem. Tolheicsu cloarmlpiguatnadtisoannadl aapcptirvoeascihte aslolofwthse ums ettoa losbutarfinac ve,ewryh iimch-
+aproermtaondt erelesdulatss: a(d1)a ttohme sspoercatrdacll upsotseirtsiownsit hofo tnhee oSrEaRfSe wbaantdosm asn,dco tnhsei dfreerqeudeanlcmyo sshtiifstos lwatietdh
+orensptheectm toe ttahles nuorframcea.l RTahmisacno mbapnudtsa toifo nthael naponparodascohrbaeldlo mwosluecsutloeso; b(2ta) itnhev erreylaitmivpe oinrttaennt-
+rseitsiueslt so:f (t1h)et hoebsseprevcetdra SlEpRosSi tbioannsdso;f (t3h)e thSeE RidSebnatinfidcsataionnd othf ethfree mquoelenccuylashr isfittsesw ditihrercetslyp einct-
+tvootlhveedn ionr mthael inRtaemraacntiobnasn wdsitohf tthhee mneotnaal dsusobrsbtreadtems aonledc,u cloenss;e(2q)utehnetlrye, laaltsiov ethine taednssoitripetsioonf
+tgheeoombesterrivese;d (4S)E inRfSorbmanadtiso;n( 3o)nt htheei dneantutirfiec oaft itohne soufrtfhaecem’so alectciuvlea rsisteitse isndviorelvcetldy iinn tvhoel vcehdemin-
+tihcael iinntteerraaccttiioonns wwitithh ththee limgaentadl msuoblsetcrualteess. and,consequently,alsotheadsorptiongeome-
+tries;I(n4 )reincefonrtm daetciaodneso,n StEhReSn saptuecretroosfctohpeys uhrafsa cper’osvaecdti vtoe bseit eosf ifnuvnodlavmedenintatlh iemcphoermtainccael
+iinnt earpapcltiicoantiwonitsh inth ae vliagraientdy mofo rleesceualrecsh. fields, including in chemical sensors, materials sci-
+Inrecentdecades,SERSspectroscopyhasprovedtobeoffundamentalimportance
+ence, and biomedicine [4,5]. For all of these applications, it is essential to have detailed
+in applications in a variety of research fields, including in chemical sensors, materials
+information on the molecule–metal interaction. The combined SERS–DFT approach
+science,andbiomedicine[4,5]. Foralloftheseapplications,itisessentialtohavedetailed
+makes it possible to achieve all of this information as illustrated above. In this regard, this
+informationonthemolecule–metalinteraction. ThecombinedSERS–DFTapproachmakes
+review presents some of the computational studies carried out in Italy in the Department
+itpossibletoachieveallofthisinformationasillustratedabove. Inthisregard,thisreview
+of Chemical and Geological Sciences of the University of Modena and Reggio-Emilia on
+presents some of the computational studies carried out in Italy in the Department of
+the experimental results obtained in the Chemistry Department of the University of Flor-
+ChemicalandGeologicalSciencesoftheUniversityofModenaandReggio-Emiliaonthe
+ence. Finally, a selection of the most recent studies by different authors on the DFT ap-
+experimentalresultsobtainedintheChemistryDepartmentoftheUniversityofFlorence.
+proach to SERS spectroscopy is commented on and related to their applications.
+Finally,aselectionofthemostrecentstudiesbydifferentauthorsontheDFTapproachto
+SERSspectroscopyiscommentedonandrelatedtotheirapplications.
+2. Results
+2. Results
+2.1. Xanthine Adsorbed on Silver Colloidal Nanoparticles
+2.1. XanthineAdsorbedonSilverColloidalNanoparticles
+Xanthine, a nucleobase that is produced in the human body from adenine and gua-
+Xanthine,anucleobasethatisproducedinthehumanbodyfromadenineandguanine
+nine (Figure 1), can provoke diseases similarly to uric acid when it is deposited at abnor-
+(Figure1),canprovokediseasessimilarlytouricacidwhenitisdepositedatabnormal
+mal levels [6]. The latter can be detected with SERS spectroscopy in diagnostic procedures
+levels [6]. The latter can be detected with SERS spectroscopy in diagnostic procedures
+in order to prevent metabolic dysfunctions. In particular, FT-SERS were obtained in the
+inordertopreventmetabolicdysfunctions. Inparticular,FT-SERSwereobtainedinthe
+nneeaarr--iinnffrraarreedd ssppeeccttrraall rreeggiioonn [[77]],, wwhheerree iinntteerrffeerreennccee dduuee ttoo fflluuoorreesscceennccee ddooeess nnoott ooccccuurr,,
+aanndd aannaallyyzzeedd bbyy DDFFTT ccaallccuullaattiioonnss..
+FFiigguurree 11.. FFoorrmmaattiioonn ooff xxaanntthhiinnee ffrroomm aaddeenniinnee aanndd gguuaanniinnee..
+TThhee DDFFTT ccoommppuuttaattiioonnaall aapppprrooaacchh aalllloowweedd iiddeennttiifificcaattiioonn ooff tthhee ““mmaarrkkeerr”” SSEERRSS bbaannddss
+ooff xxaanntthhiinnee bbyy ccoonnssiiddeerriinngg ththee mmoolelceuculel elinliknekde dtot osilsvilevre praprtairctliecsl,e ass, awsewll ealsl tahset mheolmecoulelacr-
+ulargroupinvolvedintheinteractionwiththemetal,bycomparingtheobservedSERS
+spectrumwiththosecalculatedwithallpossiblecomplexes(Figure2). Inpractice, this
+computationalstudywascomplicatedbythepossiblepresenceoftwotautomersandof
+differentcomplexesformedbymolecule–metalinteractions. OnlytheN(9)H-Acomplex
+
+--- page 3 ---
+Molecules 2023, 28, x FOR PEER REVIEW 3 of 17
+group involved in the interaction with the metal, by comparing the observed SERS spec-
+Molecules2023,28,573 trum with those calculated with all possible complexes (Figure 2). In practice, this c3oomf1-7
+putational study was complicated by the possible presence of two tautomers and of dif-
+ferent complexes formed by molecule–metal interactions. Only the N(9)H-A complex sat-
+issafaticstfoarcitloyr rileyprreopdruocdeudc bedotbho pthospitoiosintiso annsda nredlarteilvaet iivneteinntseitniesist ioefs tohfet ShEeRSSE RbaSnbdasn, dins ,pinarptiacr--
+utilcaurl athret hdeodmoimnainnacne coef otfhteh SeESRESR Sbabnadnd araorouunndd 665500 ccmm–1− a1nadn dthteh eoocccucurrrerennccee oof ftthhee ssttrroonngg
+SSEERRSS bbaanndd aarroouunndd 11770000 ccmm−–1.1 .TThhe emmooddeelilningg oof fththee sislivlveer rssuurfrafaccee wwaass eeffffiicciieennttllyy ppeerrffoorrmmeedd
+bbyy oonnee ppoossiittiivviizzeedd ssiillvveerr aattoomm ssttrroonnggllyy iinntteerraaccttiinngg wwiitthh tthhee NN77 aattoomm ttooggeetthheerr wwiitthh tthhee
+vviicciinnaall ccaarrbboonnyyll ggrroouupp..
+FFiigguurree 22.. DDFFTT--ssiimmuullaatteedd RRaammaann ssppeeccttrraa ooff xxaanntthhiinnee––ssiillvveerr ccoommpplleexxeess ccoommppaarreedd wwiitthh tthhee oobbsseerrvveedd
+SERS spectrum of xanthine adsorbed on Ag colloidal nanoparticles (1064 nm laser excitation).
+SERSspectrumofxanthineadsorbedonAgcolloidalnanoparticles(1064nmlaserexcitation).
+TThhee uussee ooffD DFTFTc aclcaulclautliaotniosniss qius itqeuiimtep iomrtpanorttbaencta ubseecathuesei dtehnet ifiidceantitoifnicoaftitohne mofa rtkheer
+mbaanrkdesro bfaxnadnst hoifn xeancathninbee cimanp baeir iemdpbayirtehde bpyr ethsee npcreesoefnocteh oefr obtihoelor gbiicoalolgcoicmalp coonmepnotsn.eTnhtsis.
+TShEiRs SS–EDRFST–DinFvTe sintivgeasttioignamtioand meiatdpeo ists pibolsestibolue steo FuTse-S FETR-SSEsRpeSc stproescctoropsycofopryb fioors beniossoernysaonryd
+adniadg dnioasgtincopsutircp pouserspionsebso diny bfloudidys fliuniodrsd ienr toorddeert etcot dabenteocrtm aablnxoarnmthailn xealnetvheilnsea nledveplrse vaenndt
+pmreevtaebnotl micedtiasbeoalsiecs d.iseases.
+22..22.. TTaappaazzoollee AAddssoorrbbeedd oonn GGoolldd CCoollllooiiddaall NNaannooppaarrttiicclleess
+TThhee uussee ooff mmeettaall nnaannooppaarrttiicclleess lliinnkkeedd ttoo bbiioommoolleeccuulleess ccaann bbee vveerryy aaddvvaannttaaggeeoouuss iinn aa
+tthheerraappeeuuttiicc pprraaccttiiccee tthhaannkkss ttoo tthhrreeee ppoossssiibbllee aapppplliiccaattiioonnss:: ((ii)) ttoo eennhhaannccee tthhee tthheerraappeeuuttiicc
+eeffffeecctt ooff tthhee ddrruugg;; ((iiii)) ttoo aallllooww eeffffiicciieenntt ddrruugg ddeelliivveerryy dduuee ttoo tthhee ccaarrrriieerr aaccttiioonn ooff tthhee mmeettaall
+nanoparticles,whichcanreleasethedrugwhereitisneeded;(iii)toincreasethetherapeutic
+nanoparticles, which can release the drug where it is needed; (iii) to increase the therapeu-
+retentiontimeincirculation,allowingtheuseofareduceddoseofthedrugwithlimited
+sideeffects. Amongmetallicnanoparticles,thosemadeofgoldprovidethebestbiomedical
+use,owingtotheirlowtoxicityincomparisonwithothernoblemetalsandtheabsenceof
+alterationsduetooxidativeprocesses.
+
+--- page 4 ---
+Molecules 2023, 28, x FOR PEER REVIEW 4 of 17
+tic retention time in circulation, allowing the use of a reduced dose of the drug with lim-
+ited side effects. Among metallic nanoparticles, those made of gold provide the best bio-
+medical use, owing to their low toxicity in comparison with other noble metals and the
+absence of alterations due to oxidative processes.
+Molecules2023,28,573 4of17
+This therapeutic strategy is particularly interesting in the case of a molecule such as
+methimazole, commercially known as tapazole (TZ), which has long been used for the treat-
+meTnht iosft hhyerpaepretuhtyicrositdraistemg.y Hisopwaretviceurl, aar llyoningt epreersitoindg oinf athneticthasyerooifda tmheorleacpuyl ewsiutchh taapsazole can
+mceatuhisme aszeoriloe,ucso hmemalethrc ciaolnlysekqnuoewnnceass, tianpcaluzdolieng(T tZh)e, wonhsiecht ohfa dsilsoenagsebse seuncuhs eads vfoarscthuelitis, lupus
+treearytmtheenmtoafthoyspuesr, tnheyprohidriitsims, .aHnodw thevroerm,abloocnygtpoepreiondiao [f8a–n1t0it]h. yTrohiedrethfoerraep, ygowldith ctoalploaizdoalel nanopar-
+cancauseserioushealthconsequences,includingtheonsetofdiseasessuchasvasculitis,
+ticles functionalized with TZ allow a reduced dose of the drug with limited side effects. For
+lupuserythematosus,nephritis,andthrombocytopenia[8–10]. Therefore,goldcolloidal
+this purpose, the study of the molecule–metal interaction, which was carried out by means
+nanoparticlesfunctionalizedwithTZallowareduceddoseofthedrugwithlimitedside
+of a combined SERS–DFT approach [11], is of great importance. In practice, the interpreta-
+effects. Forthispurpose,thestudyofthemolecule–metalinteraction,whichwascarried
+tion of the SERS data based on DFT calculations allowed identification of the molecular spe-
+outbymeansofacombinedSERS–DFTapproach[11],isofgreatimportance. Inpractice,
+cies, the thiolate anion (TZA), which chemically interacted with the gold surface only
+theinterpretationoftheSERSdatabasedonDFTcalculationsallowedidentificationof
+thtehmrooulgechu tlahres spuelcfiuesr, athtoemth.i oTlhatee aacntiiovne (sTitZeAs )o,fw thhiec hmcehteaml sicuarlflyacien twerearcete mdwoditehlethde agso zldero-charge
+sugrofaldce aodnalytotmhros uogrh atdhcelsuusltfeurrsa (tFomig.uTreh e3a).c tIinv epsaitretsicoufltahre, tmheet aaldsouprftaicoenw oefr eadmcoludsetleedrsa fsormed by
+zetrhor-eceh agrogledg aotlodmadsa itnosmtesaodr oadf colnuest-eartso(mFi gaudraeto3)m. I ndipda nrtoictu plarro,vthideea dao spigtinonifiocfaandt cilmuspterrosvement in
+fotrhme ecdombypathrirseoeng boeldtwaetoemn ssiimnsutelaatdedo faonnde e-axtpoemrimadeantotaml SdEiRdSn soptepcrtorvai, dtheuas sciognniffiircmanintg that the
+improvementinthecomparisonbetweensimulatedandexperimentalSERSspectra,thus
+SERS profile of a chemisorbed molecule is determined by the local interaction between the
+confirming that the SERS profile of a chemisorbed molecule is determined by the local
+molecular site and the active site of the surface. In the case of TZ, the molecular site of inter-
+interactionbetweenthemolecularsiteandtheactivesiteofthesurface. InthecaseofTZ,
+action was only the sulfur atom, as shown in Figure 4, where the Au-S stretching band ob-
+themolecularsiteofinteractionwasonlythesulfuratom,asshowninFigure4,wherethe
+A
+s
+u
+e
+-
+r
+S
+v
+s
+e
+t
+d
+re
+a
+tc
+t
+h
+2
+in
+0
+g
+2 c
+b
+m
+an
+−
+d
+1 w
+ob
+a
+s
+s
+e
+c
+rv
+a
+e
+lc
+d
+u
+a
+la
+t
+t
+2
+e
+0
+d
+2
+a
+c
+t
+m
+1−919
+w
+cm
+as
+−1
+c
+.
+a
+T
+lc
+h
+u
+i
+l
+s
+a t
+r
+e
+e
+d
+su
+a
+l
+t
+t
+1
+c
+9
+a
+9
+n
+c
+p
+m
+la−y1. a
+T
+n
+h
+i
+i
+m
+sr
+p
+es
+o
+u
+r
+l
+t
+t
+an
+ca
+t
+n
+role in the
+pluasyea onf itmhepsoer tnaanntorohlyebinritdhse iuns deroufgth deesleivnearnyo bheycbariudssei tnhder Augu–dSe lbivoenrdysb oecf aoursgeatnhoetAhiuo–lsS adsorbed
+boonnd gsoolfdo rngaannoopthairotilsclaeds suonrbdeedrwonengto lbdrenaaknionpga rwtiictlhes iuodndideerw aenniotnbrse. aIkni nsgucwhi tah wioadyid, eTZ can be
+anrieolenas.seInd sruigchhta wwhaey,reT Zit cisa nnbeeedreelde aasse danritgithhtywrohiedr edirtuisgn. eededasantithyroiddrug.
+FiFgiugruer3e. D3.F DT-FsTim-suilmatuedlaRteadm Ranamspaenc tsrapeocfttraap aozf otlaep–gaozlodlec–ogmopldle xceosmcpomlepxaerse cdowmipthatrheedo wbsiethrv tehde observed
+SESRESRsSp sepcteructmruomft aopf atzaoplaezaodlseo arbdesdorobnegdo oldnc goolloldid caollnloanidoapla nrtaicnleosp(a6r4t7ic.1lensm (6l4as7e.1r enxmcit laatisoenr) e.xcitation).
+
+--- page 5 ---
+Molecules 2023, 28, x FOR PEER REVIEW 5 of 17
+Molecules2023,28,573 5of17
+FFiigguurree4 4.. LLooww-f-rferqeuqeunecnycSyE SRESRsSp escptreact(reax c(.ex1c06. 410n6m4) nomf T) Zofi nTZA uinc Aolulo icdosl.loTihdes.n Tohrme anlomrmodael mode calcu-
+lcaatlceudl aatet d1a9t91 c9m9c−m1 f − o 1 rf othreth TeZTZAA-A-Auu mmooddeell isiss hsohwownanb oavbeovfoer tfhoer ttwhoe mtwaxoi mmuamxidmefuomrm dateiofonrsmations (hy-
+(dhryodgreogne antaotmoms shhididddeenn))..
+2.3. ZeatinAdsorbedonGoldColloidalNanoparticles
+2.3. Zeatin Adsorbed on Gold Colloidal Nanoparticles
+Trans-zeatin (hereafter zeatin) is a natural purine derivative used invitro in plant
+culturTertaonssti-mzeualatitne g(rhoewrethafatnedr bzuedatfionr)m iast iao nn,awtuherraela pstuhreincies fdoermrivisatbiivoelo ugisceadlly inin avci-tro in plant
+ctiuvletu[1r2e] .toIn stthimisurelsapteec gt,rgoowldthn aannodp abrutidcl efsorcmanaatciotnas, wvehcteorresaosf tzheea tcinisi nfotormth eiisr bliivoilnoggically inac-
+cells, where this drug can then be released by the effect of glutathione, an antioxidant
+tive [12]. In this respect, gold nanoparticles can act as vectors of zeatin into their living
+presentinalllivingcells,duetoitsstrongaffinitywithmetallicgold. Ontheotherhand,
+cells, where this drug can then be released by the effect of glutathione, an antioxidant
+Aunanoparticleshavebeenshowntoenterandaccumulateinplantcellswithverylittle
+present in all living cells, due to its strong affinity with metallic gold. On the other hand,
+toxicity [13,14]. To test the ability of gold nanoparticles to adsorb and transport zeatin,
+ASEuR Snaenxpoepraimrteincltessw hearevep ebrefoernm sehdofwornd tioff eernentetrp aonssdib alecccoummpulelaxtees iwni tphlagnoltd c[e1l5ls] awnidth very little
+tcoomxibciintyed [1w3i,t1h4D].F TToca tlceuslta ttihoen sa.bility of gold nanoparticles to adsorb and transport zeatin,
+Twozeatintautomers(Figure5),N7(H)andN9(H),wereconsideredlinkedtogold
+SERS experiments were performed for different possible complexes with gold [15] and
+adclusters,neutralorpositivelycharged. ThebestagreementbetweenSERSdataandAu
+combined with DFT calculations.
+complexeswasobtainedinthecaseoftheN7(H)tautomerboundtogoldthroughtwo
+Two zeatin tautomers (Figure 5), N7(H) and N9(H), were considered linked to gold
+differentnitrogenatoms(Figure6).
+adclusters, neutral or positively charged. The best agreement between SERS data and Au
+c2.o4m. Cpolreroxseiosn wInahsib iotobrtsaoinneCdop ipner tRhoeu gchasSeu rofafc etshe N7(H) tautomer bound to gold through two
+diffeCreonppt enrithraosgaelnw aaytosmbese n(Fwigiduerley 6u)s. edforindustrialpurposesbyvirtueofitsgreat
+thermalandelectricalconductivity.However,itundergoescorrosionphenomena,especially
+inthepresenceofwater[16],whichseriouslycompromiseitsuse.Asolutiontothisproblem
+istoprotectthecoppersurfaceswithanticorrosivefilms,thankstothechemisorptionof
+organicinhibitors,containingsulfurornitrogenatoms. Amongthesecorrosioninhibitors,
+azolederivativessuchasbenzotriazole[17]and1,2,4-triazole[18]havebeenwidelyused.
+Thelatter,unliketheformer,canbeconsideredanenvironmentallyfriendlyagent.Toobtain
+information on the adsorption of 1,2,4-triazole on copper, we used SERS spectroscopy,
+which required roughening the metal surface, combined with a DFT study [19]. The
+
+--- page 6 ---
+Molecules2023,28,573 6of17
+computationalapproachwascomplicatedbytheexistenceoftwodifferenttautomersof
+the title molecule, indicated as 1H and 4H, based on the presence of a hydrogen atom
+linkedtothenitrogenatomN1orN4,respectively,andbythefactthatthebondwithmetal
+Molecules 2023, 28, x FOR PEER REVIEW 6 of 17
+M olecules 2023, 28, x FOR PEER REVIcEoWul doccurviatwodifferentmolecularsites,thesp2-typenitrogenatomsN2andN4(see 6 of 17
+Figure7). Furthermore,inthecaseofthe4Htautomer,bondingwithtwocopperadatoms
+waspossible.
+Figure 5. Tautomeric forms of trans-zeatin.
+Figure5.Tautomericformsoftrans-zeatin.
+Figure 5. Tautomeric forms of trans-zeatin.
+Figure 6. Adsorption of zeatin on a gold nanoparticle along with the SERS spectra obtained in Au
+Figure6.AdsorptionofzeatinonagoldnanoparticlealongwiththeSERSspectraobtainedinAu
+Figure 6. Adsorption of zeatin on a gold nanoparticle along with the SERS spectra obtained in Au
+colloid with different concentration.
+colloidwithdifferentconcentration.
+colloid with different concentration.
+2.4. Corrosion Inhibitors on Copper Rough Surfaces
+2.4. Corrosion Inhibitors on Copper Rough Surfaces
+Copper has always been widely used for industrial purposes by virtue of its great
+Copper has always been widely used for industrial purposes by virtue of its great
+thermal and electrical conductivity. However, it undergoes corrosion phenomena, espe-
+thermal and electrical conductivity. However, it undergoes corrosion phenomena, espe-
+cially in the presence of water [16], which seriously compromise its use. A solution to this
+cially in the presence of water [16], which seriously compromise its use. A solution to this
+problem is to protect the copper surfaces with anticorrosive films, thanks to the chemi-
+problem is to protect the copper surfaces with anticorrosive films, thanks to the chemi-
+sorption of organic inhibitors, containing sulfur or nitrogen atoms. Among these corrosion
+sorption of organic inhibitors, containing sulfur or nitrogen atoms. Among these corrosion
+inhibitors, azole derivatives such as benzotriazole [17] and 1,2,4-triazole [18] have been
+inhibitors, azole derivatives such as benzotriazole [17] and 1,2,4-triazole [18] have been
+widely used. The latter, unlike the former, can be considered an environmentally friendly
+widely used. The latter, unlike the former, can be considered an environmentally friendly
+agent. To obtain information on the adsorption of 1,2,4-triazole on copper, we used SERS
+agent. To obtain information on the adsorption of 1,2,4-triazole on copper, we used SERS
+spectroscopy, which required roughening the metal surface, combined with a DFT study
+spectroscopy, which required roughening the metal surface, combined with a DFT study
+[19]. The computational approach was complicated by the existence of two different tau-
+[19]. The computational approach was complicated by the existence of two different tau-
+tomers of the title molecule, indicated as 1H and 4H, based on the presence of a hydrogen
+tomers of the title molecule, indicated as 1H and 4H, based on the presence of a hydrogen
+atom linked to the nitrogen atom N1 or N4, respectively, and by the fact that the bond
+atom linked to the nitrogen atom N1 or N4, respectively, and by the fact that the bond
+with metal could occur via two different molecular sites, the sp2-type nitrogen atoms N2
+with metal could occur via two different molecular sites, the sp2-type nitrogen atoms N2
+
+--- page 7 ---
+MMoloelceuculelse s2 2002233, ,2 288, ,x x F FOORR P PEEEERR R REEVVIEIEWW 77 oof f 1177
+Molecules2023,28,573 7of17
+aanndd N N44 ( s(seeee F Figiguurree 7 7).) .F Fuurrththeerrmmoorree, ,i nin t hthee c caassee o of ft hthee 4 4HH t atauutotommeerr, ,b boonnddiningg w witihth t wtwoo
+ccooppppeerr a addaatotommss w waass p poossssibiblele. .
+FFiFiggiugurureere 77 .7. M.M Moododdeelel sls ysysyststeetmemmsss ffo ofror r11 H1HH//c/ccoooppppppeeerr raa annnddd 44 4HHH//c/ccoooppppppeeerr r( l((olloowwweeerr rp ppaaannneeel)ll ))c ccooommmppplelleexxxeeesss. ..
+TTThhheee mm moododdeeleliilnninggg oo fof ftt hhtheee mm meetetaatlal sls usuurrfrfaafcacecee ww waasass cc acararrrririeeidedd oo uouutt tww wiittihhth ss isinninggglleele cc ocooppppppeererr aa tatootommmss,s, n,n neeueuuttrrtaralal l
+ooorrr p ppoososisittiiitvviveelelyyly c chchhaarargrgegededd,, ,g gigivvievenenn t thhtehee o oxoxixiddiadatatiiotoinonn f faafcacicilliiitltyiyty o ofof ft hthtehee c cocopoppppepererrs susururfarfafcacece.e. .A AA r rereaeasasosononanabablbleele
+aagagrgrereeeememmeenentntb tb ebetewtwtweeeeenenno o bobsbesserevrrvevededad na andndsd is msimiumluaultaleatdetedSd ES SREESRRSsSp s espcpetercactrtwraa aw wsaoasbs o toabbitnateaindineoednd ol yonnilnyly ti hnine t htchaees c ecaoassfee
+tohofe ft ht1hHee 1 1tHaHu t tatoaumutoteomrmeberor bn bodonendddetedod ta otoC a a uC C+uui+o+ in oionbn yb bytyh t ehthene in tnirtiortgrooeggneenan ta oatomtommN N 4N4.4.T .T hThihsisias a dadsdsosororprptptiiotoinonna a lalllloolwowweededd
+ffoofrormrmmiinnigngg cc hchahaiainnisnsso o fofa fa dadsdsosororbrbebededdm m mooloelecleucculueleslesls iln ilnkinkekdeedtd ot gotoeggtehetehthreerbr yb byhy yh hdyyrdodrgrooegngeenbn ob nbodonnsd,dsts,h ,tu htshuucsrs ec carreteianatgitninagg
+caoa cm coopmmapcptaaclact tyl aleayryeoerfr o torf ifta rtzriaoiazlezooltelhe at htthacata tnc caianmn i pmimapipraamirir em tmaeletactaol lrc rcooorsrrirooosnsioi(onsne ( es(seFeeie gF uFigirgeuur8re)e. 8 8).) .
+FFigiguurere 8 8. .A Addssoorprptitoionn m mooddeel lo of ft hthee 1 1,2,2,4,4-t-rtiraiazzoolele m mooleleccuulele o onn t hthee c cooppppeer rs suubbsstrtaratete. .
+Figure8.Adsorptionmodelofthe1,2,4-triazolemoleculeonthecoppersubstrate.
+AAA cc ocononnfififrrimrmmaatatiitooionnn oo fof ftt hhthiissis ww waasass ss hshohowowwnnn bb ybyy oo bobsbseserervrvivinnigngg tth htehee SS ESERERRSSS ss pspepecectctrrturuummm oo fof 1f1 ,12,2,,24,4,-4-tt-rrtiriaaizazozololeele
+aadaddssosororbrbebededdo o nonnc co copoppppepere,rr,w ,w hwhehreeerrete ht ehthebe ab bnaadnnsddass ta aatb ta oabubotou5ut3 t5 053a30n0 a dann6dd2 60 62c20m0 c −cmm1−,1−d,1 ,ud deuueteo t ottoh t ehthfeoe fr ofmorrmamtiaoatnitoioonnf o aof f
+Caa uC (CIu)u(mI()I )um mltuiullatlityliaelayrye[er2r 0[ ]2[,20w0],] e,w rweeercreoe mc copommleptpleelletyetelaylby sa aebnbsste.enOnt.t n.O Otnhn et htcheoe nc ctoronantrrtyra,artryhy,e ,t shtehebesseae nb dbaasn,ndidnss,d ,i inicndadtiicivcaeatitovivfee
+aninitialstageofcorrosionofcopper,wereobservedintheSERSspectrumofimidazole,
+anazolestructurallyverysimilartotriazolebutunabletobindtheadsorbedmolecules
+together(Figure9).
+
+--- page 8 ---
+Molecules 2023, 28, x FOR PEER REVIEW 8 of 17
+M olecules 2023, 28, x FOR PEER REVIEW 8 of 17
+of an initial stage of corrosion of copper, were observed in the SERS spectrum of imidaz-
+of an initial stage of corrosion of copper, were observed in the SERS spectrum of imidaz-
+ole, an azole structurally very similar to triazole but unable to bind the adsorbed mole-
+Molecules2023,28,573 ole, an azole structurally very similar to triazole but unable to bind the ads8oorfb1e7d mole-
+cules together (Figure 9).
+cules together (Figure 9).
+Figure 9. SERS spectra of 1,2,4-triazole and imidazole absorbed on etched copper surfaces.
+Figure9.SERSspectraof1,2,4-triazoleandimidazoleabsorbedonetchedcoppersurfaces.
+2F.5ig. uPrues 9h.- PSEuRll SM spoleeccturlae oAf d1s,2o,r4b-etdri aozno Sleil vanerd C imolliodiadzaol lNe aanbospoarbrteidcl eosn etched copper surfaces.
+2.5. Push-PullMoleculeAdsorbedonSilverColloidalNanoparticles
+Push-pull chromophores exhibit two end groups with electron-donor and electron-
+2.5. Push-Pull Molecule Adsorbed on Silver Colloidal Nanoparticles
+accepPtours hch-paurallcctherrso mcoonpnheocrteesde xbhyi bai tπtw-coonejnudgagtreodu pbsriwdgiteh, erleescutrlotinn-gd oinn oar laanrdgee lmecotrloecnu-lar
+daicpcoelpePt uomrsohcmh-paeurnaltcl. tTcehrhsreocsmoe nmonpoehcletoecrduelsbe yse fxaihn πidb- ciiotm ntpjwuogora teatenndtd nb gorrindolguinep,esar erw souiptlhttii ncegalle ic(nNtraLolOna-r)dg aeopnmpoloricl eaactniuodlna ersl;e icnt ron-
+pad aci rcp teo icpl u etol m arr o ,c mh4 e -ad nri tam .cTteeh trh ess y e lca momnoni l n eeo ccu -t4 lee -dn s i fibtr nyo d sat i i m lπb p-e ocnor e tna jn (uD tgn Aao NtneS ldi ) n be [ a 2rri1d– og2 pe3 ti,] c ra ies l s( w Nuli LtdiOne ) lgy a pienp x l paic l a olat i i tro egn des ; imi n n ooler-cular
+particular,4-dimethylamino-4-nitrostilbene(DANS)[21–23]iswidelyexploitedinorganic
+gdainpioc leli gmhot-memenittt.i nTgh edsieo dmeos l(eOcuLlEeDs sfi)n, din i mbipoiomrtaagnitn ng,o nanlidn eianr roapdtiiactaiol n(N thLeOra) payp palpicpalticioan-s; in
+light-emittingdiodes(OLEDs),inbioimaging,andinradiationtherapyapplications. The
+tpioanrsti. cTuhlaer ,p 4ec-duilmiare tbheyhlaavmioinr oo-f4 -pnuitsrho-sptuillbl emneo l(eDcuAleNs Si)s [o2f1te–n2 3d] eissc rwibiedde lbyy eax ptwlooit-esdta tien or-
+peculiarbehaviorofpush-pullmoleculesisoftendescribedbyatwo-statemodelwitha
+mgaondiecl wligithht -ae mneiutttirnagl fodrimod pesre (dOoLmEinDasn)t, iinn tbhieo gimroaugnidn gs,t aatne da nidn ar azdwiiatttieornio nthice froarpmy parpep-lica-
+neutralformpredominantinthegroundstateandazwitterionicformpredominantinthe
+dtioomnisn. aTnht ein p theceu loliware sbte ehxacvitieodr sotaf tep,u assh s-hpouwlln m ino Fleigcuulrees 1 0is f oorf tDenA NdSes. cribed by a two-state
+lowestexcitedstate,asshowninFigure10forDANS.
+model with a neutral form predominant in the ground state and a zwitterionic form pre-
+dominant in the lowest excited state, as shown in Figure 10 for DANS.
+FFigiguurree 1100.. RReessoonnaannccee ssttrruuccttuurreesso offD DAANNSS..
+However,thesurroundingenvironmentmodifiestheirproperties,fo rexample,with
+However, the surrounding environment modifies their properties, for example, with
+different polarity solvents or the chemical interaction with a metal surface. In order to
+dFiifgfeurreen 1t0 .p Roelasrointyan scoel vsternutcst uorre st hofe DcAheNmSi. cal interaction with a metal surface. In order to
+improve the NLO properties of DANS, we tested the chemical and physical behavior
+improve the NLO properties of DANS, we tested the chemical and physical behavior of
+of this molecule when adsorbed on colloidal silver with SERS measurements and DFT
+this mHoolewcuelvee wr, hthene saudrsroorubendd ionng ceonllvoiirdoanlm sielvnetr m woidthif SieEsR tSh emire pasruorpeemrteienst,s faonrd e xDaFmTp clael,- with
+calculations[24]. DANSstronglyabsorbedintheregionofthegreen-blueradiation[25],as
+cduilfafteiroennst [p24o]l.a DriAtyN sSo lsvtreonntgs lyo ra bthsoe rcbhedem inic tahle i rnetgeiroanc toiof nth we igtrhe ean -mbleutae lr asudirafaticoen. [I2n5 ]o, radse r to
+alsopredictedbytheTD-DFTcalculations(seeFigure11). Therefore,aRamanresonance
+improve the NLO properties of DANS, we tested the chemical and physical behavior of
+effectwasexpectedinadditiontoSERSenhancement.
+this molecule when adsorbed on colloidal silver with SERS measurements and DFT cal-
+culations [24]. DANS strongly absorbed in the region of the green-blue radiation [25], as
+
+--- page 9 ---
+MMooleleccuuleless 2 2002233, ,2 288, ,x x F FOORR P PEEEERR R REEVVIIEEWW 99 ooff 1177
+Molecules2023,28,573 9of17
+aallssoo pprreeddiicctteedd bbyy tthhee TTDD--DDFFTT ccaallccuullaattiioonnss ((sseeee FFiigguurree 1111)).. TThheerreeffoorree,, aa RRaammaann rreessoonnaannccee
+eeffffeecctt wwaass eexxppeecctteedd iinn aaddddiittiioonn ttoo SSEERRSS eennhhaanncceemmeenntt..
+FFFiiiggguuurrreee 11 1111.. .U UUVVV–––vvviisiss aa abbbsssooorrrppptttiioioonnn ss spppeeecccttrtrraaa oo offf DD DAAANNNSSS aa alloloonnnggg ww wiitiththh tt hthheee ss siimimmuuullalaatteteeddd TT TDDD--D-DDFFFTTT ss spppeeecccttrtruruummm.. .
+Whatwasnotexpected,however,wastheprogressiveappearanceofstrongbands
+WWhhaatt wwaass nnoott eexxppeecctteedd, , hhoowweevveerr, , wwaass tthhee pprrooggrreessssiivvee aappppeeaarraannccee ooff ssttrroonngg bbaannddss aatt
+at1136,1400,1444,and1590cm−1notattributabletotheSERSspectrumofthemolecule
+11113366, , 11440000, , 11444444, , aanndd 11559900 ccmm−−11 nnoott aattttrriibbuuttaabbllee ttoo tthhee SSEERRSS ssppeeccttrruumm ooff tthhee mmoolleeccuullee ((sseeee
+(seeFigure12). Thiscouldbeexplainedbyaphotoreactionofthemoleculesadsorbedon
+FFiigguurree 1 122)). .T Thhiiss c coouulldd b bee e exxppllaaiinneedd b byy a a p phhoottoorreeaaccttiioonn o off t thhee m moolleeccuulleess a addssoorrbbeedd o onn t thhee s siillvveerr
+the silverparticles. In fact, thiseffect as observedin silver colloidwas not observedin
+ppaarrttiicclleess.. IInn f faacctt, ,t thhiiss e effffeecctt a ass o obbsseerrvveedd i inn ssiillvveerr c coollllooiidd w waass nnoott oobbsseerrvveedd i inn t thhee s soolluuttiioonn. .
+thesolution.
+FFFiiiggguuurrreee 11 1222.. .S SSEEERRRSSS s sspppeeeccctttrrraaa o oofff D DDAAANNNSSS ii innn AA Aggg cc cooolllllloooiiiddd,, ,rr reeecccooorrrdddeeeddd ee evvveeerrryyy tt wtwwooo mm miininnuuutteteesss.. .
+Thisplasmon-inducedreactioncouldbeconsideredduetothecatalyzingeffectof
+thenanostructuredsurfaceofthecolloidalsilverparticles. TheDFTapproachwasvery
+
+--- page 10 ---
+Molecules 2023, 28, x FOR PEER REVIEW 10 of 17
+Molecules 2023, 28, x FOR PEER REVIEW 10 of 17
+This plasmon-induced reaction could be considered due to the catalyzing effect of
+Molecules2023,28,573 10of17
+the naTnhoiss tprulacstmuroend- isnudrufacceed o rfe tahceti oconl lcooiudladl sbielv ceor npsaidrteirceleds .d Tuhee t oD FthTe acpaptarloyazcihn gw eafsf evcet royf
+itmhep onratnanots tirnu uctnudreerds tsaunrdfainceg othf et haed scoorlplotiidonal osfi lDveArN pSa rotnic lseilsv. eTrh aen Dd FtoT calaprpifryo athche twypase vaenrdy
+mimecphoarntaisnmt i no fu nthdiesr spthanotdoirnega cthtieo nad. sBoyr pctoionnsi dofe rDinAgN tSh eo nm soillveecru laen dli ntok ecdla rtihfyro tuhgeh t ytphee annid-
+important in understanding the adsorption of DANS on silver and to clarify the type
+tmroegcrhoaunpi stmo a o sfi lvtheirs apdhcloutsotreera, cAtigo3n+,. gBoyo dc oangsriedeemrienngt wthaes mfooulnedcu bleet wlinekened th teh orobusegrhv etdh ea nndi-
+and mechanism of this photoreaction. By considering the molecule linked through the
+s n tir i m t o r gu o r g loa r tu o ep u d p tSo t E o aR s a Sil s vs i p l e v re e ca r tdr a ac d l(u c s l se u tee s r t F, e i A r g , ug A r 3 e+ g , 1g + 3o , )o g . d o o a d gr a e g e r m ee e m nt e w nt as w f a o s u f n o d u b n e d tw be e t e w n e t e h n e t o h b e se o r b v s e e d rv a e n d d
+3
+simulated SERS spectra (see Figure 13).
+andsimulatedSERSspectra(seeFigure13).
+Figure 13. SERS spectrum of DANS and Raman spectra of DANS/Ag complex.
+FFiigguurree1 133.. SSEERRSS ssppeeccttrruumm ooffD DAANNSSa annddR Raammaanns sppeeccttrraao offD DAANNSS//AAgg ccoommpplleexx..
+The DFT calculations also showed that the interaction with silver modified the charge
+distriTbT huh eteiD oDnF F TiTn c c atahl l c ceu u lml a a tot i i oloen ncsus a lael l s,s o oess sph h oeocw wiae eldldyt t hbh aya t t at t hch eceu i i nmn t t eue r rlaaa ctc titni i o ogn n n w weigi t t haht sisvi i lel v v ece rhr mamrogo ded i i fiofine e d dth t t heh e eo c cxh hya agr reg gne e
+ad dtioi s s tmt r r isi b b uou tft i i o otnhne i i n nn tit hthreoe gm mrooo lul e epc c,u u lwl e e ,h, eee srs pepae esc c i i atahl l l ley y mb b y ye ta ahc cyc c ulu mgmruou lul a apt t i isn n g gb en nce eag gma a tet i i v vme e oc crh hea a r rpg goe es oiotninv tet h h. e eIn o o x xoy ytghg eee nrn
+wa a t too orm mdsss, otohf f et t h Dh e eA n nNit iSt r r o/oAg g rgr o ocu uop pm, , pw wleh hxe e rar ece aqa sus tih trheede m am eleath trhgy yel lr g qg rouro uinu pop sns b ob eide c c aca mhmaeream cmtoeo rre r ae p lop ono sgi s t i iwt v iv eite .h. IaI n n s to ortot h hne egr r
+words,theDANS/Agcomplexacquiredalargerquinonoidcharacteralongwithastrong
+dweocrredass, et hoef DthAe NHSO/AMgO c–oLmUpMleOx agcaqpu i(r1e.d57 a2 5la ergVe, ri nqsutienaodn oofi d2 .c8h9a3r1a cetVer). aIlno nthgi sw siitthu aa tsiotrno,n ag
+decreaseoftheHOMO–LUMOgap(1.5725eV,insteadof2.8931eV).Inthissituation,a
+pdheoctroeraesde uocft itohne oHf OniMtrOo –gLroUuMp Oto gNa=pN (1 g.5ro7u25p e(aVz,o i ngsrtoeuapd) owf a2s.8 p9o3s1s iebVle). dIun et htois t hsiet ueaffteioctn o, fa
+photoreductionofnitrogrouptoN=Ngroup(azogroup)waspossibleduetotheeffectof
+tphhe ovtiosribedleu bcltuioen-g orfe nenit rroa dgiraotuiopn t,o t hNu=sN fo grmroiunpg (aanz oa zgor-oduepr)i vwaatisv pe oasss sibhloew dnu ein t oF itghue reef f1e4c.t of
+thevisibleblue-greenradiation,thusforminganazo-derivativeasshowninFigure14.
+the visible blue-green radiation, thus forming an azo-derivative as shown in Figure 14.
+Figure 14. Adsorption and photoreaction of DANS on silver nanoparticles.
+Figure14.AdsorptionandphotoreactionofDANSonsilvernanoparticles.
+Figure 14. Adsorption and photoreaction of DANS on silver nanoparticles.
+Confirmation of this was obtained thanks to the DFT calculations, which showed
+inthesimulatedRamanspectrumoftheazo-derivative(Figure15)preciselythestrong
+“spurious”bandsobservedinFigure12.
+
+--- page 11 ---
+Molecules 2023, 28, x FOR PEER REVIEW 11 of 17
+Confirmation of this was obtained thanks to the DFT calculations, which showed in
+Molecules2023,28,573 11of17
+the simulated Raman spectrum of the azo-derivative (Figure 15) precisely the strong “spu-
+rious” bands observed in Figure 12.
+FFiigguurree 1155.. DDFFTT--ssiimmuullaatteedd RRaammaann ssppeeccttrraa ooff tthhee pprrooppoosseedda azzoo--ddeerriivvaattiivvee..
+TThhiiss SSEERRSS––DDFFTTi ninvveestsitgigataitoionnc lcalrairfiiefidedth tehaed asdosroprtpiotnioonf oDfA DNASNoSn osinlv seirlvnearn noapnaortpicalretsi-,
+sculegsg, essutignggesatisniggn aifi sciganntifiinccarneta isnecorefathsee onfo tnhlein neoarnlpinroepaer rptireospwerhteiens twhihsemno tlheicsu mleowleacsullien wkeads
+tloinskilevde rt,ow siiltvheirn, tweriethst iinntgeraepsptilnicga taiponpsli.cMatioorneso.v Mero,trheoevDeFr,T thaep pDrFoTac ahpepxrpolaacihn eedxpthlaeinmeedc thhae-
+nmisemchoafnpishmo toorf epdhuocttoiorneduuncdtieorng ruenedne-br lugereiernra-bdliuatei oinrr.aTdhiaistiroena.c tTiohnis croeualcdtiboen icmopuoldrt abnet ifmor-
+tphoerotapntto -froers tphoen oseptoof-rthesepaodnssoer boef dthme oaldescourlbese,dl immoitliencgultehse,i lrimpoittienngt itahleaipr pploictaetnitoinals .applica-
+tions.
+3. ComputationalDetails
+3. CoAmllpDuFtaTticoanlcaul lDateiotanislso fthemolecule–metalcomplexespresentedherewereperformed
+withtheGaussian09suiteofprograms[26]orpreviouseditions(Gaussian98,Gaussian
+All DFT calculations of the molecule–metal complexes presented here were per-
+03),theB3LYP[27,28]hybridexchangeandcorrelationfunctional,andtheLanl2dzbasis
+formed with the Gaussian 09 suite of programs [26] or previous editions (Gaussian 98,
+set[29–31]. ThelatterconsistsoftheDunning–Huzinagafulldoublezeta[30]onfirst-row
+Gaussian 03), the B3LYP [27,28] hybrid exchange and correlation functional, and the
+atomsandoftheLosAlamospseudopotentialforcoreelectronsplusadouble-zetabasis
+Lanl2dz basis set [29–31]. The latter consists of the Dunning–Huzinaga full double zeta
+forvalenceelectrons. InordertobetterreproducethepositionsoftheobservedRaman
+[30] on first-row atoms and of the Los Alamos pseudopotential for core electrons plus a
+bands,differentbasissetswerealsoemployed: 6-31G(d),6-31++G(d,p),or6-311++G(d,p)
+double-zeta basis for valence electrons. In order to better reproduce the positions of the
+basissets[32,33]forallatomsexceptsilverandgold,whichwereinsteaddescribedbythe
+observed Raman bands, different basis sets were also employed: 6-31G(d), 6-31++G(d,p),
+Lanl2dzbasisset. Withmixedbasissets,a0.98factorwasgenerallyadoptedforuniformly
+or 6-311++G(d,p) basis sets [32,33] for all atoms except silver and gold, which were instead
+scalingthecalculatedharmonicfrequencies. These,aswellastheoptimizedstructures,
+described by the Lanl2dz basis set. With mixed basis sets, a 0.98 factor was generally
+werecomputedwhileadoptingtightconvergencecriteria. Byallowingallparametersto
+adopted for uniformly scaling the calculated harmonic frequencies. These, as well as the
+relax,theoptimizedgeometriescorrespondedtotrueenergyminimaasrevealedbythe
+optimized structures, were computed while adopting tight convergence criteria. By allow-
+lackofimaginaryvalues.
+ing all parameters to relax, the optimized geometries corresponded to true energy minima
+4a.sR reevceenalteDd ebvye tlhoep mlacekn tosf imaginary values.
+The DFT approach is increasingly used for SERS spectroscopy by several research
+4. Recent Developments
+groups,asdemonstratedbythemostrecentstudies[34–64]inwhichcloselinksbetween
+DFTcTahlecu DlaFtTio napsparnodacShE RisS ianpcrpelaicsaintigolnys uasreeds hfoorw SnE.RASm sopnecgtrtohsecsoepsytu bdyie sse,vthereaflo rlelosweairncgh
+sgtruoduipess,d aesv doetemdotnostarpapteldic abtyio tnhse imnossetn rseocresn,te ssptuedciieasll y[3f4o–r6e4n] vinir wonhmicehn ctlaolspe rlointekcst iboent,waenedn
+tDoFaTp pcalilccautliaotniosnisn abnido mSEeRdSic ianpep,laicraetiwonosr tahrye oshfopwarnt.i cAumlaornagtt ethnetisoen s.tuIdnietsh,i sthsee cfotilolonw, wineg
+csotumdmieesn dteavteootendt thoi saspeplelicctaiotinonosf irne cseenntsoSrEsR, Ses–pDeFcTiailnlyv feosrt iegnavtiiornons.mental protection, and to
+
+--- page 12 ---
+Molecules2023,28,573 12of17
+4.1. Sensors
+Formaldehydeisahighlywater-solublealdehyde,whichcansterilizeandprevent
+bacterialreproduction. However,formaldehydehasbeenrecognizedbytheWorldHealth
+Organizationastoxic,carcinogenic,andteratogenic. Therefore,itisnecessarytodevelop
+anefficientanalyticalmethodfordetectingtraceformaldehydeinfoodsamples. Colloidal
+goldnanoparticleswereusedasSERSsubstrates[43]toachieverapiddeterminationsof
+formaldehydefromriceflourandduckbloodproducts. Densityfunctionaltheory(DFT)
+calculationswereperformedtorecognizethecharacteristicpeaksandvibrationalmodesof
+formaldehydeinthepresenceofotherproducts.
+Pesticidesplayanimportantroleinmodernagriculture,butexcesspesticidesaccu-
+mulatedinsoil,water,plants,crops,food,andbeveragesrepresentaseriousproblemfor
+humanhealth. Hence,asensitiveandreproducibledetectionmethodbecomesanessential
+requirementfortheiruse. SERSinvestigationbyadsorptionofanalyteonsilversubstrate
+was adopted in this paper [47] to monitor the levels of pesticides such as chlorpyrifos
+(O,O-diethylO-3,5,6-trichloropyridin-2-ylphosphorothioate),whichiswidelyappliedto
+protect crops and seeds from insects and worms. However, SERS spectra of chemical
+pesticidesaregenerallycomplicatedbythepresenceofmultipleatoms(Cl,F,P,S,N,O,etc.)
+abletolinksilvercolloidalnanoparticles. Thisinvolvesseriousdifficultiesindetermining
+thecharacteristicSERSpeaksforeachtypeofcompound. Inthisregard,theDFTapproach
+adoptedhereallowedidentifyingthemarkerbandsofthispesticideforitsrapidscreening
+intheenvironment.
+Thiswork[55]presentedaSERSandDFTstudyoffiproniladsorbedoncolloidalsilver
+nanoparticles.Fipronil(5-amino-1-[2,6-dichloro-4-(trifluoromethyl)phenyl]-4-[(trifluoromethyl)-
+sulfinyl]-1H-pyrazole-3-carbonitrile)isapotentinsecticidewidelyusedinagricultureto
+controlpestswithhighefficiencyatverylowconcentrations. However,fipronilinfoodis
+knowntocauseseriousdiseasesinthehumanbodybyprovokingchangesintheblood
+biochemistry. The characteristic peaks of the SERS spectrum of fipronil adsorbed on
+silvernanoparticleswereidentifiedhereatverylowconcentrationswiththehelpofDFT
+calculationsinfoodaswellasinthewaterandsoilenvironment.
+Silvernanodendriteswereutilized[58]fortheultrasensitiveidentificationofexplosive
+molecules,suchas2,4-DNT(2,4-dinitrotoluene),andpesticides,suchasThiram(dithioper-
+oxyanhydride), by using SERS spectroscopy. The DFT calculations were performed to
+assigntheRamanbandsoftheanalytemolecules,andtheirresultscomparedwithexperi-
+mentalresultswithreasonablygoodagreement. Thisenabledthesimultaneousdetection
+ofvariousexplosivesandpesticidesfromacomplexmixtureofmolecules.
+Nitrobenzeneandanilinearethemainrepresentativesofnitrooraminocompounds
+ofbenzene, whicharegenerallytoxic. Thus, theyhavebecomeimportantindicatorsof
+environmentalpollution. Thecurrentdeterminationmethodsofanilineandnitrobenzene,
+suchasgasorliquidchromatographyandspectrophotometry,requirelonganalysistime
+and pretreatment. SERS spectroscopy avoids these disadvantages, but clear and sure
+identification and assignment of the observed bands is needed; it was obtained thanks
+toDFTcalculations[60]. Moreover,thisapproachallowedabetterunderstandingofthe
+interactionbetweenmoleculesandgoldsubstrates,thusprovidingtheoreticalsupportfor
+applyingtheSERStechniqueinhigh-sensitivitydetectionofenvironmentalpollutants.
+Bufotenine(5-hydroxy-N,N-dimethyltryptamine),hereafterBUF,isanaturaltryptamine
+derivativewithprominenthallucinogenicactivity. Inthispaper[63], surface-enhanced
+Ramanscattering(SERS)wasemployedbyusingsilvernanoparticlesforthedetectionof
+BUFattraceamounts. Thevibrationalcharacteristicsofthismoleculewereidentifiedby
+DFTsimulations.ThiscombinedSERS–DFTapproachallowedarapidandaccuratesensing
+fortheidentificationofBUFandcouldrepresentamethodofdetectionandcharacterization
+ofothersubstancesofforensic,criminological,andsocialimportance.
+
+--- page 13 ---
+Molecules2023,28,573 13of17
+4.2. Biomedicine
+Amongthemostcommonlyusedanestheticdrugs,procaine(2-diethylaminoethyl-p-
+aminobenzoate)isalsousedinthetreatmentofdepression, obesity, inflammation, and
+cancer. Athigherdoses,however,procainecanleadtolethaloutcomes,includingcausing
+cardiacarrest. Furthermore,thepresenceofprocaineinpharmaceuticalpreparations,even
+inminimaldoses,hasgivenrisetoseveralallergeniccases. Forthisreason,tracedetection
+ofprocaineadsorbedonsilvernanoparticleswasperformedwithSERSspectroscopyand
+combined with DFT calculations [35]. This approach was capable of providing certain
+attributionoftheSERSbandsalongwithinformationonthetypeofadsorptiononthemetal
+surface,whichwasascertainedtooccurviatheNH group. Thisstudyisimportantfor
+2
+limitingtherisksassociatedwiththeexposuretovariabledoseconcentrationsofthedrug.
+α-lipoicacid(hereafterLA)isabiomoleculeinvolvedinthemetabolismofglycine
+andserine,thusthestudyofLAispotentiallyabletoprovidemanybenefitsforbiomedical
+applications regarding metabolic diseases and cancerous phenomena. A silver surface
+canbeconsideredanartificialbiologicalinterfaceandtheadsorptionofamoleculeonit,
+thusrepresentingamodelfortheadsorptionprocessonmembranesorotherbiological
+surfaces. InordertounderstandtheactionofLA,itisessentialtoidentifyanyalterationof
+theadsorbedspeciesrelativetothestructureofthefreemolecule. Forthisreason,SERS
+spectroscopyofLAadsorbedonAgcolloidalnanoparticleswasadoptedincombination
+with DFT calculations [36]. An LA molecule was chemisorbed on the Ag nanoparticle
+surface through the carboxyl group in predominantly perpendicular orientation with
+respect to the silver surface. This study can represent a basis for important medical or
+therapeutictreatmentsofthisbiologicallyactivemolecule.
+Folic acid (hereafter FA), a well-known vitamin essential for the production and
+maintenance of DNA and RNA, was extensively used in drug delivery systems as a
+targetingbiomolecule.Inthisway,thestudyoftheSERSspectralpatternofFAadsorbedon
+goldnanoparticles[42]canbeusefulforunderstandingitsadsorptionmechanism,which
+isnecessaryforsafelyusingthismolecule–metalhybridasananocarrier. Inthisregard,
+DFTcalculationsalloweddeducinghowchemicalinteractionsoccurredbetweenFAand
+thegoldsurface. FAinteractedwiththegoldsurfacethroughthepteridinemoietyina
+tiltedgeometry.
+Clotrimazole(hereafterCTZ),acommonderivativeofimidazole,hasbeenusedto
+treatfungalandyeastinfectionsaffectingsensitiveskinareas. Inparticular,itwasproven
+effectiveintreatingcandidiasis,afungaldiseasecausedbythepathogenCandidaalbicans,
+byinhibitingtheproteinsinthefungalcellmembrane. Manyresearchgroups,prompted
+by the increasing use of CTZ as an efficient drug, have been engaged in studying the
+structural and spectroscopic properties of CTZ as well as finding efficient trace-level
+detectiontechniques. Inthisregard,SERSspectroscopyisparticularlysuitablealsothanks
+tothepresenceofelectronegativeatomsasnitrogenandchlorineinthemolecule,which
+arecapableofchemicallybondingtoametalsurface. Inthispaper[45],CTZwasadsorbed
+onsilvernanoparticlesloadedongrapheneandstudiedwithSERSspectroscopywiththe
+aidofDFT calculations. Thelatterplayed animportantrole intheidentificationofthe
+marker’sSERSbandsandthoseoftheconformerlinkedtometal,anditprovidedinsight
+intothemechanismofCTZ’sactionintreatingcandidiasis.
+Inthiswork[46],aSERS–DFTstudywasperformedontheneurotransmitterdopamine.
+Levelsofdopamineindicatetheneurologicalstatusofahumanbeing,playingacentral
+role in diseases such as Parkinson’s or schizophrenia. SERS represents a powerful tool
+for detecting dopamine levels thanks to its specificity and sensitivity. SERS substrates
+were fabricated in this study by sintering silver nanoparticle paste onto a fused silica
+substrateusingafemtosecondlaser. DFTcalculationsfordifferentmodelsofsilverclusters
+linkedtodopamineallowedidentifyingthesignatureSERSbandsofthisneurotransmitter
+and obtained information on the charge transfer process between molecule and metal.
+Thisapproachcouldallowperformanceofaquantitativeanalysisofdopamineinclinical
+samples,eveninthepresenceofmultipleneurotransmitters.
+
+--- page 14 ---
+Molecules2023,28,573 14of17
+Thehighdisinfectantactivityofbenzalkoniumchloride(BAC),acationicsurfactant
+quaternaryammoniumcompound,hasbeenincreasinglyused,inparticularforinactivating
+theSARS-CoV-2virus,whichcausesCOVID-19. However,becauseBACpotentiallyposes
+risksforhumanandenvironmentalsafety,itisnecessarytoknowthebenefitsversusthe
+risksofaveryextensiveuseofBACuseincommercialproducts. Hence,inthispaper[59],
+anefficientandsensitiveSERSmethodtorapidlydetectBACadsorbedonglasssurfaces
+wasemployedbyusingAgNPnanostructures. Inthisregard,DFTcalculationslentvalid
+supporttotheSERStechniquefordetectingverylowamountsofBACalongwithproviding
+significantinformationonthepropertiesofBACanditsadsorptiononmetal.Thisapproach
+constitutedavalidmodelforinvestigatingthepresenceofdisinfectantagentssimilarto
+BAConvarioussurfacessuchastextiles,aluminum,wood,andstainlesssteel.
+5. Conclusions
+TheexamplesreportedinthisreviewshowthattheDFTcalculationscarriedoutto
+supporttheSERSspectra,albeitrelativelysimpleintheirexecution,arenotmeresimulation
+exercises. Indeed, they allow extracting the most information that SERS spectroscopy
+is potentially able to provide. The information obtained on the adsorption on metal
+nanoparticles, on the chemical species linked to metal, on the molecular sites directly
+involvedinthechemicalinteraction,andonthestructuralandelectronicmodifications
+of the adsorbed molecule are of fundamental importance in view of the present and
+futureapplicationsofthisspectroscopictechnique. Inthisrespect,themostrecentSERS
+investigationsinthefieldofmedicaldiagnosisareofparticularrelevance[65–69].
+AuthorContributions:Conceptualization,M.M.-M.;methodology,M.M.-M.andF.M.-M.;software,
+A.P.andM.C.M.;validation,F.M.-M.,A.P.andM.C.M.;resources,A.P.andM.C.M.;writing—original
+draftpreparation,M.M.-M.;writing—reviewandediting,M.M.-M.,F.M.-M.,M.C.M.andA.P.All
+authorshavereadandagreedtothepublishedversionofthemanuscript.
+Funding:Thisresearchreceivednoexternalfunding.
+DataAvailabilityStatement:Notapplicable.
+ConflictsofInterest:Theauthorsdeclarenoconflictofinterest.
+References
+1. LeRu,E.C.;Etchegoin,P.G.PrinciplesofSurface-EnhancedRamanSpectroscopyandRelatedPlasmonicEffects;Elsevier:Amsterdam,
+TheNetherlands,2009.
+2. Schlücker,S.SurfaceEnhancedRamanSpectroscopy: Analytical,BiophysicalandLifeScienceApplications;Wiley-VCH:Weinheim,
+Germany,2011.
+3. Procházka,M.Surface-EnhancedRamanSpectroscopy,Bioanalytical,BiomolecularandMedicalApplications;Springer:Basel,Switzerland,2016.
+4. Szaniawska,A.;Kudelski,A.ApplicationsofSurface-EnhancedRamanScatteringinBiochemicalandMedicalAnalysis.Front.
+Chem.2021,9,664134.[CrossRef][PubMed]
+5. Langer,J.;deAberasturi,D.J.;Aizpurura,J.;Alvarez-Puebla,R.A.;Auguie,B.;Baumberg,J.J.;Bazan,G.C.;Bell,S.E.J.;Boisen,A.;
+Brolo,A.G.;etal.PresentandFutureofSurface-EnhancedRamanScattering.ACSNano2020,14,28–117.[CrossRef][PubMed]
+6. Ichida, K.; Amaya, Y.; Kamatani, N.; Nishino, T.; Hosoya, T.; Sakai, O.Identificationoftwomutationsinhumanxanthine
+dehydrogenasegeneresponsibleforclassicaltypeIxanthinuria.J.Clin.Investig.1997,99,2391–2397.[CrossRef][PubMed]
+7. Muniz-Miranda,F.;Pedone,A.;Muniz-Miranda,M.Ramanandcomputationalstudyontheadsorptionofxanthineonsilver
+nanocolloids.ACSOmega2018,3,13530–13537.[CrossRef]
+8. Woeber,K.A.Methimazole-inducedhepatotoxicity.Endocr.Pract.2002,8,222–224.[CrossRef][PubMed]
+9. Garner, M.; Armstrong, D.R.; Reglinski, J.; Smith, W.E.; Wilson., R.; McKillop, J.H. The structure of methimazole and its
+consequencesforcurrenttherapeuticmodelsofgraves’disease.Bioorg.Med.Chem.Lett.1994,4,1357–1360.[CrossRef]
+10. Heidari,R.;Babaei,H.;Roshangar,L.;Eghbal,M.A.EffectsofEnzymeInductionand/orGlutathioneDepletiononMethimazole-
+InducedHepatotoxicityinMiceandtheProtectiveRoleofN-Acetylcysteine.Adv.Pharm.Bull.2014,4,21–28.
+11. Muniz-Miranda,M.; Muniz-Miranda,F.; Pedone,A.RamanandDFTstudyofmethimazolechemisorbedongoldcolloidal
+nanoparticles.Phys.Chem.Chem.Phys.2016,18,5974–5980.[CrossRef]
+12. Zalabák,D.;Pospíšilová,H.;Šmehilová,M.;Mrízová,K.;Frébort,I.;Galuszka,P.Geneticengineeringofcytokininmetabolism:
+Prospectivewaytoimproveagriculturaltraitsofcropplants.Biotechnol.Adv.2013,31,97.[CrossRef]
+
+--- page 15 ---
+Molecules2023,28,573 15of17
+13. Kokina,I.;Gerbreders,V.;Sledevskis,E.;Bulanovs,A.Penetrationofnanoparticlesinflax(LinumusitatissimumL)calliand
+regenerants.J.Biotechnol.2013,165,127–132.[CrossRef]
+14. Zhai,G.;Walters,K.S.;Peate,D.W.;Alvarez,P.J.J.;Schnoor,J.L.Transportofgoldnanoparticlesthroughplasmodesmataand
+precipitationofgoldionsinwoodypoplar.Environ.Sci.Technol.Lett.2014,1,146–151.[CrossRef]
+15. Zoppi,A.;Caporali,S.;Muniz-Miranda,F.;Pedone,A.;Muniz-Miranda,M.AdsorptionofTrans-ZeatinonLaser-AblatedGold
+NanoparticlesforTransportintoPlantCellsandGrowthStimulation.ACSAppl.NanoMater.2019,2,7319–7327.[CrossRef]
+16. Sherif,E.M.;Erasmus,R.M.;Comins,J.D.Corrosionofcopperinaeratedsyntheticseawatersolutionsanditsinhibitionby
+3-amino-1,2,4-triazole.J.ColloidInterfaceSci.2007,309,470–477.[CrossRef]
+17. Finšgar,M.;Milošev,I.Inhibitionofcoppercorrosionby1,2,3-benzotriazole:Areview.Corros.Sci.2010,52,2737–2749.[CrossRef]
+18. Fox,P.G.;Bradley,P.A.1:2:4-triazoleasacorrosioninhibitorforcopper.Corros.Sci.1980,20,643–649.[CrossRef]
+19. Muniz-Miranda,M.;Muniz-Miranda,F.;Caporali,S.SERSandDFTstudyofcoppersurfacescoatedwithcorrosioninhibitor.
+BeilsteinJ.Nanotechnol.2014,5,2489–2497.[CrossRef]
+20. Niaura,G.Surface-enhancedRamanspectroscopicobservationoftwokindsofadsorbedOH−ionsatcopperelectrode.Electrochim.
+Acta2000,45,3507–3519.[CrossRef]
+21. Shoute,L.C.T.;Woo,H.Y.;Vak,D.;Bazan,G.C.;Kelley,A.M.SolventeffectsonresonantfirsthyperpolarizabilitiesandRamanand
+hyper-RamanspectraofDANSandawater-solubleanalog.J.Chem.Phys.2006,125,054506.[CrossRef]
+22. Lapouyade, R.; Kuhn, A.; Letard, J.F.; Rettig, W. Multiple relaxation pathways in photoexcited dimethylaminonitro- and
+dimethylaminocyano-stilbenes.Chem.Phys.Lett.1993,208,48–58.[CrossRef]
+23. Oberlé,J.;Abraham,E.;Jonususkas,G.;Rulliere,C.Studyoftheintramolecularcharge-transfer(ICT)processin4-dimethylamino-
+4(cid:48)-nitrostilbenebypicosecondtime-resolvedCARS.J.RamanSpectrosc.2000,31,311–317.[CrossRef]
+24. Muniz-Miranda,M.;Muniz-Miranda,F.;Pedone,A.SERSandDFTinvestigationonpush-pullmolecules:4-Dimethylamino-
+4(cid:48)-nitrostilbeneadsorbedonsilvercolloidalnanoparticles.ChemistrySelect2018,3,8698–8702.[CrossRef]
+25. Muniz-Miranda,F.;Pedone,A.;Muniz-Miranda,M.SpectroscopicandDFTinvestigationonthephoto-chemicalproperties
+ofapush-pullchromophore: 4-Dimethylamino-4(cid:48)-nitrostilbene. Spectrochim. ActaAMol. Biomol. Spectrosc. 2018,190,33–39.
+[CrossRef][PubMed]
+26. Frisch,M.J.;Trucks,G.W.;Schlegel,H.B.;Scuseria,G.E.;Robb,M.A.;Cheeseman,J.R.;Scalmani,G.;Barone,V.;Mennucci,B.;
+Petersson,G.A.;etal.Gaussian09;RevisionD.01;Gaussian,Inc.:Wallingford,CT,USA,2009.
+27. Becke,A.D.Density-functionalthermochemistryIII.Theroleofexactexchange.J.Chem.Phys.1993,98,5648–5652.[CrossRef]
+28. Lee,C.;Yang,W.;Parr,R.G.DevelopmentoftheColle-Salvetticorrelation-energyformulaintoafunctionaloftheelectrondensity.
+Phys.Rev.B1988,37,785–789.[CrossRef][PubMed]
+29. Hay,P.J.;Wadt,W.R.Abinitioeffectivecorepotentialsformolecularcalculations.PotentialsforthetransitionmetalatomsScto
+Hg.J.Chem.Phys.1985,82,270–283.[CrossRef]
+30. Wadt,W.R.;Hay,P.J.Abinitioeffectivecorepotentialsformolecularcalculations.PotentialsformaingroupelementsNatoBi.
+J.Chem.Phys.1985,82,284–298.[CrossRef]
+31. Hay,P.J.;Wadt,W.R.Abinitioeffectivecorepotentialsformolecularcalculations.PotentialsforKtoAuincludingtheoutermost
+coreorbitals.J.Chem.Phys.1985,82,299–310.[CrossRef]
+32. Dunning,T.H.,Jr.;Hay,P.J.ModernTheoreticalChemistry;Plenum:NewYork,NY,USA,1976;Volume3.
+33. Jensen,F.IntroductiontoComputationalChemistry;Wiley:NewYork,NY,USA,2007.
+34. Foresman,J.B.;Frisch,A.ExploringChemistrywithElectronicStructureMethods;Gaussian:Pittsburgh,PA,USA,1996.
+35. Abdulazeez,I.;Popoola,S.A.;Saleh,T.A.;Al-Saadi,A.A.Spectroscopic,DFTandtracedetectionstudyofprocaineusingsurface
+enhancedRamanscatteringtechnique.Chem.Phys.Lett.2019,730,617–622.[CrossRef]
+36. Rusu,E.A.;Magyari,K.;Baia,L.;Baia,M.Vibrationalanalysisofα-lipoicacidanditsadsorptionbehaviorstudybySERS.J.Mol.
+Struct.2022,1248,131501.[CrossRef]
+37. Mary, Y.S.; Mary, Y.S.; Armakovic´, S.; Armakovic´, S.J.; Krátký, M.; Vinsova, J.; Baraldi, C.; Gamberini, M.C.Concentration
+andsolventdependentSERS,DFT,MDsimulationsandmoleculardockingstudiesofathioxothiazolidinederivativewith
+antimicrobialproperties.J.Mol.Liq.2021,329,115582.[CrossRef]
+38. Mary,Y.S.;Mary,Y.S.;Krátký,M.;Vinsova,J.;Baraldi,C.;Gamberini,M.C.DFT,SERS-concentrationandsolventdependentand
+dockingstudiesofabioactivebenzenesulfonamidederivative.J.Mol.Struct.2021,1228,129680.[CrossRef]
+39. Mary,Y.S.;Mary,Y.S.;Krátký,M.;Vinsova,J.;Baraldi,C.;Gamberini,M.C.DFT,moleculardockingandSERS(concentration
+andsolventdependant)investigationsofamethylisoxazolederivativewithpotentialantimicrobialactivity.J.Mol.Struct.2021,
+1232,130034.[CrossRef]
+40. Premkumar,R.;Hussain,S.;Koyambo-Konzapa,S.-J.;DhanpalJayram,N.;Mathavan,T.;FranklinBenial,A.M.SERSandDFT
+investigationsofmethyl4–bromo-1H-pyrrole-2-carboxylateadsorbedonsilverandgoldsubstrates:Inperspectiveofbiosensor
+applications.J.Mol.Struct.2021,1236,130272.[CrossRef]
+41. Tiwari,M.;Singh,A.;Dureja,S.;Basu,S.;Pattanayek,S.K.AunanoparticlesdecoratedZnO/ZnFe O compositeSERS-active
+2 4
+substrateformelaminedetection.Talanta2022,236,122819.[CrossRef]
+42. Teixeira,R.A.R.;Lima,F.R.A.;CamposSilva,P.;Costa,L.A.S.;Sant’Ana,A.C.Trackingchemicalinteractionsoffolicacidongold
+surfacebySERSspectroscopy.Spectrochim.ActaAMol.Biomol.Spectrosc.2019,223,117305.[CrossRef]
+
+--- page 16 ---
+Molecules2023,28,573 16of17
+43. Nie,X.;Chen,Z.;Tian,Y.;Chen,S.;Qu,L.;Fan,M.Rapiddetectionoftraceformaldehydeinfoodbasedonsurface-enhanced
+Ramanscatteringcoupledwithassembledpurgetrap.FoodChem.2021,340,127930.[CrossRef]
+44. Botta,R.;Eiamchai,P.;Horprathum,M.;Limwichean,S.;Chananonnawathorn,C.;Patthanasettakul,V.;Maezono,R.;Jomphoak,
+A.;Nuntawong,N.3DstructuredlaserengravesdecoratedwithgoldnanoparticleSERSchipsorparaquatherbicidedetectionin
+environments.Sens.ActuatorsBChem.2020,304,127327.[CrossRef]
+45. Onawole,A.T.;Popoola,S.A.;Saleh,T.A.;Abdulaziz,A.;Al-Saadi,A.A.Silver-loadedgrapheneasaneffectiveSERSsubstratefor
+clotrimazoledetection:DFTandspectroscopicstudies.Spectrochim.ActaAMol.Biomol.Spectrosc2018,201,354–361.[CrossRef]
+46. Hariharan,A.;Kurnoothala,R.;Chinthakayala,S.K.;Vishnubhatla,K.C.;Vadlamudi,P.SERSofDopamine:Computationaland
+experimentalstudies.Spectrochim.ActaAMol.Biomol.Spectrosc.2021,260,119962.[CrossRef]
+47. Ngo,T.C.;Trinh,Q.T.;ThiThaiAn,N.;Tri,N.N.;Trung,N.T.;Truong,D.H.;Huy,B.T.;Nguyen,M.T.;Dao,D.Q.SERSSpectraof
+thePesticideChlorpyrifosAdsorbedonSilverNanosurface:TheAg ClusterModel.J.Phys.Chem.C2020,124,21702–21716.
+20
+[CrossRef]
+48. Cañamares,M.V.;Pozzi,F.;Lombardi,J.R.Raman,SERS,andDFTAnalysisoftheMainAlkaloidsContainedinSyrianRue.
+J.Phys.Chem.C2019,123,9262–9271.[CrossRef]
+49. Fraser,J.P.;Postnikov,P.;Miliutina,E.;Kolska,Z.;Valiev,R.;Švorcĩk,V.;Lyutakov,O.;Ganin,A.Y.;Guselnikova,O.Application
+ofa2DMolybdenumTellurideinSERSDetectionofBiorelevantMolecules.ACSAppl.Mater.Interfaces2020,12,47774–47783.
+[CrossRef][PubMed]
+50. Shaine,M.L.;Premasiri,W.R.;Ingraham,H.M.;Andino,R.;Lemler,P.;Brodeur,A.N.;Ziegler,L.D.SurfaceenhancedRaman
+scatteringforrobust,sensitivedetectionandconfirmatoryidentificationofdriedbloodstains.Analyst2020,145,6097.[CrossRef]
+51. Perumal,J.;Wang,Y.;Attia,A.B.E.;Dinish,U.S.;Olivo,M.Towardsapoint-of-careSERSsensorforbiomedicalandagri-food
+analysisapplications:Areviewofrecentadvancements.Nanoscale2021,13,553.[CrossRef]
+52. Guo,Z.;Chen,P.;Yosri,N.;Chen,Q.;Elseedi,H.R.;Zou,X.;Yang,H.DetectionofHeavyMetalsinFoodandAgricultural
+ProductsbySurface-enhancedRamanSpectroscopy.FoodRev.Int.2021,1–22.[CrossRef]
+53. Premkumar,R.;Hussain,S.;Koyambo-Konzapa,S.-J.;Jayram,N.D.;Meera,M.R.;Mathavan,T.;Benial,A.M.F.SERSandDFT
+studiesof2-(trichloroacetyl)pyrrolechemisorbedonthesurfaceofsilverandgoldcoatedthinfilms:Inperspectiveofbiosensor
+applications.J.Mol.Recognit.2021,34,22921.[CrossRef][PubMed]
+54. Roschi,E.;Gellini,C.;Ricci,M.;Sanchez-Cortes,S.;Focardi,C.;Neri,B.;Otero,J.C.;López-Tocón,I.;Smulevich,G.;Becucci,M.
+Surface-EnhancedRamanSpectroscopyforBisphenolsDetection:TowardaBetterUnderstandingoftheAnalyte–Nanosystem
+Interactions.Nanomaterials2021,11,881.[CrossRef]
+55. Ly,N.H.;Nguyen,T.H.;Nghi,N.D.;Kim,Y.-H.;Joo,S.W.Surface-EnhancedRamanScatteringDetectionofFipronilPesticide
+AdsorbedonSilverNanoparticles.Sensors2019,19,1355.[CrossRef]
+56. SheenaMary,Y.;ShymaMary,Y.;Temiz-Arpaci,O.;Yadav,R.;Celik,I.DFT,docking,MDsimulation,andvibrationalspectra
+withSERSanalysisofabenzoxazolederivative:Ananti-cancerousdrug.Chem.Pap.2021,75,4269–4284.[CrossRef]
+57. Song,H.;Yan,X.;Zhao,H.;Zhang,H.;Shi,X.;Ma,J.Adsorptionofpolychlorinatedbiphenylsongoldcolloidbysurface-enhanced
+Ramanspectroscopyanddensityfunctionaltheory.Vib.Spectrosc.2022,120,103369.[CrossRef]
+58. Verma,A.K.;Soni,R.K.Ultrasensitivesurface-enhancedRamanspectroscopydetectionofexplosivemoleculeswithmultibranched
+silvernanostructures.J.RamanSpectrosc.2022,53,694–708.[CrossRef]
+59. Ly,N.H.;Nguyen,P.-D.;Son,S.J.;Lee,C.;Jang,S.;Joo,S.-W.;Kim,K.;Choi,J.;Joo,Y.-e.;Lee,J.I.Detectionofbenzalkonium
+chlorideonglasssurfacesusingsilvernanoparticles.Bull.KoreanChem.Soc.2022,43,246–254.[CrossRef]
+60. Wang, Q.; Lian, S.; Guo, C.; Gao, X.; Dou, Y.; Song, C.; Lin, J. The chemical adsorption effect of surface enhanced Raman
+spectroscopyofnitrobenzeneandanilineusingthedensityfunctionaltheory.Spectrochim.ActaAMol.Biomol.Spectrosc.2022,
+279,121428.[CrossRef]
+61. Zhang,J.;Li,Y.;Lv,M.;Bai,Y.;Liu,Z.;Weng,X.;You,C.Determinationof5-Hydroxymethylfurfural(5-HMF)inmilkproductsby
+surface-enhancedRamanspectroscopyanditssimulationanalysis.Spectrochim.ActaAMol.Biomol.Spectrosc.2022,279,121393.
+[CrossRef][PubMed]
+62. Lin,S.;Ze,H.;Zhang,X.-G.;Zhang,Y.-J.;Song,J.;Zhang,H.;Zhong,H.-L.;Yang,Z.-L.;Yang,C.;Li,J.-F.;etal. Directand
+SimultaneousIdentificationofMultipleMitochondrialReactiveOxygenSpeciesinLivingCellsUsingaSERSBorrowingStrategy.
+Angew.Chem.Int.Ed.2022,61,e202203511.
+63. Wu,X.;Canñamares,M.V.;Kakoulli,I.;Sanchez-Cortes,S.ChemicalCharacterizationandMolecularDynamicsSimulations
+ofBufoteninebySurface-EnhancedRamanScattering(SERS)andDensityFunctionalTheory(DFT).J.Phys. Chem.Lett. 2022,
+13,5831–5837.[CrossRef]
+64. Gellini,C.;Muniz-Miranda,M.;Pagliai,M.;Salvi,P.R.SpectroscopicstudiesonantimalarianArtesunate:RamanandSurface-
+enhancedRamanscatteringandadsorptiongeometriesofArtesunateonsilvernanoparticles.J.Mol.Struct.2021,1224,129020.
+[CrossRef]
+65. Dina, N.E.; Tahir, M.A.; Bajwa, S.Z.; Amin, I.; Valev, V.K.; Zhang, L. SERS-based antibiotic susceptibility testing: Towards
+point-of-careclinicaldiagnosis.Biosens.Bioelectron.2023,219,114843.[CrossRef]
+66. Mohammadi,M.;Antoine,D.;Vitt,M.;Dickie,J.M.;Jyoti,S.S.;Wall,J.G.;Johnson,P.A.;Wawrousek,K.E.Afast,ultrasensitive
+SERSimmunoassaytodetectSARS-CoV-2insaliva.Anal.Chim.Acta2022,1229,340290.[CrossRef]
+
+--- page 17 ---
+Molecules2023,28,573 17of17
+67. Ramirez-Perez,J.C.;Durigo,D.Surface-EnhancedRamanSpectroscopy(SERS)forcharacterizationSARS-CoV-2.J.SaudiChem.
+Soc.2022,26,101531.[CrossRef]
+68. Fornasaro,S.;Cialla-May,D.;Sergo,V.;Bonifacio,A.TheRoleofSurfaceEnhancedRamanScatteringforTherapeuticDrug
+MonitoringofAntimicrobialAgents.Chemosensors2022,10,128.[CrossRef]
+69. Hassanain,W.A.;Johnson,C.L.;Faulds,K.;Graham,D.;Keegan,N.Recentadvancesinantibioticresistancediagnosisusing
+SERS:Focusonthe“Big5”challenges.Analyst2022,147,4674–4700.[CrossRef][PubMed]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.
+

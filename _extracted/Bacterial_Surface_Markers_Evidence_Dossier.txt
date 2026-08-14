@@ -1,0 +1,37 @@
+FILE: Bacterial_Surface_Markers_Evidence_Dossier.pdf
+NPAGES: 1
+
+--- page 1 ---
+Bacterial Surface Markers in Blood: Evidence
+Dossier
+This dossier summarizes the top bacterial-specific surface markers that are most reliable, clinically
+validated, and detectable in blood samples for diagnostic purposes, particularly in sepsis research.
+Lipopolysaccharide (LPS) – Endotoxin (Gram-negative bacteria)
+(cid:127) Gold-standard marker of Gram-negative bacteremia and sepsis.
+(cid:127) Clinically measurable using Limulus Amebocyte Lysate (LAL) assay and ELISA.
+(cid:127) Elevated plasma LPS levels correlate with severity and mortality in septic patients.
+Reference: Opal SM et al., Clin Microbiol Rev. 2014;27(2):246-276.
+Lipoteichoic Acid (LTA) – Gram-positive bacteria
+(cid:127) Surface glycolipid of Gram-positive bacteria such as Staphylococcus and Streptococcus.
+(cid:127) Detectable in plasma during bacteremia using ELISA and immunoassays.
+(cid:127) Used experimentally and clinically as a sepsis biomarker.
+Reference: Wartha F, Henriques-Normark B. Microbes Infect. 2008;10(9):837-844.
+Peptidoglycan (PGN) Fragments
+(cid:127) Conserved cell wall component shed into circulation during infection.
+(cid:127) Detectable by specific ELISA and mass spectrometry.
+(cid:127) Recognized as a pathogen-associated molecular pattern (PAMP) activating immune response.
+Reference: Bone RC. Chest. 1996;109(2):319-329.
+Flagellin (FliC protein)
+(cid:127) Conserved structural protein of bacterial flagella, released into blood during systemic infections.
+(cid:127) Detectable by ELISA and TLR5-based biosensors.
+(cid:127) Elevated levels associated with bacteremia and septic shock.
+Reference: Bloes DA et al., Front Immunol. 2017;8:275.
+CpG Bacterial DNA (Unmethylated CpG motifs)
+(cid:127) Released into blood during bacteremia and sepsis.
+(cid:127) Detectable using PCR-based assays.
+(cid:127) Acts as a broad biomarker distinguishing bacterial from viral/fungal infections.
+Reference: O’Neill LA, Bowie AG. Nat Rev Immunol. 2007;7(5):353-364.
+Conclusion: Among numerous bacterial surface markers, LPS, LTA, peptidoglycan fragments,
+flagellin, and bacterial CpG DNA represent the most reliable, validated, and blood-detectable
+candidates for diagnostic and therapeutic development in sepsis and bacteremia.
+

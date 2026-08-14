@@ -1,0 +1,222 @@
+
+<style>
+  .slide { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1.5rem 1.75rem; margin-bottom: 1.5rem; }
+  .slide-num { font-size: 11px; color: var(--color-text-tertiary); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.4rem; }
+  .slide-title { font-size: 18px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 1rem; border-bottom: 0.5px solid var(--color-border-tertiary); padding-bottom: 0.6rem; }
+  .slide-subtitle { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); margin: 0.9rem 0 0.4rem; }
+  .body { font-size: 14px; color: var(--color-text-secondary); line-height: 1.65; margin: 0 0 0.5rem; }
+  .tag { display: inline-block; font-size: 11px; font-weight: 500; padding: 3px 9px; border-radius: var(--border-radius-md); margin: 2px; }
+  .tag-blue { background: #E6F1FB; color: #0C447C; }
+  .tag-teal { background: #E1F5EE; color: #085041; }
+  .tag-amber { background: #FAEEDA; color: #633806; }
+  .tag-coral { background: #FAECE7; color: #712B13; }
+  .tag-purple { background: #EEEDFE; color: #3C3489; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 0.5rem; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 0.5rem; }
+  .mini-card { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 10px 12px; }
+  .mini-card .label { font-size: 11px; color: var(--color-text-tertiary); margin-bottom: 3px; }
+  .mini-card .val { font-size: 14px; font-weight: 500; color: var(--color-text-primary); }
+  .peak-row { display: flex; align-items: center; gap: 10px; padding: 6px 0; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .peak-row:last-child { border-bottom: none; }
+  .peak-cm { font-size: 13px; font-weight: 500; color: var(--color-text-primary); min-width: 80px; }
+  .peak-assign { font-size: 13px; color: var(--color-text-secondary); }
+  .peak-src { font-size: 11px; margin-left: auto; }
+  .bullet { font-size: 14px; color: var(--color-text-secondary); line-height: 1.7; padding-left: 1rem; position: relative; margin: 2px 0; }
+  .bullet::before { content: "–"; position: absolute; left: 0; color: var(--color-text-tertiary); }
+  .acc-row { display: flex; align-items: center; gap: 10px; padding: 5px 0; }
+  .acc-model { font-size: 13px; font-weight: 500; color: var(--color-text-primary); min-width: 110px; }
+  .acc-bar-wrap { flex: 1; background: var(--color-background-secondary); border-radius: 4px; height: 8px; overflow: hidden; }
+  .acc-bar { height: 8px; border-radius: 4px; }
+  .acc-val { font-size: 13px; color: var(--color-text-secondary); min-width: 48px; text-align: right; }
+  .note-box { background: var(--color-background-secondary); border-left: 2.5px solid #1D9E75; border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0; padding: 8px 12px; margin-top: 0.75rem; font-size: 13px; color: var(--color-text-secondary); line-height: 1.6; }
+</style>
+
+<div style="padding: 1rem 0;">
+
+  <!-- SLIDE 1 -->
+  <div class="slide">
+    <div class="slide-num">Slide 1 of 4</div>
+    <div class="slide-title">LPS: Structure, Significance & Modeling Strategy</div>
+
+    <div class="grid2">
+      <div>
+        <div class="slide-subtitle">What is LPS?</div>
+        <div class="bullet">Major outer membrane component of Gram-negative bacteria</div>
+        <div class="bullet">Critical biomarker for bacterial sepsis detection</div>
+        <div class="bullet">Three structural components:</div>
+        <div style="display:flex; gap:6px; flex-wrap:wrap; margin: 6px 0 0 1rem;">
+          <span class="tag tag-coral">Lipid A (toxic core)</span>
+          <span class="tag tag-amber">Core oligosaccharide</span>
+          <span class="tag tag-blue">O-antigen</span>
+        </div>
+
+        <div class="slide-subtitle" style="margin-top:1rem;">Why fragment-based DFT modeling?</div>
+        <div class="bullet">Full LPS = tens of thousands of atoms → computationally infeasible for full QM modeling</div>
+        <div class="bullet">Representative fragment <b style="font-weight:500;">Kdo</b> (3-deoxy-D-manno-octulosonic acid) used as core sugar model</div>
+        <div class="bullet">Validated by DFT using B3LYP/6-31G(d,p) in Gaussian 03</div>
+        <div class="bullet">Solvation effects included via PCM + explicit water molecules</div>
+      </div>
+      <div>
+        <div class="slide-subtitle">Key functional groups (dominate spectra)</div>
+        <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom: 8px;">
+          <span class="tag tag-teal">–COO⁻ carboxyl</span>
+          <span class="tag tag-blue">–PO₄⁻ phosphate</span>
+          <span class="tag tag-purple">–OH hydroxyl</span>
+          <span class="tag tag-amber">CH₂/CH₃ lipid chains</span>
+        </div>
+        <div class="body">These functional groups are responsible for metal binding, structural stability, and vibrational signatures — the basis of the Raman fingerprint.</div>
+
+        <div class="slide-subtitle">Computational validation</div>
+        <div class="mini-card">
+          <div class="label">DFT results agree with</div>
+          <div class="val">NMR + spectroscopic experiments</div>
+        </div>
+        <div class="note-box">Same DFT framework that produces IR spectra also yields Raman activity — directly applicable to this work.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 2 -->
+  <div class="slide">
+    <div class="slide-num">Slide 2 of 4</div>
+    <div class="slide-title">Raman/SERS Spectral Fingerprint of LPS</div>
+
+    <div class="grid2">
+      <div>
+        <div class="slide-subtitle">Key characteristic peaks</div>
+        <div class="peak-row"><span class="peak-cm">~735 cm⁻¹</span><span class="peak-assign">C–O–C glycosidic linkage</span><span class="peak-src"><span class="tag tag-blue">sugar</span></span></div>
+        <div class="peak-row"><span class="peak-cm">~794 cm⁻¹</span><span class="peak-assign">C–O stretching</span><span class="peak-src"><span class="tag tag-blue">sugar</span></span></div>
+        <div class="peak-row"><span class="peak-cm">~857 cm⁻¹</span><span class="peak-assign">Glycosidic / sugar deformation</span><span class="peak-src"><span class="tag tag-coral">key discriminator</span></span></div>
+        <div class="peak-row"><span class="peak-cm">~894–917 cm⁻¹</span><span class="peak-assign">Sugar ring vibrations</span><span class="peak-src"><span class="tag tag-blue">sugar</span></span></div>
+        <div class="peak-row"><span class="peak-cm">~989–1003 cm⁻¹</span><span class="peak-assign">C–O/C–C, carbohydrate (Kdo)</span><span class="peak-src"><span class="tag tag-teal">core</span></span></div>
+        <div class="peak-row"><span class="peak-cm">~1131 cm⁻¹</span><span class="peak-assign">C–C fatty acid, lipid chain</span><span class="peak-src"><span class="tag tag-amber">lipid A</span></span></div>
+        <div class="peak-row"><span class="peak-cm">~1330–1333 cm⁻¹</span><span class="peak-assign">CH deformation, lipid chain</span><span class="peak-src"><span class="tag tag-coral">key discriminator</span></span></div>
+        <div class="peak-row"><span class="peak-cm">~1593–1614 cm⁻¹</span><span class="peak-assign">C–O/C–C stretching, structural interaction</span><span class="peak-src"><span class="tag tag-coral">key discriminator</span></span></div>
+        <div class="peak-row"><span class="peak-cm">~2900–2933 cm⁻¹</span><span class="peak-assign">CH₂/CH₃, lipid chains of Lipid A</span><span class="peak-src"><span class="tag tag-amber">SERS marker</span></span></div>
+      </div>
+      <div>
+        <div class="slide-subtitle">Standard spectral regions (broad)</div>
+        <div class="mini-card" style="margin-bottom:8px;"><div class="label">3000–2800 cm⁻¹</div><div class="val">Fatty acids / lipids (CH₂, CH₃)</div></div>
+        <div class="mini-card" style="margin-bottom:8px;"><div class="label">1700–1500 cm⁻¹</div><div class="val">Proteins (Amide I, II)</div></div>
+        <div class="mini-card" style="margin-bottom:8px;"><div class="label">1200–900 cm⁻¹</div><div class="val">Polysaccharides / cell wall (LPS region)</div></div>
+        <div class="mini-card" style="margin-bottom:8px;"><div class="label">900–700 cm⁻¹</div><div class="val">Fingerprint region</div></div>
+
+        <div class="slide-subtitle">3 most common LPS fingerprint peaks</div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <span class="tag tag-coral" style="font-size:13px; padding: 5px 12px;">1614 cm⁻¹</span>
+          <span class="tag tag-coral" style="font-size:13px; padding: 5px 12px;">1333 cm⁻¹</span>
+          <span class="tag tag-coral" style="font-size:13px; padding: 5px 12px;">1003 cm⁻¹</span>
+        </div>
+        <div class="note-box">Identification is based on the <b style="font-weight:500;">overall spectral pattern</b>, not any single peak — individual peaks may overlap with other biomolecules.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 3 -->
+  <div class="slide">
+    <div class="slide-num">Slide 3 of 4</div>
+    <div class="slide-title">LPS vs PGN vs LTA: Differentiation by Raman</div>
+
+    <div class="grid3" style="margin-bottom: 1rem;">
+      <div>
+        <div style="background:#FAECE7; border-radius: var(--border-radius-md); padding: 10px 12px; margin-bottom: 8px;">
+          <div style="font-size:13px; font-weight:500; color:#712B13;">LPS (Gram-negative)</div>
+          <div style="font-size:12px; color:#993C1D; margin-top:2px;">Lipid A + Core + O-antigen</div>
+        </div>
+        <div class="bullet">Many strong peaks</div>
+        <div class="bullet">Complex, feature-rich spectrum</div>
+        <div class="bullet">Both lipid AND carbohydrate signals</div>
+        <div class="bullet">Peaks at 857, 1003, 1333, 1614 cm⁻¹</div>
+      </div>
+      <div>
+        <div style="background:#E6F1FB; border-radius: var(--border-radius-md); padding: 10px 12px; margin-bottom: 8px;">
+          <div style="font-size:13px; font-weight:500; color:#185FA5;">PGN (Gram-positive)</div>
+          <div style="font-size:12px; color:#185FA5; margin-top:2px;">Peptidoglycan layer</div>
+        </div>
+        <div class="bullet">Fewer peaks</div>
+        <div class="bullet">Simpler spectral profile</div>
+        <div class="bullet">Mainly carbohydrate/protein signals</div>
+        <div class="bullet">Partial overlap at ~1333 cm⁻¹</div>
+      </div>
+      <div>
+        <div style="background:#E1F5EE; border-radius: var(--border-radius-md); padding: 10px 12px; margin-bottom: 8px;">
+          <div style="font-size:13px; font-weight:500; color:#085041;">LTA (Gram-positive)</div>
+          <div style="font-size:12px; color:#085041; margin-top:2px;">Lipoteichoic acid</div>
+        </div>
+        <div class="bullet">Fewer peaks</div>
+        <div class="bullet">Simpler spectral profile</div>
+        <div class="bullet">Mainly carbohydrate/protein signals</div>
+        <div class="bullet">Partial overlap at ~1614 cm⁻¹</div>
+      </div>
+    </div>
+
+    <div class="slide-subtitle">Overlapping peaks (challenge)</div>
+    <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:0.75rem;">
+      <span class="tag tag-amber">~1333 cm⁻¹ → LPS + PGN + LTA</span>
+      <span class="tag tag-amber">~1614 cm⁻¹ → present in all three</span>
+    </div>
+    <div class="body">Overlapping peaks mean single-peak identification is unreliable. Differentiation requires multi-peak pattern analysis or chemometrics (PCA, ML).</div>
+
+    <div class="slide-subtitle">SERS sample preparation (Yang et al., 2022)</div>
+    <div class="grid2">
+      <div>
+        <div class="bullet">LPS extracted via <b style="font-weight:500;">hot phenol–water method</b> or purchased (Sigma-Aldrich)</div>
+        <div class="bullet">Concentration: 100 µg/mL in deionized water</div>
+        <div class="bullet">2 µL deposited on silver nanorod (AgNR) SERS substrate, air-dried at ~20°C</div>
+        <div class="bullet">Detection at ~8.75 picogram level</div>
+      </div>
+      <div>
+        <div class="bullet">Laser: 785 nm excitation</div>
+        <div class="bullet">Laser power: ~9 mW, acquisition: 10 seconds</div>
+        <div class="bullet">Multiple spectra collected per sample for reproducibility</div>
+        <div class="bullet">Pre-processing: baseline correction → noise removal → normalization</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 4 -->
+  <div class="slide">
+    <div class="slide-num">Slide 4 of 4</div>
+    <div class="slide-title">SERS Sensitivity, Machine Learning & Key Conclusions</div>
+
+    <div class="grid2">
+      <div>
+        <div class="slide-subtitle">SERS detection capability</div>
+        <div class="grid2" style="margin-bottom: 0.75rem;">
+          <div class="mini-card"><div class="label">Limit of Detection</div><div class="val">12 ng/mL</div></div>
+          <div class="mini-card"><div class="label">Limit of Quantification</div><div class="val">41 ng/mL</div></div>
+          <div class="mini-card" style="grid-column: span 2;"><div class="label">Picogram-level detection (Yang et al.)</div><div class="val">~8.75 pg per measurement</div></div>
+        </div>
+
+        <div class="slide-subtitle">Frequency-shift SERS concept</div>
+        <div class="body">Detection based on peak shifts (not just presence) — e.g., ~2933 → ~2922 cm⁻¹ upon LPS binding to antibody. More sensitive than intensity-only methods.</div>
+
+        <div class="slide-subtitle">SERS vs conventional methods</div>
+        <div class="bullet">No labels or dyes required</div>
+        <div class="bullet">Faster and simpler than ELISA / LAL test</div>
+        <div class="bullet">Anti-lipid A antibody used → targets most conserved toxic region</div>
+      </div>
+      <div>
+        <div class="slide-subtitle">ML classification accuracy</div>
+        <div class="acc-row"><span class="acc-model">RamanNet (CNN)</span><div class="acc-bar-wrap"><div class="acc-bar" style="width:100%; background:#1D9E75;"></div></div><span class="acc-val" style="color:#085041; font-weight:500;">100%</span></div>
+        <div class="acc-row"><span class="acc-model">SVM</span><div class="acc-bar-wrap"><div class="acc-bar" style="width:99.98%; background:#185FA5;"></div></div><span class="acc-val">~99.98%</span></div>
+        <div class="acc-row"><span class="acc-model">LDA</span><div class="acc-bar-wrap"><div class="acc-bar" style="width:99.8%; background:#185FA5;"></div></div><span class="acc-val">~99.8%</span></div>
+        <div class="acc-row"><span class="acc-model">Random Forest</span><div class="acc-bar-wrap"><div class="acc-bar" style="width:99.5%; background:#185FA5;"></div></div><span class="acc-val">~99.5%</span></div>
+        <div class="acc-row"><span class="acc-model">KNN</span><div class="acc-bar-wrap"><div class="acc-bar" style="width:99.2%; background:#185FA5;"></div></div><span class="acc-val">~99.2%</span></div>
+        <div class="acc-row"><span class="acc-model">PLS-DA</span><div class="acc-bar-wrap"><div class="acc-bar" style="width:98%; background:#185FA5;"></div></div><span class="acc-val">~98%</span></div>
+
+        <div class="slide-subtitle" style="margin-top: 0.75rem;">Top ML feature importance peaks</div>
+        <div style="display:flex; gap:6px; flex-wrap:wrap;">
+          <span class="tag tag-coral" style="font-size:13px; padding:5px 12px;">857 cm⁻¹</span>
+          <span class="tag tag-coral" style="font-size:13px; padding:5px 12px;">1333 cm⁻¹</span>
+          <span class="tag tag-coral" style="font-size:13px; padding:5px 12px;">1593 cm⁻¹</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="note-box" style="margin-top: 1rem;">
+      <b style="font-weight:500;">Final thesis statement:</b> Integration of fragment-based DFT modeling with Raman/SERS spectroscopy and machine learning provides a robust framework for understanding and identifying LPS based on its molecular vibrational fingerprint — directly supporting sepsis biomarker detection.
+    </div>
+  </div>
+
+</div>

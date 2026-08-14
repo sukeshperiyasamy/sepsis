@@ -1,0 +1,708 @@
+FILE: 1-s2.0-S0079610723000755-main.pdf
+NPAGES: 10
+
+--- page 1 ---
+ProgressinBiophysicsandMolecularBiology184(2023)32–41
+Contents lists available at ScienceDirect
+Progress in Biophysics and Molecular Biology
+journal homepage: www.elsevier.com/locate/pbiomolbio
+Advances in surface-enhanced Raman spectroscopy-based sensors for
+detection of various biomarkers
+Nidhi Chauhana, Kirti Saxenab, Rachna Rawalc, Lalit Yadavb, Utkarsh Jaina,*
+aSchool of Health Sciences & Technology (SoHST), University of Petroleum and Energy Studies (UPES), Bidholi, 248007, Dehradun, India
+bAmity Institute of Nanotechnology (AINT), Amity University Uttar Pradesh (AUUP), Noida, 201313, India
+cDepartment of Physics and Astrophysics, University of Delhi, Delhi, 110007, India
+A R T I C L E I N F O A B S T R A C T
+Keywords: Surface enhanced Raman spectroscopy (SERS) allows the ultrasensitive detection of analytes present in traces or
+SERS even single molecule levels by the generation of electromagnetic fields. It is a powerful vibrational spectroscopic
+Analytes method that is capable to detect traces of chemical and biological analytes. SERS technique is involved in the
+SERS-based detection
+extremely sophisticated studies of molecules with high specificity and sensitivity. In the vicinity of nanomaterials
+Nanoparticles
+decorated surfaces, SERS can monitor extremely low concentrations of analytes in a non-destructive manner with
+Sensors
+narrow line widths. This review article is focused on some recently developed SERS-based sensors for distinct
+types of analytes like disease-related biomarkers, organic and inorganic molecules, various toxins, dyes, pesti-
+cides, bacteria as well as single molecules. This study aims to enlighten the arising sensing approaches based on
+the SERS technique. Apart from this, some basics of the SERS technique like their mechanism, detection strategy,
+and involvement of some specific nanomaterials are also highlighted herein. Finally, the study concluded with
+some discussion of applications of SERS in various fields like food and environmental analysis.
+1. Introduction scattering by the researchers like electronic resonance enhancement and
+Raman processes stimulation, but the SERS provides the most significant
+Surface Enhanced Raman Spectroscopy or SERS is a highly sensitive signal amplification of Raman processes. Basically, SERS increases the
+and powerful technique based upon vibrational spectroscopy that allows weak signals significantly from the Raman scattering technique (Lit-
+the detection of very low concentrations of various types of biological tleford et al., 2004; Kumar et al., 2020).
+samples and diseases. SERS is extremely capable of identifying chemical In the SERS process, the electromagnetic enhancement mechanism is
+species and obtaining their structural information which includes a va- the dominant contributor. The excitation of localized surface plasmon
+riety of fields such as material and polymer science, catalysis, electro- resonance (LSPR) amplifies the light which results in the enhancement
+chemistry, biochemistry, and biosensing (Liang et al., 2021; McNay of electromagnetism (Weihua et al., 2009). This light concentration is
+et al., 2011; Ogundare and van Zyl, 2019; Perumal et al., 2021). The present in the gaps or sharp features of nano-structured plasmonic ma-
+detection is mainly based on the amplification of electromagnetic sig- terials such as silver, copper, and gold. The electromagnetic enhance-
+nals generated through localized surface Plasmon’s excitation (Pro- ment also depends upon the structure of plasmonic materials for SERS.
+chazka and Prochazka, 2016; Etchegoin and Le Ru, 2010; Sharma et al., Another mechanism that may be exploited for signal enhancement is
+2012). The technique is supported by nanomaterials and increases the known as chemical enhancement which involves primarily charge
+Raman scattering of molecules [Fig. 1]. Martin Fleischmann, A. James transfer by excitation wavelength. The SERS enhancement factor may
+McQuillan, and Patrick J. Hendra first observed SERS in 1973, and since approach ~ 1010–1011 for highly optimized surfaces that are the product
+then its utilization has grown exponentially. After the first observation of chemical and electromagnetic enhancement mechanisms (Pilot et al.,
+of Raman spectra on roughened electrodes made up of silver, the tech- 2019). For ultrasensitive detection through the SERS technique, some
+nique has dramatically progressed in sensing, single molecule detection, effective factors are (a) Detailed knowledge of analytes must be known i.
+imaging, and ultrafast science (Fleischmann et al., 1973). Several e., whether they are inorganic ions or molecules. This knowledge is
+methods have been implemented to enhance the efficiency of Raman essential to knowing the Raman scattering properties. Other parameters
+* Corresponding author.
+E-mail addresses: lalit7272@gmail.com (L. Yadav), karshjain@gmail.com (U. Jain).
+https://doi.org/10.1016/j.pbiomolbio.2023.08.003
+Received 16 December 2022; Received in revised form 18 August 2023; Accepted 27 August 2023
+Availableonline28August2023
+0079-6107/©2023ElsevierLtd.Allrightsreserved.
+
+--- page 2 ---
+N. Chauhan et al. P r o g r e s s i n B i o p h y s i c s a n d M o l e c u l a r B i o l o g y184(2023)32–41
+Fig. 1. A schematic representation of the development of SERS-based sensing platform decorated with Raman reporter with nanomaterials for enhancement
+of signals.
+which also affect the sensing of the molecule are molecular structure, spike-like tips, dimers, and aggregates with small nanogaps, plays a
+molecular weight, electronegativity, photoluminescence, water solubi- pivotal role in enhancing the specificity and sensitivity of SERS. These
+lity, and their affinity for nanomaterials. On the other hand, for inor- features create plasmon coupling and Raman hot spots, leading to sig-
+ganic ions that are not showing Raman scattering cross-section, labeling nificant signal amplification (Barbillon, 2020). Besides gold, silver
+with a suitable reporter is a must. (b) Visible, ultraviolet, and nanoparticles are also used widely in the SERS effect and exhibit supe-
+near-infrared excitation window of nanoparticles (NPs) and incident rior enhancement in the Raman Effect (Herrera et al., 2013). Silver NPs
+wavelength for Raman scattering excitation. (c) The adsorption mech- showed a strong electromagnetic field under laser irradiation between
+anism of analytes with SERS substrate also plays an important role due each particle. Metal NP-dependent SERS detection exhibits high sensi-
+to their influence on SERS intensity. (d) Choose different strategies for in tivity due to enhancement in the SERS intensity of molecules. The metal
+vitro and in vivo detection (Yuan et al., 2017). Overall, the SERS tech- NPs show uneven tips and surfaces that can enhance electromagnetism
+nique has been successfully utilized for the ultrasensitive detection of to amplify the Raman signals of adjacent molecules/substances (Cao
+chemicals and molecules in the field (Kneipp et al., 2008; Le Ru and et al., 2012). Among various types of nanomaterials, graphene and
+Etchegoin, 2012). Additionally, SERS involved in ultrafast spectros- graphene oxides attract researchers for SERS-based biosensing. Gra-
+copies, photocatalytic and photovoltaic reactions (Prakash, 2019; Wang phene exhibits superior adsorption capacity and excellent physical
+et al., 2020). Mechanistic studies on stimulated SERS are relatively strength. Other nanomaterials that are employed for SERS detection are
+unexplored, and some predict that enhancement factors could exceed molybdenum disulfide, black phosphorous, titanium oxide, and zinc
+1020. Many of these were limited to one vibrational peak with surface oxide (Zong et al., 2018). An important factor for controlling the NPs
+enhancement factors estimated to be well under 104 (Sharma et al., aggregation process is their surface chemistry, i.e., ligands that stabilize
+2012; Byram et al., 2019). the NPs may determine the aggregation state, as well as the rate of ag-
+gregation in colloidal system physicochemical interactions between the
+2. Importance of nanomaterials in SERS-based detection analyte and stabilizing ligand molecules, which are triggered. The sur-
+face modification by organic ligands provides stability against aggre-
+Nanomaterials-based SERS detection of biomolecules gained much gation as well as introduces a variety of surface functionalities available
+attention over the past few years. Different dimensional nanomaterials for further reactions. Gold NPs were also applied as tools for the
+are being utilized as a substrate to enhance the features of SERS to detection of extremely small amounts of analytes of wider interest such
+achieve ultrasensitive detection. Variations in properties of nano- as pollutants, toxins, and small molecules (Krpeti´c et al., 2012). Simi-
+materials such as size, composition, morphology, stability, dielectric larly, gold NPs have been applied in the SERS-based detection of en-
+properties, and surface modifications play an important role in the zymes, DNA, and cancer antigens (Chen et al., 2017).
+generation of enhanced electromagnetic signals (Guo and Dong, 2011;
+Du et al., 2021). Various noble metal NPs have been studied for their 3. Functionalization and immobilization of biomarkers
+SERS activity such as gold, graphene/graphene oxides, molybdenum
+disulfide, black phosphorous, and silver (Howes et al., 2014; Huang Functionalizing surfaces in the SERS technique involves the immo-
+et al., 2019; Karthick Kannan et al., 2019). Gold is the most exploited bilization or adsorption of various biomolecules and chemicals to
+nanomaterial in SERS-based detection due to its properties like unique enhance the specificity and selectivity of analyte detection. Proteins,
+electronic structure, LSPR absorption properties, biocompatibility, and enzymes, and antibodies can be immobilized onto SERS-active surfaces
+excellent chemical stability. Gold NPs in less than 100 nm range exhibit to create specific recognition sites for target analytes. This immobiliza-
+strong electromagnetic behavior when irradiated by excitation light. It tion can be achieved through physical adsorption, covalent bonding, or
+was also investigated that the Raman intensity of analytes also increases cross-linking techniques. The functionalized surfaces provide a platform
+by order of magnitude when analytes come in contact with gold NPs. for capturing and detecting analytes with high affinity and selectivity.
+Thus, adding gold nanomaterial can improve substance detection effi- Furthermore, single-stranded DNA, RNA and/or aptamers can be
+ciency significantly. The irregular geometry of gold NPs, including adsorbed onto SERS-active surfaces. The DNA-functionalized surfaces
+33
+
+--- page 3 ---
+N. Chauhan et al. P r o g r e s s i n B i o p h y s i c s a n d M o l e c u l a r B i o l o g y184(2023)32–41
+Table 1
+Recently fabricated SERS-based sensor for different types of analytes.
+Analytes Nanomaterial used Limit of detection Linear range References
+Rhodamine 6G Crystal violet Silver 10(cid:0)5 M NR 40
+10(cid:0)4 M
+Cardiac troponin I Citrate-capped gold-silver bimetallic NPs, gold core with 0.09 ng/mL 0.09–50 ng/mL 41
+silver shell NPs, and rattle-like gold core in silver-gold shell
+NPs
+Exosomes ZnO nanorods and silver ≈20 exosomes/μL 104 to 108 42
+exosomes/μL
+Uric acid AuNPs/PAN/L electrospun nanofiber composites 10(cid:0)7 M 10(cid:0)3-10(cid:0)4 M 43
+Gestational diabetes mellitus Anisotropic gold nanotriangles 3.0 ×10(cid:0)16 g/mL 10(cid:0)15–10(cid:0)6 g/mL 46
+Prostate cancer biomarkers Raman dyes encoded core-shell SERS nanotags 0.37, 0.43, and 0.26 pg/mL for For PSA 1 pg/mL up to 10 μg/ 48
+PSA, CEA, and AFP, respectively mL
+For both CEA and AFP- 10 pg/
+mL to 1 μg/mL
+Prostate-specific antigen Silver NR 0.1–20 ng/mL for f-PSA and 49
+1–200 ng/mL for t-PSA
+Prostate-specific antigen Silver 6 pg/mL 0.25–10 ng/mL 50
+Colorectal cancer Au core-Ag shell nanoparticles 0.82 pg/mL 1 pg/mL - 1 mg/mL 53
+Kanamycin Gold and silver 0.90 pg/mL 10 μg/mL to 100 ng/mL 62
+Rhodamine 6G and crystal Silver 10(cid:0)10 M 1 μM to 100 pM 64
+violet
+Mercury Gold 60 aM NR 68
+Mercury Silver 0.1 ppb 1–100 ppb 69
+Microcystin-LR Gold 0.002 ng/mL 0.01–200 ng/mL 70
+Ochratoxin-A Silver 2.63 pg/mL 103 71
+Aflatoxin-B1 4.15 pg/mL (cid:0) 10(cid:0)5 μg/mL
+Pesticides Gold 0.79 pg/mL, 10(cid:0)2 to 2 ×103 ng/mL for 2, 4- 78
+2,4-dichloro phenoxy 1.04 pg/mL, 1.21 pg/mL D
+acetic acid, And 0.1–1000 ng/mL for
+Pymetrozine, Pymetrozine, Thiamethoxam
+Thiamethoxam
+Pesticide acetamiprid rGO and Gold 2.13 ×105 μg/mL 1.0 ×10(cid:0)4 to 1.0 ×103 μg/mL 79
+Bacteria Y. pestis, F. tularensis, Gold 43.4, 45.8, and 357 CFU/mL 0–107 CFU/mL 85
+and B. anthracis
+E. coli O157:H7 Gold NR 100–105 CFU/mL 86
+IgG Ag–Au-assembled silica NPs 0.09 ng/mL 0.6–9.0 ng/mL 87
+*NR-Not Reported.
+can be designed to hybridize with complementary DNA sequences or the absence of SERS sites. By implementing this approach, the capability
+specific target analytes, allowing for their detection through SERS. DNA of analyte detection through SERS-based sensors was significantly
+molecules can be adsorbed onto SERS-active surfaces, either as single enhanced. The reported sensing technique involved processes such as
+strands or in the form of double-stranded structures. Similarly, peptide analyte filtration, enrichment, size-selective identification, and
+and various chemicals or functional groups that have specific in- remarkably high sensitivity (Fu et al., 2016; Ngo et al., 2013; Ding et al.,
+teractions with target analytes, can be used to functionalize SERS-active 2020). In this context, several experiments have been performed in
+surfaces. These chemicals may include chelating agents, surface ligands, recent years. Some studies are discussed below and summarized in
+or reactive functional groups that can form complexes or covalent bonds Table 1.
+with the analytes of interest (Nsiah and McDermott, 2023).
+4.1. SERS-based detection of disease-related biomarkers
+4. Recently developed SERS-based detection systems
+SERS is a powerful analytical technique that can be used for the
+SERS-based sensors have gained much attention in the last decade for detection of disease-related biomarkers. It combines the principles of
+the detection of distinct types of analytes in the field of life science and Raman spectroscopy with the unique properties of nanostructured metal
+analytical chemistry. LSPR hot spots enable the enhancement of elec- surfaces to enhance the Raman signal of molecules adsorbed on or near
+tromagnetic field which is responsible for SERS enhancement with an the surface. A paper-based SERS chip was fabricated as Raman spectral
+enhancement factor of approximately 1012 (Rodrigues et al., 2015). Hot analyzer by utilization of silver NPs and integrated with the smartphone.
+spots are formed typically at small gaps (approximately 10 nm) between At present, this type of portable device is in demand which does not
+noble metal NPs (Cai et al., 2021). The SERS method in combination require any skilled person to test samples. On the other hand, these
+with other assays and NPs, draws increasing interest among the re- devices are also cost-effective as replace high-cost instruments (Zen-
+searchers for ultrasensitive detection of analytes (Guo et al., 2020; Li gMou et al., 2018). Another point-of-care device was developed by
+et al., 2010; Zhang et al., 2017; Kim et al., 2021). The SERS method has combining lateral flow assay strips with SERS for quantitative analysis of
+emerged as a highly sensitive and accurate technique for fingerprint biomarkers in a very low concentration range. Three types of NPs have
+recognition and molecular sample analysis. To detect various types of been tested in this study viz. Citrate-capped gold-silver bimetallic NPs,
+analytes such as pesticide residues and water pollutants, as well as for gold core with silver shell NPs, and rattle-like gold core in silver-gold
+safety purposes, a portable Raman spectrometer proves to be an excel- shell NPs. The citrate-capped gold-silver metallic NPs have shown the
+lent choice. In some cases, SERS sites are created to effectively separate highest SERS activity among all three probes whereas gold core with
+gold nanorods from each other using shells made of a metal-organic silver shell NPs was used in a SERS-based lateral flow assay strip as
+framework. This approach aids in achieving exceptional quantification optical as well as SERS probes. The strip showed purple colour in the
+capabilities. However, Ding and their team presented a challenge to this presence of analyte cardiac troponin I. This presented method could be a
+strategy by opting for an analyte enrichment function to compensate for powerful strategy for the quantitative detection of biomarkers with high
+34
+
+--- page 4 ---
+N. Chauhan et al. P r o g r e s s i n B i o p h y s i c s a n d M o l e c u l a r B i o l o g y184(2023)32–41
+sensitivity (Bai et al., 2018). In an interesting work, a combination of (MBA) on the immunocapture substrate, which was coupled to the t-PSA
+acoustic and microfluidics was seen in the fabricated SERS detection antibody through the carboxyl group. The combination of t-PSA induced
+platform. Surface acoustic waves were used to concentrate NPs at the Raman frequency shifts of MBA, enabling the detection of t-PSA. The
+periphery or the center of the glass capillary. This strategy improved the biosensor employed immunocolloidal gold attached with f-PSA anti-
+visibility of fluorescent outputs. ZnO nanorods and silver (as plasmonic bodies to selectively capture the f-PSA immobilized on the
+NPs) were employed to achieve enhanced SERS signals. The developed MBA-modified SERS substrates. The quantification of f-PSA was ach-
+method enlightens the future of point-of-care devices for distinct ana- ieved through the SERS intensities of the 5, 5′-Dithiobis (succinimi-
+lytes (biomarkers) (Hao et al., 2020). Recently in 2020, a SERS-based dyl-2-nitrobenzoate) (DSNB) probe. The results demonstrated good
+detection platform was developed by metal NPs aggregated substrate. linear responses of f-PSA and t-PSA within specific concentration ranges.
+The polyacrylonitrile (PAN) nanofibers, thiol-modified purine (L)– The biosensor combined Raman frequency shifts and intensities,
+polymer, and gold NPs are decorated as bio-essential ligands to develop simplifying the traditional procedures for f-PSA% detection. The
+a functional SERS platform. The developed sensing platform was used to developed biosensor has great potential for highly reproducible and
+detect uric acid concentration in body fluids. The method is highly accurate diagnosis of prostate cancer based on the results obtained
+sensitive and cost-effective and showed good stability (Saravanan et al., (Zhao et al., 2023). Aptamer-based another strategy was also employed
+2020). Furthermore, chronic kidney disease related biomarkers such as to develop SERS-based biosensor using a composite structure consisting
+urea and creatinine were also targeted through SERS-based biosensor of arrays of polystyrene colloidal sphere @Ag shell (PS@Ag) as a
+(Kukkar et al., 2023). For the successful detection of important bio- SERS-active chip. The chip was functionalized with a stepwise immo-
+markers of dopamine, a digital SERS sensing platform was developed bilization of a complementary DNA probe (SH-DNA) and a PSA aptamer
+that facilitates the on/off mechanism for SERS signal analysis. The (Apt). A Raman reporter called methylene blue (MB) was bound to the
+platform was coated first with 3D nanolaminate plasmonic crystals guanine base of the aptamer. The binding of PSA to the aptamer causes
+coupled with Raman-conjugated gold NPs. These nanostructured ma- the release of the MB-Apt complex from the chip, leading to a decrease in
+terials induce the additional hotspot that enhanced the SERS signals SERS intensity of MB. The reduction in SERS intensity correlates with
+through molecular recognition of dopamine. This strategy can provide the concentration of PSA, enabling the quantification of PSA levels. The
+ultrasensitive results based on the SERS on/off mechanism with a reported biosensor successfully detected PSA levels in serum samples,
+detection limit of 1 pM (Nam et al., 2021). Interestingly, a self-assembly showing promise for clinical diagnosis, particularly in the context of
+strategy using a thiol group and an on/off strategy in the heat map was prostate cancer (Zhao et al., 2022).
+employed to ensure the stability of the SERS immunoassay platform for By combining the sensitivity of SERS-based biosensors with the
+adiponectin detection, a diabetes biomarker. The platform demon- power of intelligent vision, researchers potentially discovered digital
+strated a wide assay range, good reliability, a femto-scale limit of biomarkers specific to hepatocellular carcinoma (HCC). These bio-
+detection, and excellent selectivity without interference from other markers can aid in early diagnosis, prognostic assessment, and moni-
+biomarkers. The reported biosensor showed potential of the developed toring of therapeutic response in HCC patients. It’s important to note
+technology for effectively detecting adiponectin levels in the biofluids of that while this approach shows promise, the development and validation
+pregnant women. It was proposed as a clinical biosensor capable of of digital biomarkers for HCC detection using SERS-based biosensors
+diagnosing various obstetric diseases, particularly gestational diabetes and intelligent vision would require extensive research, rigorous testing,
+mellitus, during early pregnancy (Kim et al., 2022). and validation on larger cohorts of patients. The discovered digital
+The well-known pandemic also acknowledged as the global emer- biomarker consists of 10 characteristic peaks in serum SERS spectra. The
+gency posed by COVID-19, was showing the importance of identifying validation process involves unsupervised clustering of spectra from in-
+individuals with current or past infections as quickly as possible to dependent sample batches, comprising normal individuals and HCC
+prevent the further spread of the disease. In this context, SERS was cases. The results demonstrate high clustering accuracies of 95.71% for
+described as an exciting technique for virus detection due to its ability to normal individuals and 100.00% for HCC cases. This non-biomarker-
+provide a fingerprint for any material. It has been used successfully with reliant molecular detection method is anticipated to facilitate mass
+various COVID-19 virus subtypes, including Delta Cron and Omicron cancer screening (Cheng et al., 2023). SERS-based biosensors have also
+(Mousavi et al., 2022). been studied for breast cancer diagnosis by targeting a specific
+biomarker known as oncomiRs, which are specific microRNAs associ-
+4.2. SERS-based detection of different cancer biomarkers ated with cancer (Chauhan et al., 2022). Recently in 2023, a study
+combined the capture selectivity of molecularly imprinted polymers
+Early diagnosis of cancer is crucial for improving patient survival (MIPs) with the ultrasensitivity of SERS technique for the detection of
+rates. Selective and sensitive detection of biomarkers in serum samples colorectal cancer. This approach allowed the detection of nucleoside
+is vital for the early detection and dynamic monitoring of cancer. Several diphosphate kinase NM23-H2 or NDKB protein markers. The imprinted
+types of cancer biomarkers were also investigated through the SERS cavity of the MIP served as the only channel for the Raman reporter to
+technique and developed various sensing platforms for their detection approach the SERS substrate. The highly complementary non-covalent
+using these cancer-specific biomarkers. Among various types of cancer, binding sites of the MIP selectively captured the target NDKB protein
+prostate cancer is prevalent worldwide. Therefore, the detection of based on ionic, hydrogen bonding, or hydrophobic interactions. Specific
+prostate-specific antigens, carcinoembryonic antigens, and alpha- recognition of the NDKB protein filled the imprinted cavity, hindering
+fetoprotein enlightened the path to early diagnosis of cancer. These the Raman reporter’s proximity to the SERS substrate, resulting in a
+three biomarkers were simultaneously detected in a single test spot significant decrease in the Raman signal. Other proteins of different sizes
+through the SERS-based vertical flow assay. Raman dyes encoded core- cannot match the imprinted cavity. The biosensor achieved ultrasensi-
+shell SERS nanotags were employed instead of conventional gold col- tive detection of NDKB through the change in the Raman signal. The
+loids. The developed method can be utilized as a point-of-care device LOD was reported to be 0.82 pg/mL, indicating its high sensitivity. The
+due to its potential for rapid and highly sensitive SERS-based detection combined approach of MIPs and SERS offers several advantages,
+of multiple cancer-related biomarkers (Chen et al., 2019). The ratio of including low cost, fast response, high sensitivity, and selectivity (Lu
+free prostate-specific antigen (f-PSA) to total prostate-specific antigen et al., 2023). iREX (integrated Raman spectroscopic EXO) biosensor,
+(t-PSA), represented as f-PSA%, is more accurate than t-PSA alone in which integrates SERS detection within a vertical flow diagnostic device
+diagnosing prostate cancer and distinguishing it from other prostate introduced recently for the multiplexed quantitative profiling of exo-
+diseases. A study described a SERS-based biosensor to simultaneously somal proteins in clinical serum samples. Protein profiles of exosomes
+detect t-PSA and f-PSA. The biosensor utilized 4-mercaptobenzoic acid (EXOs) in clinical samples of cancer patients have emerged as promising
+35
+
+--- page 5 ---
+N. Chauhan et al. P r o g r e s s i n B i o p h y s i c s a n d M o l e c u l a r B i o l o g y184(2023)32–41
+Fig. 2. Schematic representation of detection of mercury in water using HPH. (A) Molecular structures and corresponding schematic representations. (B) Rapid
+naked-eye detection of
+Hg2+
+; (C) Ultrasensitive SERS detection of
+Hg2+
+Reprints with the permission of Makam et al., 2018.
+diagnostic and therapeutic biomarkers. However, the simultaneous combined to fabricate a device i.e., SERS active sensor site and analyte
+quantitative analysis of multiple exosomal proteins of interest remains enrichment system. Both the systems were developed through the direct
+challenging. The iREX biosensor was used to quantitatively profile three femtosecond laser printing method which is inexpensive and showed
+exosomal proteins, MUC1, HER2, and CEA, in EXO samples derived from high performance. An analyte enrichment system was developed to
+various breast cancer cell subtypes. The results revealed discriminative support evaporating water droplets during the assay. The whole system
+expression profiles of these proteins in different cell subtypes, enabling was fabricated on a water-repellent surface as the substrate of the device
+accurate diagnosis and molecular subtyping of breast cancer. The clin- namely polytetrafluoroethylene. This developed device was utilized to
+ical utility of the iREX biosensor was further validated by quantitative fingerprint various analytes based on SERS spectroscopy. Analytes like
+analysis of MUC1, HER2, and CEA in patient blood serums. This aided in common organic dyes as well as medical drugs, are present in ultralow
+noninvasive breast cancer subtyping and longitudinal treatment moni- concentrations (Pavliuk et al., 2019). Another analyte i.e., kanamycin
+toring. The iREX biosensor offered several advantages, including high was also detected through the SERS-based aptasensor in the milk sam-
+sensitivity, molecular specificity, powerful multiplexing capability, and ple. The sensing platform was decorated with bimetallic gold and silver
+high diagnostic accuracy. It was believed to be a promising clinical tool NPs which facilitates the binding of double-stranded DNA.
+for comprehensive analysis of exosomal proteins in clinical samples, Kanamycin-specific aptamers are immobilized on this NPs-coated sur-
+contributing to personalized diagnosis and precise management of face. It was observed that with the increase in kanamycin concentration,
+breast cancer (Su et al., 2023). Several recent studies have been targeted the Raman intensity decreased significantly. Thus, the aptasensor
+cancer related biomarkers such as miRNA (Zhai et al., 2022; Li et al., showed a high sensitivity for the detection of kanamycin (Jiang et al.,
+2022; Canning et al., 2023; Weng et al., 2022), Epidermal growth factor 2019).
+receptor, BRAF, programmed death-ligand 1 (Dey et al., 2022), squa- Along with gold NPs, titanium dioxide was also employed to check its
+mous cell carcinoma antigen and cytokeratin 19 fragment antigen 21–1 performance as a SERS signal enhancer. Two organic pollutants i.e.,
+(Cao et al., 2023) for the successful detection of different types of can- rhodamine 6G and methylene blue were detected by preparing a glass
+cers using SERS technique. substrate coated with gold and titanium dioxide thin film that showed
+~107 Raman intensity enhancement factors for detection of rhodamine
+6G and methylene blue. They are capable of inducing photodegradation
+4.3. SERS-based detection of organic dyes and drugs
+efficiency for methylene blue under sunlight in approximately 40 min.
+Thus, these nanomaterials were found to improve optical absorption and
+SERS identified natural dyes and glazes present in art materials.
+high sensitivity toward SERS-based detection of organic pollutants
+Based on this, a SERS-based plasmonic sensor was reported showing an
+(Singh et al., 2019). To determine the concentration of rhodamine 6G in
+analyte enrichment system developed by direct laser writing technique.
+a mixture solution, a paper-based sensing platform coated with silver
+The sensing method was developed for the detection of water-dissolved
+NPs on polymer-grafted cellulose was fabricated with the function of
+analytes at trace concentrations. In this study, two types of systems were
+36
+
+--- page 6 ---
+N. Chauhan et al. P r o g r e s s i n B i o p h y s i c s a n d M o l e c u l a r B i o l o g y184(2023)32–41
+Fig. 3. Schematic illustration of the fabrication and analysis process for hydrophobic paper-based SERS platform. Reprints with the permission of Zhang et al., 2019.
+analyte enrichment. It was reported that silver NPs with 30 nm size at action force to collect samples and a portable Raman spectrometer for
+532 nm excitation showed excellent Raman signals (Trang et al., 2021). onsite analysis. Although it can be used as a real-time analysis device,
+Another study employed molecularly imprinted polymer (MIP) as a but it showed high limit of detection (0.1 ppb) as compared to sensor
+biorecognition element in SERS-based detection platform which is very developed by Makam and team (Zhao et al., 2020).
+cost-effective, simple, and sensitive. Researchers assembled MIP thin
+film with gold NPs for SERS spectroscopic detection of polycyclic aro-
+4.5. SERS-based detection of toxins
+matic hydrocarbons. When the interaction of polycyclic aromatic hy-
+drocarbons with specific MIP takes place close to gold coated surface,
+SERS-based sensors are applicable with various types of bio-
+the Raman signal of a molecule is enhanced due to plasmonic NPs. The
+recognition elements such as aptamers (aptasensor), DNA (DNA sensor),
+performance of the developed sensing platform was investigated in
+antigen-antibodies (immunosensor), molecularly imprinted polymers
+creek water and seawater samples to detect pyrene. This type of sensing
+(MIP-based sensor), etc. In this context, a study performed with
+platform can be utilized for food safety, environmental control, and
+aptamers for sensing microcystin-LR spiked in a sample of tap water.
+biomedicines (Castro-Grijalba et al., 2020). The gold NPs are the first
+Aptamers are highly specific short oligonucleotide fragments that are
+choice of researchers to be used in the SERS-based detection of analytes.
+employed in SERS-based sensing strategy. The substrate was fabricated
+On the contrary, some researchers utilized silver and reduced graphene
+by utilization of microcystin-LR complementary DNA conjugated with
+oxide (rGO) also for the successful detection of multiple analytes
+gold and magnetic NPs. Aptamer combined with gold NPs and cDNA
+simultaneously. A silver and rGO decorated sensing platform were
+conjugated with magnetic NPs were employed as signal probes and
+fabricated recently for the detection of multiple analytes such as 4-mer-
+capture probes in this study. Although aptamer synthesis is quite a
+capto benzoic acid, Rhodamine-6G, and 2,4-dinitrotoluene. The results
+tedious task but aptamer-based detection is highly reliable and sensitive
+from this study showed good homogeneity, enhanced Raman intensity,
+and thus used widely. The detection limit was obtained from this
+nanomolar sensitivity, and stability. Thus, the study showed that silver method as 0.002 ng/mL with a linear range of 0.01–200 ng/mL (He
+and rGO can also be a good choice to be employed in SERS-based
+et al., 2019). Toxins like Ochratoxin-A (OTA) and aflatoxin-B1 require
+investigation of biomolecules (Naqvi et al., 2019). An anti-epileptic
+rapid monitoring due to their severe health effects. The SERS-based
+drug named Perampanel was quantitatively detected through
+sensor was fabricated recently for the detection of these two toxins.
+SERS-based sensor. In this study, the pulsed laser deposition method was
+The SERS enhancement factor was optimized by adjusting the pH used to
+used for the synthesis of roughened gold NPs films. The linear range was
+synthesize silver NPs which was obtained at pH 11. The limits of
+calculated as 3 ×10 (cid:0) 7 M– 3 ×10 (cid:0) 6 M. From this study it was elucidated
+detection resulted as 2.63 pg/mL and 4.15 pg/mL for Ochratoxin-A
+that the SERS intensity is dependent upon the analyte concentration as
+(OTA) and aflatoxin-B1 respectively (Kutsanedzie et al., 2020). A hy-
+well as the Au surface and solution contact time (Zanchi et al., 2020).
+drophobic surface was prepared to develop gold NPs decorated
+SERS-based detection platform. The study showed a double-decker
+NPs-coated structure arranged on the wax-coated hydrophobic surface
+4.4. SERS-based detection of inorganic ions
+which served as an inducer of aggregation as well as the concentration of
+analyte-mixed gold NPs in the aqueous phase. This is a very simple yet
+Makam. P et al. adopted a SERS-fluorescence-based sensitive method
+sensitive method to detect hazardous chemicals present in food and the
+for the detection of mercury in drinking water samples. They fabricated
+a SERS-based platform coated with gold and polystyrene’s mono- environment (Wu et al., 2018).
+Furthermore, the SERS method also exploited to detect chemical
+dispersed nanosphere monolayer which improves the selectivity and
+warfare agents as well as toxic industrial chemicals (Lafuente et al.,
+very low detection limit for sensing mercury in water [Fig. 2]. Simple
+2021). The explosive chemicals namely, dinitrobenzenethiol and half
+histidine conjugated perylene diimide bolaamphiphile was employed as
+mustard agents have been detected through this method successfully
+a dual optical marker in this study for visualization of fluorescence in the
+(Stuart et al., 2006).
+SERS-based sensing platform. These optical markers are described as
+highly sensitive and selective. The limit of detection was achieved as 60
+aM (aM) which is quite low from existing strategies developed for 4.6. SERS-based detection of pesticides
+mercury detection. Therefore, this method can be used for ultrasensitive
+detection of other toxins as well, present in drinking water (Makam The presence of pesticides in food-related items is a grave concern in
+et al., 2018). Mercury ions in drinking water are also detected through recent years. Various strategies have been developed for the detection of
+another SERS-based sensing platform developed through the coating of their traces in food as well as in the environment (Jain et al., 2022; Singh
+silver NPs functionalized with 4,4′-dipyridyl. They utilized capillary et al., 2020; Pundir and Chauhan, 2012). Distinct types of NPs play an
+37
+
+--- page 7 ---
+N. Chauhan et al. P r o g r e s s i n B i o p h y s i c s a n d M o l e c u l a r B i o l o g y184(2023)32–41
+Fig. 4. Operating principle of the SERS-based LFA sensing platform. LFA strips for Y. pestis, F. tularensis, and B. anthracis were dipped into wells of a 96-well ELISA
+plate containing mixtures of SERS nanotags and different concentrations of bacteria in buffer solution. The immunocomplexes that formed migrated by capillary
+action toward to the test line, where their Raman signals were measured and analyzed. Reprints with the permission of Wang et al., 2018.
+important role in SERS-based detection. Among them, gold is exten- results demonstrated high reproducibility, with less than 9%
+sively employed in most of the studies. Orderly spaced gold NPs sup- spot-to-spot variation in Raman intensity. Additionally, the platform
+ported by mesoporous silica are utilized as substrates for the was successfully applied to detect melamine in diluted milk, exhibiting
+development of SERS-based sensors to detect pesticides in food samples. an instrument detection limit (IDL) of 1 ppm in a linear correlation
+Pesticides such as thiamethoxam, 2,4-dichloro phenoxy acetic acid, and ranging from 1 ppm to 1000 ppm. (Zhang et al., 2019). The MIP-based
+pymetrozine were detected by SERS spectra with excellent sensitivity, sensor attracted most researchers because it can replace costly anti-
+and stability. The synthesis of the substrate includes in-situ reduction, bodies and enzymes (Ma et al., 2021). Another MIP-based SERS sensor
+ion exchange, and self-assembly techniques to arrange gold NPs inside was fabricated in 2020 for the detection of pesticides namely 2, 4-D, in
+the silica channels (Xu et al., 2020a). This technique seems simple and water and food samples. Magnetic-based MIP NPs along with SERS
+reliable for the detection of pesticides in food samples. The validity of active gold NPs were decorated to develop a sensing platform. They
+the developed method was also confirmed by HPLC satisfactorily. rGO successfully achieved the limit of detection as 0.00147 ng/mL. The re-
+and gold nanostar nanocomposite-based sensor was fabricated to detect sults were also compared with the conventional, yet highly sensitive
+acetamiprid traces in green tea samples through the SERS technique. technique HPLC and the developed sensor showed high sensitivity as
+SERS active nanocomposite decorated sensing surface was combined compared to HPLC (Xu et al., 2020b).
+with different concentrations of acetamiprid pesticide in a linear range
+of 1.0 ×10 (cid:0) 4 to 1.0 ×103 μg/mL. The sensor showed good accuracy and
+4.7. SERS-based detection of bacteria
+precision high stability and can detect multiple pesticides at a time
+(Hassan et al., 2019). Another advanced SERS strategy has been utilized
+The same combination of SERS and lateral flow assay strips as
+for the successful detection of two common herbicides namely carben-
+mentioned earlier was used again for the detection of bacterial patho-
+dazim and thiabendazole. They used leaf-inspired biomimetic material
+gens. To increase the sensitivity of SERS, researchers exploit SERS
+by soft lithography method to assemble gold NPs for creating electro-
+nanotags namely “Raman reporter-labeled gold NPs” that are an alter-
+magnetic hotspots. These biomimetic surfaces influenced the perfor-
+native to conventional gold NPs. These reporters provide information
+mance of SERS (Sharma and Krishnan, 2018). There are various types of
+about bacterial presence by changing the colour of the strip’s test line
+SERS-based sensors developed recently for the detection of different
+[Fig. 4]. Furthermore, the Raman peak intensity was observed through
+types of pesticides like organophosphorus (Yaseen et al., 2019), thiram
+coated SERS nanotags. The described method is sensitive and took less
+etc. A recent study introduced a novel hydrophobic-SERS substrate
+time for the detection of bacteria (Wang et al., 2018).
+platform based on silver nanoparticles (AgNPs) functionalized
+SERS has also exploited for the successful detection of harmful bac-
+commercially available filter paper [Fig. 3]. The platform offered several
+teria through several studies. To detect E. coli O157:H7 in the water
+advantages over conventional substrates, including simple and
+sample, gold NPs coated starch magnetic beads functionalized with
+large-scale preparation, direct droplet-detection, and reusability. The
+specific antibodies (SERS hotspot), were prepared recently. Antibodies
+study investigated the fabrication, physical characterization, and SERS
+were immobilized on the sensing surface by a linker protein, “4×gold-
+sensitivity of the substrates for food determination. The experimental
+binding peptide-tagged Streptococcal protein G” that also performed the
+38
+
+--- page 8 ---
+N. Chauhan et al. P r o g r e s s i n B i o p h y s i c s a n d M o l e c u l a r B i o l o g y184(2023)32–41
+Fig. 5. A pictorial representation of SERS applications for biomarkers detection.
+Raman reporter function by exhibiting fingerprint signals. The concen- 5. Conclusion
+tration range detected was reported as 100–105 CFU/mL with a low limit
+of detection. This type of sensitive device is important to study patho- SERS is a highly sensitive and attractive technique for the detection
+genic bacteria in food and water samples (You et al., 2020). of a variety of analytes and provides structural information of any
+molecules present even in traces. SERS-based sensing platforms have
+been successfully exploited in the field of chemistry, physics, biology,
+4.8. SERS-based detection of single-molecule detection nanoscience, and medicines for interdisciplinary applications. We have
+reviewed recent studies demonstrating the versatility of SERS in the
+The single molecules that are assembled to form molecular machines detection of analytes. Several studies have been carried out to develop
+are essential for a variety of biological activities. As a result, information SERS-based sensors for distinct analytes like biomarkers, single mole-
+regarding various diseases caused by their imbalance and internal cules, pesticides, and so on. It has been seen that SERS-based biosensors
+mechanisms of cell activity can be obtained by their quantification exhibit very low detection limits along with high sensitivity as compared
+(Chauhan et al., 2022). The SERS technique is extensively used for single to others. SERS in combination with other advanced techniques like
+molecule detection for 15 years with a very low limit of detection. SERS laser printing, microfluidics, etc. can improve the performance of sen-
+also enables single molecule detection very rapidly with high specificity. sors several times. Common SERS incorporated with some resonance
+Silver and Raman labeling compound-coated gold NPs combined with enhancement techniques like an optical waveguide, optical coherence,
+silicon dioxide were utilized as SERS active materials. Enzymes activate and resonant adsorption showed enhanced capabilities for ultrasensitive
+the reduction of silver ions and growth on SERS active nanomaterials detection of analytes. However, its use is restricted in real-time analysis
+which ultimately increases SERS signals. Ascorbic acid was responsible due to some challenges like limited output wavelength and difficulties in
+for forming a silver hot spot on the nanomaterials sensing surface in the matching analytes vibration (electronic transition frequency) with
+detection range of 0.6–9.0 ng/mL and the very low limit of detection plasmonic frequency. Furthermore, the variety of biorecognition ele-
+(0.09 ng/mL) (Pham et al., 2020). Another study highlighted the ments like MIP, and aptamers are also giving satisfactory results in the
+single-molecule nucleobase sensing based on the SERS spectroscopy fabrication of SERS-based biosensors. At its most complex level, distinct
+technique. SERS in combination with nanofluidic facilitated the elec- types of single molecules can be easily and routinely observed by SERS-
+trokinetic capture of nucleobase and local identification through direct based sensors due to the large enhancement. Additionally, SERS is an
+Raman spectroscopic fingerprinting. Plasmonic nanoslit was used in this exceptional technique to characterize small numbers of analytes pre-
+study which was optically engineered and locally enable SERS (Chen sented to or near plasmonic surfaces.
+et al., 2018). SERS in combination with other techniques shows very
+significant results for the sensing of certain chemicals, for example Declaration of competing interest
+microfluidic-SERS used to overcome surface interaction challenges.
+SERS is also used in conjunction with electrochemistry to reveal the The authors declare that they have no known competing financial
+behavior of molecules in various states of oxidation. The surface of SERS interests or personal relationships that could have appeared to influence
+and electrochemical electrodes are basically made up of metals that the work reported in this paper.
+allow the spectroscopic detection of electrochemically active molecules
+(Hakonen et al., 2015). The advantages of single-molecule SERS include Acknowledgement
+decreased sample bleaching and fingerprint-like information of chem-
+icals. The single molecule SERS technique is usually employed in The Authors would like to thank the Department of Science and
+fundamental research for the detection of resonant dyes. Although the Technology (DST File. No. TDP/BDTD/33/2019 and DST/WOS-B/HN-
+technique was discovered decades ago, its applications outside the labs 12/2021), India for their financial support.
+are quite recent in various fields. Fields like art preservation utilized
+SERS as it can detect very low levels of chemical concentrations. Fig. 5
+shows a summary of SERS applications in detection of different
+biomarkers.
+39
+
+--- page 9 ---
+N. Chauhan et al. P r o g r e s s i n B i o p h y s i c s a n d M o l e c u l a r B i o l o g y184(2023)32–41
+References He, D., Wu, Z., Cui, B., Jin, Z., 2019. A novel SERS-based aptasensor for ultrasensitive
+sensing of microcystin-LR. Food Chem. 278, 197–202. https://doi.org/10.1016/J.
+FOODCHEM.2018.11.071. Food Chem.
+Bai, T., Wang, M., Cao, M., Zhang, J., Zhang, K., Zhou, P., Liu, Z., Liu, Y., Guo, Z., Lu, X.,
+Herrera, G.M., Padilla, A.C., Hernandez-Rivera, S.P., 2013. Surface enhanced Raman
+2018. Functionalized Au@ Ag-Au nanoparticles as an optical and SERS dual probe
+for lateral flow sensing. Anal. Bioanal. Chem. 410, 2291–2303. https://doi.org/ scattering (SERS) studies of gold and silver nanoparticles prepared by laser ablation.
+Nanomaterials 3, 158–172. https://doi.org/10.3390/NANO3010158.
+10.1007/S00216-018-0850-Z.
+Howes, P.D., Rana, S., Stevens, M.M., 2014. Plasmonic nanomaterials for biodiagnostics.
+Barbillon, G., 2020. Latest novelties on plasmonic and non-plasmonic nanomaterials for
+SERS sensing. Nanomaterials 10, 1–17. https://doi.org/10.3390/NANO10061200. Chem. Soc. Rev. 43, 3835–3853. https://doi.org/10.1039/C3CS60346F.
+Huang, Z., Zhang, A., Zhang, Q., Cui, D., 2019. Nanomaterial-based SERS sensing
+Byram, C., Moram, S.S.B., Soma, V.R., 2019. SERS based detection of multiple analytes
+technology for biomedical application. J. Mater. Chem. B 7, 3755–3774. https://doi.
+from dye/explosive mixtures using picosecond laser fabricated gold nanoparticles
+and nanostructures. Analyst 144 (7), 2327–2336. https://doi.org/10.1039/ org/10.1039/C9TB00666D.
+Jain, U., Saxena, K., Hooda, V., Balayan, S., Singh, A.P., Tikadar, M., Chauhan, N., 2022.
+C8AN01276H.
+Emerging vistas on pesticides detection based on electrochemical biosensors–An
+Cai, J., Liu, R., Jia, S., Feng, Z., Lin, L., Zheng, Z., Wu, S., Wang, Z., 2021. SERS hotspots
+update. Food Chem. 371, 131126.
+distribution of the highly ordered noble metal arrays on flexible substrates. Opt.
+Jiang, Y., Sun, D.W., Pu, H., Wei, Q., 2019. Ultrasensitive analysis of kanamycin residue
+Mater. 122, 111779 https://doi.org/10.1016/J.OPTMAT.2021.111779.
+in milk by SERS-based aptasensor. Talanta 197, 151–158. https://doi.org/10.1016/
+Canning, A.J., Chen, X., Li, J.Q., Jeck, W.R., Wang, H.N., Vo-Dinh, T., 2023. miRNA
+J.TALANTA.2019.01.015.
+probe integrated biosensor platform using bimetallic nanostars for amplification-free
+Karthick Kannan, P., Shankar, P., Blackman, C., Chung, C.H., 2019. Recent advances in
+multiplexed detection of circulating colorectal cancer biomarkers in clinical samples.
+2D inorganic nanomaterials for SERS sensing. Adv. Mater. 31, 1803432 https://doi.
+Biosens. Bioelectron. 220, 114855 https://doi.org/10.1016/j.bios.2022.114855.
+org/10.1002/ADMA.201803432.
+Cao, Y., Li, D., Jiang, F., Yang, Y., Huang, Z., 2012. Engineering metal nanostructure for
+Kim, K., Kashefi-Kheyrabadi, L., Joung, Y., Kim, K., Dang, H., Chavan, S.G., Lee, M.H.,
+SERS application. J. Nanomater. 2013 https://doi.org/10.1155/2013/123812, 3-3.
+Choo, J., 2021. Recent advances in sensitive surface-enhanced Raman scattering-
+Cao, X., Gu, Y., Li, Z., Ge, S., Mao, Y., Gu, Y., Lu, D., 2023. A SERS microfluidic chip for
+based lateral flow assay platforms for point-of-care diagnostics of infectious diseases.
+ultrasensitive and simultaneous detection of SCCA and CYFRA21-1 in serum based
+Sensor. Actuator. B Chem. 329, 129214 https://doi.org/10.1016/J.
+on Au nanobowl arrays and hybridization chain reaction. Sensor. Actuator. B Chem.
+SNB.2020.129214.
+375, 132894 https://doi.org/10.1016/j.snb.2022.132894.
+Castro-Grijalba, A., Montes-García, V., Cordero-Ferrad´as, M.J., Coronado, E., P´erez- Kim, W., Bang, A., Kim, S., Lee, G.J., Kim, Y.H., Choi, S., 2022. Adiponectin-targeted
+SERS immunoassay biosensing platform for early detection of gestational diabetes
+Juste, J., Pastoriza-Santos, I., 2020. SERS-based molecularly imprinted plasmonic
+sensor for highly sensitive PAH detection. ACS Sens. 5 (3), 693–702. https://doi.org/ mellitus. Biosens. Bioelectron. 213, 114488 https://doi.org/10.1016/j.
+bios.2022.114488.
+10.1021/ACSSENSORS.9B01882.
+Kneipp, J., Kneipp, H., Kneipp, K., 2008. SERS—a single-molecule and nanoscale tool for
+Chauhan, P., Bhargava, A., Kumari, R., Ratre, P., Tiwari, R., Srivastava, R.K.,
+bioanalytics. Chem. Soc. Rev. 37, 1052–1060. https://doi.org/10.1039/B708459P.
+G fo o r r d y e a t c e h c e t v io a n , I o .Y f . o , n M c i o s m hr i a R , s P i . n K . b , r 2 e 0 a 2 st 2 c . a S n u c r e fa r. c e D -e ru n g h a D n i c s e c d ov R . a T m od an ay s c 2 a 7 t t ( e 8 r ) in , g 2 1 b 2 io 1 s – e 2 n 1 s 3 o 6 rs . Krpeti´c, Z ˇ ., Guerrini, L., Larmour, I.A., Reglinski, J., Faulds, K., Graham, D., 2012.
+Importance of nanoparticle size in colorimetric and SERS-based multimodal trace
+https://doi.org/10.1016/j.drudis.2022.04.016.
+detection of Ni (II) ions with functional gold nanoparticles. Small 8 (5), 707–714.
+Chen, N., Rong, M., Shao, X., Zhang, H., Liu, S., Dong, B., Xue, W., Wang, T., Li, T.,
+https://doi.org/10.1002/SMLL.201101980.
+Pan, J., 2017. Surface-enhanced Raman spectroscopy of serum accurately detects
+prostate cancer in patients with prostate-specific antigen levels of 4–10 ng/mL. Int. Kukkar, D., Chhillar, M., Kim, K.H., 2023. Application of SERS-based nanobiosensors to
+J. Nanomed. 5399–5407. https://doi.org/10.2147/IJN.S137756. metabolite biomarkers of CKD. Biosens. Bioelectron. 115311 https://doi.org/
+10.1016/j.bios.2023.115311.
+Chauhan, N., Saxena, K., Jain, U., 2022. Single molecule detection; from microscopy to
+sensors. Int. J. Biol. Macromol. 209, 1389–1401. https://doi.org/10.1016/j.ijbi Kumar, S., Kumar, P., Das, A., Pathak, C.S., Kumar, S., Kumar, P., Das, A., Pathak, C.S.,
+2020. Surface-enhanced Raman scattering: introduction and applications. Recent
+omac.2022.04.038.
+advances in nanophotonics-fundamentals and applications 1–24. https://doi.org/
+Chen, C., Li, Y., Kerman, S., Neutens, P., Willems, K., Cornelissen, S., Lagae, L.,
+10.5772/intechopen.92614.
+Stakenborg, T., Van Dorpe, P., 2018. High spatial resolution nanoslit SERS for single-
+Kutsanedzie, F.Y., Agyekum, A.A., Annavaram, V., Chen, Q., 2020. Signal-enhanced
+molecule nucleobase sensing. Nat. Commun. 9 (1), 1733. https://doi.org/10.1038/
+SERS-sensors of CAR-PLS and GA-PLS coupled AgNPs for ochratoxin A and aflatoxin
+s41467-018-04118-7.
+B1 detection. Food Chem. 315, 126231 https://doi.org/10.1016/J.
+Chen, R., Liu, B., Ni, H., Chang, N., Luan, C., Ge, Q., Dong, J., Zhao, X., 2019. Vertical
+fl bi o o w m a a r s k sa e y r s d b e a te s c e t d i o o n n . A co n r a e l – y s s h t e 1 ll 4 4 SE ( R 1 S 3 ) n , a 4 n 0 o 5 t 1 a – g 4 s 0 fo 5 r 9 . m h u tt lt p i s p : l / e / x d o p i r . o o s r t g a / t 1 e 0 c . a 1 n 0 c 3 e 9 r / Lafu F e O nt O e, D M CH ., E D M e .2 M 0 a 2 r 0 c . h 1 i 2 , 6 S 2 ., 3 U 1 r . biztondo, M., Pastoriza-Santos, I., P´erez-Juste, I.,
+Santamaria, J., Mallada, R., Pina, M., 2021. Plasmonic MOF thin films with Raman
+C9AN00733D.
+internal standard for fast and ultrasensitive SERS detection of chemical warfare
+Cheng, N., Lou, B., Wang, H., 2023. Discovering the digital biomarker of hepatocellular
+agents in ambient air. ACS Sens. 6 (6), 2241–2251. https://doi.org/10.1021/
+carcinoma in serum with SERS-based biosensors and intelligence vision. Colloids
+ACSSENSORS.1C00178.
+Surf., B 226, 113315. https://doi.org/10.1016/j.colsurfb.2023.113315.
+Le Ru, E.C., Etchegoin, P.G., 2012. Single-molecule surface-enhanced Raman
+Dey, S., Ahmed, E., Somvanshi, P.S., Sina, A.A.I., Wuethrich, A., Trau, M., 2022. An
+spectroscopy. Annu. Rev. Phys. Chem. 63, 65–87. https://doi.org/10.1146/
+electrochemical and Raman scattering dual detection biosensor for rapid screening
+ANNUREV-PHYSCHEM-032511-143757.
+and biomolecular profiling of cancer biomarkers. Chemosensors 10 (3), 93. https://
+Li, D., Li, D.W., Fossey, J.S., Long, Y.T., 2010. Portable surface-enhanced Raman
+doi.org/10.3390/chemosensors10030093.
+scattering sensor for rapid detection of aniline and phenol derivatives by on-site
+Ding, Q., Wang, J., Chen, X., Liu, H., Li, Q., Wang, Y., Yang, S., 2020. Quantitative and
+electrostatic preconcentration. Anal. Chem. 82 (22), 9299–9305. https://doi.org/
+sensitive SERS platform with analyte enrichment and filtration function. Nano Lett.
+20, 7304–7312. https://doi.org/10.1021/ACS.NANOLETT.0C02683. 10.1021/ac101812x.
+Li, G., Niu, P., Ge, S., Cao, D., Sun, A., 2022. SERS based lateral flow assay for rapid and
+Du, Z., Qi, Y., He, J., Zhong, D., Zhou, M., 2021. Recent advances in applications of
+ultrasensitive quantification of dual laryngeal squamous cell carcinoma-related
+nanoparticles in SERS in vivo imaging. Wiley Interdiscip. Rev. Nanomedicine
+miRNA biomarkers in human serum using Pd-Au core-shell nanorods and catalytic
+Nanobiotechnology 13, e1672. https://doi.org/10.1002/WNAN.1672.
+hairpin assembly. Front. Mol. Biosci. 8, 813007 https://doi.org/10.3389/
+Etchegoin, P.G., Le Ru, E.C., 2010. Basic electromagnetic theory of SERS. Surface
+fmolb.2021.813007.
+Enhanced Raman Spectroscopy: analytical, biophysical and life science applications
+1–37. Liang, X., Li, N., Zhang, R., Yin, P., Zhang, C., Yang, N., Liang, K., Kong, B., 2021.
+Carbon-based SERS biosensor: from substrate design to sensing and bioapplication.
+Fleischmann, M., Hendra, P.J., McQuillan, A.J., 1973. Raman spectra from electrode
+surfaces. J. Chem. Soc., Chem. Commun. (3), 80–81. NPG Asia Mater. 13 (1), 8. https://doi.org/10.1038/s41427-020-00278-5.
+Littleford, R.E., Graham, D., Smith, W.E., Khan, I., 2004. Raman spectroscopy - surface-
+Fu, X., Cheng, Z., Yu, J., Choo, P., Chen, L., Choo, J., 2016. A SERS-based lateral flow
+enhanced. In: Encycl. Anal. Sci., second ed., pp. 110–118. https://doi.org/10.1016/
+assay biosensor for highly sensitive detection of HIV-1 DNA. Biosens. Bioelectron.
+78, 530–537. https://doi.org/10.1016/J.BIOS.2015.11.099. B0-12-369397-7/00532-X.
+Lu, Y., Liu, Q., Fu, B., Li, P., Xu, W., 2023. Label-free MIP-SERS biosensor for sensitive
+Guo, S., Dong, S., 2011. Metal nanomaterial-based self-assembly: development,
+electrochemical sensing and SERS applications. J. Mater. Chem. 21, 16704–16716. detection of colorectal cancer biomarker. Talanta 258, 124461. https://doi.org/
+10.1016/j.talanta.2023.124461.
+https://doi.org/10.1039/C1JM11382H.
+Ma, J., Yan, M., Feng, G., Ying, Y., Chen, G., Shao, Y., She, Y., Wang, M., Sun, J.,
+Guo, X., Li, J., Arabi, M., Wang, X., Wang, Y., Chen, L., 2020. Molecular-imprinting-
+based surface-enhanced Raman scattering sensors. ACS Sens. 5 (3), 601–619. Zheng, L., Wang, J., 2021. An overview on molecular imprinted polymers combined
+with surface-enhanced Raman spectroscopy chemical sensors toward analytical
+https://doi.org/10.1021/ACSSENSORS.9B02039.
+Hakonen, A., Andersson, P.O., Schmidt, M.S., Rindzevicius, T., Ka¨ll, M., 2015. Explosive applications. Talanta 225, 122031. https://doi.org/10.1016/j.talanta.2020.122031.
+Makam, P., Shilpa, R., Kandjani, A.E., Periasamy, S.R., Sabri, Y.M., Madhu, C.,
+and chemical threat detection by surface-enhanced Raman scattering: a review.
+Anal. Chim. Acta 893, 1–13. https://doi.org/10.1016/J.ACA.2015.04.010. Bhargava, S.K., Govindaraju, T., 2018. SERS and fluorescence-based ultrasensitive
+detection of mercury in water. Biosens. Bioelectron. 100, 556–564. https://doi.org/
+Hao, N., Pei, Z., Liu, P., Bachman, H., Naquin, T.D., Zhang, P., Zhang, J., Shen, L.,
+10.1016/J.BIOS.2017.09.051.
+Yang, S., Yang, K., Zhao, S., 2020. Acoustofluidics-assisted fluorescence-SERS
+McNay, G., Eustace, D., Smith, W.E., Faulds, K., Graham, D., 2011. Surface-enhanced
+bimodal biosensors. Small 16 (48), 2005179. https://doi.org/10.1002/
+Raman scattering (SERS) and surface-enhanced resonance Raman scattering
+SMLL.202005179.
+(SERRS): a review of applications. Appl. Spectrosc. 65 (8), 825–837. https://doi.org/
+Hassan, M.M., Chen, Q., Kutsanedzie, F.Y., Li, H., Zareef, M., Xu, Y., Yang, M.,
+10.1366/11-06365.
+Agyekum, A.A., 2019. rGO-NS SERS-based coupled chemometric prediction of
+acetamiprid residue in green tea. J. Food Drug Anal. 27 (1), 145–153. https://doi. Mousavi, S.M., Hashemi, S.A., Rahmanian, V., Kalashgrani, M.Y., Gholami, A.,
+Omidifar, N., Chiang, W.H., 2022. Highly sensitive flexible SERS-based sensing
+org/10.1016/J.JFDA.2018.06.004.
+40
+
+--- page 10 ---
+N. Chauhan et al. P r o g r e s s i n B i o p h y s i c s a n d M o l e c u l a r B i o l o g y184(2023)32–41
+platform for detection of COVID-19. Biosensors 12 (7), 466. https://doi.org/ selective SERS sensing platform with analyte enrichment function. J. Alloys Compd.
+10.3390/bios12070466. 867, 159158 https://doi.org/10.1016/J.JALLCOM.2021.159158.
+Nam, W., Kim, W., Zhou, W., You, E.A., 2021. A digital SERS sensing platform using 3D Wang, R., Kim, K., Choi, N., Wang, X., Lee, J., Jeon, J.H., Rhie, G.E., Choo, J., 2018.
+nanolaminate plasmonic crystals coupled with Au nanoparticles for accurate Highly sensitive detection of high-risk bacterial pathogens using SERS-based lateral
+quantitative detection of dopamine. Nanoscale 13 (41), 17340–17349. https://doi. flow assay strips. Sensor. Actuator. B Chem. 270, 72–79. https://doi.org/10.1016/J.
+org/10.1039/D1NR03691B. SNB.2018.04.162.
+Naqvi, T.K., Srivastava, A.K., Kulkarni, M.M., Siddiqui, A.M., Dwivedi, P.K., 2019. Silver Wang, X., Wu, Y., Wen, X., Zhu, J., Bai, X., Qi, Y., Yang, H., 2020. Surface plasmons and
+nanoparticles decorated reduced graphene oxide (rGO) SERS sensor for multiple SERS application of Au nanodisk array and Au thin film composite structure. Opt.
+analytes. Appl. Surf. Sci. 478, 887–895. https://doi.org/10.1016/J. Quant. Electron. 52, 1–11. https://doi.org/10.1007/S11082-020-02360-2.
+APSUSC.2019.02.026. Weihua, Z., Fischer, H., Schmid, T., Zenobi, R., Martin, O.J.F., 2009. The mechanisms of
+Ngo, H.T., Wang, H.N., Fales, A.M., Vo-Dinh, T., 2013. Label-free DNA biosensor based SERS. J. Phys. Chem. C 113, 14672–14675. https://doi.org/10.1021/JP9042304.
+on SERS molecular sentinel on nanowave chip. Anal. Chem. 85, 6378. https://doi. Weng, S., Lin, D., Lai, S., Tao, H., Chen, T., Peng, M., Qiu, S., Feng, S., 2022. Highly
+org/10.1021/AC400763C. sensitive and reliable detection of microRNA for clinically disease surveillance using
+Nsiah, F., McDermott, M.T., 2023. Nanoparticle-based surface enhanced Raman SERS biosensor integrated with catalytic hairpin assembly amplification technology.
+spectroscopic imaging of biological arrays. Dalton Trans. 52 (6), 1657–1670. Biosens. Bioelectron. 208, 114236 https://doi.org/10.1016/j.bios.2022.114236.
+https://doi.org/10.1039/d2dt03313e. Wu, H., Luo, Y., Huang, Y., Dong, Q., Hou, C., Huo, D., Zhao, J., Lei, Y., 2018. A simple
+Ogundare, S.A., van Zyl, W.E., 2019. A review of cellulose-based substrates for SERS: SERS-based trace sensing platform enabled by AuNPs-Analyte/AuNPs double-decker
+fundamentals, design principles, applications. Cellule 26, 6489–6528. https://doi. structure on wax-coated hydrophobic surface. Front. Chem. 6, 482. https://doi.org/
+org/10.1007/S10570-019-02580-0. 10.3389/FCHEM.2018.00482.
+Pavliuk, G., Pavlov, D., Mitsai, E., Vitrik, O., Mironenko, A., Zakharenko, A., Kulinich, S. Xu, Y., Kutsanedzie, F.Y., Hassan, M., Zhu, J., Ahmad, W., Li, H., Chen, Q., 2020a.
+A., Juodkazis, S., Bratskaya, S., Zhizhchenko, A., Kuchmizhak, A., 2019. Mesoporous silica supported orderly-spaced gold nanoparticles SERS-based sensor
+Ultrasensitive SERS-based plasmonic sensor with analyte enrichment system for pesticides detection in food. Food Chem. 315, 126300 https://doi.org/10.1016/j.
+produced by direct laser writing. Nanomaterials 10 (1), 49. https://doi.org/ foodchem.2020.126300.
+10.3390/NANO10010049. Xu, Y., Hassan, M.M., Ali, S., Li, H., Chen, Q., 2020b. SERS-based rapid detection of 2, 4-
+Perumal, J., Wang, Y., Attia, A.B.E., Dinish, U.S., Olivo, M., 2021. Towards a point-of- dichlorophenoxyacetic acid in food matrices using molecularly imprinted magnetic
+care SERS sensor for biomedical and agri-food analysis applications: a review of polymers. Microchim. Acta 187, 1–9. https://doi.org/10.1007/S00604-020-04408-
+recent advancements. Nanoscale 13 (2), 553–580. https://doi.org/10.1039/ 2.
+D0NR06832B. Yaseen, T., Pu, H., Sun, D.W., 2019. Rapid detection of multiple organophosphorus
+Pham, X.H., Hahm, E., Kim, T.H., Kim, H.M., Lee, S.H., Lee, S.C., Kang, H., Lee, H.Y., pesticides (triazophos and parathion-methyl) residues in peach by SERS based on
+Jeong, D.H., Choi, H.S., Jun, B.H., 2020. Enzyme-amplified SERS immunoassay with core-shell bimetallic Au@Ag NPs. Food Addit. Contam. Part A. Chem. Anal. Control.
+Ag-Au bimetallic SERS hot spots. Nano Res. 13, 3338–3346. https://doi.org/ Expo. Risk Assess. 36, 762–778. https://doi.org/10.1080/19440049.2019.1582806.
+10.1007/S12274-020-3014-3. You, S.M., Luo, K., Jung, J.Y., Jeong, K.B., Lee, E.S., Oh, M.H., Kim, Y.R., 2020. Gold
+Pilot, R., Signorini, R., Durante, C., Orian, L., Bhamidipati, M., Fabris, L., 2019. A review nanoparticle-coated starch magnetic beads for the separation, concentration, and
+on surface-enhanced Raman scattering. Biosensors 9 (2), 57. https://doi.org/ SERS-based detection of E. coli O157: H7. ACS Appl. Mater. Interfaces 12 (16),
+10.3390/BIOS9020057. 18292–18300. https://doi.org/10.1021/ACSAMI.0C00418.
+Prakash, J., 2019. Fundamentals and applications of recyclable SERS substrates. Int. Rev. Yuan, Y., Panwar, N., Yap, S.H.K., Wu, Q., Zeng, S., Xu, J., Tjin, S.C., Song, J., Qu, J.,
+Phys. Chem. 38 (2), 201–242. https://doi.org/10.1080/0144235X.2019.1660114. Yong, K.T., 2017. SERS-based ultrasensitive sensing platform: an insight into design
+Prochazka, M., Prochazka, M., 2016. Basics of surface-enhanced Raman scattering and practical applications. Coord. Chem. Rev. 337, 1–33. https://doi.org/10.1016/J.
+(SERS). In: Surface-Enhanced Raman Spectroscopy: Bioanalytical, Biomolecular and CCR.2017.02.006.
+Medical Applications, pp. 21–59. https://doi.org/10.1007/978-3-319-23992-7_3. Zanchi, C., Giuliani, L., Lucotti, A., Pistaffa, M., Trusso, S., Neri, F., Tommasini, M.,
+Pundir, C.S., Chauhan, N., 2012. Acetylcholinesterase inhibition-based biosensors for Ossi, P.M., 2020. On the performance of laser-synthesized, SERS-based sensors for
+pesticide determination: a review. Anal. Biochem. 429 (1), 19–31. https://doi.org/ drug detection. Appl. Surf. Sci. 507, 145109 https://doi.org/10.1016/J.
+10.1016/j.ab.2012.06.025. APSUSC.2019.145109.
+Rodrigues, D.C., de Souza, M.L., Souza, K.S., dos Santos, D.P., Andrade, G.F., Zeng, F., Mou, T., Zhang, C., Huang, X., Wang, B., Ma, X., Guo, J., 2018. Paper-based
+Temperini, M.L., 2015. Critical assessment of enhancement factor measurements in SERS analysis with smartphones as Raman spectral analyzers. Analyst 144, 137–142.
+surface-enhanced Raman scattering on different substrates. Phys. Chem. Chem. Phys. https://doi.org/10.1039/C8AN01901K.
+17 (33), 21294–21301. https://doi.org/10.1039/C4CP05080K. Zhai, J., Li, X., Zhang, J., Pan, H., Peng, Q., Gan, H., Su, S., Yuwen, L., Song, C., 2022.
+Saravanan, R.K., Naqvi, T.K., Patil, S., Dwivedi, P.K., Verma, S., 2020. Purine-blended SERS/electrochemical dual-mode biosensor based on multi-functionalized
+nanofiber woven flexible nanomats for SERS-based analyte detection. Chem. molybdenum disulfide nanosheet probes and SERS-active Ag nanorods array
+Commun. 56, 5795–5798. https://doi.org/10.1039/D0CC00648C. electrodes for reliable detection of cancer-related miRNA. Sensor. Actuator. B Chem.
+Sharma, V., Krishnan, V., 2018. Fabrication of highly sensitive biomimetic SERS 368, 132245 https://doi.org/10.1016/j.snb.2022.132245.
+substrates for detection of herbicides in trace concentration. Sensor. Actuator. B Zhang, J., He, L., Zhang, X., Wang, J., Yang, L., Liu, B., Jiang, C., Zhang, Z., 2017.
+Chem. 262, 710–719. https://doi.org/10.1016/J.SNB.2018.01.230. Colorimetric and SERS dual-readout for assaying alkaline phosphatase activity by
+Sharma, B., Frontiera, R.R., Henry, A.I., Ringe, E., Van Duyne, R.P., 2012. SERS: ascorbic acid induced aggregation of Ag coated Au nanoparticles. Sensor. Actuator. B
+materials, applications, and the future. Mater. Today 15 (1–2), 16–25. https://doi. Chem. 253, 839–845. https://doi.org/10.1016/J.SNB.2017.06.186.
+org/10.1016/S1369-7021(12)70017-2. Zhang, C., You, T., Yang, N., Gao, Y., Jiang, L., Yin, P., 2019. Hydrophobic paper-based
+Singh, J., Manna, A.K., Soni, R.K., 2019. Bifunctional Au–TiO2 thin films with enhanced SERS platform for direct-droplet quantitative determination of melamine. Food
+photocatalytic activity and SERS based multiplexed detection of organic pollutant. Chem. 287, 363–368. https://doi.org/10.1016/J.FOODCHEM.2019.02.094.
+J. Mater. Sci. Mater. Electron. 30, 16478–16493. https://doi.org/10.1007/S10854- Zhao, Y., Yamaguchi, Y., Ni, Y., Li, M., Dou, X., 2020. A SERS-based capillary sensor for
+019-02023-3, 2019 3017. the detection of mercury ions in environmental water. Spectrochim. Acta. A. Mol.
+Singh, A.P., Balayan, S., Hooda, V., Sarin, R.K., Chauhan, N., 2020. Nano-interface driven Biomol. Spectrosc. 233, 118193 https://doi.org/10.1016/J.SAA.2020.118193.
+electrochemical sensor for pesticides detection based on the acetylcholinesterase Zhao, J., Wang, J., Liu, Y., Han, X.X., Xu, B., Ozaki, Y., Zhao, B., 2022. Detection of
+enzyme inhibition. Int. J. Biol. Macromol. 164, 3943–3952. https://doi.org/ prostate cancer biomarkers via a SERS-based aptasensor. Biosens. Bioelectron. 216,
+10.1016/j.ijbiomac.2020.08.215. 114660 https://doi.org/10.1016/j.bios.2022.114660.
+Stuart, D.A., Biggs, K.B., Van Duyne, R.P., 2006. Surface-enhanced Raman spectroscopy Zhao, J., Ma, H., Liu, Y., Xu, B., Song, L., Han, X., Liu, R., He, C., Cheng, Z., Zhao, B.,
+of half-mustard agent. Analyst 131 (4), 568–572. https://doi.org/10.1039/ 2023. SERS-based biosensor for detection of f-PSA%: implications for the diagnosis
+B513326B. of prostate cancer. Talanta 261, 124654. https://doi.org/10.1016/j.
+Su, X., Liu, X., Xie, Y., Chen, M., Zheng, C., Zhong, H., Li, M., 2023. Integrated SERS- talanta.2023.124654.
+vertical flow biosensor enabling multiplexed quantitative profiling of serological Zong, C., Xu, M., Xu, L.J., Wei, T., Ma, X., Zheng, X.S., Hu, R., Ren, B., 2018. Surface-
+exosomal proteins in patients for accurate breast cancer subtyping. ACS Nano 17 (4), enhanced Raman spectroscopy for bioanalysis: reliability and challenges. Chem. Rev.
+4077–4088. https://doi.org/10.1021/acsnano.3c00449. 118 (10), 4946–4980. https://doi.org/10.1021/ACS.CHEMREV.7B00668.
+Trang, T.N.Q., Vinh, L.Q., Doanh, T.T., Thu, V.T.H., 2021. Structure-adjustable colloidal
+silver nanoparticles on polymers grafted cellulose paper-based highly sensitive and
+41
+

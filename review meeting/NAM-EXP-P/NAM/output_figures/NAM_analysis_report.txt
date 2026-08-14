@@ -1,0 +1,93 @@
+NAM RAMAN ANALYSIS REPORT
+================================================================================
+Generated on: 2026-03-17 03:23:02
+
+TITLE
+Raman Spectral Quality Ranking and DFT Validation for NAM
+
+INPUT
+- Spectra root: C:\Users\sukes\Downloads\review meeting\NAM-EXP-P\NAM\all_excel_files
+- Simulation file: C:\Users\sukes\Downloads\review meeting\NAM-EXP-P\NAM\simdata.xlsx
+- Number of spectra loaded: 81
+- Analysis range: 200-3000 cm^-1
+- Input sample files:
+  * sec-10_power-10_i-2.xlsx
+  * sec-10_power-15_i-2.xlsx
+  * sec-10_power-20_i-2.xlsx
+  * sec-10_power-20_i-2_2.xlsx
+  * sec-10_power-25_i-2.xlsx
+
+PROCESSING PIPELINE
+1. Load all spectrum Excel files.
+2. Extract Raman shift/intensity data and filter to selected range.
+3. Smooth signal using Savitzky-Golay filter.
+4. Apply ALS baseline correction.
+5. Normalize corrected intensity.
+6. Detect reference peak and compute SNR/FWHM/sharpness.
+7. Score and rank all spectra.
+8. Compare best spectrum with DFT simulation.
+9. Match experimental peaks to DFT peaks within tolerance.
+
+EXPERIMENTAL INPUT SAMPLE (BEST SPECTRUM, FIRST 5 POINTS)
+ raman_shift_cm^-1  normalized_intensity
+        200.839101              0.000000
+        202.752477              0.007448
+        204.665129              0.011203
+        206.577055              0.009332
+        208.488256              0.003873
+
+SIMULATED INPUT SAMPLE (FIRST 5 MODES IN RANGE)
+ scaled_freq  norm_activity
+      207.36       0.007037
+      215.04       0.006753
+      222.72       0.006977
+      230.40       0.003087
+      238.08       0.001766
+
+RESULT SUMMARY
+- Total spectra processed: 81
+- Best file: sec-25_power-80_i-2.xlsx
+- Best integration time: 25 s
+- Best laser power: 80 %
+- Best SNR: 95.91
+- Best composite score: 223.0141
+- Matched peaks count: 51
+
+TOP 5 RANKED SPECTRA
+                         fname  sec  power    SNR  peak_intensity    FWHM  sharpness     score
+rank                                                                                          
+1     sec-25_power-80_i-2.xlsx   25     80  95.91          583.47  12.216     0.0819  223.0141
+2     sec-25_power-75_i-2.xlsx   25     75  52.13          568.99  12.588     0.0794  196.7804
+3     sec-25_power-70_i-2.xlsx   25     70  65.44          514.79  12.682     0.0789  187.1737
+4     sec-25_power-65_i-2.xlsx   25     65  63.29          476.88  12.707     0.0787  174.7219
+5     sec-20_power-80_i-2.xlsx   20     80  56.46          483.83  12.051     0.0830  173.3964
+
+PEAK MATCHING TABLE (TOP 15 ROWS)
+    Experimental (cm⁻¹)  DFT Simulated (cm⁻¹)  Difference (cm⁻¹)  DFT Raman Activity
+1                 231.4                 230.4                1.0               0.036
+2                 256.0                 253.4                2.6               0.091
+3                 286.2                 284.2                2.1               0.144
+4                 316.2                 314.9                1.4               0.079
+5                 349.8                 353.3               -3.5               0.017
+6                 368.3                 368.6               -0.3               0.010
+7                 458.2                 460.8               -2.6               0.104
+8                 489.0                 491.5               -2.6               0.046
+9                 523.1                 522.2                0.9               0.070
+10                541.0                 537.6                3.4               0.049
+11                583.7                 583.7                0.0               0.025
+12                615.4                 614.4                1.0               0.040
+13                645.2                 645.1                0.1               0.029
+14                676.6                 675.8                0.7               0.017
+15                702.5                 698.9                3.6               0.033
+
+OUTPUT FILES
+- fig01_acquisition_parameter_analysis.png
+- fig02_best_spectra_annotated.png
+- fig03_experimental_vs_DFT_overlay.png
+- fig04_all_spectra_waterfall.png
+- fig05_score_vs_power.png
+- fig06_SNR_vs_score.png
+- ranked_spectra_table.csv
+- peak_matching_table.csv
+- NAM_analysis_report.txt
+================================================================================

@@ -1,0 +1,55 @@
+This is a detailed, multi-faceted literature survey covering catechol-metal SERS, siderophore spectroscopy, and fluorescence mitigation strategies. Let me search across several angles.
+
+Ran analysis
+5 searches
+Sources: Catechol SERS and Siderophore Spectroscopy
+Papers on catechol-metal SERS, siderophore detection, and fluorescence mitigation
+
+Read more context
+Referenced variable
+This is a broad landscape query, so let me organize what my search turned up — and where the gaps are — across your main areas of interest.
+
+Catechol SERS and metal–catechol spectral signatures
+
+The most directly relevant paper I found is Liu et al. (2020, Analytical Chemistry), which used a titanium-oxide cluster (Ti17) as a molecular analogue of TiO₂ to study SERS of phenols and catechols. They showed that catechols bind vertically via σ-bonds to specific Ti sites, with detection limits in the 10⁻⁵–10⁻⁶ M range and enhancement factors of 10³–10⁵. The enhancement mechanism involves a combination of focusing effects, chemical (CHEM) enhancement, and resonance contributions — all quantitatively analyzed. This is useful as a model for how catechol binds to metal oxide surfaces and the resulting spectral changes, though it uses Ti rather than Fe.
+
+For Fe-specific work, I found an An et al. (2022, J. Environmental Science) study on the effects of transition metal complexation on catechol, examining pH-dependent complexation of metal ions (Zn, Cu, Fe, and others) with catechol over the full pH range. A dipodal catechol-based chelator ligand study (Amardeep et al., 2024) investigated binding of Al³⁺, Fe³⁺, and Cr³⁺ to a 2,3-dihydroxybenzyl ligand system across pH 2–11 using potentiometry and spectrophotometry — reporting the highest formation constants for Cr³⁺ (log β = 28.56). Neither of these used Raman/SERS specifically, but they characterize the metal–catechol coordination chemistry relevant to your spectral interpretation.
+
+I did not find a paper directly examining Fe³⁺–catechol charge transfer signatures by SERS, which is a notable gap.
+
+SERS enhancement mechanisms for aromatic/hydroxyl molecules
+
+Several papers address the interplay of electromagnetic (EM) and chemical enhancement. Hernández et al. (2023, JOSA B) performed a comprehensive resonant SERS study across multiple substrate types and concluded that the chemical contribution — specifically metal-to-ligand charge transfer — is much more important than traditionally assumed: "optimum amplification occurs when the plasmon modes intersect with the ligand-to-metal chemical resonance, contributing synergically." This directly supports the idea that charge-transfer enhancement is central for molecules with metal-binding functional groups.
+
+A 2020 study in Nanoscale demonstrated that aromatic molecules covalently bonded to Au surfaces strongly interact with plasmons and can themselves create "molecular hot spots" that extend the local EM field — even enabling SERS of nearby non-aromatic molecules that wouldn't otherwise produce signal. Song et al. (2024, Nano Letters) showed that surface hydroxyls on quasi-metal MoO₂ increase SERS activity by 100-fold via interfacial charge transfer within a MoO₂/OH/molecule system. McNeely et al. (2020, J. Raman Spectroscopy) demonstrated strong metal substrate dependence (Au vs. Ag) in SERS of protoporphyrin IX, attributing differences to metal(σ)-to-molecule(π*) charge transfer excitations — the nuclear coordinate dependence of electronic transition moments was essential.
+
+Siderophore SERS detection — a clear gap
+
+My search found no papers directly using SERS to detect enterobactin, yersiniabactin, pyoverdine, or aerobactin. This appears to be a genuine literature gap. The closest siderophore-adjacent work is Zou et al. (2023, JBC) on enterobactin catabolism, which characterizes dimeric catabolites with retained siderophore activity but uses biochemical rather than spectroscopic methods.
+
+Structurally similar molecules detected by SERS
+
+The search returned several relevant analogues:
+
+Pyocyanin (phenazine): This is the best-studied bacterial metabolite by SERS. Atta & Vo-Dinh (2023, Analytical Chemistry) achieved a remarkable LOD of 0.05 nM using sharp-branched gold nanostars, with successful detection in drinking water, saliva, and urine without sample pretreatment. Kim et al. (2022, Sensors and Actuators B) used paper-based 3D Au substrates with one-pot electrodeposition for direct pyocyanin detection in bacterial culture media.
+Indole derivatives: Jayan et al. (2022, Applied Spectroscopy) detected indole from E. coli cultures using Au@Ag core-shell NPs with a LOD of 0.0886 mM. A 2025 bioRxiv preprint by Vali et al. achieved 100 nM detection of indole using nanoplasmonic SERS — over 500-fold more sensitive than previous methods — and discovered a novel TnaA-dependent metabolic signature.
+Catecholamines (catechol-containing): Eremina et al. (2023, Biosensors) developed a clever approach using bispidine-based ligands to form Cu(II)–catecholamine complexes, deliberately shifting absorbance into the visible range to match LSPR bands. This achieved dopamine detection at 3.2 × 10⁻¹² M on Ag-based substrates.
+Caffeic acid and catechol on AgNPs: Nisini et al. (2023, Nanomaterials) used SERS to characterize the molecular environment near polyphenol-synthesized AgNPs, assessing orientation and tunable deprotonation of caffeic acid depending on synthesis conditions.
+Fluorescence interference strategies
+
+Several approaches have been reported:
+
+Kerr-gated SERS: Cabello et al. (2024, J. Phys. Chem. Lett.) combined SERS with optical Kerr gating for simultaneous signal enhancement and fluorescence suppression, demonstrating that Raman spectra of highly fluorescent dyes (rhodamine 6G, Nile red, Nile blue) were obtainable only when SERS substrates were used with the Kerr gate.
+Time-gated detection: Ksantini et al. (2021, J. Biophotonics) used a 300 ps time gate with a Fourier-transform spectrometer, nearly doubling the signal-to-background ratio (36% → 69%) by excluding fluorescence contributions.
+Shifted excitation Raman difference spectroscopy (SERDS): Sheridan et al. (2024, Analyst) optimized SERDS at 830 nm excitation for biological samples, identifying a 2.4 nm wavelength shift as optimal for removing fluorescence, room light, and optical component signals while retaining chemical information.
+Bio-orthogonal Raman reporters: Zhu et al. (2022, ACS AMI) developed SERS nanoprobes with signals in the Raman-silent region (1800–2800 cm⁻¹), achieving SBR over 100 — five times higher than traditional on-resonant probes — with ambient light anti-interference. A related approach by Zhu et al. (2021) used 4-mercaptobenzonitrile with its nitrile peak in the silent region to avoid spectral overlap.
+Selective plane illumination: Smith & Schultz (2025, J. Raman Spectroscopy) combined light sheet microscopy with wide-field SERS spectral imaging to avoid out-of-focus scattering, improving contrast and SNR in biological samples.
+Iron detection by SERS (not catechol-based)
+
+Two papers detected iron itself via SERS: Calderón González et al. (2026, ACS AMI) built a dual SERRS platform for simultaneous Fe(II) quantification and pH readout using phenanthroline + mercaptobenzoic acid on Ag-coated polystyrene beads, achieving 30 ppb detection. Parmigiani et al. (2024, Nanomaterials) exploited Fe(III) reduction of Ag shells on gold nanostars for dual LSPR/SERS sensing.
+
+Key gaps for siderophore SERS
+
+The most striking finding is the absence of direct SERS studies on siderophores. Given that pyocyanin (a phenazine bacterial metabolite) is now detectable at sub-nanomolar concentrations by SERS, and catechol/catecholamine SERS is well-established on Ag and Au substrates, siderophore detection via SERS is a natural extension that appears unexplored. The main challenges would be: (1) disrupting Fe³⁺–catechol complexes to expose the free catechol moiety for surface binding — pH reduction or competitive chelation (EDTA) are the obvious approaches, though I didn't find anyone applying these specifically before SERS measurement; (2) fluorescence from biological matrices, addressable via the time-gating, SERDS, or bio-orthogonal reporter strategies above; and (3) the structural complexity of siderophores like enterobactin (a tris-catechol macrocyclic trilactone) may complicate spectral interpretation compared to simple catechol.
+
+This was a single search pass across a very broad query space — a deeper search with extended thinking would likely surface additional work, particularly on catechol–Fe coordination Raman spectroscopy and any emerging siderophore detection methods.*

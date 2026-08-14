@@ -1,0 +1,502 @@
+Vibrational Spectroscopic Characterization of N-Acetylmuramic Acid and the Peptidoglycan Matrix: A Systematic Review of Raman and SERS Peak Assignments
+The structural integrity of the bacterial cell wall is maintained by the peptidoglycan layer, a complex macromolecular meshwork that serves as a protective exoskeleton against environmental stresses and internal osmotic pressure. At the chemical core of this biopolymer are alternating units of N-acetyl-D-glucosamine (NAG) and N-acetylmuramic acid (NAM), which are linked via β-1,4-glycosidic bonds to form linear glycan strands. NAM is uniquely distinguished from NAG by the presence of a D-lactyl ether group at the C-3 position, which serves as the anchor point for a peptide stem, typically a pentapeptide chain consisting of L- and D-amino acids. The specific vibrational signatures of NAM, characterized through Raman spectroscopy and Surface-Enhanced Raman Spectroscopy (SERS), provide a molecular fingerprint essential for pathogen identification, monitoring antibiotic susceptibility, and understanding the biophysical properties of the cell wall.   
+Molecular Architecture and Structural Biochemistry of N-Acetylmuramic Acid
+The biochemical distinctness of NAM within the peptidoglycan sacculus is a primary driver of its unique Raman scattering profile. The molecule consists of a glucosamine backbone where the C-2 amino group is acetylated and the C-3 hydroxyl group is ether-linked to a propanoyl moiety (lactic acid). This lactic acid substituent provides a carboxylic acid functional group that is typically involved in an amide linkage with the first amino acid of the peptide stem, usually L-alanine. The density of these alternating sugar units and their limited conformational flexibility contribute to the overall stiffness and rigidity characteristic of the bacterial cell wall.   
+Nuclear magnetic resonance (NMR) studies of synthetic peptidoglycan fragments have elucidated that the glycan backbone forms a right-handed helix with a periodicity of three NAG-NAM repeats per turn. This helical geometry suggests that the glycosidic oxygen atoms and the acetamido groups occupy specific spatial orientations that influence their vibrational energy levels. The distance between the pyranose oxygen of NAM and the C-3 hydroxyl oxygen of NAG is approximately 3.4 Å, a distance that influences the skeletal stretching modes observed in the fingerprint region of the Raman spectrum.   
+Table 1: Structural Parameters and Functional Groups of N-Acetylmuramic Acid
+Functional GroupChemical EnvironmentVibrational Mode TypeSpectral Relevance
+Ether Linkage
+C3-O-C (Lactyl)
+C-O-C Symmetric Stretching
+Foundational NAM marker at 1010 cm−1.
+Acetamido Group
+C2-NH-CO-CH3
+Amide I, II, III
+Probes acetylation state and protein-like features.
+Carboxyl Group
+Lactyl C-terminus
+COO- Symmetric/Asymmetric Stretching
+Marker for peptide stem attachment at 1396 cm−1.
+Pyranose Ring
+Hexose Structure
+Ring Breathing, C-C Stretching
+Skeletal stability and backbone identification.
+Hydroxyl Groups
+C4, C6 Positions
+O-H Stretching / C-O-H Bending
+Hydrogen bonding network indicators.
+  
+The presence of NAM is often used as a chemical marker for bacterial peptidoglycan in clinical samples, such as synovial fluids, where it can be detected as a surrogate for live bacteria or bacterial debris. Quantitative mass spectrometry has identified NAM levels ranging from 250 to 1,700 ng/ml in septic synovial fluids, emphasizing the need for sensitive spectroscopic methods like SERS to achieve similar detection limits in a label-free manner.   
+Principles of Raman and Surface-Enhanced Raman Spectroscopy in Cell Wall Analysis
+Raman spectroscopy provides a non-destructive, label-free means of probing the molecular composition of microbial cells by measuring the inelastic scattering of photons. In standard Raman microscopy, the signal is generated from the entire volume of the cell captured within the laser focal spot, resulting in a complex spectrum composed of contributions from proteins, nucleic acids, lipids, and carbohydrates. Because carbohydrates like NAM and NAG have relatively small Raman cross-sections compared to aromatic amino acids or nucleic acids, their specific bands are often obscured in the bulk Raman spectrum of a vegetative cell.   
+To overcome the inherent weakness of the Raman effect, Surface-Enhanced Raman Spectroscopy (SERS) utilizes the plasmonic properties of noble metal nanoparticles, typically silver (Ag) or gold (Au), to amplify the signal by several orders of magnitude. The enhancement is primarily governed by the electromagnetic mechanism, where the incident laser light excites localized surface plasmon resonances (LSPR) on the nanoparticle surface, creating intense localized electric fields known as "hotspots". Due to the 1/r6 distance dependence of this enhancement, SERS is highly surface-sensitive, theoretically favoring the detection of the outermost cell wall components like the peptidoglycan layer.   
+Table 2: Comparison of Raman and SERS Performance for Peptidoglycan Detection
+FeatureStandard RamanSurface-Enhanced Raman (SERS)
+Sensitivity
+Low; requires high cell density.
+High; single-cell detection possible.
+Specificity
+Bulk cellular composition.
+Surface-biased (outer 10 nm).
+NAM Signal
+Often masked by proteins/DNA.
+Amplified via plasmonic hotspots.
+Sampling
+Minimal preparation.
+Requires nanoparticle interaction.
+  
+The interaction between the nanoparticles and the bacterial surface is critical. In Gram-positive bacteria, the thick peptidoglycan layer (approx. 20-80 nm) is directly exposed, whereas in Gram-negative bacteria, it is located in the periplasmic space beneath an outer membrane. This structural difference significantly influences the resulting SERS spectrum, as the nanoparticles must either adhere to the outer membrane or "poke" through to interact with the NAM units within the murein sacculus.   
+Analysis of the Fingerprint Region: Peak Assignments for NAM and Peptidoglycan
+The fingerprint region (400–1800 cm−1) contains the most information-rich vibrational bands for N-acetylmuramic acid. Systematic studies of Escherichia coli and Lactobacillus species have identified several key bands associated with the carbohydrate and peptide components of the cell wall.   
+The Ether and Carbohydrate Backbone Signatures
+One of the most specific markers for NAM is the band at 1010 cm−1, which has been assigned to the ether linkages characteristic of the molecule. This vibration corresponds to the C-O-C symmetric stretching mode of the lactyl group attached to the pyranose ring. Other skeletal vibrations of the carbohydrate backbone are observed in the 1000–1200 cm−1 range. For instance, the peak at 1099 cm−1 is attributed to C-C and C-O-C stretching vibrations in cell wall carbohydrates, though its intensity often decreases significantly following treatments that disrupt membrane integrity, such as electroporation.   
+The C-O and C-O-H vibrations of the glycan strands also contribute to peaks at 1127 cm−1 and 1155 cm−1. In Lactobacillus casei, SERS bands at 1123 cm−1 and 1145 cm−1 are ascribed to CN and CC stretching in carbohydrates and lipids, which together form a signature of the peptidoglycan decoration.   
+Amide and Carboxylate Vibrations
+The peptide stem and the N-acetyl group of NAM provide amide-related vibrational modes. Amide III vibrations are typically found around 1288 cm−1 to 1293 cm−1, representing a complex mix of C-N stretching and N-H bending. The carboxylate groups of the NAM lactyl moiety and the amino acid side chains (like glutamate or diaminopimelic acid) produce distinct markers. The asymmetric stretching of the carboxylate end (COO−) is observed at approximately 1396 cm−1, a peak that often exhibits broadening and shifting during bacterial cell wall disruption.   
+Symmetric deformations of the COO− group are also noted around 1359 cm−1 to 1363 cm−1. These peaks are sensitive to the local chemical environment, including the pH and the presence of metal ions from the SERS substrate.   
+Table 3: Validated Raman and SERS Peaks for NAM and the Peptidoglycan Matrix
+Raman Shift (cm−1)Vibrational AssignmentBiochemical SourceSource ID
+477
+Skeletal Ring Mode
+Peptidoglycan layer
+918 – 926
+Skeletal COO−, C-C Stretch
+Peptidoglycan / Proteins
+959 – 963
+C-O, C-O-H, (CN) Stretch
+Carbohydrate backbone / DNA
+1010
+Ether linkage (C-O-C)
+N-acetylmuramic acid
+1047 / 1048
+In-plane CH bending
+Carbohydrates / Peptidoglycan
+1099
+C-C, C-O-C stretching
+Cell wall carbohydrates
+1123 – 1155
+CN / CC Stretching
+PG Glycan Strands
+1237 – 1240
+Amide III / PO2−​ Asym
+PG Peptides / DNA
+1291 – 1293
+CH Deformation
+PG Proteins / Lipids
+1363 / 1359
+COO− Symmetric Deform
+NAM / Amino Acids
+1396
+Carboxylate COO− (asym)
+PG side groups
+1452 – 1460
+CH2​ Deformation
+PG Oligosaccharides / Lipids
+  
+The peak at 477 cm−1 is particularly noteworthy as a robust marker for the presence of Listeria monocytogenes, where it is used for quantification in complex food matrices, representing a specific skeletal mode of the cell wall structure.   
+The 730 cm−1 Band Controversy: Resolving Cell Wall vs. Purine Origin
+The most intense and ubiquitous feature in the SERS spectra of bacteria excited at 785 nm is located between 725 cm−1 and 735 cm−1. For nearly two decades, this band was the subject of significant debate regarding its biochemical origin, with profound implications for the interpretation of NAM-related signals.   
+The Historical Peptidoglycan Assignment
+Early SERS studies, notably those by Jarvis et al., explicitly assigned the 730 cm−1 band to the glycosidic ring or C-N stretching mode of NAM and NAG. The assignment was predicated on the assumption that the SERS enhancement is limited to the outermost 10 nm of the cell, where the peptidoglycan layer is the dominant structure. Experimental support for this was provided by studies showing that the peak was drastically reduced in protoplasts and spheroplasts, which are cells that have had their peptidoglycan removed. Consequently, much of the early literature utilized this peak as a direct measure of cell wall integrity.   
+The Purine Metabolite Breakthrough
+More recent investigations, however, have provided evidence that the 730 cm−1 band originates not from the structural polymers of the cell wall, but from the metabolites of the purine degradation pathway. Stable isotope labeling experiments using 15N and 13C demonstrated that this band corresponds to the ring breathing mode of adenine and adenine-containing molecules like adenosine, hypoxanthine, and xanthine. These small molecules are secreted by bacteria as part of a rapid starvation response when cells are washed in water—a common step in SERS sample preparation.   
+Because these small metabolites have high Raman cross-sections and can easily approach the metallic surface, they dominate the spectrum, often masking the weaker signals from the NAM and NAG units of the peptidoglycan itself. Despite this, the peak remains useful for classification, as different species exhibit different ratios of these purine metabolites.   
+Table 4: Purine Degradation Products Contributing to Bacterial SERS Spectra
+MetaboliteDominant SERS Bands (cm−1)Vibrational ModeContextual Relevance
+Adenine
+732, 1330, 1450
+Purine Ring Breathing
+Primary component of the "730" band.
+Hypoxanthine
+725, 825, 1250
+Ring Breathing / C-H Bend
+Observed in starvation-induced SERS.
+Xanthine
+650, 800, 1180
+Ring modes
+Species-specific metabolic signature.
+Guanine
+655, 1350, 1576
+Ring Breathing / Amide
+Often overlaps with DNA/RNA bands.
+Uric Acid
+1140, 1650
+Skeletal / Carbonyl
+Final degradation product in some species.
+  
+The resolution of this controversy suggests that while the 730 cm−1 band is a marker for the presence of bacteria, it is not a direct measure of NAM concentration. Researchers looking for NAM specifically must focus on the lower-intensity skeletal modes at 1010 cm−1 and 1155 cm−1.   
+Theoretical and Computational Validation using Density Functional Theory (DFT)
+To validate experimental assignments and understand the conformational influence on NAM vibrations, computational simulations using Density Functional Theory (DFT) are employed. These calculations allow for the optimization of molecular geometry and the determination of harmonic vibrational wavenumbers.   
+Functional and Basis Set Selection
+The most common approach for modeling sugar amino acids like NAM is the B3LYP functional paired with a 6-311G(d,p) or 6-31G(d) basis set. These levels of theory are capable of capturing the electronic rearrangements involved in hydrogen bonding and the ether-linked lactyl group. Potential Energy Distribution (PED) analysis is typically performed to assign the computed frequencies to specific molecular movements, such as the scissoring of CH2​ groups or the stretching of the pyranose ring bonds.   
+Conformational Effects on Vibrational Modes
+DFT studies have highlighted the role of the β-anomeric configuration in NAM. The hydroxyl group at C1 is typically in an equatorial configuration, which, combined with the bulky lactyl group at C3, influences the ring breathing frequency. In the context of enzyme-substrate interactions, such as those with hen egg-white lysozyme (HEWL), DFT and QM/MM models predict that substrate distortion leads to shifts in the NAM vibrational modes as the molecule is "forced" into the active site.   
+For larger complexes, such as the vancomycin-peptide complex, DFT calculations of geometries and binding energies help elucidate the Raman shifts associated with the D-Ala-D-Ala terminus of the NAM-pentapeptide. The calculated proton affinities of various sites on the peptide ligand (e.g., the secondary amine of the acetylated lysine side chain) correlate with experimental observations of the Amide III and C-N stretching regions.   
+Table 5: DFT-Calculated vs. Experimental Frequencies for NAM-related Components
+Vibrational ModeDFT Calculated (cm−1)Experimental (cm−1)Basis Set / Reference
+C-O-C Symmetric Stretch
+1005 – 1015
+1010
+B3LYP/6-311G(d,p) 
+COO− Asym Stretch
+1385 – 1410
+1396
+B3LYP/6-311G(d,p) 
+Ring Breathing (Purine)
+710 – 725
+730
+B3LYP (Isotope shift studies) 
+CHx​ Symmetric Stretch
+2840 – 2860
+2850
+DFT validation for lipids/sugars 
+Amide I (C=O)
+1680 – 1740
+1700 – 1735
+B3LYP/6-31G(d) 
+  
+The close agreement between DFT-calculated frequencies and experimental Raman shifts (typically within 1-2%) provides a validated basis for building spectral libraries.   
+High-Wavenumber Raman Spectroscopy: Probing the Cell Wall Matrix
+While the fingerprint region is essential for specific molecular identification, the high-wavenumber region (2800–3800 cm−1) offers distinct advantages for microbial characterization, including higher Raman intensities and lower background fluorescence.   
+Biochemical Composition and Dry Mass Fractions
+The high-wavenumber spectrum is dominated by the CHx​ stretching bands, which contain information on the relative dry mass of the cell wall, lipids, proteins, and carbohydrates. NAM contributes primarily to the CH stretching vibrations of the carbohydrate backbone observed at 2910–2930 cm−1 and the CHx​ vibrations of its acetyl and lactyl side chains.   
+A major finding in this region is the difference in peak shape between Gram-positive and Gram-negative bacteria. The 2935 cm−1 peak, associated with CH3​ symmetric stretching in proteins and carbohydrates, appears broader and more rounded in Gram-negative species. This is often matched by an increased prominence of the 3062 cm−1 peak (aromatic amino acids), potentially reflecting the protein-rich nature of the Gram-negative outer membrane compared to the carbohydrate-heavy Gram-positive cell wall.   
+Table 6: High-Wavenumber Assignments for Cell Wall Components
+Wavenumber (cm−1)AssignmentPrimary Biomolecular Contributor
+2845 – 2855
+−CH2​ symmetric stretch
+Lipids (Cell membrane and wall lipids).
+2870 – 2900
+−CH2​ asymmetric stretch
+Lipids and Proteins.
+2910 – 2930
+−CH stretch
+Carbohydrates (NAM/NAG) and Lipids.
+2930 – 2940
+−CH3​ symmetric stretch
+Proteins (Cell wall and cytoplasmic).
+2950 – 2970
+−CH3​ asymmetric stretch
+Proteins.
+3055 – 3065
+=CH aromatic stretch
+Proteins (Phenylalanine/Tyrosine).
+  
+By converting high-wavenumber spectral fractions to relative dry mass, researchers have found that the cell wall typically accounts for approximately 5.64% of the dry mass in E. coli, a value that closely aligns with established biological models. This suggests that the CH stretching region is a reliable indicator of total peptidoglycan content.   
+Monitoring Peptidoglycan Synthesis and Antibiotic Interactions
+The Raman signature of NAM is highly sensitive to the metabolic state of the cell and the presence of cell wall-acting antibiotics. Because peptidoglycan synthesis is an essential target for many drugs, vibrational spectroscopy serves as a rapid tool for assessing antibiotic efficacy and resistance mechanisms.   
+Antibiotic-Induced Spectral Shifts
+When bacteria like Bacillus subtilis are treated with drugs that inhibit peptidoglycan synthesis, such as tinidazole derivatives or imidazolium salts, several dominant spectral features emerge. For example, a gradual increase in drug concentration leads to shifts in peaks at 1132 cm−1 (carbohydrate CC/CN stretch) and 1396 cm−1 (carboxylate deformation). These changes indicate biochemical alterations in the cross-linking of NAM-NAG units and the integrity of the glycan strands.   
+In mycobacteria, the cell envelope is even more complex, featuring a peptidoglycan layer linked to arabinogalactan and a mycomembrane. Drugs like D-cycloserine disrupt peptidoglycan formation by inhibiting the enzymes involved in NAM-pentapeptide assembly. SERS can monitor these changes by detecting the loss of characteristic carbohydrate bands as the sacculus weakens and the cell undergoes lysis.   
+Probing Binding Mechanisms: The Vancomycin Case
+Vancomycin resistance in bacteria like Staphylococcus aureus is a significant clinical concern. The antibiotic functions by binding to the D-Ala-D-Ala terminus of the NAM-attached pentapeptide, preventing further transpeptidation. Raman-tagged vancomycin (using an aryl-alkyne tag with a peak at 2218 cm−1) has been used with hyperspectral Stimulated Raman Scattering (SRS) microscopy to track the drug's penetration into biofilms.   
+The binding interaction itself can be analyzed via the shifts in the Amide III and NH2​ deformation bands. Detailed NMR and DFT investigations of the vancomycin-peptide complex show that the three hydrogen bonds involving the C-terminus of the peptide are critical for the drug's affinity. These hydrogen bonds cause a noticeable red-shift in the C=O and C−N stretching modes of the NAM-peptide junction, providing a spectroscopic "readout" of antibiotic attachment.   
+Table 7: SERS Response to Antibiotic-Induced Cell Wall Stress
+Antibiotic / TreatmentObserved Shift (cm−1)Biochemical Implication
+Imidazolium Salts
+1396, 1416, 1453 (Increase)
+Disruption of PG cross-linking and side chain mobility.
+Vancomycin
+2218 (Tag-specific)
+Penetration and binding to D-Ala-D-Ala of NAM.
+Electroporation
+1099 (Disappearance)
+Loss of carbohydrate skeletal integrity.
+Lysozyme Lysis
+960, 1026, 1240 (Decrease)
+Degradation of NAM-NAG glycan strands.
+Starvation (Water Wash)
+730 (Increase)
+Secretion of purines masking PG structure.
+  
+The Validated N-Acetylmuramic Acid Raman Library
+The objective of building a validated spectral library for NAM is to facilitate the identification of unknown bacterial signatures and verify agreement with literature values. The following table synthesizes the most reliable peak positions and their corresponding assignments from experimental and theoretical sources.
+Table 8: Master Reference Library for NAM Raman/SERS Peaks
+Frequency (cm−1)AssignmentIntensity Trend / ContextSource ID
+477
+Skeletal Ring Mode
+Strong in L. monocytogenes SERS. 1 
+ 2 
+655
+Guanine / Purine Ring
+Common metabolic marker. 3 
+ 4 
+725 – 735
+Purine Ring Breathing
+Dominates bacterial SERS; metabolically driven. 5 
+ 6 
+850
+CH2​ Rocking / Tyrosine
+Sensitive to drug treatment. 7 
+ 7 
+918 – 926
+PG Skeletal (COO−, C-C)
+Found in E. coli Raman. 8 
+ 8 
+959 – 960
+C-O / (CN) Stretch
+Core carbohydrate/backbone feature. 9 
+ 9 
+1001 – 1003
+Phenylalanine (Phe)
+Universal protein marker; used for normalization. 10 
+ 8 
+1010
+Ether Linkage (C-O-C)
+High-priority NAM marker. 8 
+ 8 
+1026 – 1030
+Phospholipids / PG
+Shifts and broadens during wall stress. 11 
+ 11 
+1047 – 1048
+In-plane CH Bending
+Specific to sugar units in Gram-positive walls. 12 
+ 12 
+1081 – 1090
+PO2−​ Symmetric Stretch
+DNA/RNA backbone backdrop. 8 
+ 8 
+1099
+C-O-C Carbohydrate stretch
+Indicator of glycan strand integrity. 8 
+ 8 
+1123 – 1155
+C-C / C-N Stretch
+Glycan backbone and PG lipids. 13 
+ 13 
+1237 – 1240
+Amide III / PO2−​ Asym
+Complex marker for protein-PG interactions. 14 
+ 14 
+1288 – 1300
+CH2​ Twist / Amide III
+Protein and saturated lipid markers. 13 
+ 13 
+1330
+C-N Stretch / Adenine
+Overlap of peptide and purine signatures. 4 
+ 4 
+1359 – 1363
+COO− Symmetric Deformation
+NAM lactyl and peptide stem residues. 12 
+ 12 
+1394 – 1396
+COO− Asymmetric Stretch
+Essential PG side group marker. 15 
+ 15 
+1416 – 1428
+CH2​ / CH3​ Deform
+Lipid and carbohydrate side groups. 16 
+ 16 
+1445 – 1460
+CH2​ Deformation
+Universal cell wall and lipid signal. 15 
+ 14 
+1700 – 1764
+C=O Carbonyl Stretch
+NAM lactyl group / Pre-spore markers. 17 
+ 17 
+2850
+CH2​ Symmetric Stretch
+Lipid-rich wall component marker. 18 
+ 18 
+2910 – 2930
+CH Carbohydrate Stretch
+Total peptidoglycan content indicator. 18 
+ 18 
+3055 – 3065
+=CH Aromatic Stretch
+Aromatic amino acids in the cell envelope. 18 
+ 18 
+  
+
+Rapid Raman Fingerprinting Identification of Listeria monocytogenes via Immunomagnetic Enrichment Coupled with Droplet-Shrinkage-Assisted SERS | Analytical Chemistry - ACS Publications
+
+
+pubs.acs.org/doi/10.1021/acs.analchem.5c05756
+
+
+Rapid Raman Fingerprinting Identification of Listeria monocytogenes via Immunomagnetic Enrichment Coupled with Droplet-Shrinkage-Assisted SERS - PMC
+
+
+pmc.ncbi.nlm.nih.gov/articles/PMC12903052
+
+
+Rapid Raman Fingerprinting Identification of Listeria monocytogenes via Immunomagnetic Enrichment Coupled with Droplet-Shrinkage-Assisted SERS | Analytical Chemistry - ACS Publications
+
+
+pubs.acs.org/doi/10.1021/acs.analchem.5c05756
+
+
+A High Speed Detection Platform Based on Surface- Enhanced ...
+
+
+journals.plos.org/plosone/article/file?type=printable&id=10.1371/journal.pone.0005470
+
+
+The biochemical origins of the surface enhanced Raman spectra of bacteria: metabolomics profiling by SERS - PMC
+
+
+pmc.ncbi.nlm.nih.gov/articles/PMC4911336
+
+This reference dataset allows for the deconvolution of experimental spectra. For instance, an unknown peak at 1012 cm−1 can be confidently assigned to the NAM ether linkage, while a band at 1398 cm−1 signifies the carboxylate state of the peptidoglycan matrix.
+Advanced Methodologies and Future Outlook in Peptidoglycan Research
+As the field of vibrational spectroscopy matures, several advanced techniques are being integrated to enhance the specificity of NAM detection.
+Nanoscale Imaging with AFM-Raman (TERS)
+The combination of Atomic Force Microscopy (AFM) and Raman spectroscopy, or Tip-Enhanced Raman Spectroscopy (TERS), offers sub-diffraction resolution, allowing for the mapping of the peptidoglycan surface topography alongside its chemical composition. AFM characterization reveals that the cellular surface roughness increases as bacteria grow from the lag phase to the stationary phase, which correlates with changes in the density of NAM-NAG cross-linking detected by Raman. This multimodal approach provides a more detailed view of the bacterial cell wall than either technique alone, facilitating the study of soil microbes for bioremediation and the identification of new antibiotic targets.   
+Coherent Raman Scattering (CARS and SRS)
+Coherent anti-Stokes Raman scattering (CARS) and stimulated Raman scattering (SRS) microscopy are emerging as powerful alternatives to spontaneous Raman for studying fast cellular processes. These techniques amplify the weak Raman signal by several orders of magnitude without requiring a SERS substrate, enabling high-speed imaging of single cells. CARS has been successfully used to visualize intraspore diaminopimelic acid (DPA), a precursor in peptidoglycan synthesis, using the 1735 cm−1 band as a marker for spore maturation. SRS microscopy, particularly hyperspectral SRS, allows for the longitudinal monitoring of antibiotic effects on growing biofilms, providing a semi-quantitative map of how drugs like vancomycin interact with the NAM-peptide clusters within the EPS matrix.   
+Bioorthogonal Probing of NAM
+The development of bioorthogonal probes, such as minimalist tetrazine N-acetyl muramic acid (Tz-NAM) or azide/alkyne NAM derivatives, allows for the specific labeling of the peptidoglycan layer in living bacterial cultures. These probes can be detected via fluorescence or Raman spectroscopy after click-chemistry reactions, making them exceptional tools for monitoring peptidoglycan biosynthesis during host-cell invasion or macrophage uptake. Raman detection of these labels provides a "silent" channel, free from the background of endogenous biomolecules, enabling the precise tracking of NAM incorporation into the sacculus.   
+Conclusions and Practical Recommendations
+The spectroscopic characterization of N-acetylmuramic acid (NAM) is a cornerstone of modern microbiological analysis. This review has established that:
+The primary Raman marker for NAM is the ether linkage vibration at 1010 cm−1, supported by skeletal carbohydrate modes in the 1090–1160 cm−1 region and the carboxylate asymmetric stretch at 1396 cm−1.
+The historically significant 730 cm−1 SERS band is now recognized as a metabolic purine signature (adenine/hypoxanthine) rather than a direct NAM/NAG ring mode, although it remains a valid marker for bacterial identification and stress response.
+DFT simulations using B3LYP functionals provide a validated framework for predicting NAM vibrational shifts, particularly when evaluating conformational changes and antibiotic binding events.
+High-wavenumber Raman spectroscopy (2800–3800 cm−1) offers a robust measure of total peptidoglycan dry mass through the analysis of CHx​ stretching modes, facilitating genus- and species-level differentiation.
+For the construction of a validated peak library, researchers must prioritize the identification of the 1010 cm−1 and 1396 cm−1 bands, as these are most chemically representative of the NAM-peptide junction. When utilizing SERS, practitioners must account for the starvation-induced "exometabolome" (purines) that may overlap with cell wall structural signatures. The integration of Raman with AFM and coherent processes like SRS will continue to push the boundaries of our understanding of the peptidoglycan sacculus, offering new avenues for the detection and treatment of infectious diseases.
+
+pubs.acs.org
+Minimalist Tetrazine N-Acetyl Muramic Acid Probes for Rapid and Efficient Labeling of Commensal and Pathogenic Peptidoglycans in Living Bacterial Culture and During Macrophage Invasion | Journal of the American Chemical Society
+Opens in a new window
+journals.asm.org
+Peptidoglycan Remodeling by an L,D-Transpeptidase, LdtD during Cold Shock in Escherichia coli - ASM Journals
+Opens in a new window
+pmc.ncbi.nlm.nih.gov
+Three Decades of β-Lactamase Inhibitors - PMC
+Opens in a new window
+biorxiv.org
+Metabolic flexibility and an unusual route for peptidoglycan muramic acid recycling in mycobacteria | bioRxiv
+Opens in a new window
+pnas.org
+Three-dimensional structure of the bacterial cell wall peptidoglycan - PNAS
+Opens in a new window
+mdpi.com
+Characterization and Discrimination of Gram-Positive Bacteria Using ...
+Opens in a new window
+journals.plos.org
+A High Speed Detection Platform Based on Surface- Enhanced ...
+Opens in a new window
+pubs.acs.org
+Unveiling the Molecular Secrets: A Comprehensive Review of Raman Spectroscopy in Biological Research | ACS Omega
+Opens in a new window
+pure.manchester.ac.uk
+Rapid differentiation of Campylobacter jejuni cell wall mutants using Raman spectroscopy, SERS and mass spectrometry combined with chemometrics - The University of Manchester
+Opens in a new window
+pubs.acs.org
+Ferrocenyl-Labeled Sugar Amino Acids: Conformation and Properties - ACS Publications
+Opens in a new window
+pdfs.semanticscholar.org
+Characterization and Discrimination of Gram-Positive Bacteria Using Raman Spectroscopy with the Aid of Principal Component Analysis - Semantic Scholar
+Opens in a new window
+researchgate.net
+(PDF) Characterization and Discrimination of Gram-Positive Bacteria Using Raman Spectroscopy with the Aid of Principal Component Analysis - ResearchGate
+Opens in a new window
+mdpi.com
+Locally Enhanced Electric Field Treatment of E. coli: TEM, FT-IR and Raman Spectrometry Study - MDPI
+Opens in a new window
+pubmed.ncbi.nlm.nih.gov
+Mass Spectrometric Quantitation of Muramic Acid, a Bacterial Cell Wall Component, in Septic Synovial Fluids - PubMed
+Opens in a new window
+pubs.acs.org
+Rapid Raman Fingerprinting Identification of Listeria monocytogenes via Immunomagnetic Enrichment Coupled with Droplet-Shrinkage-Assisted SERS | Analytical Chemistry - ACS Publications
+Opens in a new window
+pmc.ncbi.nlm.nih.gov
+Unveiling the Molecular Secrets: A Comprehensive Review of Raman Spectroscopy in Biological Research - PMC
+Opens in a new window
+pmc.ncbi.nlm.nih.gov
+High-Wavenumber Raman Spectroscopy for the Identification and Biochemical Characterization of Microbial Species - PMC
+Opens in a new window
+mediatum.ub.tum.de
+Application of Raman Microscopy For a Rapid Antibiotic Susceptibility Test and the Investigation of Dormant Mycobacteria David Bauer - mediaTUM
+Opens in a new window
+pmc.ncbi.nlm.nih.gov
+The biochemical origins of the surface enhanced Raman spectra of bacteria: metabolomics profiling by SERS - PMC
+Opens in a new window
+pubs.acs.org
+Label-Free Identification of Spore-Forming Bacteria Using Ultrabroadband Multiplex Coherent Anti-Stokes Raman Scattering Microspectroscopy - ACS Publications
+Opens in a new window
+journals.plos.org
+A High Speed Detection Platform Based on Surface-Enhanced Raman Scattering for Monitoring Antibiotic-Induced Chemical Changes in Bacteria Cell Wall | PLOS One
+Opens in a new window
+pmc.ncbi.nlm.nih.gov
+On the difference between SERS spectra of cell growth media and whole bacterial cells
+Opens in a new window
+pubs.rsc.org
+SERS study of bacteria using biosynthesized silver nanoparticles as SERS substrate
+Opens in a new window
+pubs.acs.org
+Discrimination of Bacteria Using Surface-Enhanced Raman Spectroscopy | Analytical Chemistry - ACS Publications
+Opens in a new window
+researchgate.net
+Recent Advances in Bacterial Detection Using Surface-Enhanced Raman Scattering - ResearchGate
+Opens in a new window
+frontiersin.org
+Raman Spectroscopy—A Novel Method for Identification and Characterization of Microbes on a Single-Cell Level in Clinical Settings - Frontiers
+Opens in a new window
+nitrogen.princeton.edu
+Elucidation of Functional Groups on Gram-Positive and Gram-Negative Bacterial Surfaces Using Infrared Spectroscopy - Princeton University
+Opens in a new window
+repositories.lib.utexas.edu
+Copyright by Jeffrey Wayne Munos 2008 - The University of Texas at Austin
+Opens in a new window
+pmc.ncbi.nlm.nih.gov
+Rapid Raman Fingerprinting Identification of Listeria monocytogenes via Immunomagnetic Enrichment Coupled with Droplet-Shrinkage-Assisted SERS - PMC
+Opens in a new window
+pmc.ncbi.nlm.nih.gov
+Surface-Enhanced Raman Scattering (SERS) in Combination with PCA and PLS-DA for the Evaluation of Antibacterial Activity of 1-Isopentyl-3-pentyl-1H-imidazole-3-ium Bromide against Bacillus subtilis - PMC
+Opens in a new window
+unitesi.unive.it
+Characterization of silicon nitride powders and assessment of antibacterial properties: the effect of pH - UNITesi
+Opens in a new window
+science.gov
+hydrogen bond acidity: Topics by Science.gov
+Opens in a new window
+researchgate.net
+On the Origin of the Band at around 730 cm-1 in SERS Spectra of Bacteria: Stable Isotope Approach - ResearchGate
+Opens in a new window
+pubs.acs.org
+Experimental and Theoretical Studies of the Structures and Interactions of Vancomycin Antibiotics with Cell Wall Analogues - ACS Publications
+Opens in a new window
+researchgate.net
+An Efficient Synthesis of Thioesters Via TFA-Catalyzed Reaction of Carboxylic Acid and Thiols: Remarkably Facile C–S Bond Formation | Request PDF - ResearchGate
+Opens in a new window
+researchgate.net
+A Self‐Consistent Charge Density‐Functional Based Tight‐Binding Scheme for Large Biomolecules | Request PDF - ResearchGate
+Opens in a new window
+pubs.acs.org
+Decoding the Host–Parasite Protein Interactions Involved in Cerebral Malaria Through Glares of Molecular Dynamics Simulations | The Journal of Physical Chemistry B - ACS Publications
+Opens in a new window
+sfp.caltech.edu
+2025 Student Abstract Book
+Opens in a new window
+pubs.acs.org
+Combined Quantum Mechanics/Molecular Mechanics (QM/MM) Methods in Computational Enzymology | Biochemistry - ACS Publications
+Opens in a new window
+pubs.acs.org
+Surface-Enhanced Raman Scattering (SERS) in Combination with PCA and PLS-DA for the Evaluation of Antibacterial Activity of 1-Isopentyl-3-pentyl-1H-imidazole-3-ium Bromide against Bacillus subtilis | ACS Omega
+Opens in a new window
+thno.org
+Real-Time Monitoring of Pharmacokinetics of Antibiotics in Biofilms with Raman-Tagged Hyperspectral Stimulated Raman Scattering Microscopy - Theranostics
+Opens in a new window
+biorxiv.org
+Metabolic flexibility and an unusual route for peptidoglycan muramic acid recycling in mycobacteria - bioRxiv
+Opens in a new window
+pubs.acs.org
+Laser Tweezers Raman Spectroscopy Potential for Studies of Complex Dynamic Cellular Processes: Single Cell Bacterial Lysis | Analytical Chemistry
+Opens in a new window
+ichf.edu.pl
+Detection of microorganisms in clinical samples via surface-enhanced Raman spectroscopy
+Opens in a new window
+analyticalscience.wiley.com
+Raman targets bacterial cell walls - 2009 - Wiley Analytical Science
+Opens in a new window
+pmc.ncbi.nlm.nih.gov
+Imaging the Bacterial Cell Wall Using N-Acetyl Muramic Acid-Derived Positron Emissi
+
+verify the data of the peaks and list down 
+in which paper which data is taken like what are the peaks found from which paper like that 
+next paper next table 
+
+at last final add peaks in single table 

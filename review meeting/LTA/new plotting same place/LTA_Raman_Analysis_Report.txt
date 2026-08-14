@@ -1,0 +1,105 @@
+============================================================
+SECTION 1: Notebook Initialization & Environment Setup
+============================================================
+Libraries loaded (pandas, numpy, scipy, matplotlib).
+Logging stream ready.
+
+============================================================
+SECTION 2: Defining Baseline Correction Algorithm (ALS)
+============================================================
+Asymmetric Least Squares (ALS) function successfully loaded into memory.
+
+============================================================
+SECTION 3: Data Extraction & Cleaning
+============================================================
+Targeting dataset: Individual power files (40, 50, 60, 70 mW)
+  -> Power 40mW loaded from sec-10_power-40_i-10.xlsx. Total valid points: 2048
+  -> Power 50mW loaded from sec-10_power-50_i-10.xlsx. Total valid points: 2048
+  -> Power 60mW loaded from sec-10_power-60_i-10.xlsx. Total valid points: 2048
+  -> Power 70mW loaded from sec-10_power-70_i-10.xlsx. Total valid points: 2048
+Data Cleaning Complete. All invalid string metadata isolated & removed.
+
+============================================================
+SECTION 4: Plotting Overlay of Raw Spectra
+============================================================
+Initiating graph for baseline standard Raw Data comparison (500-2000 cm⁻¹)...
+Graph generated: 'COMBINED RAW SPECTRA'
+
+============================================================
+SECTION 5: Mathematical Baseline Modeling (ALS Algorithm)
+============================================================
+  -> Constructing baseline matrix and running 10 ALS iterations for 40mW data...
+  -> Constructing baseline matrix and running 10 ALS iterations for 50mW data...
+  -> Constructing baseline matrix and running 10 ALS iterations for 60mW data...
+  -> Constructing baseline matrix and running 10 ALS iterations for 70mW data...
+Baseline mapping and signal subtraction successfully computed for all 4 profiles.
+
+============================================================
+SECTION 6: Plotting Overlay of Cleaned (Corrected) Spectra
+============================================================
+Generating combined overlay of mathematically flattened signals (500-2000 cm⁻¹)...
+Graph generated: 'COMBINED BASELINE-CORRECTED SPECTRA'
+
+============================================================
+SECTION 7: Visualizing Pre/Post Baseline Transformation Matrix
+============================================================
+Generating 2x2 subplot matrix (500-2000 cm⁻¹)...
+Graph matrix generated successfully.
+
+============================================================
+SECTION 8: Detailed Individual Power Profiling
+============================================================
+Generating isolated graphs for each independent 40-70 mW trial (500-2000 cm⁻¹)...
+  -> Generated graphic for 40 mW.
+  -> Generated graphic for 50 mW.
+  -> Generated graphic for 60 mW.
+  -> Generated graphic for 70 mW.
+
+============================================================
+SECTION 9: Peak Extrapolation & Advanced Hardware Interpretation
+============================================================
+  -> [Power 40mW] Applied Savitzky-Golay (WL:11|PO:3) noise smoothing.
+  -> [Power 40mW] Extracted 10 major physical peak positions in ROIs.
+  -> [Power 50mW] Applied Savitzky-Golay (WL:11|PO:3) noise smoothing.
+  -> [Power 50mW] Extracted 10 major physical peak positions in ROIs.
+  -> [Power 60mW] Applied Savitzky-Golay (WL:11|PO:3) noise smoothing.
+  -> [Power 60mW] Extracted 10 major physical peak positions in ROIs.
+  -> [Power 70mW] Applied Savitzky-Golay (WL:11|PO:3) noise smoothing.
+  -> [Power 70mW] Extracted 8 major physical peak positions in ROIs.
+Signal Processing engine successfully gathered heuristics.
+
+============================================================
+SECTION 10: Final Interpretation Matrix
+============================================================
+
+1. Signal Strength: WEAK
+   - Average SNR: 0.17
+   - SNR Classification: Low - consider longer integration or higher power
+
+2. LTA Peaks (Phosphate region ~1080 cm⁻¹):
+   - phosphate/LTA peaks DETECTED
+
+3. Laser Power Effect:
+   - SNR relatively constant across power levels
+   - Consider optimizing other parameters
+
+4. Noise Behavior:
+   - Power 40mW: noise std = 596.331
+   - Power 50mW: noise std = 876.391
+   - Power 60mW: noise std = 950.266
+   - Power 70mW: noise std = 1109.821
+
+5. Recommendations:
+   a. For weak LTA signals, consider:
+      - Longer integration time
+      - Higher laser power (if samples allow)
+      - Multiple scans and averaging
+   b. For better baseline correction:
+      - Adjust ALS parameters (lambda, p)
+   c. For peak detection:
+      - Adjust height/distance parameters
+      - Consider 2nd derivative analysis
+
+============================================================
+PROCESS EXECUTION COMPLETED
+============================================================

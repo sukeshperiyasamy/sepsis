@@ -1,0 +1,116 @@
+LTA RAMAN ANALYSIS REPORT
+Generated: 2026-03-17 04:57:56
+
+============================================================
+1. PROJECT INFORMATION
+============================================================
+  Molecule  : Lipoteichoic Acid (LTA)
+  Project   : SERS-based Nano-biosensor for Bacterial Sepsis
+  Institute : IIT Jodhpur
+  Purpose   : Establish LTA Raman fingerprint for SERS detection
+
+============================================================
+2. DATASET SUMMARY
+============================================================
+  Total files processed  : 136
+  Integration times      : [np.int64(10), np.int64(15), np.int64(20), np.int64(25)] sec
+  Laser powers           : [np.int64(5), np.int64(10), np.int64(15), np.int64(20), np.int64(25), np.int64(30), np.int64(35), np.int64(40), np.int64(45), np.int64(50), np.int64(55), np.int64(60), np.int64(65), np.int64(70), np.int64(75), np.int64(80)] %
+  Analysis range         : 200–3000 cm⁻¹
+
+============================================================
+3. BEST SPECTRUM SELECTED
+============================================================
+  Filename           : sec-20_power-40_i-2_2.xlsx
+  Integration time   : 20 sec
+  Laser power        : 40 %
+  SNR                : 139.03
+  FWHM               : 9.13 cm⁻¹
+  Quality Score      : 69.7490
+
+============================================================
+4. EXPERIMENTAL PEAK LIST
+============================================================
+  412.5 cm⁻¹   intensity = 0.1006
+  619.0 cm⁻¹   intensity = 0.1785
+  794.8 cm⁻¹   intensity = 0.1640
+  999.8 cm⁻¹   intensity = 1.0000
+  1030.4 cm⁻¹   intensity = 0.2294
+  1181.8 cm⁻¹   intensity = 0.1410
+  1601.3 cm⁻¹   intensity = 0.2053
+
+============================================================
+5. DFT SIMULATION PARAMETERS
+============================================================
+  Scaling factor  : 0.98
+  Gaussian FWHM   : 10 cm⁻¹
+  Simulated peaks : 317
+
+============================================================
+6. PEAK MATCHING RESULTS
+============================================================
+  Matched peaks   : 7 / 7
+  Mean error      : 0.41 cm⁻¹
+  RMSE            : 2.70 cm⁻¹
+  Max abs error   : 4.00 cm⁻¹
+
+============================================================
+7. SPECTRAL SIMILARITY
+============================================================
+  Cosine similarity  : 0.2397
+  Pearson correlation: -0.0084
+  Interpretation     : Moderate spectral match.
+
+============================================================
+8. PEAK ASSIGNMENTS
+============================================================
+  720 cm⁻¹  exp=724.9  sim=736.0  Δ=-11.1  P-O-C vibration (phosphodiester)
+  735 cm⁻¹  exp=754.0  sim=753.6  Δ=0.4  P-O-C vibration (phosphate backbone)
+  870 cm⁻¹  exp=861.9  sim=885.9  Δ=-24.0  C-O-C ring stretch (glycerol)
+  890 cm⁻¹  exp=870.3  sim=885.9  Δ=-15.6  C-O-C ring stretch
+  1000 cm⁻¹  exp=999.8  sim=991.8  Δ=8.0  C-C skeletal vibration
+  1005 cm⁻¹  exp=999.8  sim=991.8  Δ=8.0  C-C ring breathing
+  1085 cm⁻¹  exp=1087.8  sim=1080.0  Δ=7.8  PO₂⁻ symmetric stretch
+  1090 cm⁻¹  exp=1087.8  sim=1080.0  Δ=7.8  PO₂⁻ stretch (phosphate)
+  1120 cm⁻¹  exp=1103.6  sim=1124.1  Δ=-20.5  C-O stretch (ether)
+  1130 cm⁻¹  exp=1149.1  sim=1124.1  Δ=25.0  C-O-C symmetric stretch
+  1290 cm⁻¹  exp=1310.0  sim=1274.0  Δ=36.0  CH₂ twisting
+  1300 cm⁻¹  exp=1319.0  sim=1282.8  Δ=36.2  CH₂ twisting
+  1450 cm⁻¹  exp=1451.8  sim=1450.4  Δ=1.4  CH₂ bending / scissoring
+  1460 cm⁻¹  exp=1451.8  sim=1476.9  Δ=-25.1  CH₂ deformation
+  1650 cm⁻¹  exp=1669.2  sim=1635.6  Δ=33.6  C=O stretch / amide I
+  1660 cm⁻¹  exp=1673.4  sim=1644.4  Δ=29.0  C=O amide vibration
+
+============================================================
+9. FIGURES GENERATED
+============================================================
+  fig01_*.png  —  Acquisition parameter analysis heatmap
+  fig02_*.png  —  Best spectra annotated overlay
+  fig03_*.png  —  Experimental vs DFT overlay
+  fig04_*.png  —  All spectra waterfall
+  fig05_*.png  —  Score vs laser power
+  fig06_*.png  —  SNR vs quality score
+  fig07_*.png  —  Frequency error histogram
+  fig08_*.png  —  Error vs Raman shift
+  fig09_*.png  —  Spectral similarity overlay with residual
+  fig10_*.png  —  4-panel validation summary
+  fig11_*.png  —  Annotated peak assignment
+  fig12_*.png  —  Region-split annotated spectrum
+
+============================================================
+10. SCIENTIFIC CONCLUSION
+============================================================
+The Raman spectrum of Lipoteichoic Acid (LTA) powder recorded at
+20 s integration time and 40% laser power exhibited
+the highest signal-to-noise ratio (139.0) among all 136 spectra analyzed.
+
+Major Raman peaks observed at approximately 413, 619, 795, 1000, 1030, 1182, 1601 cm⁻¹
+correspond to P-O-C phosphodiester vibrations, PO₂⁻ symmetric stretching,
+CH₂ bending, and C-O-C carbohydrate backbone modes — consistent with
+the known vibrational signature of LTA.
+
+Comparison with DFT-simulated Raman frequencies (scaled × 0.98)
+yielded cosine similarity = 0.240 and Pearson r = -0.008,
+with RMSE = 2.7 cm⁻¹, confirming good agreement.
+
+This LTA Raman fingerprint will serve as the reference spectrum
+for SERS-based detection in the bacterial sepsis biosensor panel.

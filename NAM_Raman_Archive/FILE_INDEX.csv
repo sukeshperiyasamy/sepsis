@@ -1,0 +1,228 @@
+folder,filename,sample,power_pct,integration_s,accumulations,set_code,date_time,description,original_file
+A_Optimisation_Grid_April,NAM_P05_T05s_A2_GRID_01.csv,NAM powder,5,5,2,GRID,2026-01-28 19:04:55,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_21.csv
+A_Optimisation_Grid_April,NAM_P05_T10s_A2_GRID_01.csv,NAM powder,5,10,2,GRID,2026-01-28 19:21:39,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_37.csv
+A_Optimisation_Grid_April,NAM_P05_T15s_A2_GRID_01.csv,NAM powder,5,15,2,GRID,2026-01-28 19:43:06,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_54.csv
+A_Optimisation_Grid_April,NAM_P05_T15s_A2_GRID_02.csv,NAM powder,5,15,2,GRID,2026-01-28 17:53:49,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_4.csv
+A_Optimisation_Grid_April,NAM_P05_T20s_A2_GRID_01.csv,NAM powder,5,20,2,GRID,2026-01-28 20:04:32,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_70.csv
+A_Optimisation_Grid_April,NAM_P05_T25s_A2_GRID_01.csv,NAM powder,5,25,2,GRID,2026-01-28 20:29:38,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_86.csv
+A_Optimisation_Grid_April,NAM_P10_T05s_A2_GRID_01.csv,NAM powder,10,5,2,GRID,2026-01-28 19:05:32,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_22.csv
+A_Optimisation_Grid_April,NAM_P10_T10s_A2_GRID_01.csv,NAM powder,10,10,2,GRID,2026-01-28 19:22:49,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_38.csv
+A_Optimisation_Grid_April,NAM_P10_T15s_A2_GRID_01.csv,NAM powder,10,15,2,GRID,2026-01-28 19:44:46,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_55.csv
+A_Optimisation_Grid_April,NAM_P10_T15s_A2_GRID_02.csv,NAM powder,10,15,2,GRID,2026-01-28 17:55:31,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_5.csv
+A_Optimisation_Grid_April,NAM_P10_T15s_A2_GRID_03.csv,NAM powder,10,15,2,GRID,2026-01-28 17:57:00,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_6.csv
+A_Optimisation_Grid_April,NAM_P10_T20s_A2_GRID_01.csv,NAM powder,10,20,2,GRID,2026-01-28 20:06:41,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_71.csv
+A_Optimisation_Grid_April,NAM_P10_T25s_A2_GRID_01.csv,NAM powder,10,25,2,GRID,2026-01-28 20:32:18,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_87.csv
+A_Optimisation_Grid_April,NAM_P15_T05s_A2_GRID_01.csv,NAM powder,15,5,2,GRID,2026-01-28 19:05:53,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_23.csv
+A_Optimisation_Grid_April,NAM_P15_T10s_A2_GRID_01.csv,NAM powder,15,10,2,GRID,2026-01-28 19:23:24,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_39.csv
+A_Optimisation_Grid_April,NAM_P15_T15s_A2_GRID_01.csv,NAM powder,15,15,2,GRID,2026-01-28 19:45:53,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_56.csv
+A_Optimisation_Grid_April,NAM_P15_T20s_A2_GRID_01.csv,NAM powder,15,20,2,GRID,2026-01-28 20:08:00,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_72.csv
+A_Optimisation_Grid_April,NAM_P15_T25s_A2_GRID_01.csv,NAM powder,15,25,2,GRID,2026-01-28 20:33:41,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_88.csv
+A_Optimisation_Grid_April,NAM_P20_T05s_A2_GRID_01.csv,NAM powder,20,5,2,GRID,2026-01-28 19:07:23,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_24.csv
+A_Optimisation_Grid_April,NAM_P20_T10s_A2_GRID_01.csv,NAM powder,20,10,2,GRID,2026-01-28 19:24:09,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_40.csv
+A_Optimisation_Grid_April,NAM_P20_T10s_A2_GRID_02.csv,NAM powder,20,10,2,GRID,2026-01-28 19:25:00,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_41.csv
+A_Optimisation_Grid_April,NAM_P20_T15s_A2_GRID_01.csv,NAM powder,20,15,2,GRID,2026-01-28 19:46:53,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_57.csv
+A_Optimisation_Grid_April,NAM_P20_T15s_A2_GRID_02.csv,NAM powder,20,15,2,GRID,2026-01-28 17:58:19,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_7.csv
+A_Optimisation_Grid_April,NAM_P20_T20s_A2_GRID_01.csv,NAM powder,20,20,2,GRID,2026-01-28 20:09:05,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_73.csv
+A_Optimisation_Grid_April,NAM_P20_T25s_A2_GRID_01.csv,NAM powder,20,25,2,GRID,2026-01-28 20:34:45,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_89.csv
+A_Optimisation_Grid_April,NAM_P25_T05s_A2_GRID_01.csv,NAM powder,25,5,2,GRID,2026-01-28 19:07:53,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_25.csv
+A_Optimisation_Grid_April,NAM_P25_T10s_A2_GRID_01.csv,NAM powder,25,10,2,GRID,2026-01-28 19:26:14,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_42.csv
+A_Optimisation_Grid_April,NAM_P25_T15s_A2_GRID_01.csv,NAM powder,25,15,2,GRID,2026-01-28 19:47:54,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_58.csv
+A_Optimisation_Grid_April,NAM_P25_T15s_A2_GRID_02.csv,NAM powder,25,15,2,GRID,2026-01-28 17:59:01,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_8.csv
+A_Optimisation_Grid_April,NAM_P25_T20s_A2_GRID_01.csv,NAM powder,25,20,2,GRID,2026-01-28 20:10:08,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_74.csv
+A_Optimisation_Grid_April,NAM_P25_T25s_A2_GRID_01.csv,NAM powder,25,25,2,GRID,2026-01-28 20:36:11,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_90.csv
+A_Optimisation_Grid_April,NAM_P30_T05s_A2_GRID_01.csv,NAM powder,30,5,2,GRID,2026-01-28 19:08:33,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_26.csv
+A_Optimisation_Grid_April,NAM_P30_T10s_A2_GRID_01.csv,NAM powder,30,10,2,GRID,2026-01-28 19:26:57,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_43.csv
+A_Optimisation_Grid_April,NAM_P30_T15s_A2_GRID_01.csv,NAM powder,30,15,2,GRID,2026-01-28 19:48:39,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_59.csv
+A_Optimisation_Grid_April,NAM_P30_T15s_A2_GRID_02.csv,NAM powder,30,15,2,GRID,2026-01-28 18:04:29,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_10.csv
+A_Optimisation_Grid_April,NAM_P30_T15s_A2_GRID_03.csv,NAM powder,30,15,2,GRID,2026-01-28 18:01:08,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_9.csv
+A_Optimisation_Grid_April,NAM_P30_T20s_A2_GRID_01.csv,NAM powder,30,20,2,GRID,2026-01-28 20:12:13,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_75.csv
+A_Optimisation_Grid_April,NAM_P30_T25s_A2_GRID_01.csv,NAM powder,30,25,2,GRID,2026-01-28 20:37:22,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_91.csv
+A_Optimisation_Grid_April,NAM_P35_T05s_A2_GRID_01.csv,NAM powder,35,5,2,GRID,2026-01-28 19:09:21,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_27.csv
+A_Optimisation_Grid_April,NAM_P35_T10s_A2_GRID_01.csv,NAM powder,35,10,2,GRID,2026-01-28 19:28:23,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_44.csv
+A_Optimisation_Grid_April,NAM_P35_T15s_A2_GRID_01.csv,NAM powder,35,15,2,GRID,2026-01-28 19:49:28,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_60.csv
+A_Optimisation_Grid_April,NAM_P35_T15s_A2_GRID_02.csv,NAM powder,35,15,2,GRID,2026-01-28 18:09:20,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_11.csv
+A_Optimisation_Grid_April,NAM_P35_T20s_A2_GRID_01.csv,NAM powder,35,20,2,GRID,2026-01-28 20:13:18,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_76.csv
+A_Optimisation_Grid_April,NAM_P35_T25s_A2_GRID_01.csv,NAM powder,35,25,2,GRID,2026-01-28 20:38:33,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_92.csv
+A_Optimisation_Grid_April,NAM_P40_T05s_A2_GRID_01.csv,NAM powder,40,5,2,GRID,2026-01-28 19:10:06,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_28.csv
+A_Optimisation_Grid_April,NAM_P40_T10s_A2_GRID_01.csv,NAM powder,40,10,2,GRID,2026-01-28 19:29:17,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_45.csv
+A_Optimisation_Grid_April,NAM_P40_T15s_A2_GRID_01.csv,NAM powder,40,15,2,GRID,2026-01-28 19:50:14,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_61.csv
+A_Optimisation_Grid_April,NAM_P40_T15s_A2_GRID_02.csv,NAM powder,40,15,2,GRID,2026-01-28 18:11:16,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_12.csv
+A_Optimisation_Grid_April,NAM_P40_T15s_A2_GRID_03.csv,NAM powder,40,15,2,GRID,2026-01-28 18:13:01,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_13.csv
+A_Optimisation_Grid_April,NAM_P40_T20s_A2_GRID_01.csv,NAM powder,40,20,2,GRID,2026-01-28 20:14:43,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_77.csv
+A_Optimisation_Grid_April,NAM_P40_T25s_A2_GRID_01.csv,NAM powder,40,25,2,GRID,2026-01-28 20:39:44,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_93.csv
+A_Optimisation_Grid_April,NAM_P45_T05s_A2_GRID_01.csv,NAM powder,45,5,2,GRID,2026-01-28 19:10:36,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_29.csv
+A_Optimisation_Grid_April,NAM_P45_T10s_A2_GRID_01.csv,NAM powder,45,10,2,GRID,2026-01-28 19:30:09,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_46.csv
+A_Optimisation_Grid_April,NAM_P45_T15s_A2_GRID_01.csv,NAM powder,45,15,2,GRID,2026-01-28 19:51:03,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_62.csv
+A_Optimisation_Grid_April,NAM_P45_T15s_A2_GRID_02.csv,NAM powder,45,15,2,GRID,2026-01-28 18:14:13,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_14.csv
+A_Optimisation_Grid_April,NAM_P45_T20s_A2_GRID_01.csv,NAM powder,45,20,2,GRID,2026-01-28 20:15:46,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_78.csv
+A_Optimisation_Grid_April,NAM_P45_T25s_A2_GRID_01.csv,NAM powder,45,25,2,GRID,2026-01-28 20:40:54,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_94.csv
+A_Optimisation_Grid_April,NAM_P50_T05s_A2_GRID_01.csv,NAM powder,50,5,2,GRID,2026-01-28 19:11:18,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_30.csv
+A_Optimisation_Grid_April,NAM_P50_T10s_A2_GRID_01.csv,NAM powder,50,10,2,GRID,2026-01-28 19:31:02,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_47.csv
+A_Optimisation_Grid_April,NAM_P50_T15s_A2_GRID_01.csv,NAM powder,50,15,2,GRID,2026-01-28 19:52:04,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_63.csv
+A_Optimisation_Grid_April,NAM_P50_T15s_A2_GRID_02.csv,NAM powder,50,15,2,GRID,2026-01-28 18:18:46,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_15.csv
+A_Optimisation_Grid_April,NAM_P50_T20s_A2_GRID_01.csv,NAM powder,50,20,2,GRID,2026-01-28 20:16:49,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_79.csv
+A_Optimisation_Grid_April,NAM_P50_T25s_A2_GRID_01.csv,NAM powder,50,25,2,GRID,2026-01-28 20:42:03,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_95.csv
+A_Optimisation_Grid_April,NAM_P55_T05s_A2_GRID_01.csv,NAM powder,55,5,2,GRID,2026-01-28 19:12:09,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_31.csv
+A_Optimisation_Grid_April,NAM_P55_T10s_A2_GRID_01.csv,NAM powder,55,10,2,GRID,2026-01-28 19:32:25,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_48.csv
+A_Optimisation_Grid_April,NAM_P55_T15s_A2_GRID_01.csv,NAM powder,55,15,2,GRID,2026-01-28 19:54:54,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_64.csv
+A_Optimisation_Grid_April,NAM_P55_T15s_A2_GRID_02.csv,NAM powder,55,15,2,GRID,2026-01-28 18:22:17,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_17.csv
+A_Optimisation_Grid_April,NAM_P55_T20s_A2_GRID_01.csv,NAM powder,55,20,2,GRID,2026-01-28 20:18:05,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_80.csv
+A_Optimisation_Grid_April,NAM_P55_T25s_A2_GRID_01.csv,NAM powder,55,25,2,GRID,2026-01-28 20:43:07,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_96.csv
+A_Optimisation_Grid_April,NAM_P60_T05s_A2_GRID_01.csv,NAM powder,60,5,2,GRID,2026-01-28 19:12:47,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_32.csv
+A_Optimisation_Grid_April,NAM_P60_T10s_A2_GRID_01.csv,NAM powder,60,10,2,GRID,2026-01-28 19:33:04,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_49.csv
+A_Optimisation_Grid_April,NAM_P60_T15s_A2_GRID_01.csv,NAM powder,60,15,2,GRID,2026-01-28 19:55:46,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_65.csv
+A_Optimisation_Grid_April,NAM_P60_T15s_A2_GRID_02.csv,NAM powder,60,15,2,GRID,2026-01-28 18:20:12,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_16.csv
+A_Optimisation_Grid_April,NAM_P60_T20s_A2_GRID_01.csv,NAM powder,60,20,2,GRID,2026-01-28 20:19:15,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_81.csv
+A_Optimisation_Grid_April,NAM_P60_T25s_A2_GRID_01.csv,NAM powder,60,25,2,GRID,2026-01-28 20:44:52,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_97.csv
+A_Optimisation_Grid_April,NAM_P65_T05s_A2_GRID_01.csv,NAM powder,65,5,2,GRID,2026-01-28 19:13:24,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_33.csv
+A_Optimisation_Grid_April,NAM_P65_T10s_A2_GRID_01.csv,NAM powder,65,10,2,GRID,2026-01-28 19:33:44,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_50.csv
+A_Optimisation_Grid_April,NAM_P65_T15s_A2_GRID_01.csv,NAM powder,65,15,2,GRID,2026-01-28 19:56:45,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_66.csv
+A_Optimisation_Grid_April,NAM_P65_T15s_A2_GRID_02.csv,NAM powder,65,15,2,GRID,2026-01-28 18:24:27,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_18.csv
+A_Optimisation_Grid_April,NAM_P65_T20s_A2_GRID_01.csv,NAM powder,65,20,2,GRID,2026-01-28 20:20:27,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_82.csv
+A_Optimisation_Grid_April,NAM_P65_T25s_A2_GRID_01.csv,NAM powder,65,25,2,GRID,2026-01-28 20:46:58,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_98.csv
+A_Optimisation_Grid_April,NAM_P70_T05s_A2_GRID_01.csv,NAM powder,70,5,2,GRID,2026-01-28 19:13:52,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_34.csv
+A_Optimisation_Grid_April,NAM_P70_T10s_A2_GRID_01.csv,NAM powder,70,10,2,GRID,2026-01-28 19:34:31,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_51.csv
+A_Optimisation_Grid_April,NAM_P70_T15s_A2_GRID_01.csv,NAM powder,70,15,2,GRID,2026-01-28 19:57:45,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_67.csv
+A_Optimisation_Grid_April,NAM_P70_T15s_A2_GRID_02.csv,NAM powder,70,15,2,GRID,2026-01-28 18:26:22,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_19.csv
+A_Optimisation_Grid_April,NAM_P70_T20s_A2_GRID_01.csv,NAM powder,70,20,2,GRID,2026-01-28 20:21:57,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_83.csv
+A_Optimisation_Grid_April,NAM_P70_T25s_A2_GRID_01.csv,NAM powder,70,25,2,GRID,2026-01-28 20:48:28,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_99.csv
+A_Optimisation_Grid_April,NAM_P75_T05s_A2_GRID_01.csv,NAM powder,75,5,2,GRID,2026-01-28 19:14:13,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_35.csv
+A_Optimisation_Grid_April,NAM_P75_T10s_A2_GRID_01.csv,NAM powder,75,10,2,GRID,2026-01-28 19:35:18,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_52.csv
+A_Optimisation_Grid_April,NAM_P75_T15s_A2_GRID_01.csv,NAM powder,75,15,2,GRID,2026-01-28 19:58:26,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_68.csv
+A_Optimisation_Grid_April,NAM_P75_T15s_A2_GRID_02.csv,NAM powder,75,15,2,GRID,2026-01-28 18:28:21,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/NAM-15secs and power15-75-2sets/SP_20.csv
+A_Optimisation_Grid_April,NAM_P75_T20s_A2_GRID_01.csv,NAM powder,75,20,2,GRID,2026-01-28 20:23:00,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_84.csv
+A_Optimisation_Grid_April,NAM_P75_T25s_A2_GRID_01.csv,NAM powder,75,25,2,GRID,2026-01-28 20:49:30,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_100.csv
+A_Optimisation_Grid_April,NAM_P80_T05s_A2_GRID_01.csv,NAM powder,80,5,2,GRID,2026-01-28 19:16:04,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/5sec-power5-80 and 2set/SP_36.csv
+A_Optimisation_Grid_April,NAM_P80_T10s_A2_GRID_01.csv,NAM powder,80,10,2,GRID,2026-01-28 19:36:06,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/10sec-power5-80-2set/SP_53.csv
+A_Optimisation_Grid_April,NAM_P80_T15s_A2_GRID_01.csv,NAM powder,80,15,2,GRID,2026-01-28 19:59:20,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/15sec-power5-80andset2/SP_69.csv
+A_Optimisation_Grid_April,NAM_P80_T20s_A2_GRID_01.csv,NAM powder,80,20,2,GRID,2026-01-28 20:24:07,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/20sec-power5-80and set2/SP_85.csv
+A_Optimisation_Grid_April,NAM_P80_T25s_A2_GRID_01.csv,NAM powder,80,25,2,GRID,2026-01-28 20:50:39,Power x integration optimisation grid (April session),20-04/sukesh NAM Raman data/25sec-power5-80 and set2/SP_101.csv
+B_Replicates_May,NAM_P05_T05s_A1_R9_01.csv,NAM powder,5,5,1,R9,2026-05-29 17:24:07,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM_5P_S1.csv
+B_Replicates_May,NAM_P05_T05s_A1_R9_02.csv,NAM powder,5,5,1,R9,2026-05-29 17:27:00,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM_5P_S2.csv
+B_Replicates_May,NAM_P10_T05s_A1_R9_01.csv,NAM powder,10,5,1,R9,2026-05-29 17:35:47,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM_10P_S1.csv
+B_Replicates_May,NAM_P10_T05s_A1_R9_02.csv,NAM powder,10,5,1,R9,2026-05-29 17:36:45,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM_10P_S2.csv
+B_Replicates_May,NAM_P10_T05s_A1_R9_03.csv,NAM powder,10,5,1,R9,2026-05-29 17:37:09,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM_10P_S3.csv
+B_Replicates_May,NAM_P10_T05s_A1_R9_04.csv,NAM powder,10,5,1,R9,2026-05-29 17:38:04,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM_10P_S4.csv
+B_Replicates_May,NAM_P70_T10s_A3_R1_01.csv,NAM powder,70,10,3,R1,2026-05-29 20:49:38,Replicate set 1 - fresh spots,29-05-26/NAM-70p-10s-3acc/NAM-samespot1.csv
+B_Replicates_May,NAM_P70_T10s_A3_R1_02.csv,NAM powder,70,10,3,R1,2026-05-29 20:58:32,Replicate set 1 - fresh spots,29-05-26/NAM-70p-10s-3acc/NAM-samespot10.csv
+B_Replicates_May,NAM_P70_T10s_A3_R1_03.csv,NAM powder,70,10,3,R1,2026-05-29 20:59:12,Replicate set 1 - fresh spots,29-05-26/NAM-70p-10s-3acc/NAM-samespot11.csv
+B_Replicates_May,NAM_P70_T10s_A3_R1_04.csv,NAM powder,70,10,3,R1,2026-05-29 20:51:02,Replicate set 1 - fresh spots,29-05-26/NAM-70p-10s-3acc/NAM-samespot2.csv
+B_Replicates_May,NAM_P70_T10s_A3_R1_05.csv,NAM powder,70,10,3,R1,2026-05-29 20:51:48,Replicate set 1 - fresh spots,29-05-26/NAM-70p-10s-3acc/NAM-samespot3.csv
+B_Replicates_May,NAM_P70_T10s_A3_R1_06.csv,NAM powder,70,10,3,R1,2026-05-29 20:52:33,Replicate set 1 - fresh spots,29-05-26/NAM-70p-10s-3acc/NAM-samespot4.csv
+B_Replicates_May,NAM_P70_T10s_A3_R1_07.csv,NAM powder,70,10,3,R1,2026-05-29 20:53:12,Replicate set 1 - fresh spots,29-05-26/NAM-70p-10s-3acc/NAM-samespot5.csv
+B_Replicates_May,NAM_P70_T10s_A3_R1_08.csv,NAM powder,70,10,3,R1,2026-05-29 20:54:11,Replicate set 1 - fresh spots,29-05-26/NAM-70p-10s-3acc/NAM-samespot6.csv
+B_Replicates_May,NAM_P70_T10s_A3_R1_09.csv,NAM powder,70,10,3,R1,2026-05-29 20:55:16,Replicate set 1 - fresh spots,29-05-26/NAM-70p-10s-3acc/NAM-samespot7.csv
+B_Replicates_May,NAM_P70_T10s_A3_R1_10.csv,NAM powder,70,10,3,R1,2026-05-29 20:56:47,Replicate set 1 - fresh spots,29-05-26/NAM-70p-10s-3acc/NAM-samespot8.csv
+B_Replicates_May,NAM_P70_T10s_A3_R1_11.csv,NAM powder,70,10,3,R1,2026-05-29 20:57:32,Replicate set 1 - fresh spots,29-05-26/NAM-70p-10s-3acc/NAM-samespot9.csv
+B_Replicates_May,NAM_P70_T10s_A3_R9_01.csv,NAM powder,70,10,3,R9,2026-05-29 18:15:11,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_70P_3AC_S1.csv
+B_Replicates_May,NAM_P70_T10s_A3_R9_02.csv,NAM powder,70,10,3,R9,2026-05-29 18:16:05,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_70P_3AC_S2.csv
+B_Replicates_May,NAM_P70_T10s_A3_R9_03.csv,NAM powder,70,10,3,R9,2026-05-29 18:18:03,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_70P_3AC_S3.csv
+B_Replicates_May,NAM_P70_T10s_A3_R9_04.csv,NAM powder,70,10,3,R9,2026-05-29 18:19:59,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_70P_3AC_S4.csv
+B_Replicates_May,NAM_P70_T10s_A3_R9_05.csv,NAM powder,70,10,3,R9,2026-05-29 18:22:33,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_70P_3AC_S5.csv
+B_Replicates_May,NAM_P70_T10s_A5_R2_01.csv,NAM powder,70,10,5,R2,2026-05-29 21:06:50,Replicate set 2 - fresh spots,29-05-26/NAM-70p-10s-5ac/NAM-samespot1.csv
+B_Replicates_May,NAM_P70_T10s_A5_R2_02.csv,NAM powder,70,10,5,R2,2026-05-29 21:16:41,Replicate set 2 - fresh spots,29-05-26/NAM-70p-10s-5ac/NAM-samespot10.csv
+B_Replicates_May,NAM_P70_T10s_A5_R2_03.csv,NAM powder,70,10,5,R2,2026-05-29 21:18:35,Replicate set 2 - fresh spots,29-05-26/NAM-70p-10s-5ac/NAM-samespot11.csv
+B_Replicates_May,NAM_P70_T10s_A5_R2_04.csv,NAM powder,70,10,5,R2,2026-05-29 21:07:54,Replicate set 2 - fresh spots,29-05-26/NAM-70p-10s-5ac/NAM-samespot2.csv
+B_Replicates_May,NAM_P70_T10s_A5_R2_05.csv,NAM powder,70,10,5,R2,2026-05-29 21:09:02,Replicate set 2 - fresh spots,29-05-26/NAM-70p-10s-5ac/NAM-samespot3.csv
+B_Replicates_May,NAM_P70_T10s_A5_R2_06.csv,NAM powder,70,10,5,R2,2026-05-29 21:10:00,Replicate set 2 - fresh spots,29-05-26/NAM-70p-10s-5ac/NAM-samespot4.csv
+B_Replicates_May,NAM_P70_T10s_A5_R2_07.csv,NAM powder,70,10,5,R2,2026-05-29 21:10:56,Replicate set 2 - fresh spots,29-05-26/NAM-70p-10s-5ac/NAM-samespot5.csv
+B_Replicates_May,NAM_P70_T10s_A5_R2_08.csv,NAM powder,70,10,5,R2,2026-05-29 21:11:54,Replicate set 2 - fresh spots,29-05-26/NAM-70p-10s-5ac/NAM-samespot6.csv
+B_Replicates_May,NAM_P70_T10s_A5_R2_09.csv,NAM powder,70,10,5,R2,2026-05-29 21:12:50,Replicate set 2 - fresh spots,29-05-26/NAM-70p-10s-5ac/NAM-samespot7.csv
+B_Replicates_May,NAM_P70_T10s_A5_R2_10.csv,NAM powder,70,10,5,R2,2026-05-29 21:14:18,Replicate set 2 - fresh spots,29-05-26/NAM-70p-10s-5ac/NAM-samespot8.csv
+B_Replicates_May,NAM_P70_T10s_A5_R2_11.csv,NAM powder,70,10,5,R2,2026-05-29 21:15:45,Replicate set 2 - fresh spots,29-05-26/NAM-70p-10s-5ac/NAM-samespot9.csv
+B_Replicates_May,NAM_P70_T10s_A5_R5_01.csv,NAM powder,70,10,5,R5,2026-05-30 01:15:11,Replicate set 5 - fresh spots (low SNR at 10 s),29-05-26/70p-5ac-10s-diifrentpoint/spot1.csv
+B_Replicates_May,NAM_P70_T10s_A5_R5_02.csv,NAM powder,70,10,5,R5,2026-05-30 01:42:56,Replicate set 5 - fresh spots (low SNR at 10 s),29-05-26/70p-5ac-10s-diifrentpoint/spot10.csv
+B_Replicates_May,NAM_P70_T10s_A5_R5_03.csv,NAM powder,70,10,5,R5,2026-05-30 01:17:09,Replicate set 5 - fresh spots (low SNR at 10 s),29-05-26/70p-5ac-10s-diifrentpoint/spot2.csv
+B_Replicates_May,NAM_P70_T10s_A5_R5_04.csv,NAM powder,70,10,5,R5,2026-05-30 01:18:45,Replicate set 5 - fresh spots (low SNR at 10 s),29-05-26/70p-5ac-10s-diifrentpoint/spot3.csv
+B_Replicates_May,NAM_P70_T10s_A5_R5_05.csv,NAM powder,70,10,5,R5,2026-05-30 01:20:14,Replicate set 5 - fresh spots (low SNR at 10 s),29-05-26/70p-5ac-10s-diifrentpoint/spot4.csv
+B_Replicates_May,NAM_P70_T10s_A5_R5_06.csv,NAM powder,70,10,5,R5,2026-05-30 01:24:57,Replicate set 5 - fresh spots (low SNR at 10 s),29-05-26/70p-5ac-10s-diifrentpoint/spot5.csv
+B_Replicates_May,NAM_P70_T10s_A5_R5_07.csv,NAM powder,70,10,5,R5,2026-05-30 01:27:31,Replicate set 5 - fresh spots (low SNR at 10 s),29-05-26/70p-5ac-10s-diifrentpoint/spot6.csv
+B_Replicates_May,NAM_P70_T10s_A5_R5_08.csv,NAM powder,70,10,5,R5,2026-05-30 01:29:13,Replicate set 5 - fresh spots (low SNR at 10 s),29-05-26/70p-5ac-10s-diifrentpoint/spot7.csv
+B_Replicates_May,NAM_P70_T10s_A5_R5_09.csv,NAM powder,70,10,5,R5,2026-05-30 01:32:52,Replicate set 5 - fresh spots (low SNR at 10 s),29-05-26/70p-5ac-10s-diifrentpoint/spot8.csv
+B_Replicates_May,NAM_P70_T10s_A5_R5_10.csv,NAM powder,70,10,5,R5,2026-05-30 01:35:24,Replicate set 5 - fresh spots (low SNR at 10 s),29-05-26/70p-5ac-10s-diifrentpoint/spot9.csv
+B_Replicates_May,NAM_P70_T10s_A5_R9_01.csv,NAM powder,70,10,5,R9,2026-05-29 17:52:23,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_70P_5AC_S1.csv
+B_Replicates_May,NAM_P70_T10s_A5_R9_02.csv,NAM powder,70,10,5,R9,2026-05-29 17:53:59,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_70P_5AC_S2.csv
+B_Replicates_May,NAM_P70_T10s_A5_R9_03.csv,NAM powder,70,10,5,R9,2026-05-29 17:55:31,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_70P_5AC_S3.csv
+B_Replicates_May,NAM_P70_T10s_A5_R9_04.csv,NAM powder,70,10,5,R9,2026-05-29 17:58:47,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_70P_5AC_S4.csv
+B_Replicates_May,NAM_P70_T10s_A5_R9_05.csv,NAM powder,70,10,5,R9,2026-05-29 18:00:19,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_70P_5AC_S5.csv
+B_Replicates_May,NAM_P70_T30s_A5_R6_01.csv,NAM powder,70,30,5,R6,2026-05-30 02:06:12,"Replicate set 6 - fresh spots, 30 s",29-05-26/70p-5ac-30s-diifrentspot/spot1.csv
+B_Replicates_May,NAM_P70_T30s_A5_R6_02.csv,NAM powder,70,30,5,R6,2026-05-30 02:14:47,"Replicate set 6 - fresh spots, 30 s",29-05-26/70p-5ac-30s-diifrentspot/spot2.csv
+B_Replicates_May,NAM_P70_T30s_A5_R6_03.csv,NAM powder,70,30,5,R6,2026-05-30 02:24:58,"Replicate set 6 - fresh spots, 30 s",29-05-26/70p-5ac-30s-diifrentspot/spot3.csv
+B_Replicates_May,NAM_P70_T60s_A5_R7_01.csv,NAM powder,70,60,5,R7,2026-05-30 04:40:46,"Replicate set 7 - fresh spots, 60 s",29-05-26/70p-60s-5ac-diifrentpoint/spot1.csv
+B_Replicates_May,NAM_P70_T60s_A5_R7_02.csv,NAM powder,70,60,5,R7,2026-05-30 04:47:59,"Replicate set 7 - fresh spots, 60 s",29-05-26/70p-60s-5ac-diifrentpoint/spot2.csv
+B_Replicates_May,NAM_P70_T60s_A5_R7_03.csv,NAM powder,70,60,5,R7,2026-05-30 04:54:55,"Replicate set 7 - fresh spots, 60 s",29-05-26/70p-60s-5ac-diifrentpoint/spot3.csv
+B_Replicates_May,NAM_P80_T10s_A3_R9_01.csv,NAM powder,80,10,3,R9,2026-05-29 19:20:45,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_80P_3AC_S1.csv
+B_Replicates_May,NAM_P80_T10s_A3_R9_02.csv,NAM powder,80,10,3,R9,2026-05-29 19:22:29,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_80P_3AC_S2.csv
+B_Replicates_May,NAM_P80_T10s_A3_R9_03.csv,NAM powder,80,10,3,R9,2026-05-29 19:23:51,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_80P_3AC_S3.csv
+B_Replicates_May,NAM_P80_T10s_A3_R9_04.csv,NAM powder,80,10,3,R9,2026-05-29 19:24:55,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_80P_3AC_S4.csv
+B_Replicates_May,NAM_P80_T10s_A3_R9_05.csv,NAM powder,80,10,3,R9,2026-05-29 19:26:09,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_80P_3AC_S5.csv
+B_Replicates_May,NAM_P80_T10s_A3_R9_06.csv,NAM powder,80,10,3,R9,2026-05-29 19:27:21,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_80P_3AC_S6.csv
+B_Replicates_May,NAM_P80_T10s_A3_R9_07.csv,NAM powder,80,10,3,R9,2026-05-29 19:29:24,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_80P_3AC_S7.csv
+B_Replicates_May,NAM_P80_T10s_A5_R9_01.csv,NAM powder,80,10,5,R9,2026-05-29 18:31:26,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_80P_5AC_S2.csv
+B_Replicates_May,NAM_P80_T10s_A5_R9_02.csv,NAM powder,80,10,5,R9,2026-05-29 19:08:27,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_80P_5AC_S4.csv
+B_Replicates_May,NAM_P80_T10s_A5_R9_03.csv,NAM powder,80,10,5,R9,2026-05-29 19:10:13,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_80P_5AC_S5.csv
+B_Replicates_May,NAM_P80_T10s_A5_R9_04.csv,NAM powder,80,10,5,R9,2026-05-29 19:12:05,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_80P_5AC_S6.csv
+B_Replicates_May,NAM_P90_T10s_A3_R3_01.csv,NAM powder,90,10,3,R3,2026-05-29 20:19:44,Replicate set 3 - fresh spots,29-05-26/NAM-90p-10s-3ac/NAM-samespot1.csv
+B_Replicates_May,NAM_P90_T10s_A3_R3_02.csv,NAM powder,90,10,3,R3,2026-05-29 20:25:34,Replicate set 3 - fresh spots,29-05-26/NAM-90p-10s-3ac/NAM-samespot10.csv
+B_Replicates_May,NAM_P90_T10s_A3_R3_03.csv,NAM powder,90,10,3,R3,2026-05-29 20:26:10,Replicate set 3 - fresh spots,29-05-26/NAM-90p-10s-3ac/NAM-samespot11.csv
+B_Replicates_May,NAM_P90_T10s_A3_R3_04.csv,NAM powder,90,10,3,R3,2026-05-29 20:27:02,Replicate set 3 - fresh spots,29-05-26/NAM-90p-10s-3ac/NAM-samespot12.csv
+B_Replicates_May,NAM_P90_T10s_A3_R3_05.csv,NAM powder,90,10,3,R3,2026-05-29 20:20:22,Replicate set 3 - fresh spots,29-05-26/NAM-90p-10s-3ac/NAM-samespot2.csv
+B_Replicates_May,NAM_P90_T10s_A3_R3_06.csv,NAM powder,90,10,3,R3,2026-05-29 20:21:03,Replicate set 3 - fresh spots,29-05-26/NAM-90p-10s-3ac/NAM-samespot3.csv
+B_Replicates_May,NAM_P90_T10s_A3_R3_07.csv,NAM powder,90,10,3,R3,2026-05-29 20:21:40,Replicate set 3 - fresh spots,29-05-26/NAM-90p-10s-3ac/NAM-samespot4.csv
+B_Replicates_May,NAM_P90_T10s_A3_R3_08.csv,NAM powder,90,10,3,R3,2026-05-29 20:22:21,Replicate set 3 - fresh spots,29-05-26/NAM-90p-10s-3ac/NAM-samespot5.csv
+B_Replicates_May,NAM_P90_T10s_A3_R3_09.csv,NAM powder,90,10,3,R3,2026-05-29 20:23:02,Replicate set 3 - fresh spots,29-05-26/NAM-90p-10s-3ac/NAM-samespot6.csv
+B_Replicates_May,NAM_P90_T10s_A3_R3_10.csv,NAM powder,90,10,3,R3,2026-05-29 20:23:37,Replicate set 3 - fresh spots,29-05-26/NAM-90p-10s-3ac/NAM-samespot7.csv
+B_Replicates_May,NAM_P90_T10s_A3_R3_11.csv,NAM powder,90,10,3,R3,2026-05-29 20:24:12,Replicate set 3 - fresh spots,29-05-26/NAM-90p-10s-3ac/NAM-samespot8.csv
+B_Replicates_May,NAM_P90_T10s_A3_R3_12.csv,NAM powder,90,10,3,R3,2026-05-29 20:24:58,Replicate set 3 - fresh spots,29-05-26/NAM-90p-10s-3ac/NAM-samespot9.csv
+B_Replicates_May,NAM_P90_T10s_A3_R9_01.csv,NAM powder,90,10,3,R9,2026-05-29 19:33:59,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_90P_3AC_S1.csv
+B_Replicates_May,NAM_P90_T10s_A3_R9_02.csv,NAM powder,90,10,3,R9,2026-05-29 19:35:49,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_90P_3AC_S2.csv
+B_Replicates_May,NAM_P90_T10s_A3_R9_03.csv,NAM powder,90,10,3,R9,2026-05-29 19:37:24,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_90P_3AC_S3.csv
+B_Replicates_May,NAM_P90_T10s_A3_R9_04.csv,NAM powder,90,10,3,R9,2026-05-29 19:38:37,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_90P_3AC_S4.csv
+B_Replicates_May,NAM_P90_T10s_A3_R9_05.csv,NAM powder,90,10,3,R9,2026-05-29 19:39:57,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_90P_3AC_S5.csv
+B_Replicates_May,NAM_P90_T10s_A3_R9_06.csv,NAM powder,90,10,3,R9,2026-05-29 19:41:58,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_90P_3AC_S6.csv
+B_Replicates_May,NAM_P90_T10s_A5_R4_01.csv,NAM powder,90,10,5,R4,2026-05-29 20:03:10,Replicate set 4 - fresh spots,29-05-26/NAM-90p-10s-5ac/NAM-samespot1.csv
+B_Replicates_May,NAM_P90_T10s_A5_R4_02.csv,NAM powder,90,10,5,R4,2026-05-29 20:12:46,Replicate set 4 - fresh spots,29-05-26/NAM-90p-10s-5ac/NAM-samespot10.csv
+B_Replicates_May,NAM_P90_T10s_A5_R4_03.csv,NAM powder,90,10,5,R4,2026-05-29 20:14:06,Replicate set 4 - fresh spots,29-05-26/NAM-90p-10s-5ac/NAM-samespot11.csv
+B_Replicates_May,NAM_P90_T10s_A5_R4_04.csv,NAM powder,90,10,5,R4,2026-05-29 20:04:29,Replicate set 4 - fresh spots,29-05-26/NAM-90p-10s-5ac/NAM-samespot2.csv
+B_Replicates_May,NAM_P90_T10s_A5_R4_05.csv,NAM powder,90,10,5,R4,2026-05-29 20:05:27,Replicate set 4 - fresh spots,29-05-26/NAM-90p-10s-5ac/NAM-samespot3.csv
+B_Replicates_May,NAM_P90_T10s_A5_R4_06.csv,NAM powder,90,10,5,R4,2026-05-29 20:06:29,Replicate set 4 - fresh spots,29-05-26/NAM-90p-10s-5ac/NAM-samespot4.csv
+B_Replicates_May,NAM_P90_T10s_A5_R4_07.csv,NAM powder,90,10,5,R4,2026-05-29 20:07:38,Replicate set 4 - fresh spots,29-05-26/NAM-90p-10s-5ac/NAM-samespot5.csv
+B_Replicates_May,NAM_P90_T10s_A5_R4_08.csv,NAM powder,90,10,5,R4,2026-05-29 20:08:48,Replicate set 4 - fresh spots,29-05-26/NAM-90p-10s-5ac/NAM-samespot6.csv
+B_Replicates_May,NAM_P90_T10s_A5_R4_09.csv,NAM powder,90,10,5,R4,2026-05-29 20:09:46,Replicate set 4 - fresh spots,29-05-26/NAM-90p-10s-5ac/NAM-samespot7.csv
+B_Replicates_May,NAM_P90_T10s_A5_R4_10.csv,NAM powder,90,10,5,R4,2026-05-29 20:10:44,Replicate set 4 - fresh spots,29-05-26/NAM-90p-10s-5ac/NAM-samespot8.csv
+B_Replicates_May,NAM_P90_T10s_A5_R4_11.csv,NAM powder,90,10,5,R4,2026-05-29 20:11:47,Replicate set 4 - fresh spots,29-05-26/NAM-90p-10s-5ac/NAM-samespot9.csv
+B_Replicates_May,NAM_P90_T10s_A5_R9_01.csv,NAM powder,90,10,5,R9,2026-05-29 19:51:00,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_90P_5AC_S1.csv
+B_Replicates_May,NAM_P90_T10s_A5_R9_02.csv,NAM powder,90,10,5,R9,2026-05-29 19:52:23,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_90P_5AC_S2.csv
+B_Replicates_May,NAM_P90_T10s_A5_R9_03.csv,NAM powder,90,10,5,R9,2026-05-29 19:54:15,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_90P_5AC_S3.csv
+B_Replicates_May,NAM_P90_T10s_A5_R9_04.csv,NAM powder,90,10,5,R9,2026-05-29 19:56:09,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_90P_5AC_S4.csv
+B_Replicates_May,NAM_P90_T10s_A5_R9_05.csv,NAM powder,90,10,5,R9,2026-05-29 19:57:50,Replicate set 9 - was MISFILED in folder named 'glass slide empty',29-05-26/glass slide empty/NAM-10S_90P_5AC_S5.csv
+B_Replicates_May,NAM_P90_T30s_A5_R8_01.csv,NAM powder,90,30,5,R8,2026-05-30 06:11:45,"Replicate set 8 - fresh spots, 30 s",29-05-26/90p-30s-5ac-diifrentpoint/spot1.csv
+B_Replicates_May,NAM_P90_T30s_A5_R8_02.csv,NAM powder,90,30,5,R8,2026-05-30 06:14:53,"Replicate set 8 - fresh spots, 30 s",29-05-26/90p-30s-5ac-diifrentpoint/spot2.csv
+B_Replicates_May,NAM_P90_T30s_A5_R8_03.csv,NAM powder,90,30,5,R8,2026-05-30 06:19:24,"Replicate set 8 - fresh spots, 30 s",29-05-26/90p-30s-5ac-diifrentpoint/spot3.csv
+B_Replicates_May,NAM_P90_T30s_A5_R8_04.csv,NAM powder,90,30,5,R8,2026-05-30 06:24:42,"Replicate set 8 - fresh spots, 30 s",29-05-26/90p-30s-5ac-diifrentpoint/spot4.csv
+B_Replicates_May,NAM_P90_T30s_A5_R8_05.csv,NAM powder,90,30,5,R8,2026-05-30 06:36:34,"Replicate set 8 - fresh spots, 30 s",29-05-26/90p-30s-5ac-diifrentpoint/spot5.csv
+C_Photostability_May,NAM_P90_T30s_A5_SS1_01.csv,NAM powder,90,30,5,SS1,2026-05-30 05:18:20,"Photostability - SAME spot, consecutive scans",29-05-26/90p-30s-5acc-samespot/samespot1.csv
+C_Photostability_May,NAM_P90_T30s_A5_SS1_02.csv,NAM powder,90,30,5,SS1,2026-05-30 05:59:19,"Photostability - SAME spot, consecutive scans",29-05-26/90p-30s-5acc-samespot/samespot10.csv
+C_Photostability_May,NAM_P90_T30s_A5_SS1_03.csv,NAM powder,90,30,5,SS1,2026-05-30 05:24:38,"Photostability - SAME spot, consecutive scans",29-05-26/90p-30s-5acc-samespot/samespot2.csv
+C_Photostability_May,NAM_P90_T30s_A5_SS1_04.csv,NAM powder,90,30,5,SS1,2026-05-30 05:27:18,"Photostability - SAME spot, consecutive scans",29-05-26/90p-30s-5acc-samespot/samespot3.csv
+C_Photostability_May,NAM_P90_T30s_A5_SS1_05.csv,NAM powder,90,30,5,SS1,2026-05-30 05:29:56,"Photostability - SAME spot, consecutive scans",29-05-26/90p-30s-5acc-samespot/samespot4.csv
+C_Photostability_May,NAM_P90_T30s_A5_SS1_06.csv,NAM powder,90,30,5,SS1,2026-05-30 05:32:52,"Photostability - SAME spot, consecutive scans",29-05-26/90p-30s-5acc-samespot/samespot5.csv
+C_Photostability_May,NAM_P90_T30s_A5_SS1_07.csv,NAM powder,90,30,5,SS1,2026-05-30 05:40:37,"Photostability - SAME spot, consecutive scans",29-05-26/90p-30s-5acc-samespot/samespot6.csv
+C_Photostability_May,NAM_P90_T30s_A5_SS1_08.csv,NAM powder,90,30,5,SS1,2026-05-30 05:50:11,"Photostability - SAME spot, consecutive scans",29-05-26/90p-30s-5acc-samespot/samespot7.csv
+C_Photostability_May,NAM_P90_T30s_A5_SS1_09.csv,NAM powder,90,30,5,SS1,2026-05-30 05:53:04,"Photostability - SAME spot, consecutive scans",29-05-26/90p-30s-5acc-samespot/samespot8.csv
+C_Photostability_May,NAM_P90_T30s_A5_SS1_10.csv,NAM powder,90,30,5,SS1,2026-05-30 05:55:43,"Photostability - SAME spot, consecutive scans",29-05-26/90p-30s-5acc-samespot/samespot9.csv
+D_Glass_Blanks,GLASS_P05_T05s_A1_BLANK_01.csv,glass slide,5,5,1,BLANK,2026-05-29 17:08:26,"TRUE glass blank, empty slide (note: taken at 5% / 5 s only)",29-05-26/glass slide empty/glassslide (1).csv
+D_Glass_Blanks,GLASS_P05_T05s_A1_BLANK_02.csv,glass slide,5,5,1,BLANK,2026-05-29 17:08:45,"TRUE glass blank, empty slide (note: taken at 5% / 5 s only)",29-05-26/glass slide empty/glassslide (2).csv
+D_Glass_Blanks,GLASS_P05_T05s_A1_BLANK_03.csv,glass slide,5,5,1,BLANK,2026-05-29 17:08:59,"TRUE glass blank, empty slide (note: taken at 5% / 5 s only)",29-05-26/glass slide empty/glassslide (3).csv
+D_Glass_Blanks,GLASS_P05_T05s_A1_BLANK_04.csv,glass slide,5,5,1,BLANK,2026-05-29 17:06:29,"TRUE glass blank, empty slide (note: taken at 5% / 5 s only)",29-05-26/glass slide empty/glassslide (4).csv
+D_Glass_Blanks,GLASS_P05_T05s_A1_BLANK_05.csv,glass slide,5,5,1,BLANK,2026-05-29 17:08:13,"TRUE glass blank, empty slide (note: taken at 5% / 5 s only)",29-05-26/glass slide empty/glassslide (5).csv
+E_EXCLUDED_Laser_Damage,NAM_P90_T60s_A5_DMG1_01.csv,NAM powder,90,60,5,DMG1,2026-05-30 08:27:31,"EXCLUDED: sample destroyed, same spot",29-05-26/90p-60s-5a-samespot/samespot1.csv
+E_EXCLUDED_Laser_Damage,NAM_P90_T60s_A5_DMG1_02.csv,NAM powder,90,60,5,DMG1,2026-05-30 08:41:09,"EXCLUDED: sample destroyed, same spot",29-05-26/90p-60s-5a-samespot/samespot2.csv
+E_EXCLUDED_Laser_Damage,NAM_P90_T60s_A5_DMG1_03.csv,NAM powder,90,60,5,DMG1,2026-05-30 08:46:26,"EXCLUDED: sample destroyed, same spot",29-05-26/90p-60s-5a-samespot/samespot3.csv
+E_EXCLUDED_Laser_Damage,NAM_P90_T60s_A5_DMG1_04.csv,NAM powder,90,60,5,DMG1,2026-05-30 08:53:19,"EXCLUDED: sample destroyed, same spot",29-05-26/90p-60s-5a-samespot/samespot4.csv
+E_EXCLUDED_Laser_Damage,NAM_P90_T60s_A5_DMG1_05.csv,NAM powder,90,60,5,DMG1,2026-05-30 09:01:03,"EXCLUDED: sample destroyed, same spot",29-05-26/90p-60s-5a-samespot/samespot5.csv
+E_EXCLUDED_Laser_Damage,NAM_P90_T60s_A5_DMG2_01.csv,NAM powder,90,60,5,DMG2,2026-05-30 06:57:47,"EXCLUDED: sample destroyed, fresh spots",29-05-26/90p-60s-5ac-diffrentspot/spot1.csv
+E_EXCLUDED_Laser_Damage,NAM_P90_T60s_A5_DMG2_02.csv,NAM powder,90,60,5,DMG2,2026-05-30 07:03:59,"EXCLUDED: sample destroyed, fresh spots",29-05-26/90p-60s-5ac-diffrentspot/spot2.csv
+E_EXCLUDED_Laser_Damage,NAM_P90_T60s_A5_DMG2_03.csv,NAM powder,90,60,5,DMG2,2026-05-30 07:33:11,"EXCLUDED: sample destroyed, fresh spots",29-05-26/90p-60s-5ac-diffrentspot/spot3.csv
+E_EXCLUDED_Laser_Damage,NAM_P90_T60s_A5_DMG2_04.csv,NAM powder,90,60,5,DMG2,2026-05-30 07:40:06,"EXCLUDED: sample destroyed, fresh spots",29-05-26/90p-60s-5ac-diffrentspot/spot4.csv
+E_EXCLUDED_Laser_Damage,NAM_P90_T60s_A5_DMG2_05.csv,NAM powder,90,60,5,DMG2,2026-05-30 07:48:34,"EXCLUDED: sample destroyed, fresh spots",29-05-26/90p-60s-5ac-diffrentspot/spot5.csv

@@ -1,0 +1,289 @@
+# Gaussian Workflow for Lipid A Raman Calculations
+# Complete step-by-step guide with troubleshooting
+
+===============================================================================
+STEP 1: RUN GEOMETRY OPTIMIZATION (MANDATORY)
+===============================================================================
+
+Command:
+  g16 lipidA_opt.gjf
+
+Or if using SLURM:
+  sbatch gaussian_opt.slurm
+
+This generates:
+  • lipidA_opt.log (output file)
+  • lipidA.chk (checkpoint - CRITICAL for next step)
+
+-------------------------------------------------------------------------------
+CHECKPOINT 1: VERIFY OPTIMIZATION SUCCESS
+-------------------------------------------------------------------------------
+
+Run validation:
+  python validate_gaussian_output.py lipidA_opt.log
+
+Or manually check lipidA_opt.log for:
+
+✅ REQUIRED:
+  "Optimization completed."
+  "Stationary point found."
+  "Normal termination of Gaussian"
+
+❌ IF YOU SEE:
+  "Error termination"
+  "Maximum cycles exceeded"
+  "Convergence failure"
+
+→ See TROUBLESHOOTING section below
+
+===============================================================================
+STEP 2: RUN FREQUENCY + RAMAN CALCULATION
+===============================================================================
+
+⚠️ ONLY run this after Step 1 succeeds!
+
+Command:
+  g16 lipidA_freq.gjf
+
+This reads geometry from lipidA.chk and generates:
+  • lipidA_freq.log (contains Raman data)
+
+-------------------------------------------------------------------------------
+CHECKPOINT 2: VERIFY FREQUENCY VALIDITY
+-------------------------------------------------------------------------------
+
+Run validation:
+  python validate_gaussian_output.py lipidA_freq.log
+
+Or manually check lipidA_freq.log for:
+
+✅ REQUIRED:
+  "No imaginary frequencies"
+  "Normal termination of Gaussian"
+
+❌ IF YOU SEE ANY NEGATIVE FREQUENCY:
+  "Frequencies --  -23.4  -15.2"
+
+→ Geometry is NOT a true minimum
+→ Must re-optimize with tighter settings (see TROUBLESHOOTING)
+
+===============================================================================
+STEP 3: EXTRACT RAMAN SPECTRUM DATA
+===============================================================================
+
+The validation script automatically extracts data, or manually:
+
+In lipidA_freq.log, search for blocks like:
+
+  Frequencies --  1032.5  1087.3  1121.9
+  Red. masses --    1.23    1.45    1.67
+  Frc consts  --    2.34    3.45    4.12
+  IR Inten    --   12.3    45.6    23.1
+  Raman Activ --   85.4    62.7    31.2
+  Depolar     --   0.68    0.44    0.21
+
+You need:
+  • Frequencies (cm⁻¹)
+  • Raman Activ (Raman activities)
+
+Copy ALL of these into plot_raman_spectrum.py
+
+===============================================================================
+STEP 4: PLOT RAMAN SPECTRUM (PUBLICATION-READY)
+===============================================================================
+
+Method A - Automatic (if validation script was run):
+  python plot_raman_spectrum.py
+
+Method B - Manual:
+  1. Copy frequencies and Raman activities from lipidA_freq.log
+  2. Paste into plot_raman_spectrum.py (freq and raman_activ arrays)
+  3. Run: python plot_raman_spectrum.py
+
+Output:
+  • lipidA_raman_spectrum.png (publication figure)
+  • lipidA_raman_spectrum.csv (raw data)
+
+-------------------------------------------------------------------------------
+PLOTTING PARAMETERS
+-------------------------------------------------------------------------------
+
+Broadening width (sigma parameter in plot script):
+  • 8-10 cm⁻¹  → for comparison with SERS experiments
+  • 15-20 cm⁻¹ → for regular Raman experiments
+
+Adjust in plot_raman_spectrum.py:
+  y = gaussian_broadening(x, freq, raman_activ, fwhm=10)
+
+===============================================================================
+STEP 5: VALIDATE SPECTRUM (CRITICAL FOR PUBLICATION)
+===============================================================================
+
+Your spectrum MUST show peaks in these regions:
+
+Region (cm⁻¹)    Assignment                  Expected
+980-1100         PO₂⁻ stretching             STRONG (Lipid A fingerprint)
+1060-1130        C-C lipid backbone          MEDIUM
+~1440            CH₂ scissoring              MEDIUM
+1540-1580        Amide II                    MEDIUM-STRONG
+1640-1680        Amide I                     STRONG
+
+If these are present → Model is scientifically correct ✅
+If missing → Check structure or calculation setup ❌
+
+===============================================================================
+TROUBLESHOOTING GUIDE
+===============================================================================
+
+PROBLEM 1: Optimization too slow / doesn't converge
+-----------------------------------------------------
+Symptoms:
+  • "Maximum number of cycles"
+  • Job runs for days
+  • "Optimization stopped"
+
+Fix - Add to route section in lipidA_opt.gjf:
+  #p B3LYP/6-31G(d) EmpiricalDispersion=GD3BJ Opt=(CalcFC,MaxCycle=100) TightSCF
+
+Explanation:
+  CalcFC    - Calculate force constants (better step direction)
+  MaxCycle  - Allow more optimization cycles
+
+-----------------------------------------------------
+PROBLEM 2: SCF convergence failure
+-----------------------------------------------------
+Symptoms:
+  • "Convergence failure -- run terminated"
+  • "SCF Error SCF has not converged"
+
+Fix - Add to route section:
+  SCF=(XQC,MaxCycle=512)
+
+For severe cases:
+  SCF=(QC,MaxCycle=512)
+
+-----------------------------------------------------
+PROBLEM 3: Imaginary frequencies after optimization
+-----------------------------------------------------
+Symptoms:
+  • Negative frequencies in lipidA_freq.log
+  • "1 imaginary frequencies"
+
+Fix - Re-optimize with tighter convergence:
+  #p B3LYP/6-31G(d) EmpiricalDispersion=GD3BJ Opt=(Tight,CalcFC) TightSCF
+
+Then re-run frequency calculation
+
+-----------------------------------------------------
+PROBLEM 4: Job killed / out of memory
+-----------------------------------------------------
+Symptoms:
+  • "killed"
+  • "segmentation fault"
+  • No normal termination
+
+Fix - Reduce memory requirements:
+  Option A: Use smaller basis set
+    Change: 6-31G(d) → STO-3G (for testing)
+    Or: 6-31G(d) → 6-31G
+
+  Option B: Increase memory allocation
+    Change in .gjf: %mem=8GB → %mem=16GB
+    (Must match available system RAM)
+
+  Option C: Reduce molecular size
+    Simplify structure (fewer acyl chains for testing)
+
+-----------------------------------------------------
+PROBLEM 5: Checkpoint file not found
+-----------------------------------------------------
+Symptoms:
+  • "lipidA.chk not found" when running lipidA_freq.gjf
+  • "Unable to open checkpoint file"
+
+Fix:
+  • Make sure lipidA_opt.gjf completed successfully
+  • Check that lipidA.chk exists in same directory
+  • Verify %chk=lipidA.chk is same in both files
+
+===============================================================================
+OPTIONAL: IMPROVED RAMAN CALCULATION
+===============================================================================
+
+For better Raman intensities (more accurate physics):
+
+Create lipidA_freq_improved.gjf:
+
+%chk=lipidA.chk
+%mem=16GB
+%nprocshared=8
+#p wB97XD/def2-SVP Freq=Raman Geom=AllCheck Guess=Read
+
+Lipid A proxy - improved Raman with ωB97X-D
+
+
+This uses:
+  • ωB97X-D functional (better for non-covalent interactions)
+  • def2-SVP basis set (balanced accuracy/speed)
+
+Note: Requires more computational resources
+
+===============================================================================
+COMPUTATIONAL COST ESTIMATES
+===============================================================================
+
+For Lipid A proxy (~120 atoms):
+
+Optimization (B3LYP/6-31G(d)):
+  • Time: 6-24 hours (8 cores)
+  • Memory: 8-16 GB
+  • Disk: ~2 GB
+
+Frequency (B3LYP/6-31G(d)):
+  • Time: 12-48 hours (8 cores)
+  • Memory: 8-16 GB
+  • Disk: ~5 GB
+
+Total: ~1-3 days on modern workstation
+
+===============================================================================
+FILE CHECKLIST
+===============================================================================
+
+Before submission:
+  ☑ LipidA_proxy_Ecoli_O111B4.mol exists
+  ☑ lipidA_opt.gjf created (Step 1 input)
+  ☑ lipidA_freq.gjf created (Step 2 input)
+  ☑ validate_gaussian_output.py ready
+  ☑ plot_raman_spectrum.py ready
+
+After optimization:
+  ☑ lipidA_opt.log shows "Optimization completed"
+  ☑ lipidA.chk exists
+
+After frequency:
+  ☑ lipidA_freq.log shows "No imaginary frequencies"
+  ☑ Raman data extracted
+  ☑ Spectrum plotted and validated
+
+===============================================================================
+CITATION INFORMATION (for publications)
+===============================================================================
+
+Software:
+  Gaussian 16, Revision C.01, M. J. Frisch et al., Gaussian, Inc., 
+  Wallingford CT, 2016.
+
+Functional:
+  B3LYP: Becke, A. D. J. Chem. Phys. 1993, 98, 5648-5652.
+
+Dispersion:
+  Grimme, S.; Ehrlich, S.; Goerigk, L. J. Comput. Chem. 2011, 32, 1456-1465.
+
+Basis Set:
+  Ditchfield, R.; Hehre, W. J.; Pople, J. A. J. Chem. Phys. 1971, 54, 724.
+
+RDKit:
+  RDKit: Open-source cheminformatics; http://www.rdkit.org
+
+===============================================================================

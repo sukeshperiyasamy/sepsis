@@ -1,0 +1,103 @@
+{
+  "input": "C:\\Users\\sukes\\Downloads\\mtp\\20-04\\Preliminary project report template.docx",
+  "fonts_by_char_count": {},
+  "direct_run_formatting_runs": 76,
+  "direct_paragraph_formatting_paragraphs": 28,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 1,
+      "text": "Sepsis Biomarkers Analysis Using SERS-Based Sensor",
+      "style": "Normal"
+    },
+    {
+      "para_index": 30,
+      "text": "Joint Programmes in Medical Technologies",
+      "style": "Normal"
+    },
+    {
+      "para_index": 32,
+      "text": "Declaration",
+      "style": "Normal"
+    },
+    {
+      "para_index": 39,
+      "text": "Signature",
+      "style": "Normal"
+    },
+    {
+      "para_index": 43,
+      "text": "Certificate",
+      "style": "Normal"
+    },
+    {
+      "para_index": 55,
+      "text": "Signature",
+      "style": "Table Paragraph"
+    },
+    {
+      "para_index": 57,
+      "text": "                                                     Signature",
+      "style": "Table Paragraph"
+    }
+  ],
+  "examples": {
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "Sepsis Biomarkers Analysis Using SERS-Based Sensor",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "run_text": "A",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "run_text": " ",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "run_text": "Project",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "run_text": " ",
+        "style": "Normal"
+      }
+    ],
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 4,
+        "text": "",
+        "style": "Body Text"
+      },
+      {
+        "para_index": 5,
+        "text": "A Project Report submitted by",
+        "style": "Normal"
+      },
+      {
+        "para_index": 6,
+        "text": "SUKESH P",
+        "style": "Heading 1"
+      },
+      {
+        "para_index": 9,
+        "text": "",
+        "style": "Body Text"
+      },
+      {
+        "para_index": 10,
+        "text": "in partial fulfillment of the requirements for the award of the degree of",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

@@ -1,0 +1,25 @@
+LTA PROJECT SUMMARY
+Generated : 2026-03-17 04:57:56
+
+Dataset size        : 136 spectra
+Integration times   : [np.int64(10), np.int64(15), np.int64(20), np.int64(25)] sec
+Laser powers        : [np.int64(5), np.int64(10), np.int64(15), np.int64(20), np.int64(25), np.int64(30), np.int64(35), np.int64(40), np.int64(45), np.int64(50), np.int64(55), np.int64(60), np.int64(65), np.int64(70), np.int64(75), np.int64(80)] %
+
+Best Spectrum       : sec-20_power-40_i-2_2.xlsx
+  Integration time  : 20 sec
+  Laser power       : 40 %
+  SNR               : 139.03
+  Quality score     : 69.7490
+
+Main experimental peaks : 413, 619, 795, 1000, 1030, 1182, 1601 cm⁻¹
+
+Spectral Similarity
+  Cosine similarity   : 0.2397
+  Pearson correlation : -0.0084
+  RMSE                : 2.70 cm⁻¹
+
+Output Files Generated:
+  Figures   : LTA_outputs/figures/   (12 PNG files)
+  Data      : LTA_outputs/data/      (5 CSV files)
+  Report    : LTA_outputs/report/LTA_analysis_report.txt
+  Summary   : LTA_outputs/report/LTA_project_summary.txt

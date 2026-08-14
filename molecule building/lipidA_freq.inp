@@ -1,0 +1,10 @@
+# Lipid A proxy - Frequency and Raman Calculation
+# Representative of E. coli O111:B4 Lipid A
+# Uses optimized geometry from lipidA_opt.xyz
+
+! B3LYP 6-31G(d) D3BJ Freq NumFreq
+! PAL8
+
+%maxcore 2000
+
+* xyzfile -2 1 lipidA_opt.xyz

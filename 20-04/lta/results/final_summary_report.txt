@@ -1,0 +1,36 @@
+============================================================
+LTA RAMAN SPECTROSCOPY ANALYSIS — SUMMARY REPORT
+============================================================
+
+1. WORKFLOW
+   Load raw spectra → restrict range → scale (sim) / ALS (exp)
+   → normalise → common grid → NNLS fit → metrics → export
+
+2. PREPROCESSING
+   Spectral range  : N/A (run preprocessing cells first)
+   DFT scale factor: N/A (simulation only)
+   Baseline        : ALS (lam=1e5, p=0.01) — experimental only
+   Smoothing       : N/A
+   Grid spacing    : 1 cm⁻¹ | N/A points
+
+3. NNLS FITTED WEIGHTS
+   Glycerol-Phosphate     : nan  (nan%)
+   D-Alanine              : nan  (nan%)
+   N-Acetyl-D-Glucosamine : nan  (nan%)
+
+4. FIT QUALITY METRICS
+   RMSE    : nan
+   MAE     : nan
+   R²      : nan
+   Pearson : nan
+
+5. INTERPRETATION
+   Glycerol-Phosphate contributes the phosphate backbone signal.
+   D-Alanine contributes amide/CH bands.
+   GlcNAc contributes glycan ring and amide I/III signals.
+   This is a fragment-based linear approximation, not a full
+   quantum simulation of intact LTA.
+
+6. OUTPUT FOLDER
+   results
+============================================================

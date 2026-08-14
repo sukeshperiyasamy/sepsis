@@ -1,0 +1,68 @@
+Int_10sec_Power5-80_Ta_2\good peak\sec-10_power-10_i-2_2.xlsx
+Int_10sec_Power5-80_Ta_2\good peak\sec-10_power-10_i-2_3.xlsx
+Int_10sec_Power5-80_Ta_2\good peak\sec-10_power-10_i-2_4.xlsx
+Int_10sec_Power5-80_Ta_2\good peak\sec-10_power-10_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\good peak\sec-10_power-20_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-10_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-15_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-20_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-25_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-30_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-35_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-40_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-45_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-5_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-50_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-55_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-60_i-2_2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-60_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-65_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-75_i-2_2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-75_i-2.xlsx
+Int_10sec_Power5-80_Ta_2\sec-10_power-80_i-2.xlsx
+Int_15sec_Power5-80_Ta_2\sec-15_power-10_i-2.xlsx
+Int_15sec_Power5-80_Ta_2\sec-15_power-15_i-2.xlsx
+Int_15sec_Power5-80_Ta_2\sec-15_power-20_i-2.xlsx
+Int_15sec_Power5-80_Ta_2\sec-15_power-25_i-2.xlsx
+Int_15sec_Power5-80_Ta_2\sec-15_power-30_i-2.xlsx
+Int_15sec_Power5-80_Ta_2\sec-15_power-35_i-2.xlsx
+Int_15sec_Power5-80_Ta_2\sec-15_power-5_i-2.xlsx
+Int_15sec_Power5-80_Ta_2\sec-15_power-50_i-2.xlsx
+Int_15sec_Power5-80_Ta_2\sec-15_power-55_i-2.xlsx
+Int_15sec_Power5-80_Ta_2\sec-15_power-60_i-2.xlsx
+Int_15sec_Power5-80_Ta_2\sec-15_power-70_i-2_2.xlsx
+Int_15sec_Power5-80_Ta_2\sec-15_power-70_i-2.xlsx
+Int_15sec_Power5-80_Ta_2\sec-15_power-75_i-2.xlsx
+Int_15sec_Power5-80_Ta_2\sec-15_power-80_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\good peaks\sec-20_power-20_i-2_2.xlsx
+Int_20sec_Power5-80_Ta_2\good peaks\sec-20_power-20_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\good peaks\sec-20_power-30_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\good peaks\sec-20_power-40_i-2_2.xlsx
+Int_20sec_Power5-80_Ta_2\good peaks\sec-20_power-40_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\good peaks\sec-20_power-50_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\sec-20_power-10_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\sec-20_power-15_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\sec-20_power-20_i-2_2.xlsx
+Int_20sec_Power5-80_Ta_2\sec-20_power-20_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\sec-20_power-25_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\sec-20_power-30_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\sec-20_power-40_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\sec-20_power-45_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\sec-20_power-5_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\sec-20_power-50_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\sec-20_power-60_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\sec-20_power-70_i-2.xlsx
+Int_20sec_Power5-80_Ta_2\sec-20_power-80_i-2.xlsx
+Int_25sec_Power5-80_Ta_2\good peak\sec-25_power-20_i-2.xlsx
+Int_25sec_Power5-80_Ta_2\good peak\sec-25_power-30_i-2.xlsx
+Int_25sec_Power5-80_Ta_2\good peak\sec-25_power-40_i-2.xlsx
+Int_25sec_Power5-80_Ta_2\good peak\sec-25_power-5_i-2.xlsx
+Int_25sec_Power5-80_Ta_2\sec-25_power-10_i-2.xlsx
+Int_25sec_Power5-80_Ta_2\sec-25_power-15_i-2.xlsx
+Int_25sec_Power5-80_Ta_2\sec-25_power-20_i-2_2.xlsx
+Int_25sec_Power5-80_Ta_2\sec-25_power-20_i-2.xlsx
+Int_25sec_Power5-80_Ta_2\sec-25_power-40_i-2.xlsx
+Int_25sec_Power5-80_Ta_2\sec-25_power-5_i-2.xlsx
+Int_25sec_Power5-80_Ta_2\sec-25_power-50_i-2.xlsx
+Int_25sec_Power5-80_Ta_2\sec-25_power-70_i-2.xlsx
+Int_25sec_Power5-80_Ta_2\sec-25_power-80_i-2.xlsx

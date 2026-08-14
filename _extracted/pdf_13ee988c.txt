@@ -1,0 +1,538 @@
+FILE: pdf_13ee988c.pdf
+NPAGES: 16
+
+--- page 1 ---
+Beginner's Strategy for Simulating Bacterial
+Biomarkers in Gaussian and Obtaining Raman
+Spectra
+Prepared for: SERS-Based Sepsis Biomarker Detection Project
+Date: November 2025
+Molecules: N-acetylmuramic acid (MurNAc), Lipoteichoic Acid (LTA), Lipopolysaccharide (LPS)
+Executive Summary
+This step-by-step guide is designed for beginners entering computational chemistry and Raman
+spectroscopy simulation. It covers the complete workflow: molecular structure preparation →
+geometry optimization → vibrational frequency calculation → Raman spectrum generation and
+analysis using Gaussian 16/09 software combined with GaussView (visualization) and GaussSum
+(spectral analysis).
+Target Outcome: Generation of theoretical Raman spectra peaks (wavenumbers and intensities) that
+can be compared with experimental SERS data for biomarker identification and sepsis diagnostics.
+Part 1: Pre-Simulation Setup & Prerequisites
+1.1 Software Installation & Environment
+Required Software:
+Gaussian 16 or 09 – Quantum chemistry calculation engine
+GaussView 6 or compatible – Molecular visualization and input file generation
+GaussSum 3.0 – Post-processing and spectrum generation from Gaussian output
+Avogadro 1.2+ (Free, Open-Source) – Alternative for initial structure drawing and format
+conversion
+Text editor (e.g., Notepad++, nano) – For manual input file editing
+Spreadsheet software (Excel, LibreOffice Calc) – For data visualization and peak analysis
+Installation Tips:
+Install Gaussian and GaussView on a workstation or cluster with adequate RAM (minimum 8GB;
+16GB+ recommended for larger molecules).
+GaussSum and Avogadro are free and platform-independent (Windows, Mac, Linux).
+Verify Gaussian installation by testing a simple water (H₂O) optimization job.
+
+--- page 2 ---
+1.2 Computational Resources & Time Estimates
+Task Method Basis Set Time (Single Core) Recommended Basis
+Geometry B3LYP- 5–30 min (small), 2–4 hours 6-31G(d) or 6-
+6-31G(d)
+Optimization DFT (biomarkers) 311G(d)
+Frequency B3LYP- 10–60 min (small), 4–8 hours
+6-31G(d) Same as opt
+Calculation DFT (biomarkers)
+B3LYP- 6-
+Single-Point Raman 15–120 min For refined spectra
+DFT 311G(d)
+Estimated project timeline per biomarker: 12–24 hours wall-clock time on a modern multi-core
+workstation.
+Part 2: Molecular Structure Preparation (Step 1–3)
+Step 1: Obtain or Draw Initial Molecular Structure
+For Beginners – Three Approaches:
+Option A: Download Pre-Optimized Structures from PubChem
+1. Visit https://pubchem.ncbi.nlm.nih.gov
+2. Search for the molecule (e.g., "N-acetylmuramic acid" or use CID: 82756)
+3. Download as SDF or MOL file format
+4. Open in GaussView or Avogadro
+PubChem CIDs for Target Molecules:
+N-Acetylmuramic acid: CID 82756 or 5462244
+Lipoteichoic acid (representative): CID 137349712
+Lipid A: CID 9877306
+Note: O-antigen has species-specific variability; use E. coli O111 or representative unit structures.
+Option B: Manual Structure Drawing in Avogadro (Recommended for Learning)
+1. Open Avogadro → File → New
+2. Select Draw Tool (pencil icon)
+3. Left-click to add atoms; select element from dropdown (C, H, O, N, P, S)
+4. Click and drag to create bonds (adjust bond order: 1=single, 2=double, 3=triple)
+5. Enable "Adjust Hydrogens" checkbox to auto-populate H atoms
+6. Click Extensions → Optimize Geometry (uses UFF force field for rough pre-optimization)
+7. Save as .mol file
+
+--- page 3 ---
+Option C: Use GaussView to Build Structure
+1. Launch GaussView
+2. Select Element Fragment from toolbar
+3. Click in the workspace to add atoms
+4. Use R-Group Fragment to add substituents
+5. Click Edit → Clean Geometry to regularize structure
+6. Click Edit → Symmetrize to identify point group symmetry
+7. Save as .gjf (Gaussian input file) or .com
+For Complex Biomarkers (LTA, LPS): Start with the smallest repeating unit or monomeric
+substructure to reduce computational cost. For example:
+For LTA: model a glycerol-phosphate dimer or single repeat unit rather than the full polymer.
+For LPS: use Lipid A core alone or Lipid A + one Kdo residue as a tractable model.
+For MurNAc: use the single residue or MurNAc-GlcNAc dipeptide.
+Step 2: Import Structure into GaussView and Verify Geometry
+1. Open GaussView
+2. File → Open → Select your .mol, .sdf, or .gjf file
+3. Verify initial structure:
+Inspect bond lengths (right-click on bond to measure)
+Check for missing atoms or incorrect connectivity
+Ensure stereochemistry is correct (wedge/dash bonds for stereocenters)
+4. Clean and Prepare:
+Click Edit → Clean Geometry (optimizes bond angles/lengths using force field)
+Click Edit → Symmetrize (identifies point group symmetry; optional but informative)
+5. Save as GaussView File:
+File → Save as .gv (retains 3D structure for later use)
+Step 3: Add Charge and Multiplicity
+1. In GaussView:
+Click Molecule → Properties
+Set Charge: 0 (for neutral biomarkers; adjust if ionized)
+Set Multiplicity: 1 (for closed-shell; use 2 for radicals)
+Default: Most bacterial biomarkers at physiological pH are charge 0–2– (anionic due to
+phosphates)
+
+--- page 4 ---
+2. For phosphate-rich biomarkers (LTA, LPS, MurNAc with phosphate):
+Physiological state: Charge = –1 to –3 (deprotonated phosphates)
+Best practice: Model at both neutral and anionic states to compare SERS activity
+Consider solvent effects (aqueous environment) — set PCM (Polarizable Continuum Model)
+in Gaussian input
+Part 3: Geometry Optimization (Step 4–6)
+Step 4: Generate Gaussian Input File for Geometry Optimization
+In GaussView:
+1. Click Calculate → Gaussian Calculation Setup
+2. A new window appears: Gaussian Calculation Setup
+3. Job Type Tab:
+Select Opt (Geometry Optimization)
+Do NOT select Freq yet; only do Opt first
+4. Method Tab:
+Functional: B3LYP (hybrid DFT; good balance of speed and accuracy)
+Basis Set: 6-31G(d) (good starting point; 6-311G(d) for refined)
+Solvent Model (optional): PCM=UFF (for aqueous environment like sepsis)
+5. Additional Tab (Optional):
+Check Symmetry: Auto (lets Gaussian detect symmetry)
+Check Unit cell (if modeling periodic systems; not applicable for isolated molecules)
+6. Route Line Preview: Should show:
+# B3LYP/6-31G(d) Opt
+7. Click Submit (or save input file first)
+Alternative: Manual Input File Creation
+Create a text file with .com or .gjf extension:
+%chk=MurNAc_opt.chk
+%mem=8GB
+%nproc=4
+# B3LYP/6-31G(d) Opt
+N-acetylmuramic acid geometry optimization
+0 1
+C 0.00000 0.00000 0.00000
+
+--- page 5 ---
+O 1.20000 0.00000 0.00000
+... (Cartesian coordinates of all atoms)
+Key Input File Components:
+%chk=filename.chk – Checkpoint file (stores intermediate data)
+%mem=8GB – Memory allocation (adjust based on system)
+%nproc=4 – Number of processors
+# B3LYP/6-31G(d) Opt – Route line (method, basis, job type)
+Title line (any descriptive text)
+Charge and Multiplicity (e.g., 0 1 for neutral singlet)
+Molecular geometry (Cartesian or Z-matrix coordinates)
+Step 5: Submit Optimization Job to Gaussian
+On a Local Machine:
+1. In GaussView, click Submit (after filling in the Calculation Setup)
+2. Alternatively, from terminal:
+g16 MurNAc_opt.com MurNAc_opt.log
+On a High-Performance Computing (HPC) Cluster:
+1. Prepare a job submission script (e.g., SLURM, PBS):
+#!/bin/bash
+#SBATCH --job-name=MurNAc_opt
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=12:00:00
+module load gaussian
+g16 MurNAc_opt.com MurNAc_opt.log
+2. Submit:
+sbatch submit_job.sh
+Monitor Progress:
+Check logfile for keywords: "Optimization completed" (success) or "Error" (failure)
+GaussView can display geometry update in real-time
+Typical warnings: "Initial guess from Harris functional" (normal)
+
+--- page 6 ---
+Step 6: Verify Optimization Convergence
+1. Open output file (.log or .out) in GaussView:
+File → Open → Select .log file
+GaussView displays optimized structure
+2. Check Key Convergence Indicators:
+No negative frequencies: Confirms structure is at a minimum (not a saddle point)
+SCF Convergence: Last line should state "convergence achieved"
+Energy: Final energy value shown in Hartrees (e.g., –123.456789)
+3. Common Issues:
+Imaginary frequencies during optimization: Molecule geometry is not at a minimum; re-
+optimize with tighter convergence criteria
+No convergence after 100 steps: Increase max steps with Opt=(MaxCycles=200) in route
+line
+Part 4: Vibrational Frequency & Raman Calculation (Step 7–8)
+Step 7: Generate Input File for Freq=Raman Calculation
+Critical: Always run frequency calculations using the same method and basis set as the
+optimization. Do NOT compute frequencies at a different level of theory than the optimized structure.
+In GaussView (Recommended Workflow):
+1. File → Open the optimized structure (MurNAc_opt.log from Step 5)
+2. Click Calculate → Gaussian Calculation Setup
+3. Job Type Tab:
+Select Freq (Frequency calculation)
+Check Raman (to calculate Raman activity; NOT just IR)
+4. Method Tab:
+Functional: B3LYP (same as optimization)
+Basis Set: 6-31G(d) (same as optimization)
+5. Route Line Preview:
+# B3LYP/6-31G(d) Freq=Raman
+6. Use Checkpoint: Enable geom=allcheck to read optimized geometry from .chk file
+Route line becomes:
+# B3LYP/6-31G(d) geom=allcheck guess=read Freq=Raman
+
+--- page 7 ---
+7. Click Submit
+Manual Input File (Using Checkpoint):
+%oldchk=MurNAc_opt.chk
+%chk=MurNAc_freq.chk
+%mem=8GB
+%nproc=4
+# B3LYP/6-31G(d) geom=allcheck guess=read Freq=Raman
+Frequency and Raman calculation for MurNAc
+0 1
+(Leave molecular coordinates blank; Gaussian reads from .chk file)
+Step 8: Execute Frequency/Raman Calculation
+Submit job (same as Step 5):
+g16 MurNAc_freq.com MurNAc_freq.log
+Expected Output (from .log file):
+Vibrational frequencies (cm⁻¹) for each normal mode
+Raman activity (in Ų) for each mode
+IR intensities (km/mol)
+Force constants
+Part 5: Spectrum Generation & Analysis (Step 9–10)
+Step 9: Extract Raman Spectrum Using GaussSum
+GaussSum is the key tool for converting raw vibrational data into publication-ready spectra.
+Step-by-Step in GaussSum:
+1. Launch GaussSum (free, open-source; www.gausssum.sourceforge.net)
+2. File → Open → Select MurNAc_freq.log (the Gaussian frequency output)
+3. Left Panel → Select "Frequencies"
+4. Set Raman Spectral Parameters:
+Start wavenumber: 0 cm⁻¹
+End wavenumber: 3500 cm⁻¹ (covers most vibrational modes)
+Number of points: 1000 (higher = finer resolution)
+
+--- page 8 ---
+FWHM (Full Width Half Maximum): 10 cm⁻¹ (typical for Raman)
+Wavelength (for Raman intensity correction):
+785 nm (common in SERS; NIR laser)
+532 nm (visible laser)
+1064 nm (Nd:YAG)
+Temperature: 298 K (or match your experimental conditions)
+Scaling factor: 0.98 (empirical correction for DFT overestimation; consult literature)
+5. Click "GaussSum icon" → generates Raman spectrum
+6. Output:
+Automatic plot displayed
+Data exported to IRSpectrum.txt and RamanSpectrum.txt (in gausssum3 subfolder)
+Key GaussSum Outputs:
+RamanSpectrum.txt: Contains wavenumber (cm⁻¹), Raman activity, intensity
+Format: Tab-separated; easily imported into Excel or Origin for visualization
+Step 10: Peak Identification & Data Analysis
+In Excel or LibreOffice:
+1. Import RamanSpectrum.txt:
+File → Open → Select RamanSpectrum.txt
+Select "Tab-delimited" import option
+2. Create Peak Table:
+Wavenumber (cm⁻¹) Raman Intensity Functional Group Assignment Biomarker Relevance
+580 High P–O stretch (phosphate) LTA, LPS (diagnostic)
+1050 Medium C–O stretch (glycosidic) MurNAc, LTA, LPS
+1200 Medium Amide III (peptide) MurNAc
+1600 High Amide II (N–H bend) MurNAc
+2900 Medium C–H stretch All molecules
+3. Plot Raman Spectrum:
+X-axis: Wavenumber (cm⁻¹)
+Y-axis: Raman Intensity (or Activity)
+Mark prominent peaks with functional group labels
+Add experimental reference spectra (if available) for comparison
+4. Quantitative Analysis:
+Peak position consistency: Compare calculated vs. experimental ±5–10 cm⁻¹
+
+--- page 9 ---
+Intensity ratios: Phosphate peaks should dominate for LTA/LPS
+Frequency scaling: If discrepancy >10%, apply correction factor (e.g., 0.98 × frequency)
+Part 6: Troubleshooting & Best Practices
+Common Issues & Solutions
+Issue Cause Solution
+Job terminates: "Optimization Geometry too far from Increase MaxCycles=300; try finer geometry
+did not converge" minimum input
+Saddle point, not Re-run optimization; check molecular geometry for
+Imaginary frequency appears
+minimum errors
+Missing Freq=Raman Ensure route line includes Freq=Raman, not just
+No Raman peaks generated
+keyword Freq
+Huge discrepancy with Wrong scaling factor; Apply 0.98 scaling; try 6-311G(d) basis; check if
+experimental data poor basis set molecule needs solvent model
+GaussSum crashes or no output Re-run Gaussian calculation; check file
+Corrupted .log file
+files completeness
+Job exceeds available
+Memory errors in Gaussian Reduce %mem or split into smaller sub-molecules
+RAM
+Best Practices for Accurate Results
+1. Always use the same method for both Opt and Freq jobs (consistency is critical)
+2. For biomarkers with phosphates: Include solvent model (PCM for aqueous)
+3. Validate geometry: Inspect bond lengths/angles against literature values
+4. Scale frequencies: Apply empirical scaling (typically 0.95–0.98 for B3LYP/6-31G)
+5. Experimental comparison: If experimental Raman is available, refine basis set or functional
+6. Document all parameters: Keep record of method, basis, temperature, laser wavelength for
+reproducibility
+Part 7: Advanced Considerations for Biomarker Molecules
+Handling Complex & Large Biomarkers
+Problem: Full LPS or LTA polymers are computationally intractable (hundreds of atoms, hours-to-days
+runtime).
+Solution Strategy:
+1. Model Only the Diagnostic Unit:
+MurNAc: Use single residue ✓ Tractable
+
+--- page 10 ---
+LTA: Use glycerol-phosphate monomer or dimer (not full polymer) ✓ ~10–30 min
+LPS: Use Lipid A core (not full O-antigen) ✓ ~2–4 hours
+O-antigen: Use representative disaccharide repeat unit ✓ ~30–60 min
+2. Validate Approach:
+Compare predicted SERS peaks of truncated model with full biomarker spectra (if literature
+available)
+Expect diagnostic peaks (phosphate at ~580 cm⁻¹, amide bands) to remain representative
+3. Consider Multiple Conformations:
+Biomarkers may have multiple low-energy conformers
+Run optimization from 2–3 different starting geometries
+Compare Raman spectra across conformers
+Report most stable (lowest energy) conformation
+Ionization States & pH Effects
+Bacterial biomarkers at physiological pH (7.4) are typically deprotonated and anionic:
+Phosphate groups (–PO₄²⁻ vs. –PO₄³⁻)
+Carboxylate groups (–COO⁻)
+Recommendation: Model both protonated and deprotonated forms:
+Neutral form: Charge = 0 (simpler, faster)
+Anionic form: Charge = –1, –2, or –3 (more realistic for sepsis biomarkers)
+Compare Raman shifts; phosphate peaks are most diagnostic and sensitive to protonation
+Molecular Solvent Effects (Optional but Recommended)
+For physiologically relevant predictions, include aqueous solvation:
+In Gaussian input route line, add:
+# B3LYP/6-31G(d) Opt SCRF=(PCM,Solvent=Water)
+Effect: Slight red-shift of frequencies; improves agreement with experimental aqueous SERS data.
+Part 8: Integration with SERS Experimental Campaign
+
+--- page 11 ---
+Comparing Theory to Experiment
+1. Collect experimental SERS spectra of reference biomarkers (MurNAc, LTA, Lipid A) using same
+laser wavelength as simulated in GaussSum (e.g., 785 nm)
+2. Align peaks: Shift calculated spectrum if systematic offset observed (e.g., 1–2% frequency shift
+common)
+3. Build spectral library: Create database of theoretical + experimental peaks for each biomarker
+4. Clinical validation: Use combined spectral library to identify unknowns in patient samples
+Multiplexing Strategy
+For sepsis diagnostics, you may target multiple biomarkers simultaneously:
+Biomarker Diagnostic Peak (cm⁻¹) Gram-Positive/-Negative SERS Enhancement
+MurNAc 1200 (amide III) Gram-Positive Medium
+LTA 580 (P–O) Gram-Positive Very High
+Lipid A 580, 1200 Gram-Negative Very High
+O-antigen 1050–1100 (C–O) Gram-Negative Medium
+Part 9: Quick Reference Workflows
+Minimal Workflow (Learning; ~1–2 hours total)
+1. Download N-Acetylmuramic acid (CID 82756) from PubChem as SDF
+2. Open in GaussView → Geometry Optimization B3LYP/6-31G(d) (~30 min)
+3. Frequency/Raman calculation on optimized structure (~30 min)
+4. Open output in GaussSum → Generate Raman spectrum (2 min)
+5. Plot and compare to literature
+Full Workflow (All three biomarkers; ~24–48 hours total)
+For each biomarker (MurNAc, LTA, Lipid A):
+1. Prepare structure (30 min)
+2. Geometry optimization (2–4 hours)
+3. Frequency/Raman (4–8 hours)
+4. Spectrum generation &amp; analysis (30 min)
+5. Comparative analysis across all three (1 hour)
+
+--- page 12 ---
+Part 10: References & Further Resources
+Key Literature
+1. Gaussian Manual: https://gaussian.com/g16main/
+2. GaussView Manual: https://gaussian.com/gaussview6/
+3. GaussSum Documentation: https://gausssum.sourceforge.net/
+4. Vibrational Analysis: Ochterski, J. W. (1999). Vibrational Analysis in Gaussian [comprehensive
+reference on frequency calculations]
+5. Raman Spectroscopy Guide: Krishnakumar, V., et al. (2004). Determination of Raman intensity
+using different methods. J. Mol. Struct. 702, 9–21.
+Online Tutorials & Community
+YouTube: Search "Gaussian Raman spectrum tutorial" or "GaussSum workflow"
+Forum: Gaussian Computational Chemistry Community (LinkedIn, ResearchGate)
+PubChem: https://pubchem.ncbi.nlm.nih.gov (structure and property database)
+Software Downloads
+Gaussian 16: https://gaussian.com/ (commercial; check university licensing)
+GaussView 6: Bundled with Gaussian
+GaussSum: https://gausssum.sourceforge.net/ (free, open-source)
+Avogadro: https://avogadro.cc (free, open-source; excellent for learning)
+Appendix: Example Input Files
+Example 1: MurNAc Geometry Optimization Input
+%chk=MurNAc_opt.chk
+%mem=8GB
+%nproc=4
+# B3LYP/6-31G(d) Opt
+N-acetylmuramic acid optimization
+0 1
+C -0.5211 -0.2198 0.0149
+C 0.9854 -0.2207 0.0088
+O 1.5471 0.9833 -0.0356
+O 1.6831 -1.2701 0.0418
+N -1.1893 0.9920 -0.0359
+C -2.6168 1.0654 -0.0452
+O -3.3192 0.0608 -0.0141
+C -3.2286 2.3840 -0.0864
+H -0.5850 -0.7283 0.9552
+
+--- page 13 ---
+... (additional atoms)
+Example 2: Frequency/Raman Input (Using Checkpoint)
+%oldchk=MurNAc_opt.chk
+%chk=MurNAc_freq.chk
+%mem=8GB
+%nproc=4
+# B3LYP/6-31G(d) geom=allcheck guess=read Freq=Raman
+Frequency and Raman for MurNAc
+0 1
+Final Checklist Before Submission
+[ ] Molecule structure verified and saved
+[ ] Charge and multiplicity set correctly
+[ ] Sufficient computational resources allocated
+[ ] Method and basis set consistent across Opt and Freq jobs
+[ ] GaussSum configured with correct laser wavelength
+[ ] Reference literature/experimental data ready for comparison
+[ ] Outputs backed up (especially .chk and .log files)
+End of Guide
+For further guidance or troubleshooting specific to your biomarker system, consult literature on DFT
+calculations for polysaccharides and glycolipids, or reach out to computational chemistry specialists.
+[1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32]
+[33][34][35][36][37][38][39][40][41][42][43][44][45][46][47][48][49][50][51][52][53][54][55][56][57][58][59][60][61][62]
+[63][64][65][66][67][68][69][70][71][72][73][74][75][76][77][78][79][80][81][82][83][84][85][86][87][88][89][90][91][92]
+[93][94][95]
+⁂
+1. https://link.springer.com/10.1007/s00339-023-07083-1
+2. https://pubs.acs.org/doi/10.1021/acs.jctc.3c01343
+3. https://xlink.rsc.org/?DOI=D3CP04960D
+4. https://arxiv.org/pdf/2201.07586.pdf
+5. https://arxiv.org/pdf/1909.03142.pdf
+6. http://arxiv.org/pdf/2303.10228.pdf
+7. https://arxiv.org/pdf/2409.06597.pdf
+
+--- page 14 ---
+8. https://joss.theoj.org/papers/10.21105/joss.04164.pdf
+9. http://arxiv.org/pdf/2308.04308.pdf
+10. https://onlinelibrary.wiley.com/doi/10.1002/jcc.27027
+11. https://www.youtube.com/watch?v=5-2J8306XI0
+12. https://pubs.aip.org/jva/article/42/4/043405/3294350/Lattice-defects-distribution-of-H-implanted-4H-SiC
+13. https://gaussian.com/g16main/
+14. https://dspace.mit.edu/bitstream/handle/1721.1/152352/5-68j-spring-2003/contents/study-materials/g94_tutorial
+_v2.pdf
+15. https://www.youtube.com/watch?v=TzjYqWsGMho
+16. https://onlinelibrary.wiley.com/doi/10.1002/qua.70072?af=R
+17. https://www.dornshuld.chemistry.msstate.edu/research/first-gaussian-job/
+18. https://www.scm.com/doc/Tutorials/ExternalPrograms/QEIRRamanSpectra.html
+19. https://gaussian.com/relnotes/
+20. https://gaussian.com/wp-content/uploads/dl/vib.pdf
+21. https://gaussian.com/freq/
+22. https://link.springer.com/10.1007/s11082-023-04877-8
+23. https://www.ssrn.com/abstract=4445044
+24. https://journaljenrr.com/index.php/JENRR/article/view/201
+25. https://wseas.com/journals/msa/2023/a06msa-003(2023).pdf
+26. http://link.springer.com/10.1134/S1070428019020192
+27. http://www.ijnc.ir/article_32806.html
+28. http://www.physchemres.org/article_110988.html
+29. https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/slct.202500161
+30. https://link.springer.com/10.1007/s13538-023-01367-w
+31. https://link.springer.com/10.1007/s00894-024-05866-8
+32. https://www.tandfonline.com/doi/full/10.1080/10406638.2023.2195191
+33. https://arxiv.org/pdf/2211.15299.pdf
+34. https://onlinelibrary.wiley.com/doi/10.1002/qua.70072
+35. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7997400
+36. https://pmc.ncbi.nlm.nih.gov/articles/PMC7997400/
+37. https://arxiv.org/pdf/2303.14280.pdf
+38. https://arxiv.org/pdf/2105.00589.pdf
+39. http://arxiv.org/pdf/2411.12566.pdf
+40. https://joss.theoj.org/papers/10.21105/joss.05148.pdf
+41. http://arxiv.org/pdf/2209.06069.pdf
+42. https://www.uprm.edu/ccs-cicsa/wp-content/uploads/sites/183/2023/04/SOP-Creating-a-Molecule-GaussView.p
+df
+43. https://pmc.ncbi.nlm.nih.gov/articles/PMC2176076/
+44. https://hpc-wiki.info/hpc/Gaussian
+
+--- page 15 ---
+45. https://link.springer.com/10.1007/s10853-022-07011-3
+46. https://pmc.ncbi.nlm.nih.gov/articles/PMC5319398/
+47. https://www.youtube.com/watch?v=EJvUcfdnhpE
+48. https://www.youtube.com/watch?v=dqKWfXsEcWs
+49. https://pubs.acs.org/doi/10.1021/acs.jpcc.4c03491
+50. https://link.springer.com/10.1134/S1062873824709905
+51. https://xlink.rsc.org/?DOI=D5AN00452G
+52. https://www.semanticscholar.org/paper/b44369e5acbb81ee0f5d9c3181a0aa9fde6195f2
+53. https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/jrs.70006
+54. https://opg.optica.org/abstract.cfm?URI=boe-13-12-6763
+55. https://www.mdpi.com/2218-1989/15/1/48
+56. https://link.springer.com/10.1007/s00604-024-06831-1
+57. https://link.springer.com/10.1007/s00216-025-05964-3
+58. https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13283/3037296/Development-of-portable-Ra
+man-rapid-analyzer-for-water-pollution-and/10.1117/12.3037296.full
+59. https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10489/2290159/Automated-pre-processing-an
+d-multivariate-vibrational-spectra-analysis-software-for/10.1117/12.2290159.full
+60. https://pubs.acs.org/doi/10.1021/acs.analchem.1c04498
+61. https://pubs.acs.org/doi/pdf/10.1021/acs.analchem.4c00383
+62. https://www.jvolcanica.org/ojs/index.php/volcanica/article/download/252/387
+63. https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-28/issue-02/025002/Open-source
+d-Raman-spectroscopy-data-processing-package-implementing-a-baseline/10.1117/1.JBO.28.2.025002.full
+64. https://downloads.hindawi.com/journals/jspec/2012/530791.pdf
+65. https://pmc.ncbi.nlm.nih.gov/articles/PMC7595934/
+66. https://gausssum.sourceforge.net/DocBook/ch05.html
+67. https://www.aimsciences.org//article/doi/10.3934/fods.2023008
+68. https://www.ba.ic.cnr.it/softwareic/expo/geometry-optimization/
+69. https://pmc.ncbi.nlm.nih.gov/articles/PMC11340246/
+70. https://gausssum.sourceforge.net/GaussSum1/DocBook/pr01.html
+71. https://sites.google.com/site/orcainputlibrary/geometry-optimizations
+72. https://www.spectroscopyonline.com/view/key-steps-in-the-workflow-to-analyze-raman-spectra
+73. https://www.youtube.com/watch?v=ZC7YT_7YJ7E
+74. https://www.youtube.com/watch?v=I78oCWZv6lI
+75. https://en.wikipedia.org/wiki/Raman_spectroscopy
+76. https://gausssum.sourceforge.net/DocBook/pr01.html
+77. https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.1c00613
+78. https://xlink.rsc.org/?DOI=D3CP02181E
+79. http://www.jbc.org/content/288/51/36215.full.pdf
+80. https://dx.plos.org/10.1371/journal.pone.0293680
+
+--- page 16 ---
+81. https://pmc.ncbi.nlm.nih.gov/articles/PMC6529397/
+82. https://www.mdpi.com/2227-9717/6/3/21/pdf?version=1519545874
+83. https://pmc.ncbi.nlm.nih.gov/articles/PMC11844903/
+84. https://pmc.ncbi.nlm.nih.gov/articles/PMC10842706/
+85. https://www.mdpi.com/2079-6382/11/10/1385/pdf?version=1665401475
+86. https://www.pnas.org/doi/10.1073/pnas.0610081104
+87. https://avogadro.cc/docs/getting-started/drawing-molecules/
+88. https://boa.unimib.it/retrieve/e39773b5-6192-35a3-e053-3a05fe0aac26/phd_unimib_811128.pdf
+89. https://www.semanticscholar.org/paper/ed0b5ca476a5fa28ca7eacc1ba498a7c089fa03f
+90. https://www.youtube.com/watch?v=yd9GN5lAxdQ
+91. https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Understanding_Organic_Chemistry_Through_Com
+putation_(Boaz_and_Pearce)/01:_Introduction_to_Avogadro/1.03:_Computational_Instructions
+92. https://pmc.ncbi.nlm.nih.gov/articles/PMC9486976/
+93. https://www.nature.com/articles/s41524-024-01400-9
+94. https://www.insilicodesign.com/en/post/optimize-your-molecular-structure-avogadro-user-guide
+95. https://opendata.uni-halle.de/bitstream/1981185920/41613/1/Dissertation_Interaction of cyclic antimicrobial
+hexapeptides with model lipid membranes_Sebastian Finger.pdf
+

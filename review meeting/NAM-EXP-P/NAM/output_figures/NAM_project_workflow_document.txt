@@ -1,0 +1,176 @@
+NAM PROJECT WORKFLOW DOCUMENT
+Combined Summary from 3 Notebooks
+Date: 2026-03-17
+
+======================================================================
+PROJECT SCOPE
+======================================================================
+This document summarizes the full Raman analysis workflow across:
+1) NAM_Raman_Analysis.ipynb
+2) NAM_Validation_Analysis.ipynb
+3) NAM_Peak_Assignment.ipynb
+
+It includes:
+- Topics/sections inside each notebook
+- Input files loaded at each stage
+- Processing order (workflow)
+- Outputs generated
+- Key changes requested and applied in this chat
+
+======================================================================
+GLOBAL WORKFLOW ORDER
+======================================================================
+Phase 1: Main processing and ranking
+Notebook: NAM_Raman_Analysis.ipynb
+
+Phase 2: Validation metrics
+Notebook: NAM_Validation_Analysis.ipynb
+
+Phase 3: Peak assignment and annotated publication figures
+Notebook: NAM_Peak_Assignment.ipynb
+
+======================================================================
+NOTEBOOK 1: NAM_Raman_Analysis.ipynb
+Topic: Raman preprocessing, quality scoring, DFT overlay, and report export
+======================================================================
+A) Files loaded
+- Experimental folder: all_excel_files/*.xlsx (recursive)
+- Simulation file: simdata.xlsx
+- Each experimental spectrum is read with pandas read_excel
+
+B) Main topics/steps inside notebook
+1. Load scientific libraries and plotting style.
+2. Configure paths and parameters.
+3. Discover all experimental Excel files and parse sec/power from filenames.
+4. Preprocess spectra:
+   - Read Raman shift and intensity columns
+   - Clean and sort
+   - Savitzky-Golay smoothing
+   - ALS baseline correction
+   - Normalization
+   - Reference peak detection
+   - SNR, FWHM, sharpness extraction
+5. Score spectra and create ranked table.
+6. Plot acquisition parameter analysis (Figure 1).
+7. Select top spectra and plot annotated peaks (Figure 2).
+8. Export processed spectra CSVs + ranked table CSV.
+9. Load and preprocess DFT simulation:
+   - Positive frequencies only
+   - Scaling factor
+   - Range filtering
+   - Activity normalization
+   - Gaussian broadening
+10. Overlay experimental vs DFT (Figure 3).
+11. Peak matching with tolerance table.
+12. Supplementary plots (Figures 4-6).
+13. Final summary and full text report generation.
+
+C) Key outputs generated
+- fig01_acquisition_parameter_analysis.png
+- fig02_best_spectra_annotated.png
+- fig03_experimental_vs_DFT_overlay.png
+- fig04_all_spectra_waterfall.png
+- fig05_score_vs_power.png
+- fig06_SNR_vs_score.png
+- ranked_spectra_table.csv
+- peak_matching_table.csv
+- processed_<top_spectrum>.csv files
+- NAM_analysis_report.txt
+
+======================================================================
+NOTEBOOK 2: NAM_Validation_Analysis.ipynb
+Topic: Frequency shift error analysis + full-spectrum similarity metrics
+======================================================================
+A) Files loaded
+- peak_matching_table.csv
+- processed_sec-25_power-80_i-2.csv (best processed spectrum)
+- simdata.xlsx
+
+B) Main topics/steps inside notebook
+1. Configuration and path setup.
+2. Load peak matching table.
+3. Compute frequency error statistics:
+   - mean, median, standard deviation, RMSE, max absolute error
+4. Plot error distribution histogram (Figure 7).
+5. Plot error vs Raman shift trend (Figure 8).
+6. Load experimental and DFT spectra.
+7. Apply DFT scaling and Gaussian broadening.
+8. Interpolate both spectra on common grid.
+9. Compute similarity metrics:
+   - Cosine similarity
+   - Pearson correlation
+10. Create spectral overlay with residual (Figure 9).
+11. Create 4-panel validation summary (Figure 10).
+12. Print final validation report.
+
+C) Key outputs generated
+- fig07_frequency_error_histogram.png
+- fig08_error_vs_raman_shift.png
+- fig09_spectral_similarity_overlay.png
+- fig10_validation_summary_4panel.png
+
+======================================================================
+NOTEBOOK 3: NAM_Peak_Assignment.ipynb
+Topic: Functional-group peak assignment and publication-style annotation figures
+======================================================================
+A) Files loaded
+- ranked_spectra_table.csv
+- Auto-resolved processed best spectrum CSV (processed_*.csv)
+- simdata.xlsx
+
+B) Main topics/steps inside notebook
+1. Configuration with robust best-CSV path resolver.
+2. Define key peaks and functional group assignment dictionary.
+3. Load normalized experimental spectrum.
+4. Load DFT data and apply:
+   - Frequency scaling
+   - Activity normalization
+   - Gaussian broadening
+5. Utility functions for nearest/local-maximum search.
+6. Build annotation table (nominal, exp, sim, delta).
+7. Build full annotated figure (Figure 11).
+8. Build region-split annotated figure (Figure 12).
+9. Export peak assignment summary table CSV.
+10. Output summary.
+
+C) Key outputs generated
+- fig11_annotated_peak_assignment.png
+- fig12_annotated_region_split.png
+- peak_assignment_table.csv
+
+======================================================================
+CHAT-REQUESTED CHANGES APPLIED DURING THIS SESSION
+======================================================================
+1. Missing Python packages were installed so imports could run.
+2. Preprocessing read logic was fixed to use correct Raman columns for your file layout.
+3. Analysis range was enforced to 200-3000 cm^-1 for both experimental and simulated data.
+4. Figure cells were enhanced with text-result summaries below plots.
+5. A complete text report file was added and saved (NAM_analysis_report.txt).
+6. Validation path issue was fixed by setting the correct best processed CSV.
+7. Path robustness was improved in peak assignment by auto-resolving best processed CSV.
+8. Notebooks were executed end-to-end where requested to verify runtime stability.
+
+======================================================================
+FILE DEPENDENCY FLOW
+======================================================================
+1) NAM_Raman_Analysis.ipynb produces:
+   - ranked_spectra_table.csv
+   - processed_*.csv
+   - peak_matching_table.csv
+   - figures and NAM_analysis_report.txt
+
+2) NAM_Validation_Analysis.ipynb consumes:
+   - peak_matching_table.csv
+   - best processed_*.csv
+   - simdata.xlsx
+   and produces validation figures.
+
+3) NAM_Peak_Assignment.ipynb consumes:
+   - ranked_spectra_table.csv
+   - best processed_*.csv (auto-selected)
+   - simdata.xlsx
+   and produces assignment figures and table.
+
+======================================================================
+END OF DOCUMENT
+======================================================================

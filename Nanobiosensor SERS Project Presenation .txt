@@ -1,0 +1,272 @@
+SERS-Based Nanobiosensor
+Workflow for Sepsis Diagnostics
+
+Clinical Urgency of Sepsis
+• Approximately 49 million sepsis cases globally (2020) with ~11 million deaths.
+• Early detection and treatment are critical; delays increase mortality.
+• Sepsis is a major contributor to hospital fatalities and ICU burden.
+
+Limitations of Current Diagnostics
+● Blood culture: slow (24–72 hours) and insensitive when antibiotics were
+given.
+● Host markers (CRP, PCT) are non-specific and can be elevated in
+non-bacterial states .
+● Clinical scores (qSOFA/SIRS): supportive, not definitive.
+● Molecular assays (PCR) require lab infrastructure and known targets.
+● Empirical broad-spectrum antibiotic use is common, driving antimicrobial
+resistance.
+
+Why Bacterial-Specific Biomarkers?
+● Early diagnosis and improved clinical outcomes .
+● Directly indicate presence of bacteria (not just host inflammation).
+● Enable Gram classification.Reduce unnecessary broad-spectrum antibiotic
+use and combat AMR.
+Traditional Approach
+
+Bacterial-Specific Approach
+
+Host response detection
+
+Direct bacterial detection
+
+Delayed immune activation
+
+Immediate bacterial identification
+
+Non-specific inflammation
+
+Bacterial specific marker
+
+Cannot guide antibiotics
+
+Enables targeted therapy
+
+Incremental improvement
+
+Paradigm shift
+
+Difference
+
+Gram-Positive
+
+Cell Wall Structure
+
+Thick peptidoglycan (20-80 Thin peptidoglycan + outer
+nm)
+membrane
+
+Peptidoglycan Content
+
+90% of cell wall mass
+
+5-10% of cell wall mass
+
+Outer Membrane
+
+Absent
+
+Present (barrier function)
+
+Lipopolysaccharide (LPS) Absent
+
+Gram-Negative
+
+Present (endotoxin
+component)
+
+Gram Staining
+
+Purple/Violet (retains stain) Pink/Red (loses stain)
+
+Antibiotic Susceptibility
+
+Generally, more susceptible More resistant (outer
+membrane)
+
+Endotoxin Production
+
+No endotoxin
+
+Lipid A endotoxin present
+
+Clinical Presentation
+
+Device infections,
+pneumonia
+
+UTI, septic shock, HAI
+
+Clinical Significance
+
+Reference
+
+Determines antibiotic
+penetration and SERS
+targeting strategy
+Major structural target for
+β-lactam antibiotics and
+detection
+Primary resistance
+mechanism; barrier to
+drugs and immune system
+Major sepsis mediator;
+triggers cytokine storm and
+shock
+Primary laboratory
+identification method (95%
+accuracy)
+Guides empirical antibiotic
+selection in sepsis
+management
+Key pathophysiology
+difference in sepsis severity
+and outcomes
+Influences infection source,
+severity, and treatment
+approach
+
+Silhavy et al. Cold Spring
+Harb Perspect Biol
+2010;2(5):a000414
+Vollmer et al. FEMS
+Microbiol Rev
+2008;32(2):149-167
+Nikaido H. Microbiol Mol
+Biol Rev
+2003;67(4):593-656
+Raetz & Whitfield. Annu
+Rev Biochem
+2002;71:635-700
+Gram HC. Fortschr Med
+1884;2:185-189
+Delcour AH. Biochim
+Biophys Acta
+2009;1794(5):808-816
+Rietschel et al. FASEB J
+1994;8(2):217-225
+Martin et al. N Engl J Med
+2003;348(16):1546-1554
+
+Proposed Bacterial Biomarkers panel
+● Universal Bacterial Detection: Peptidoglycan fragments (N-acetylmuramic acid)
+Reason : Present in ALL bacteria, absent in viruses/fungi/parasites . Direct bacterial
+confirmation.Unique to bacterial peptidoglycan only.
+● Gram-negative: Lipopolysaccharide (LPS) — lipid A & O-antigen .
+Reason :present Only in Gram-negative bacteria, absent in all other organisms.Strong
+enhancement, endotoxin correlation
+● Gram-positive: Lipoteichoic acid (LTA) and wall teichoic acids (WTA).
+Reason : present Only in Gram-positive bacteria , surface accessibility
+
+SERS Nanobiosensor: Overview
+• SERS = Surface-Enhanced Raman Spectroscopy; provides molecular
+fingerprints.
+• Plasmonic nanostructures (Ag/Au) create strong local fields (hotspots).
+• Combine SERS substrate with capture probes (aptamers/antibodies) for
+selectivity.
+
+SERS Fundamentals
+• Raman scattering measures vibrational modes; specific peaks = molecule
+signature.
+• Electromagnetic enhancement from plasmon resonance scales..
+• Hotspots (nanogaps) give the largest enhancement; single-molecule sensitivity
+possible.
+
+Nanomaterials & Substrate Design
+• Choice of metal (Ag stronger SERS; Au more stable) affects resonance.
+• Particle geometry (stars, rods, gaps) tunes hotspot intensity.
+• Substrate uniformity & reproducible fabrication are essential for clinical use.
+
+Excitation Wavelength & Practical Considerations
+• Common lasers: 532 nm (resonant dyes), 633 nm, 785 nm (bio-friendly), 1064
+nm (high autofluorescence samples).
+• Balance: stronger scattering (shorter λ) vs. fluorescence/background and sample
+heating.
+• Laser power and exposure time must be optimized for clinical samples.
+
+Workflow
+Pipeline:
+
+Diagnostic Workflow (Patient → Answer)
+• 1) Sample collection at bedside/lab.
+• 2) Sample prep (optional: concentrate, lyse or microfluidic separation).
+• 3) Apply to SERS biosensor (capture probes bind LPS/LTA/PGN).
+• 4) Acquire Raman spectrum and analyze for biomarker peaks.
+• 5) Output: presence/absence of bacterial markers and Gram classification.
+
+Clinical Utility & Impact
+• Rapid Gram-level info enables earlier targeted antibiotics (improves survival).
+• Less empiric broad-spectrum use → supports antimicrobial stewardship.
+• Portable SERS devices can enable near-patient, point-of-care testing in ED/ICU.
+
+Challenges & Roadmap
+● Extensive literature review done and finalization of biomarker .
+● SERS simulations initiated to optimize spectral response and substrate
+design.
+● Next: experimental validation of simulation results using standard samples.
+● Prototype fabrication and spectral benchmarking planned in next phase.
+● Key challenges: ensuring signal reproducibility, substrate uniformity, and
+scaling for real-world use.
+● Long-term goal: translate optimized SERS workflow into a portable sepsis
+diagnostic device.
+
+Competitive Advantage & Market Differentiation :
+Feature
+
+Blood Culture
+
+PCT/CRP Tests
+
+Our SERS
+Biosensor
+
+Time-to-Result
+
+24-72 hours
+
+~1 hour
+
+< 30 MINUTES *
+
+Pathogen Specificity
+
+Yes
+
+No
+
+YES (Bacterial &
+Gram-Type)
+
+AMR Guidance
+
+Delayed
+
+No
+
+IMMEDIATE
+
+Platform
+
+Central Lab
+
+Point-of-Care
+
+POINT-OF-CARE
+
+Key Message: With the help of this project we envision to bridge the gap between speed and specificity
+
+References
+1. Singer M. et al., The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA. 2016.
+2. Kundu A. et al., SERS detection of sepsis biomarkers on Ag–BP platform. Sensors/Diagnostics, 2022.
+3. Hung S. K. et al., Current Evidence and Limitations of Biomarkers for Detecting Sepsis. Biomedicines, 2020.
+4. Hassan M. et al., Advances in Bacterial Detection Using SERS. Biosensors (2024).
+5. Raetz CRH, Whitfield C., Lipopolysaccharide endotoxins. Annu Rev Biochem. 2002.
+6. NICE Guideline NG51, Sepsis: recognition, diagnosis and early management. 2017.
+7. Recent reviews on sepsis biomarkers and SERS-based diagnostics (2023–2025).
+8.Evans L, et al. Crit Care Med. 2021;49(11):e1063-e1143.
+10.He R‑R, et al. Sepsis biomarkers: advances and applications. IJMS 2024
+9.Wang A, et al. Chem Soc Rev. 2024;53:1108-1132.
+11.Langer J, et al. ACS Nano. 2019;14(1):28-117.
+12,Karmacharya et al., “Nanoplasmonic SERS on Fidget Spinner for Digital Bacterial Identification,” Microsyst. Nanoeng., 2025
+13
+
+

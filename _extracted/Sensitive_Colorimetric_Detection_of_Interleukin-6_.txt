@@ -1,0 +1,414 @@
+FILE: Sensitive_Colorimetric_Detection_of_Interleukin-6_.pdf
+NPAGES: 8
+
+--- page 1 ---
+ORIGINALRESEARCH
+published:26November2021
+doi:10.3389/fbioe.2021.778269
+Sensitive Colorimetric Detection of
+via
+Interleukin-6 Lateral Flow Assay
+fi
+Incorporated Silver Ampli cation
+Method
+Mohammad Rahbar1, YulingWu2,J. AnandSubramony3* andGuozhenLiu1,4*
+1GraduateSchoolofBiomedicalEngineering,TheUniversityofNewSouthWales,Kensington,NSW,Australia,2Integrated
+Bioanalysis,ClinicalPharmacologyandQuantitativePharmacology,BioPharmaceuticalsR&D,AstraZeneca,Gaithersburg,MD,
+UnitedStates,3BiologicsEngineeringR&D,AstraZeneca,Gaithersburg,MD,UnitedStates,4SchoolofLifeandHealthSciences,
+TheChineseUniversityofHongKong,Shenzhen,China
+Interleukin-6(IL-6)isapro/anti-inflammatorycytokine,thequantitativedetectionofwhich
+has been extensively considered for diagnosis of inflammatory associated diseases.
+Editedby:
+However, there has not yet been a reliable, low-cost, and user-friendly platform
+CanDincer,
+UniversityofFreiburg,Germany developed for point-of-care (POC) detection of IL-6, which will eliminate the
+Reviewedby: conventional costly, time-consuming, and complex assays. In this work, we developed
+AnatolyV.Zherdev, alateralflowassayforcolorimetricdetectionofIL-6,usinganti-IL-6antibodiesconjugated
+BachInstituteofBiochemistry,
+togoldnanoparticles(AuNPs)asthedetectionprobes.Silveramplificationtechniquewas
+ResearchCenterofBiotechnology
+(RAS),Russia incorporatedwiththenewlydevelopedassayinordertoenhancetheobtainedcolorimetric
+SandeepSurendraPanikar,
+signals, allowing sensitive detection of IL-6 in human serum in the desired physiological
+WashingtonUniversityMedical
+Center,UnitedStates ranges (i.e., 5–1000pg/mL). A limit of detection of 5pg/mL could be achieved for IL-6
+detection in serum with the amplification step which was not achievable in the standard
+*Correspondence:
+GuozhenLiu assay. The corresponding specificity and reproducibility tests were all preformed to
+liuguozhen@cuhk.edu.cn confirmthereliabilityofthisassayforquantitativemeasurementofIL-6inaPOCmanner.
+J.AnandSubramony
+anand.subramony@ Keywords:point-of-carediagnostics,lateralflowimmunoassay,interleukin-6,silverenhancementreagent,paper
+astrazeneca.com
+teststrips,colorimetricdetection
+Specialtysection:
+INTRODUCTION
+Thisarticlewassubmittedto
+BiosensorsandBiomolecular
+Inflammatorydiseasesincludeconditionsthatarecharacterizedbyinflammation.Examplesinclude
+Electronics,
+asectionofthejournal allergy, asthma, autoimmune diseases, hepatitis, inflammatory bowel disease, preperfusion injury,
+FrontiersinBioengineeringand andtransplantrejection.Whilemanyofthesearelifethreating,diseasessuchasSepsisareonethe
+Biotechnology mostcommonandmajorcausesofmortalityobservedallaroundtheworld.Thus,earlyandefficient
+Received:16September2021 diagnosisofsuchhealthdisordersarecrucialforhighersurvivalratesofpatientsincludingtheonset
+Accepted:04November2021 of worsening inflammatory conditions using biomarkers or assays. There have been numerous
+Published:26November2021 biomarkersreportedintheliteratureforinflammatorysignals,theconcentrationofwhichinbody
+Citation: fluidsiscorrelatedwithconditions.Cytokinesareoneoftheseproteinbiomarkerswhicharepresent
+RahbarM,WuY,SubramonyJand indifferentbiologicalsamplessuchasserum,blood,saliva,andsweat,representinghighcorrelations
+LiuG(2021)SensitiveColorimetric withinflammation,especiallywhentheyareinabnormallevels(Serugaetal.,2008;Kumarietal.,
+DetectionofInterleukin-6viaLateral 2016; Kany et al., 2019). Cytokine storm is one type of life-threatening systemic inflammatory
+FlowAssayIncorporatedSilver
+AmplificationMethod.
+Front.Bioeng.Biotechnol.9:778269.
+doi:10.3389/fbioe.2021.778269 Abbreviations:CV,coefficientvariance;SD,standarddeviation
+FrontiersinBioengineeringandBiotechnology|www.frontiersin.org 1 November2021|Volume9|Article778269
+
+--- page 2 ---
+Rahbaretal. POCTforCytokineMonitoring
+syndromes resulting in elevated levels of circulating cytokines. biomarker.Therefore,developmentofaviableplatformforPOC
+Thecytokinestormcouldsignificantlyincreasethemortalityand quantitativedeterminationofIL-6willbehighlyadvantagesfor
+morbidity for the current SARS-CoV-2 infection. (Han et al., early diagnosis of disease states and real time management of
+2020;Ragabetal.,20202020).Thus,detectionandmonitoringof patients.
+thesebiomarkerscanbeusefulfordiagnosisofthesediseases.The Lateral flow immunoassays (LFAs), have been very well
+currentlaboratory-basedtestingsofcytokinesareextremelytime- developed and established for a wide variety of applications
+consuming,involvesbatchprocessingofsamples,andinefficient, including clinical diagnostics, food, and water samples testings,
+thereby delaying the timely diagnosis process, which can and environmental monitoring. LFAs offers some unique
+consequently lead to higher risks of death in some cases. advantages such as simplicity, user-friendliness, low-cost, and
+Therefore, sensor technologies, especially the point-of-care easy fabrication process, which make them ideal platforms for
+diagnostic tools have gained extensive attention in order to POCtestings.AstandardLFAincludesareporterprobecapable
+provide more rapid and robust platforms for detection of the of interacting with the target analyte followed by a secondary
+correspondingbiomarkers(StenkenandPoschenrieder,2015;Liu interaction at the test zone (T-line) on the nitrocellulose
+et al., 2021a; Liu et al., 2021b). membrane, indicating the assay signal (Wang et al., 2016;
+Interleukin 6 (IL-6) is a pro/anti-inflammatory cytokine, Huang et al., 2020a; Shirshahi and Liu, 2021). Different types
+secreted by immune system cells, which has been extensively ofLFAsweredevelopedfordetectionofIL-6(Wangetal.,2019;
+consideredasabiomarkerfordiagnosisofinflammationrelated Huang et al., 2020b; Ruppert et al., 2020). A doubled-antibody
+diseases. IL-6 protein consists of 184 amino acids and has basedLFAswasdevelopedusingeuropiumnanoparticlesasthe
+molecular weight of 26kDa. IL-6 is also a significant element fluorescencesignalread-outwithawidelinearrange(2–500pg/
+inotherphysiologicaldisfunctionssuchasactivityofcancercells. mL) and a good sensitivity (0.37pg/mL) (Huang et al., 2020b).
+In addition, there have been some interesting reports Quantumdotswere also usedas thefluorescenceprobe in LFA
+demonstrating a significant association between inflammation for detection of IL-6 with a sensitivity is 0–20nmol/L (Ruppert
+andcancer,resultingfromhighIL-6levelsinthecancerordisease etal.,2020).Asurface-enhancedRamanscattering(SERS)-based
+affectedenvironments(Tanakaetal.,2014).Inhealthyadultsthe lateralflowassay(LFA)isdevelopedforthequantitativeanalysis
+level of IL-6 is normally in the range of 5–25pg/mL, whereas of IL-6 with a linear range from 1pg/mL to 1μg/mL, and the
+higherlevels(e.g.,upto1,000pg/mL)ofIL-6inserumorblood sensitivityofIL-6inwholebloodis5pg/mL(Wangetal.,2019).
+can be associated with the abnormal physical conditions Even though, there have been so many different types of
+including sepsis or cancer. Our study shows IL-6 level colorimetric, fluorometric or SERS labels used as a reporter in
+increased more than 5 times in a mice model with Parkinson’s LFAs,goldnanoparticles(AuNPs)havegainedhighpopularityin
+disease by comparing with a control mice group. (Shen et al., thisregardduetomultiplefeaturessuchaseasypreparation,high
+2020). It has been reported several times that IL-6 level above affinityforthedetectionantibodies,andthepossibilityfornaked-
+500pg/mLcanbeextremelyvital,leadingtodeathinmanycases. eye colorimetric detection. However, when it comes to highly
+Since IL-6 is present in very low levels (i.e., pg/mL ranges) in sensitive quantitative analysis of some biomarkers in low
+extracellular environment, sensitive, rapid, and accurate abundance such as cytokines, AuNPs are not fully capable of
+detection of IL-6 protein can be challenging (Liu et al., 2021a). coveringthedesireddemandofsensitivedetections(Bahadırand
+Anotherkeyindicationassociatedwithexcesscytokinesiscalled Sezgintürk,2016;Borseetal.,2020).Nevertheless,severalsignal
+cytokine release syndrome (CRS), an acute systemic amplification techniques have been developed in order to
+inflammatory syndrome characterized by fever that could be compensate the mentioned weakness, allowing sensitive
+due to after treatment effects with certain types of colorimetric determination of different analytes via AuNP-
+immunotherapy, such as monoclonal antibodies and CAR-T based LFAs. Silver amplification is one of those methods,
+cells. IL-6 seems to hold a key role in CRS pathophysiology which is based on nucleation of silver upon gold surface at the
+sincehighlyelevatedIL-6levelsareseeninpatientswithCRS.In testorcontrollinesofLFAstrips,enhancingtheintensityofthe
+essence, cytokine release syndrome is caused by a large, rapid obtained colorimetric signal (Anfossi et al., 2013; Bishop et al.,
+releaseofcytokinesintothebloodfromimmunecellsaffectedby 2019).Silverenhancementtechniquehasbeenreportedinseveral
+the immunotherapy. Conventional batch process of cytokine studies as a simple and efficient method to achieve high
+assays such as enzyme-linked immunosorbent assay (ELISA) sensitivities in LFAs. Rodríguez et al. investigated different
+cannot measure CRS and its onset in real time leading to approaches to perform silver enhancement in LFAs in order to
+multiple complications for patients. The non-real time findoutthemostoptimalonetodetect prostatespecificantigen
+measurement also does not allow adaptive therapy to patients (PSA).Theydemonstratedthatwiththesilverenhancementa3-
+on time. foldsensitivityimprovementcanbeachievedfordetectionofPSA
+Therehavebeenvariousplatformsdevelopedforquantitative atlevelsaslowas0.1ng/mL(Rodríguezetal.,2016).Inanother
+detection of IL-6, and ELISA can be regarded as the most work, silver enhancement was utilized to develop a highly
+conventional and standard technique in this regard (Liu et al., sensitive LFA for detection of R. solanacearum as a dangerous
+2017;Qietal.,2017;Russelletal.,2019).However,theavailable pathogeninagriculturalcropsanda10-foldimprovement(LOD
+conventional methods rely on expensive or bulky instruments, 200CFU/mL)insensitivitywasobserved(Panferovetal.,2016).
+trained personnel, complex and time-consuming assays, which In a similar work, a highly-sensitive LFA incorporating silver
+makethemunsuitableforpoint-of-care(POC)detectionofthis enhancementwasdevelopedforrapiddetectionofpotatoleafroll
+FrontiersinBioengineeringandBiotechnology|www.frontiersin.org 2 November2021|Volume9|Article778269
+
+--- page 3 ---
+Rahbaretal. POCTforCytokineMonitoring
+virus (PLRV), where the sensitivity (detection limit 0.2ng/mL) Axxin,Victoria,Australia).MesoScaleDiscovery(MSD)human
+was improved as a 15-fold compared to conventional LFA IL-6 kit (Meso Scale Diagnostics, LLC) was supplied from Bio-
+(Panferov et al., 2018). The applicability of silver enhancement StrategyPtyLtd.,AustraliaandusedtovalidatethemeasuredIL-
+wasalsodemonstratedforcompetitivelateralflowassaysaswell 6 concentrations in the tested serum samples.
+asregularsandwichassays,wheretheconcertationofochratoxin
+A(OTA)wasmeasuredinbeverageswitha10-foldimprovement
+ConjugationofInterleukin6AntibodiesWith
+insensitivity(YeandXia,2018).Thisworkpresentsdevelopment
+ofapaper-basedlateralflowassay(LFA)forrapid,low-cost,and Gold Nanoparticles
+user-friendlyquantitativedeterminationofIL-6inthebiological Initially, 1mL of the colloidal gold solution was taken and its
+samplesinaPOCmanner.Thisassayusesgoldnanoparticlesas media(i.e.,citratebuffer)wasreplacedbysodiumboratebuffer
+thecolorimetricrecognition tagswhichareconjugated withthe (2mM, pH (cid:1) 8.5) via centrifugation at 7,000rpm, for 10min.
+specificIL-6detectionantibodies.Sincethetargetdetectionlimit Then,5μLofIL-6humanmonoclonalantibody(0.2mg/mL)was
+for IL-6 is extremely low (i.e., in pg/mL range), a signal added into the AuNP solution and incubated for 1h at room
+amplification method is incorporated with this colorimetric temperature(RT)withgentleagitation.Afterward,1%w/vBSA
+assay in order to reach the desired sensitivities. Herein, silver was added into the conjugate solution as a blocking agent and
+amplificationtechniquehasbeenusedasasimple,low-cost,and incubationwascarriedoutforanother30minatRT.Finally,the
+viable amplification approach to enhance the color intensity of solution was centrifuged (7,000rpm for 10min) and the
+theobtainedcolorimetricsignalsforIL-6detectionviatheLFA supernatant was discarded and the acquired pellets were
+strips.DespiteofthedemandingsensitivitiesforIL-6detection, redispersed in the storage buffer (Tris-HCL 10mM and pH (cid:1)
+silver amplification successfully allowed highly sensitive 8.2containing BSA1%w/v, Tween-201%v/v, sucrose5%w/v,
+quantitative measurement of IL-6 in both Phosphate buffer and sodium azide 0.01% w/v).
+saline (PBS) and serum samples with a limit of detection
+(LOD) as low as 1 and 5pg/mL, respectively. The specificity
+Preparation of Lateral Flow Immunoassays
+and reproducibility of the assay are investigated by performing
+the corresponding tests in human serum samples in order to Strips
+furtherapprovetheviabilityandreliabilityofthedevelopedassay The nitrocellulose membrane (300 × 25mm) was attached to a
+for facile and sensitive detection of IL-6. plasticbackingpadinordertoprovidetherequiredsupportfor
+the fragile NC membrane. The supported NC membrane was
+placed on the dispenser and the corresponding reagents were
+EXPERIMENTAL SECTION dispensedupontheT-lineandC-linezones.TheT-linereagent
+solution comprised of the biotinylated polyclonal human IL-6
+Materials antibody (0.2mg/mL) and streptavidin (1mg/mL) at a 1:1 mix
+Human IL-6 monoclonal antibody (MAB206), biotinylated ratio,whichwaspreliminaryincubatedatRTfor1h.Goatanti-
+polyclonal antibody (BAF206), and mouse IgG (AF007) mouse IgG antibody (0.5mg/mL) was directly dispensed at the
+antibody, along with recombinant human IL-6 protein (206- C-line zone. Dispensing was performed with defined setting
+IL) were all supplied from R&D Systems (Minneapolis, parameters including a dispensing volume of 0.3μL/cm and
+United States). Other recombinant human cytokines including speed of 100mm/s. After dispensing, the NC membrane was
+IFN-c,IL-2,IL-10,andIL-1βwerealsoallpurchasedfromR&D driedin a vacuum oven at37°C for 2h. Meanwhile,thesample
+Systems and used in the specificity tests. PBS (0.01M, pH 7.4), pad (300 × 25mm) was treated with the treatment buffer (PBS
+streptavidin, sucrose, citric acid, boric acid, Tween-20, Tris, pH(cid:1)7.4containingBSA1%w/v,Tween-200.25%v/v,sucrose
+sodium tetraborate, bovine serum albumin (BSA), silver 2%) and dried at 37°C for 2h. Finally, the sample pad and
+nitrate, sodium azide, hydroquinone, and human serum were absorbent pad (300 × 25mm) were attached to the backing
+purchased from Sigma-Aldrich (Castle Hill, NSW, Australia). pad, overlapping the NC membrane with a 2mm margin. The
+Glass fiber sample pad (SB06), absorbent pad, nitrocellulose complete LFA strip was then cut into individual strips (30 ×
+membrane, and backing pad were purchased from Shanghai 5mm) for further use.
+Kinbio Tech. Gold nanoparticles (AuNPs, 60nm) were
+acquired from Ted Pella, Inc. (Redding, CA, United States). Lateral Flow Immunoassay Protocol
+Water was treated with a Millipore (Bedford, MA, IL-6standardsolutionswerepreparedbydilutingastocksolution
+United States) Milli-Q water purification system and was used (100μg/mL)ofIL-6insamplebuffer(PBSwithBSA0.1%w/v).
+throughout. The volume of used Au-antibody conjugate was optimized in
+order to find out the least amount of required conjugate while
+Equipment generatingthehighestassaysensitivity.ThestandardLFA(i.e.,no
+Aguillotinestripcutter(ZQ2002),aXYZdispenser(HM3035), amplification) was performed by adding 5μL of Au conjugate
+and a vacuum drying oven (PH050A) were all supplied from into65μLofIL-6sample,followedbyincubationatRTfor5min.
+Kinbio Tech. Co., Ltd. (Shanghai, China) and implemented Afterwards,thesamplewasloadedintothesamplepadofpaper
+throughout for fabrication of LFAs. The quantitative image strips and then the signal readout was carried out after 15min
+analysis was carried out using a standard LFA reader (Ax-2x, using the Axxin reader. Basically, the presented IL-6 LFA is a
+FrontiersinBioengineeringandBiotechnology|www.frontiersin.org 3 November2021|Volume9|Article778269
+
+--- page 4 ---
+Rahbaretal. POCTforCytokineMonitoring
+SCHEME1|(A)standardIL-6assayprinciple:1)IL-6analytewillbindwiththemonoclonalantibodyconjugatedonAuNPs.2)TheIL-6-conjugatecomplexwill
+movetowardtheTandCzones.3)TheformedcomplexwillbecapturedattheT-linebyimmobilizedIL-6polyclonalantibody.4)Freeexcessconjugateswilltravelfurther
+alongthestripuntiltheyreachtheC-linezoneandarecapturedbytheanti-IgGantibody.(B)Effectofsilveramplificationontheobtainedcolorimetricsignalsuponthe
+paperstrips.
+sandwich immunoassay, implementing AuNPs-antibody solutionwaspreparedfreshlybymixinga1:1ratioofsilvernitrate
+conjugates as the colorimetric signalling tags. As shown in (0.5%w/vinwater)andhydroquinone(3%w/vin0.5Mcitrate
+Scheme 1A, the IL-6-Au-anti-IL-6 antibody conjugate buffer, pH (cid:1) 4.0). 65μL of the enhancement solution was
+complex will be loaded into the sample pad of strips which introduced into the sample pad of strips and then strips were
+will then move toward the T-line and C-line zones. At the
+T-line, the complex will be captured by the immobilized
+polyclonal anti-IL-6 antibody. The excess of conjugates will
+move even further, where they are captured by the IgG
+antibody present at the C-line. The appearance of two red
+lines indicates a positive response. However, if there is no IL-6
+analytepresentintheintroducedsample(i.e.,nocomplex),there
+will not be any color band formed at the T-line, indicating a
+negative response.
+Silver Enhancement Procedure
+After performing the standard assay (as described above), the
+silveramplificationwasappliedonthestripsinordertoenhance
+the generated colorimetric signals. Before loading the
+enhancement solution, the absorbent pads of paper strips were
+driedupbytissuepapers(suckinguptheaccumulatedsolution) FIGURE1|EffectoftheusedAu-antibodyconjugate’svolumeonthe
+inordertorecovertheirabsorptioncapacity,whichwasobviously
+T-lineintensity(IL-6(cid:1)100pg/mL).Actualphotographofpaperstripsisshown
+intheinset.
+diminishedthroughthestandardassay.Thesilverenhancement
+FrontiersinBioengineeringandBiotechnology|www.frontiersin.org 4 November2021|Volume9|Article778269
+
+--- page 5 ---
+Rahbaretal. POCTforCytokineMonitoring
+FIGURE2|(A)PhotographsofpaperstripsshowingtheintensityofobtainedT-linesafterandbeforeamplificationstep.(B)Thecorrespondingcalibrationcurvefor
+IL-6detectioninPBSwithandwithoutsilveramplification.
+immediatelytransferredintoadarkplaceforsilverenhancement intensity. The optimization results are shown in Figure 1,
+process.Subsequently,theamplifiedsignalsweremeasuredafter depicting the correlation between the conjugate volume and
+15min. In the case of 100% human serum sample, the assay T-linecolorintensity(i.e.,thetargetsignal).Asaresult,5μLof
+reading time was 30min. The working principle of silver Auconjugatewasusedthroughoutastheoptimumamountfor
+amplification is shown in Scheme 1B. Herein, the intensity of the corresponding assays.
+obtainedcolorbands(colorimetricsignals)inthestandardassay
+will be enhanced through the amplification process.
+Calibration Curve With and Without
+Amplification
+RESULTS AND DISCUSSION After finding the optimum volume of Au conjugate, the
+calibration curve was obtained using standard IL-6 samples
+Optimization of Au-Antibody Conjugate’s (0–2000pg/mL) in PBS. It was observed that below the
+Volume concentration of 50pg/mL, there was no visible color band
+Initially,thevolumeofAuconjugatewasoptimizedinorderto formed at the T-line, so this was considered as the detection
+findouttheminimumamountofconjugaterequiredtorunthe limitofthestandardassay.Therefore,thestandardassaydidnot
+assay, while providing the desired sensitivity. Three different provide the required sensitivity (i.e., 10pg/mL) and a signal
+volumes (1, 5, and 10μL) of conjugates were used to run the amplification step was necessary in order to reach the target
+assay with constant concentration (i.e., 100pg/mL) of detectionlimit.Herein,silveramplificationtechnique,asawell-
+standard target IL-6 analyte. Based on our studies, a 5μL established colorimetric signal amplification method in LFAs,
+volume of conjugate was found to be sufficient for creating was implemented to resolve this issue. After applying
+a visible T-line. Using higher volumes (e.g., 10μL) would be amplification, the intensity of color bands was significantly
+redundant as it did not make a significant difference on the enhanced and strong signals could be achieved as it was easily
+obtained signal at the T-line. On the other hand, lower visiblebythenakedeyeevenatlowconcentrationsbelow50pg/
+amounts (e.g., 1μL) do not produce signals with enough mL.Theactualphotographsofthepaperstripsbeforeandafter
+FrontiersinBioengineeringandBiotechnology|www.frontiersin.org 5 November2021|Volume9|Article778269
+
+--- page 6 ---
+Rahbaretal. POCTforCytokineMonitoring
+FIGURE3|(A)PhotographsofLFAstripsfordetectionofIL-6inhumanserumsamplesafterapplyingthesilveramplificationtechnique.(B)Corresponding
+calibrationcurveforIL-6detectioninserumsample.
+amplificationarepresentedinFigure2A,comparingtheintensity Specificity Tests
+of generated color bands at the T-lines. This resulted in the Thespecificitytestwasperformedbypreparingstandardsamples
+obtained LOD (i.e., in standard assay) being considerably (1,000pg/mL)ofdifferenthumancytokines(IFN-c,IL-2,IL-10,
+improved down to 1pg/mL which was even better than what and IL-1β) in serum and then running the assay for each
+was required for IL-6 detection. The acquired calibration curve individual sample. It was observed the assay only responds to
+for detection of IL-6 in PBS, with and without amplification is the target IL-6 sample, while there was no significant signal
+shown in Figure 2B. obtained for other tested cytokine samples, confirming the
+high specificity of the developed assay. Results regarding these
+specificitytestsareshowninFigure4A.Thespecificitytestwas
+Interleukin 6 Lateral Flow Immunoassay in
+also further evaluated by running the assay for IL-6 samples
+Human Serum (100pg/mL) containing excess amount (1,000pg/mL) of other
+After establishing the IL-6 LFA in PBS, the performance of individual cytokines as potential interferences. Results showed
+assay was tested in 100% serum samples spiked with IL-6 thatthepresenceofothercytokines(evenataleveloftentimes
+protein (5–1,000pg/mL). As expected, the serum matrix higher than the target IL-6 analyte) does not affect the
+reduced the obtained signal intensity, which consequently performance of the assay as no interference was recorded. In
+impactedtheLODofthestandardassaybyincreasingitupto other words, the assay is totally selective for the target IL-6
+200pg/mL(vs50pg/mLforPBS).However,takingadvantage analyte. The assay response in these specificity tests is
+ofthesilveramplification,theIL-6detectionintherequired presented in Figure 4B, showing the almost similar signal
+analytical range could be still achieved by having a LOD of intensities (CV% (cid:1) 7.2) obtained for all tested samples
+5pg/mL. These results indicate that silver amplification is a regardless of the type of interfering cytokine present.
+necessity in order to achieve the required sensitivity in the
+colorimetric IL-6 LFA assay. Photographs of paper strips Reproducibility Tests
+along with the corresponding calibration curve for IL-6 ThereproducibilitytestsforthedevelopedIL-6LFAswerecarried
+detection in serum samples are shown in Figure 3. In outbyassessingtheperformanceoftheteststripsinthreeseparate
+order to validate the obtained results, MSD system was time intervals (1day, 1week, 1month, n (cid:1) 3 for each) after
+used in parallel to measure the concentration of IL-6 in preparation. Herein, two different concentrations (5 and 100pg/
+serum samples, which illustrated a good agreement with mL)ofIL-6weretested.Theseresultsindicatethattheassayprovides
+the developed IL-6 LFA (within 10% error). areasonablereproducibilityforcolorimetricPOCdetectionofIL-6
+FrontiersinBioengineeringandBiotechnology|www.frontiersin.org 6 November2021|Volume9|Article778269
+
+--- page 7 ---
+Rahbaretal. POCTforCytokineMonitoring
+in biological samples. This assay incorporates silver
+amplification technique as a viable, low-cost, user-friendly,
+andefficientmethod forenhancingtheobtainedcolorimetric
+signalsfromLFAs.ThepresentassayallowsdetectionofIL-6
+inserumsamplesinthedynamicrangeof5–1,000pg/mLwith
+aLODof5pg/mL.Thespecificitytestsindicatedtheviability
+of the assay for detection of IL-6 target analyte in real
+biological samples. The reproducibility tests also represent
+the reliability of the developed assay for detection of IL-6 in
+varying conditions. The fully colorimetric nature of the
+developed assay presents potentials for applicability of this
+assayinpoint-of-caredetectionofsuchasignificantbiomarker
+(i.e., IL-6) in low-resource settings. Future work remains to
+develop this system further for detection of IL-6 in whole
+bloodsamplesbyoptimizingboththechemistryanddesignof
+the present assay. For instance, a sample preparation
+comportment (e.g., a plasma separation membrane) can be
+incorporated into the present LFA strips to filter out the red
+bloodcells,enhancingthevisibilityofthecolorimetricsignals.
+Meanwhile,sensitivityofLFAcanbefurtherimprovedtomeet
+the requirement of clinical detection by applying signal
+amplification technologies in POCT, such as CRISPR/Cas
+biosensing system (Liu et al., 2019; Dai et al., 2020; Lin
+et al., 2021; Shirshahi and Liu, 2021). Furthermore, the
+colorimetric feature of this assay allows further
+developments targeting smartphone-based POC detection of
+FIGURE4|SpecificitytestsforthedevelopedIL-6assay.(A)Individual IL-6 and also other similar cytokines. Therefore, a
+cytokinesamples.(B)IL-6samplescontainingexcessamountofindividual smartphone-based readout system (i.e., a smartphone
+cytokines.Alltestswereperformedin100%serumsample(n(cid:1)3). holder/light box) can be coupled with this assay to replace
+the herein implemented expensive LFA reader, enabling on-
+site,facile,andrapidimageanalysisforIL-6detection.Finally,
+this work can be extended for detection of other human
+TABLE1|Reproducibilitytest.LFAinthreedifferenttimeintervals(1day,1week, cytokines such as IFN-c, IL-2, IL-10, IL-1β, et al.
+and1month)andbatchtobatchtest.
+IL-6pg/mL Batchtobatchtest Timeintervals
+DATA AVAILABILITY STATEMENT
+3batches,n=3ateach 3intervals,n=3ateach
+— Mean±SD(Tintensity) CV% Mean±SD(Tintensity) CV% Theoriginalcontributionspresentedinthestudyareincludedin
+5 594±75 13.4 450±86 19.2 the article/Supplementary Material, further inquiries can be
+100 2800±101 3.6 2380±304 9.8 directed to the corresponding authors.
+AUTHOR CONTRIBUTIONS
+analyte.TheacquiredsignalsinthisregardarepresentedinTable1.
+The batch-to-batch reproducibility was also assessed by preparing
+GLandJASdesignedtheproject,managedtheproject,revisedthe
+threeindividualbatchesofIL-6LFAstripsandrunningtheassayfor
+project.MRperformedtheexperiment,didthedataanalysisand
+twodifferentconcentrations(5and100pg/mL,n(cid:1)3foreachbatch)
+drafted the manuscript. YW did data analysis and revised the
+ofIL-6samples.Similarly,resultsshowedrelativelyconsistentsignal
+manuscript.
+intensitiesobtainedfromdifferentbatchesofteststrips.Theaverage
+measured signals for each tested concentration along with the
+calculatedCV%arepresentedinTable1. FUNDING
+This work was financially supported by Medimmune/
+CONCLUSION AstraZeneca Industry Fund, the ARC Future Fellowship
+(FT160100039), and the Chinese University of Hong Kong
+Inthiswork,apaper-basedLFAwassuccessfullydevelopedfor (Shenzhen) Presidential Fellowship, and the National Natural
+colorimetric point-of-care quantitative determination of IL-6 Science Foundation of China (Grant 2217040168).
+FrontiersinBioengineeringandBiotechnology|www.frontiersin.org 7 November2021|Volume9|Article778269
+
+--- page 8 ---
+Rahbaretal. POCTforCytokineMonitoring
+REFERENCES VivoMonitoringofInterleukin-6.ACSAppl.Mater.Inter.9(48),41659–41668.
+doi:10.1021/acsami.7b10753
+Ragab,D.,SalahEldin,H.,Taeimah,M.,Khattab,R.,andSalem,R.(20202020).
+Anfossi, L., Di Nardo, F., Giovannoli, C., Passini, C., and Baggiani, C. (2013). TheCOVID-19CytokineStorm;whatWeKnowSoFar.Front.Immunol.11,
+IncreasedSensitivityofLateralFlowImmunoassayforOchratoxinAthrough 1446.doi:10.3389/fimmu.2020.01446
+SilverEnhancement.Anal.Bioanal.Chem.405(30),9859–9867.doi:10.1007/ Rodríguez,M.O.,Covián,L.B.,García,A.C.,andBlanco-López,M.C.(2016).
+s00216-013-7428-6 Silver and Gold Enhancement Methods for Lateral Flow Immunoassays.
+Bahadır,E.B.,andSezgintürk,M.K.(2016).LateralFlowAssays:Principles,Designs Talanta148,272–278.doi:10.1016/j.talanta.2015.10.068
+andLabels.TracTrendsAnal.Chem.82,286–306.doi:10.1016/j.trac.2016.06.006 Ruppert,C.,Kaiser,L.,Jacob,L.J.,Laufer,S.,Kohl,M.,andDeigner,H.P.(2020).
+Bishop,J.D.,Hsieh,H.V.,Gasperino,D.J.,andWeigl,B.H.(2019).Sensitivity DuplexShinyAppQuantificationoftheSepsisBiomarkersC-ReactiveProtein
+EnhancementinLateralFlowAssays:aSystemsPerspective.Lab.Chip19(15), and Interleukin-6 in a Fast Quantum Dot Labeled Lateral Flow Assay.
+2486–2499.doi:10.1039/c9lc00104b J.Nanobiotechnology18,130.doi:10.1186/s12951-020-00688-1
+Borse,V.B.,Konwar,A.N.,Jayant,R.D.,andPatil,P.O.(2020).Perspectivesof Russell,C.,Ward,A.C.,Vezza,V.,Hoskisson,P.,Alcorn,D.,Steenson,D.P.,
+Characterization and Bioconjugation of Gold Nanoparticles and Their et al. (2019). Development of a Needle Shaped Microelectrode for
+ApplicationinLateralFlowImmunosensing.DrugDeliv.Transl.Res.10(4), Electrochemical Detection of the Sepsis Biomarker Interleukin-6 (IL-6)
+878–902.doi:10.1007/s13346-020-00771-y in Real Time. Biosens. Bioelectron. 126, 806–814. doi:10.1016/
+Dai, Y., Wu, Y., Liu, G., and Gooding, J. J. (2020). CRISPR Mediated j.bios.2018.11.053
+Biosensing toward Understanding Cellular Biology and Point-of-Care Seruga,B.,Zhang,H.,Bernstein,L.J.,andTannock,I.F.(2008).Cytokinesand
+Diagnosis. Angew. Chem. 132, 20938–20950. doi:10.1002/ TheirRelationshiptotheSymptomsandOutcomeofCancer.Nat.Rev.Cancer
+ange.202005398 8(11),887–899.doi:10.1038/nrc2507
+Han,H.,Ma,Q.,Li,C.,Liu,R.,Zhao,L.,Wang,W.,etal.(2020).ProfilingSerum Shen,Z.,Huang,J.,Wei,H.,Niu,H.,Li,B.,Li,R.,etal.(2020).ValidationofanIn
+CytokinesinCOVID-19PatientsRevealsIL-6andIL-10AreDiseaseSeverity VivoElectrochemicalImmunosensingPlatformforSimultaneousDetectionof
+Predictors. Emerging Microbes & Infections 9, 1123–1130. doi:10.1080/ Multiple Cytokines in Parkinson’s Disease Mice Model. Bioelectrochemistry
+22221751.2020.1770129 134,107532.doi:10.1016/j.bioelechem.2020.107532
+Huang,D.,Ying,H.,Jiang,D.,Liu,F.,Tian,Y.,Du,C.,etal.(2020).Rapidand Shirshahi,V.,andLiu,G.(2021).EnhancingtheAnalyticalPerformanceofPaper
+SensitiveDetectionofInterleukin-6inSerumviaTime-ResolvedLateral LateralFlowAssays:FromChemistrytoEngineering.TracTrendsAnal.Chem.
+Flow Immunoassay. Anal. Biochem. 588, 113468. doi:10.1016/ 136,116200.doi:10.1016/j.trac.2021.116200
+j.ab.2019.113468 Stenken, J. A., and Poschenrieder, A. J. (2015). Bioanalytical Chemistry of
+Huang,L.,Tian,S.,Zhao,W.,Liu,K.,Ma,X.,andGuo,J.(2020).Multiplexed Cytokines - A Review. Analytica Chim. Acta 853, 95–115. doi:10.1016/
+Detection of Biomarkers in Lateral-Flow Immunoassays. Analyst 145 (8), j.aca.2014.10.009
+2828–2840.doi:10.1039/c9an02485a Tanaka, T., Narazaki, M., and Kishimoto, T. (2014). IL-6 in Inflammation,
+Kany,S.,Vollrath,J.T.,andRelja,B.(2019).CytokinesinInflammatoryDisease. Immunity, andDisease.ColdSpring HarborPerspect.Biol.6(10),a016295.
+Ijms20(23),6008.doi:10.3390/ijms20236008 doi:10.1101/cshperspect.a016295
+Kumari, N., Dwarakanath, B. S., Das, A., and Bhatt, A. N. (2016). Role of Wang,K.,Qin,W.,Hou,Y.,Xiao,K.,andYan,W.(2016).TheApplicationof
+Interleukin-6 in Cancer Progression and Therapeutic Resistance. Tumor LateralFlowImmunoassayinpointofCareTesting:aReview.NanoBiomed.
+Biol.37(9),11553–11572.doi:10.1007/s13277-016-5098-7 Eng.8(3),172–183.doi:10.5101/nbe.v8i3.p172-183
+Lin, X., Wang, G., Ma, L., and Liu, G. (2021). Study on Factors Affecting the Wang, Y., Sun, J., Hou, Y., Zhang, C., Li, D., Li, H., et al. (2019).
+Performance of a CRISPR/Cas-Assisted New Immunoassay: Detection of RETRACTED: A SERS-Based Lateral Flow Assay Biosensor for
+SalivaryInsulinasanExample.Front.Bioeng.Biotechnol.9,752514,1–12. Quantitative and Ultrasensitive Detection of Interleukin-6 in
+Liu,C.,Chu,D.,Kalantar-Zadeh,K.,George,J.,Young,H.A.,andLiu,G.(2021). Unprocessed Whole Blood. Biosens. Bioelectron. 141, 111432.
+Cytokines:FromClinicalSignificancetoQuantification.Adv.Sci.8,2004433. doi:10.1016/j.bios.2019.111432
+doi:10.1002/advs.202004433 Ye,H.,andXia,X.(2018).EnhancingtheSensitivityofColorimetricLateralFlow
+Liu,G.,Jiang,C.,Lin,X.,andYang,Y.(2021).PointofCareDetectionofCytokines Assay(CLFA)throughSignalAmplificationTechniques.J.Mater.Chem.B6
+inCytokineStormManagementandbeyond:SignificanceandChallenges.View (44),7102–7111.doi:10.1039/c8tb01603h
+2,1–20.doi:10.1002/viw2.165
+Liu, G., Zhang, K., Nadort, A., Hutchinson, M. R., and Goldys, E. M. (2017). Conflict of Interest: Authors YW and JAS were employed by the company
+Sensitive Cytokine Assay Based on Optical Fiber Allowing Localized and AstraZeneca.
+Spatially Resolved Detection of Interleukin-6. ACS Sens. 2 (2), 218–226.
+doi:10.1021/acssensors.6b00619 Theremainingauthorsdeclarethattheresearchwasconductedintheabsenceof
+Liu,L.,Yang,D.,andLiu,G.(2019).SignalAmplificationStrategiesforPaper- anycommercialorfinancialrelationshipsthatcouldbeconstruedasapotential
+Based Analytical Devices. Biosens. Bioelectron. 136, 60–75. doi:10.1016/ conflictofinterest.
+j.bios.2019.04.043
+Panferov,V.G.,Safenkova,I.V.,Byzova,N.A.,Varitsev,Y.A.,Zherdev,A. Publisher’sNote:Allclaimsexpressedinthisarticlearesolelythoseoftheauthors
+V., and Dzantiev, B. B. (2018). Silver-enhanced Lateral Flow anddonotnecessarilyrepresentthoseoftheiraffiliatedorganizations,orthoseof
+Immunoassay for Highly-Sensitive Detection of Potato Leafroll Virus. thepublisher,theeditorsandthereviewers.Anyproductthatmaybeevaluatedin
+Food Agric. Immunol. 29 (1), 445–457. doi:10.1080/ thisarticle,orclaimthatmaybemadebyitsmanufacturer,isnotguaranteedor
+09540105.2017.1401044 endorsedbythepublisher.
+Panferov,V.G.,Safenkova,I.V.,Varitsev,Y.A.,Drenova,N.V.,Kornev,K.P.,
+Zherdev, A. V., et al. (2016). Development of the Sensitive Lateral Flow Copyright©2021Rahbar,Wu,SubramonyandLiu.Thisisanopen-accessarticle
+Immunoassay with Silver Enhancement for the Detection of Ralstonia distributedunderthetermsoftheCreativeCommonsAttributionLicense(CCBY).The
+Solanacearum in Potato Tubers. Talanta 152, 521–530. doi:10.1016/ use, distribution or reproduction in other forums is permitted, provided the original
+j.talanta.2016.02.050 author(s)andthecopyrightowner(s)arecreditedandthattheoriginalpublicationinthis
+Qi,M.,Huang,J.,Wei,H.,Cao,C.,Feng,S.,Guo,Q.,etal.(2017).GrapheneOxide journaliscited,inaccordancewithacceptedacademicpractice.Nouse,distributionor
+ThinFilmwithDualFunctionIntegratedintoaNanosandwichDeviceforIn reproductionispermittedwhichdoesnotcomplywiththeseterms.
+FrontiersinBioengineeringandBiotechnology|www.frontiersin.org 8 November2021|Volume9|Article778269
+

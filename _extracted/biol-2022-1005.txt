@@ -1,0 +1,492 @@
+FILE: biol-2022-1005.pdf
+NPAGES: 12
+
+--- page 1 ---
+OpenLifeSciences2025;20:20221005
+Research Article
+Ying Chen, Aixia Yan, Li Zhang, Xiaoming Hu, Liang Chen, Jun Cui, Zichuan Fan, Ying Li*
+fl
+Comparative analysis of in ammatory
+biomarkers for the diagnosis of neonatal sepsis:
+IL-6, IL-8, SAA, CRP, and PCT
+https://doi.org/10.1515/biol-2022-1005
+95%CI0.684–0.867,P<0.001).WhentheIL-8cut-offvalue
+receivedAugust15,2023;acceptedOctober22,2024 was52.03pg/mL,thegreatestAUCforthediagnosisofNS-
+TIs was for IL-8 (0.821). When the IL-8 cut-off value was
+Abstract: Neonatal sepsis (NS) is highly likely to cause
+52.03pg/mL, the greatest AUC for the diagnosis of NS-TIs
+death; however, early diagnosis of NS is still a great chal-
+was for IL-8 (AUC = 0.821, 95% CI 0.745–0.898, P < 0.001).
+lenge.Thisstudyaimedtodeterminethediagnosticvalues
+When the CRP cut-off value was 13.18mg/L, the smallest
+ofIL-6,IL-8,andserumamyloidA(SAA)inNSpatients.C-
+AUCforthediagnosisofNS-TIswasforCRP(AUC=0.762,
+Reactive protein (CRP), procalcitonin (PCT), interleukin
+95% CI 0.667–0.857; P < 0.001). Additionally, according to
+(IL)-6, IL-8, and SAA were detected in 120 infants with NS
+theAUCvalue,thebestcombinationwasSAAandPCTfor
+(60 premature infants [NS-PIs] and 60 term infants [NS-
+NS-PIdiagnosis,andthebestcombinationwasPCTandIL-6
+TIs]). Sixty noninfected premature infants and 60 nonin-
+forNS-TI.Inconclusion,comparedwithPCTandCRP,IL-6,
+fected term infants composed the control group. Receiver
+IL-8,andSAAarebetterdiagnosticbiomarkers.Moreover,
+operating characteristic (ROC) curves were used to deter-
+mine the sensitivity and specificity of IL-6, IL-8, and SAA PCTcombinedwithSAAismoresuitablefordiagnosingNS-
+PIs,andPCTcombinedwithIL-6ismoresuitablefordiag-
+alone and in combination with CRP and PCT. The area
+nosingNS-TIs.
+underthecurve(AUC)wascalculatedtoevaluatethediag-
+nostic value. The clinical characteristics of the subjects Keywords: IL-6, IL-8, SAA, neonatal sepsis, diagnosis, ROC
+were recorded. The expression of CRP, PCT, IL-6, IL-8, curve
+and SAA was upregulated in patients with NS compared
+with control subjects. When the SAA cut-off value was
+10.18mg/L, the greatest AUC for the diagnosis of NS-PIs
+1 Introduction
+was for SAA (AUC = 0.833, 95% CI 0.762–0.905, P < 0.001).
+When the CRP cut-off value was 9.562mg/L, the smallest
+AUCforthediagnosisofNS-PIswasforCRP(AUC=0.776, Neonatal sepsis (NS) is a serious systemic bloodstream
+infection that originates from intrauterine infection or
+local infection, endangering the health and life of new-
+borns [1]. The immature immune system of newborns
+resultsinanimpairedresponsetoinfectiousagents,espe-
+ciallyinprematureinfants[2].Atpresent,themorbidityof
+
+*Correspondingauthor:YingLi,DepartmentofNeonatology, NSisapproximately2%,withmortalityrangingfrom11to
+Children’sHospital,CapitalInstituteofPediatrics,2YabaoRoad, 19% [3]. NS can be divided into two types: early-onset NS
+ChaoyangDistrict,Beijing,100020,China;ChineseAcademyofMedical (within72hofbirth)andlate-onsetNS(72hafterbirth)[4].
+Sciences&PekingUnionMedicalCollege,Beijing,100730,China,
+TheclinicalmanagementofNSiscomplicatedbydiverse
+tel:+86-85695631,e-mail:eysly2022@163.com
+YingChen:DepartmentofNeonatology,Children’sHospital,Capital causative pathogens and varying susceptibility across
+InstituteofPediatrics,2YabaoRoad,ChaoyangDistrict,Beijing,100020, individuals [5,6]; thus, early diagnosis is very important.
+China;ChineseAcademyofMedicalSciences&PekingUnionMedical However,owingtothediverseclinicalfeaturesofNSand
+College,Beijing,100730,China a lack of typical symptoms and obvious early manifesta-
+AixiaYan:DepartmentofPediatrics,AerospaceCentralHospital,Beijing,
+tions, the rapid and accurate diagnosis of NS remains a
+100012,China
+great challenge.
+LiZhang,XiaomingHu,LiangChen,JunCui,ZichuanFan:
+DepartmentofNeonatology,Children’sHospital,CapitalInstituteof C-Reactive protein (CRP) is an acute inflammation-
+Pediatrics,2YabaoRoad,ChaoyangDistrict,Beijing,100020,China related protein, and its abundance increases up to 1,000-
+OpenAccess.©2025theauthor(s),publishedbyDeGruyter. ThisworkislicensedundertheCreativeCommonsAttribution4.0InternationalLicense.
+
+--- page 2 ---
+2  YingChenetal.
+fold in response to infection or inflammation [7]. CRP is 2 Materials and methods
+producedmainlybylivercellsbutcanalsobeproducedby
+smooth muscle cells, macrophages, and endothelial cells.
+2.1 Study subjects
+Given that CRP levels return to baseline upon patient
+improvement,CRPisausefulmarkertomonitorinfection
+Thepresentstudyincludedallneonates(full-termandpre-
+status[8].CRPhasbeenusedfortheearlydetectionofNS.
+term neonates) with suspected NS treated at Children’s
+Procalcitonin(PCT)istheprecursorofthehormonecalci-
+Hospital, Capital Institute of Paediatrics (Beijing, China)
+tonin.PCTrespondstoinfectionfasterthanCRPandbegins
+from October 2021 to June 2022. All patients were treated
+to increase at 4h after infection and peaks at 12–24h [9].
+inaccordancewiththe2019editionoftheExpertConsensus
+PCTisusedtodiagnoselate-onsetNS,bacterialmeningitis,
+onthe Diagnosis and Treatment of Neonatal Sepsis, gener-
+andotherbacterialinfections[10].However,PCTdetection
+ated by the Chinese Medical Association and Professional
+sensitivityislowandeasilyaffectedbyotherfactors,espe-
+CommitteeofInfectiousDiseases,NeonatologySociety[23].
+ciallyinneonateswithloworverylowbirthweights[11].
+Thenewbornswiththefollowingsymptomsweresuspected
+Therefore, the ability of CRP and PCT to detect NS is not
+of having sepsis: abnormal body temperature (>38.5°C or
+ideal.
+<36°C), respiratory changes (average respiratory rate >2
+Inrecentyears,theproinflammatorycytokinesinter-
+SDabovenormalfor ageorinthepresenceofmechanical
+leukin (IL)-6 and IL-8 have been considered diagnostic
+ventilation), lethargy, feeding difficulties, haemodynamic
+markersformultiplediseases.Theyarehighlyexpressed
+instability (heart rate >190 or <90 beats/min), convulsion,
+innumerousdiseases,suchasarthritis,psoriasis,cancer,
+hypotension (blood pressure <5th percentile for this age
+and coronary artery disease [12–14]. Previous studies
+group, or systolic blood pressure <2 SD below normal for
+have reported the values of IL-6 and IL-8 in the early
+thisagegroup),irritabilityorbleedingaccordingtothedefi-
+diagnosis of sepsis in children and newborns. Previous
+nitionsforsepsis[23].Thesenewbornswerediagnosedwith
+studies have shown that IL-6 and IL-8 are associated
+sepsis upon positive blood culture. Patients were excluded
+with sepsis in children and newborns and are closely
+from the present study if they met the following criteria:
+related to sepsis severity. The level of IL-6 in umbilical
+congenitaldeformity,toxoplasmainfectionduringtheperi-
+cordbloodistheonlypredictorofearly-onsetsepsis[15]
+natal period, prenatal viral infection, genetic disorders,
+andcanbeusedtopredictNSinthehoursafterbirth.IL-6
+immunediseases,noninformedconsent,incompleteclinical
+has been used to diagnose neonatal clinical sepsis [16].
+data,andout-of-hospitaltreatmentover3daysoradmission
+Moreover, IL-8 level is not associated with gestational age
+time <24h. In addition, age- and sex-matched nonseptic
+orbirthtimeandhasbeengraduallyusedintheearlydiag-
+patients were enrolled in the same period. The nonseptic
+nosis of NSand auxiliary efficacyevaluation[17–19].Addi-
+patientswerehospitalizedduetoneonataljaundice.Allpar-
+tionally,studieshaverevealedthatserumamyloidA(SAA)
+ticipants were subjected to clinical and physical examina-
+is highly expressed in adult and neonatal patients with
+tions, and their medical histories were provided by their
+sepsis[20–22].
+legal guardians to rule out sepsis or sepsis risk factors.
+There are many biological markers of NS, but the
+Theroutineexaminationsincludedassessingbodytempera-
+neonatal period has unique considerations, including
+ture, respiration, heart rate, blood pressure, and bleeding,
+gestational age and day, each of which has advantages
+and the data were examined to analyse whether the new-
+and disadvantages. Therefore, the clinical application
+bornsinthecontrolgrouppresentedsymptomsofsuspected
+values of IL-6, IL-8, and SAA in the treatment of sepsis
+sepsis.Moreover,whitebloodcells(WBCs),neutrophils,pla-
+in premature infants need further exploration. There is
+telets, and pathogenic bacteria were measured to confirm
+no ideal single biological indicator that can be used to
+that they did not have an infection. Subjects with genetic
+accurately diagnoseNS early, but comprehensiveindica-
+disorders, noninformed consent, and incomplete clinical
+tors can complement each other. Thus, in the present
+dataweresubsequentlyexcluded.Finally,atotalof120chil-
+study, we evaluated the diagnostic value of IL-6, IL-8,
+dren with NS (60 cases of premature infants [NS-PIs] and
+and SAA in NS patients compared with that of CRP and
+60casesofterminfants[NS-Tis])and120noninfectedparti-
+PCT. We used receiver operating characteristic (ROC)
+cipants (neonatal controls for premature infants [NC-PIs;
+curves to assess the ability of IL-6, IL-8, and SAA alone
+n = 60] and neonatal controls for term infants [NC-TIs;
+andincombinationwithCRPandPCTtopredictNS.These
+n=60])wereenrolledinthepresentstudy.Theprocessof
+findingsprovideavaluabletheoreticalbasisfortheearly
+subjectselectionisshowninFigure1.
+diagnosisofNS.
+
+--- page 3 ---
+RolesofIL-6,IL-8,andSAAinNS  3
+Figure1:SerumCRP,PCT,IL-6,IL-8,andSAAlevelsintheNC-PI,NS-PI,NC-TI,andNS-TIgroups.(a)SerumCRPlevelsweremeasuredvialatex-
+enhanced immunoturbidimetry. (b) Serum CRP expression was examined via the Elecsys BRAHMS PCT kit. (c) Serum IL-6. (d) IL-8 and (e) SAA
+expressionwasassessedviaELISA.***P<0.001.
+Informed consent: Written informed consent was pro- 2.2 Definition of study variables
+videdbythelegalguardianofthesubjects.
+Thecharacteristicsrelatedtopregnancyandnewbornsare
+Ethical approval: The research related to human use has listed in Table 1. The variables included maternal age
+been complied with all the relevant national regulations, (year) at the date of the neonate’s birth, diagnosis of pre-
+institutional policies and in accordance with the tenets of eclampsiaandchorioamnionitisduringpregnancy,method
+the Helsinki Declaration, and has been approved by the of delivery, vaginal delivery/caesarean section, contamina-
+Ethics Committee of Children’s Hospital, Capital Institute of tion of the amniotic fluid with meconium, newborn sex,
+Paediatrics(ApprovalNo.SHERLL2021064;Beijing,China). postnatal age at admission to the neonatal intensive care
+
+--- page 4 ---
+4  YingChenetal.
+Table1:Characteristicsrelatedtopregnancyandnewbornsinsepsisandcontrolgroups
+Pregnancyvariables NC-PI(n=60) NC-TI(n=60) NS-PI(n=60) NS-TI(n=60)
+Maternalage 24.25±3.57 24.11±3.80 23.22±4.42 23.75±5.12
+Preeclampsia,n(%) 8(13.33) 7(11.67) 19(31.67)a 18(30.00)b
+Chorioamnionitis,n(%) 1(1.67) 0(0.00) 16(26.67)b 11(18.33)b
+Vaginaldelivery,n(%) 37(61.67) 29(48.33) 32(53.33) 30(50.00)
+Meconium,n(%) 2(3.33) 1(1.67) 7(11.67)a 5(8.33)a
+Newbornvariables NC-PI(n=60) NC-TI(n=60) NS-PI(n=60) NS-TI(n=60)
+Males,n(%) 31(51.67) 37(61.67) 32(53.33) 34(56.67)
+Postnatalage(days) 14.39±3.85 13.92±5.04 15.55±6.17 15.06±4.60
+Gestationalage(weeks) 31.71±2.40 38.12±0.91 31.68±2.73 38.77±1.16
+Birthweight(kg) 2.12±0.19 3.06±0.35 1.98±0.34a 3.05±0.36
+aP<0.05andbP<0.01.NC-PI,neonatalcontrol-prematureinfant;NS-PI,neonatalsepsis-prematureinfant;NC-TI,neonatalcontrol-terminfant;NS-TI,
+neonatalsepsis-terminfant.
+unit (NICU) (day), gestational age (week), and birth weight 2.4 Sample measurements
+(kg).Theclinicaloutcomesandmanagementduringthehos-
+pital stay are presented in Table 2. The variables included SerumCRPlevelsweredeterminedusingaCRPdiagnosiskit
+hospital stay duration (day), jaundice (serum bilirubin: full- (latex‐enhancedimmunoturbidimetry;Yonghe,Hunan,China)
+termneonates>12mg/dl,pretermneonates>15mg/dl),cardi- according to the manufacturer’s instructions. Briefly, 2μL of
+opulmonary reanimation (whether newborns received any serumwasincubatedwith280μLofreagent1at37°Cfor5min
+typeofcardiopulmonaryresuscitationduringhospitalization), andthenwith70μLofreagent2for10s.Theabsorbancewas
+venous access (presence or absence of venous access estab- measuredat600nmusingaHitachi7600automaticanalyser
+lishedbypunctureforinfusionorrescue),parenteralnutrition (Hitachi,Tokyo,Japan),andafter5min,theabsorbancewas
+(whether nutritional support is given intravenously), mental measuredagainat600nm.ThelevelsofCRPwerecalculated.
+alterations (anxiety, irritability and/or altered consciousness), Serum PCT was measured using an Elecsys BRAHMS
+hypotension,andhypoperfusion(capillaryfilling>3s). PCT kit (Roche, Basel, Switzerland) following the manufac-
+turer’s instructions. The serum was incubated with biotiny-
+latedPCTantibody,followedbyincubationwithstreptavidin
+2.3 Serum sample collection magneticbeads.Afterremovingthesubstancesthatwerenot
+boundtothemagneticbeads,theluminescenceintensitywas
+Venous blood (2ml) was collected from all neonates with measured using an Elecsys2010 analyser (Roche). The PCT
+NS and negative controls on Day 1 of hospitalization. The levelswerecalculated.
+bloodwascentrifugedat4°Cat1,000×gfor20min,andthe Serum IL-6, IL-8, and SAA were detected using the
+resultingsupernatantwasusedastheserum. human IL-6 ELISA Kit (Elabscience, Wuhan, China), the
+Table2:Clinicaloutcomesandmanagementmeasuresduringthefirst30days
+NC-PI(n=60) NS-PI(n=60) NC-TI(n=60) NS-TI(n=60)
+Hospitalstayduration(d) 12.41±5.41 18.88±22.21a 8.31±4.05 17.25±18.91b
+Jaundice,n(%) 16(26.67) 4(6.67)b 29(48.33) 24(40.00)b
+Cardiopulmonaryreanimation,n(%) 7(11.67) 5(8.33)b 21(35.00) 19(31.67)b
+Venousaccess,n(%) 30(50.00) 25(41.67)b 51(85.00) 49(81.67)b
+Parenteralnutrition,n(%) 12(20.00) 4(6.67)b 26(43.33) 23(38.33)b
+Mentalalterations,n(%) 7(11.67) 2(3.33)b 16(26.67) 13(21.67)b
+Hypotension,n(%) 4(6.67) 1(1.67)a 12(20.00) 10(16.67)b
+Hypoperfusion,n(%) 4(6.67) 1(1.67)a 12(20.00) 10(16.67)b
+aP<0.05andbP<0.01.NC-PI,neonatalcontrol-prematureinfant;NS-PI,neonatalsepsis-prematureinfant;NC-TI,neonatalcontrol-terminfant;NS-TI,
+neonatalsepsis-terminfant.
+
+--- page 5 ---
+RolesofIL-6,IL-8,andSAAinNS  5
+Figure2:DiagnosticutilityofCRP,PCT,IL-6,IL-8,andSAA.ROCcurvesof(a)CRP,(b)PCT,(c)IL-6,(d)IL-8,and(e)SAAlevelsintheNS-PIandNS-TI
+groups.
+
+--- page 6 ---
+6  YingChenetal.
+Table3:ROCcurveresultanalysisinFigure2
+Index Cut-off AUCvalue Sensitivity Specificity PPV NPV Youden ACC 95%CI P
+CRP(NS-PI) 9.562 0.776 0.667 0.917 0.889 0.734 0.584 0.792 0.684–0.867 ＜0.001
+CRP(NS-TI) 13.177 0.762 0.617 1.000 1.000 0.723 0.617 0.809 0.667–0.857 ＜0.001
+PCT(NS-PI) 1.567 0.788 0.7 1.000 1.000 0.769 0.700 0.850 0.694–0.881 ＜0.001
+PCT(NS-TI) 1.420 0.786 0.617 0.983 0.973 0.720 0.600 0.800 0.698–0.873 ＜0.001
+IL-6(NS-PI) 44.487 0.817 0.683 0.950 0.932 0.750 0.633 0.817 0.736–0.898 ＜0.001
+IL-6(NS-TI) 43.422 0.801 0.6 0.967 0.948 0.707 0.567 0.784 0.718–0.883 ＜0.001
+IL-8(NS-PI) 52.026 0.825 0.7 0.933 0.913 0.757 0.633 0.817 0.746–0.904 ＜0.001
+IL-8(NS-TI) 52.087 0.821 0.65 0.917 0.887 0.724 0.567 0.784 0.745–0.898 ＜0.001
+SAA(NS-PI) 10.176 0.833 0.6 1.000 1.000 0.714 0.600 0.8 0.762–0.905 ＜0.001
+SAA(NS-TI) 8.692 0.815 0.683 1.000 1.000 0.759 0.683 0.842 0.732–0.898 ＜0.001
+Note:PPV,positivepredictivevalue;NPV,negativepredictivevalue;ACC,accuracy.
+human IL-8 ELISA Kit (Elabscience), and the human SAA andthesex,postnatalage,gestationalage,andbirthweightof
+ELISAKit(Abnova,Taipei,China) accordingtotheprotocol. thenewbornswerenotsignificantlydifferentamongthegroups.
+Serumwasaddedtotheenzymelabelplateandincubatedat TherewasasignificantdifferencebetweentheNS-PIandNS-TI
+37°C for 90min. A biotinylated antibody working solution groupsandtheircontrolgroupsregardingpreeclampsia,chor-
+(100μL) was added and incubated at 37°C for 1h. After ioamnionitis, and meconium. As illustrated in Table 2, there
+washing, enzyme-conjugated working solution (100μL) was weresignificantdifferencesbetweentheNS-PIandNS-TIgroups
+incubatedat37°Cfor30min,andTMBsubstrate(90μL)was andtheircontrolgroupsregardinghospitalstayduration,jaun-
+addedandincubatedat37°Cfor15min.Afteradding50μLof dice, cardiopulmonary reanimation, venous access, parenteral
+stopbuffer,theODvaluesweremeasuredat450nmusinga nutrition,mentalalterations,hypotension,andhypoperfusion.
+microplatereader(Bio-Rad,Hercules,CA,USA).Thelevelsof Serum CRP, PCT, IL-6, IL-8, and SAA levels in the NC,
+IL-6,IL-8,andSAAweredetermined. NS-PI,andNS-TIgroupswereanalysed.Theexpressionof
+CRP,PCT,IL-6,IL-8,andSAAintheserumoftheNC-PI,NS-
+PI,NC-TI,andNS-TIsubjectswasanalysed.Theexpression
+2.5 Statistical analysis
+levels of these genes were significantly greater in NS
+patientsthaninhealthycontrols(Figure1a–e).
+Data analysiswasperformedusingtheSPSS20.0software.
+Thenumberofbiologicalreplicateswasthesamplenumber
+per group, and three technical replicates were performed.
+3.2 Diagnostic utility of CRP, PCT, IL-6, IL-8,
+ThediagnosticvaluewasassessedviaROCcurves,andthe
+and SAA
+areaunderthecurve(AUC)wascalculated.Thedatainthe
+tables were analysed by the chi-square test or unpaired
+3.2.1 ROCcurveswereusedtoevaluatethediagnostic
+Student’s t-test. The data are shown in x¯ ± s, and P < 0.05
+valueofthesignature
+wasconsideredastatisticallysignificantdifference.Inaccor-
+dance with the results of previousstudies,the sample size
+When the SAA cut-off value was 10.18mg/L, the highest
+mettherequirementsofthisstudy.
+AUC for the diagnosis of NS-PIs was for SAA (AUC =
+0.833, 95% CI 0.762–0.905; P < 0.001). When the CRP cut-
+offvaluewas9.562mg/L,thesmallestAUCforthediagnosis
+3 Results ofNS-PIswasforCRP(AUC=0.776,95%CI0.684–0.867;P<
+0.001). When the IL-8 cut-off value was 52.03pg/mL, the
+highest for the diagnosis of NS-TI was for IL-8 (0.821).
+3.1 Clinicalcharacteristicsofallsubjectsand When the IL-8 cut-off value was 52.03pg/mL, the highest
+their mothers AUC for the diagnosis of NS-TI was for IL-8 (AUC = 0.821,
+95%CI0.745–0.898,P<0.001).WhentheCRPcut-offvalue
+The clinical information of all subjects included in this was13.18mg/L,thesmallestAUCforthediagnosisofNS-TIs
+study is shown in Tables 1 and 2. As shown in Table 1, was for CRP (AUC = 0.762, 95% CI 0.667–0.857; P < 0.001)
+the maternal age and vaginal delivery ratio of the mothers (Figure2andTable3).
+
+--- page 7 ---
+RolesofIL-6,IL-8,andSAAinNS  7
+Figure3:ThediagnosticvalueofthecombinationofCRPandIL-6,IL-8,orSAA.ROCcurvesof(a)CRPcombinedwithIL-6,(b)CRPcombinedwithIL-8,
+and(c)CRPcombinedwithSAAintheNS-PI.ROCcurvesof(d)CRPcombinedwithIL-6,(e)CRPcombinedwithIL-8,and(f)CRPcombinedwithSAAin
+NS-TIpatients.
+
+--- page 8 ---
+8  YingChenetal.
+Table4:ROCcurveresultanalysisinFigure3
+Index Cut-off AUCvalue Sensitivity Specificity PPV NPV Youden ACC 95%CI P值
+IL-6+CRP(NS-PI) 0.580 0.913 0.817 0.967 0.961 0.841 0.784 0.892 0.855–0.971 ＜0.001
+IL-8+CRP(NS-PI) 0.595 0.887 0.767 1.000 1.000 0.811 0.767 0.884 0.819–0.955 ＜0.001
+SAA+CRP(NS-PI) 0.490 0.876 0.8 0.983 0.979 0.831 0.783 0.892 0.805–0.948 ＜0.001
+IL-6+CRP(NS-TI) 0.450 0.881 0.8 0.900 0.889 0.818 0.700 0.850 0.818–0.945 ＜0.001
+IL-8+CRP(NS-TI) 0.553 0.902 0.8 0.933 0.923 0.823 0.733 0.867 0.845–0.959 ＜0.001
+SAA+CRP(NS-TI) 0.370 0.908 0.85 0.983 0.980 0.868 0.833 0.917 0.842–0.974 ＜0.001
+Note:PPV,positivepredictivevalue;NPV,negativepredictivevalue;ACC,accuracy.
+3.3 Diagnostic value of the combination of 4 Discussion
+CRP and IL-6, IL-8, or SAA
+To date, despite the significant development of neonatal
+TheAUCsofthecombinationsofCRPandIL-6,IL-8,orSAA care management, the mortality rate due to NS remains
+for NS-PIs were 0.913 (95% CI: 0.855–0.971), 0.887 (95% CI: high.EarlyscreeningofNScanimprovepatientoutcomes
+0.819–0.955), and 0.876 (95% CI: 0.805–0.948), respectively andreducetheuseofantibiotics[24].ThediagnosisofNSis
+(Figure3a–candTable4).TheROCcurvesforthecombina- slowandpronetofalsenegatives.Althoughmanybiomar-
+tionofCRPandIL-6,IL-8,orSAAforNS-TIsexhibitedAUCs kers have been developed for the early diagnosis of NS,
+of 0.881 (95% CI: 0.818–0.945), 0.902 (95% CI: 0.845–0.959), their clinical application effect is not ideal [25]. Haemato-
+and 0.908 (95% CI: 0.942–0.974), respectively (Figure 3d–f logicalindices,celladhesionmolecules,andinflammatory
+and Table 4). The sensitivities for IL-6, IL-8, and SAA com- biomarkersaremorerapiddiagnosticmarkersforNS[24].
+binedwithCRPintheNS-PIgroupwere0.817,0.767,and0.8, CRP and PCT are the acute-phase reactants that are most
+respectively, whereas the sensitivities in the NS-TI group studied for NS diagnosis. Brown et al. reported that the
+were0.8,0.8,and0.85,respectively(Table4).Thespecifici- serum CRP level cannot be used to accurately predict
+ties for IL-6, IL-8, or SAA combined with CRP were 0.967, late-onsetNSduetopooledsensitivity[26].Moreover,the
+1.000, and 0.983 in the NS-PI group and 0.900, 0.933, and levels of SRP are also increased in thehepatitis B vaccine
+0.983intheNS-TIgroup,respectively(Table4).
+response,soitislessspecificforthediagnosisofNS[27].PCT
+caneffectivelydistinguishbetweenbacterialandviralinfec-
+tions,anditsdiagnosticsensitivityforNSisgreaterthanthat
+3.4 Diagnostic value of the combination of ofCRP[11].However,thelevelsofPCTinearly-onsetNSmay
+PCT and IL-6, IL-8, or SAA benormal,andcontinuousmeasurementsareneededfora
+better diagnosis [28]. Therefore, novel biomarkers with
+Finally,weevaluatedthediagnosticvalueofthecombina- increased sensitivity and specificity need to be explored
+tion of PCT and IL-6, IL-8, or SAA. The AUCs of PCT com- fortheearlydiagnosisofNS.
+binedwithIL-6,IL-8,orSAAforNS-PIswere0.911(95%CI: IL-6 is produced by a variety of cells, such as macro-
+0.849–0.974),0.884(95%CI:0.820–0.949),and0.942(95%CI: phages,Tcells,andBcells.Inthecontextofneonatalinfec-
+0.89–0.993), respectively (Figure 4a–c and Table 5). Addi- tion, hypoxia, and ischaemia, proinflammatory cytokines
+tionally,theAUCsofPCTcombinedwithIL-6,IL-8,orSAA play a key role in the pathogenesis of tissue damage and
+for NS-TIs were 0.914 (95% CI: 0.855–0.973), 0.901 (95% CI: organ failure. IL-6 is a proinflammatory factor that pro-
+0.945–0.959), and 0.904 (95% CI: 0.84–0.969), respectively motes CRP and SAA release and is a key component of
+(Figure 4d–f and Table 5). The sensitivities for IL-6, IL-8, the inflammatory cytokine network. IL-6 levels increase
+orSAAcombinedwithCRPwere0.867,0.767,and0.917in 2h after infection, peak 4h after infection, and return to
+the NS-PI group and 0.767, 0.783, and 0.85 in the NS-TI normal8hafterinfectionduetoitshalf-lifeof100min[29].
+group,respectively(Table5).Additionally,thespecificities IL-6is abiomarker ofearly-onsetNSandNSwithprema-
+forIL-6,IL-8,orSAAcombinedwithCRPwere0.950,0.98, ture rupture of membranes [16,30,31]. In addition, umbi-
+and0.98intheNS-PIgroupand0.983,0.917,and0.98inthe lical cord blood IL-6 levels have the potential to indepen-
+NS-TIgroup,respectively(Table5). dentlydiagnoseNSinPIpatientswithprematurerupture
+
+--- page 9 ---
+RolesofIL-6,IL-8,andSAAinNS  9
+Figure4:ThediagnosticvalueofthecombinationofPCTandIL-6,IL-8,orSAA.ComparisonoftheROCcurvesof(a)PCT+IL-6,(b)PCT+IL-8,and(c)PCT
++SAAintheNS-PIgroup.ComparisonoftheROCcurvesof(d)PCT+IL-6,(e)PCT+IL-8,and(f)PCT+SAAintheNS-TIgroup.
+
+--- page 10 ---
+10  YingChenetal.
+Table5:ROCcurveresultsanalysisinFigure4
+Index Cut-off AUCvalue Sensitivity Specificity PPV NPV Youden ACC 95%CI P值
+IL-6+PCT(NS-PI) 0.446 0.911 0.867 0.950 0.945 0.877 0.817 0.909 0.849–0.974 ＜0.001
+IL-8+PCT(NS-PI) 0.518 0.884 0.767 1.000 1.000 0.811 0.767 0.884 0.82–0.949 ＜0.001
+SAA+PCT(NS-PI) 0.523 0.942 0.917 1.000 1.000 0.923 0.917 0.959 0.89–0.993 ＜0.001
+IL-6+PCT(NS-TI) 0.610 0.914 0.767 0.983 0.978 0.808 0.750 0.875 0.855–0.973 ＜0.001
+IL-8+PCT(NS-TI) 0.532 0.901 0.783 0.917 0.904 0.809 0.700 0.850 0.845–0.959 ＜0.001
+SAA+PCT(NS-TI) 0.487 0.904 0.850 1.000 1.000 0.870 0.850 0.925 0.84–0.969 ＜0.001
+Note:PPV,positivepredictivevalue;NPV,negativepredictivevalue;ACC,accuracy.
+of membranes [15,32]. In this study, we focused on the replaces apolipoprotein A1 (ApoA1), and rapidly binds to
+diagnostic utility of IL-6 in term and preterm infants and high-density lipoprotein (HDL) through the N-terminus.
+foundthatIL-6levelswereincreasedinNS.Thediagnostic The SAA concentration begins to increase at 3–6h after
+valueofIL-6wasbetterthanthatofCRPandPCT,andthe infection, witha half-life of approximately50minand can
+combinationofIL-6andCRPorPCTwasbetterthanthatof reach 10–1,000 times the normal value [19]. The degree of
+IL-6alone.ThediagnosticsensitivityofIL-6combinedwith elevationwaspositivelycorrelatedwiththeseverityofthe
+either CRP or PCT was greater than that of IL-6 alone, disease[22,35].Afterpathogensareremoved,SAAisquickly
+whereasthespecificityofIL-6combinedwithCRPincreased reducedtonormallevels,makingitasensitiveindicatorof
+onlyintheNS-PIgroup,andthespecificityofIL-6combined infection and inflammation recovery [36]. SAA levels in
+with PCT increased only in the NS-TI group. These results infants with suspected and confirmed sepsis are higher
+suggestthat,comparedwithCRPorPCT,IL-6+CRPhasahigh thanthoseinthecontrolgroup.Thedetectionmethodusing
+diagnostic value for NS-PIs, and IL-6+PCT has a high diag- SAAissimple,whichismoreadvantageousinthediagnosis
+nosticvalueforNS-TIs. ofNS[37].Inaddition,SAAhasgreaterdiagnosticaccuracy
+Similar to IL-6, IL-8 is also a proinflammatory factor. inearly-onsetNS[38].Amongallthebiomarkersidentified
+IL-8 is a neutrophil chemotactic protein produced by sti- in this study,serum SAA had the best diagnostic value for
+mulatinghumanmononuclearmacrophages.IL-8isamulti- NS-PIs. Moreover, SAA combined with PCT had the best
+functionalfactorthatspecificallypromotesthechemotaxisof diagnostic effect on the NS-PI group. The sensitivity of the
+neutrophilsintoinflamedtissues,promotesneutrophildegra- combinationofSAAandCRPorPCTwasgreaterthanthatof
+nulation,producessuperoxideanions,causesrespiratoryout- either alone; however, the specificity did not significantly
+breaks,andpromotestheinflammatoryresponse[33,34].The change.IntheNS-TIgroup,thediagnosticvalueofSAA+CRP
+content of IL-8 in noninfected newborns is very low, and wasgreaterthanthatofSAA+PCT.
+wheninflammationoccurs,thelevelofIL-8increasesrapidly However,theaforementioneddataareonlybasedona
+within1–3h.Thehalf-lifeofIL-8islessthan24h,andthelevel smallsampleofsubjectsandremainattheleveloftheore-
+of IL-8 can decrease rapidly after effective antibiotic treat- tical prediction; thus, further research is needed for clin-
+ment, suggesting that the level of IL-8 may be helpful for icalapplication,suchasvalidationinanindependentmul-
+the early diagnosis of NS. The results from a meta-analysis ticentrecohort.
+revealed moderate accuracy of IL-8 in the diagnosis of NS In conclusion, the diagnostic utility of IL-6, IL-8, and
+[19]. In the present study, the diagnostic value of IL-8 was SAAaloneforNSisbetterthanthatofCRPandPCTalone.
+superior compared to that of CRP, PCT, and IL-6. Moreover, Moreover, PCT combined with SAA is more suitable for
+thecombinationofIL-8andCRPorPCThadabetterdiagnostic diagnosing NS-PIs, and PCT combined with IL-6 is more
+effectthaneitheralonefortheNS-PIortheNS-TIgroup.The suitable for diagnosing NS-TIs. These findings provide a
+sensitivity and specificity of IL-8 combined with CRP or PCT theoreticalreferenceforthediagnosisofNS.
+increased,exceptforIL-8+PCTfortheNS-TIgroup.IL-8+CRP
+hasahighdiagnosticvaluefortheNS-PIandNS-TIgroupsbut Funding information: This study was supported by the
+alowerdiagnosticvaluethanIL-6combinedwithCRPorPCT. BeijingNaturalScienceFoundation(no.7244289),theBeijing
+Afterinfectionorinjury,SAAisregulatedbyproinflam- Municipal Administration of Hospitals Incubation Program
+matoryfactors[34].SAAisrapidlysynthesizedandreleased (no. PX2024047), and the Research Foundation oftheCapital
+into the blood by activated macrophages and fibroblasts, InstituteofPaediatrics(no.LCPY-2021-15).
+
+--- page 11 ---
+RolesofIL-6,IL-8,andSAAinNS  11
+Authorcontributions:YCandYLconceivedthestudy.YC, termcardiovascularmortalityinpatientswithacutecoronary
+LC,andLZanalysedthedata.YCandAYwrotethemanu- syndrome.VascPharmacol.2020Dec;135:106806.
+script. YC, XH, JC, and ZF revised the data and obtained [15] PrashantA,VishwanathP,KulkarniP,SathyaNarayanaP,
+funding.YCconfirmedtheauthenticityofalltherawdata. GowdaraV,NatarajSM,etal.Comparativeassessmentofcytokines
+andotherinflammatorymarkersfortheearlydiagnosisofneo-
+All authors read and approved the final version of the
+natalsepsis-acasecontrolstudy.PLoSOne.2013Jul;8(7):e68426.
+manuscript. [16] PuopoloKM,BenitzWE,ZaoutisTE.CommitteeonFetusand
+Newborn;CommitteeonInfectiousDiseases.Managementof
+Conflictofinterest:Authorsstatenoconflictofinterest. neonatesbornat≤346/7weeks’gestationwithsuspectedor
+provenearly-onsetbacterialsepsis.Pediatrics.2018
+Dec;142(6):e20182896.
+Dataavailabilitystatement:Thedatasetsgeneratedduring
+[17] ZengG,ChenD,ZhouR,ZhaoX,YeC,TaoH,etal.Combinationof
+and/oranalyzedduringthecurrentstudyareavailablefrom
+C-reactiveprotein,procalcitonin,IL-6,IL-8,andIL-10forearly
+thecorrespondingauthoronreasonablerequest. diagnosisofhyperinflammatorystateandorgandysfunctionin
+pediatricsepsis.JClinLabAnal.2022Jul;36(7):e24505.
+[18] BourikaV,HantziE,MichosA,MargeliA,PapassotiriouI,
+SiahanidouT.Clinicalvalueofserumamyloid-Aprotein,high-
+References densitylipoproteincholesterolandapolipoprotein-A1inthediag-
+nosisandfollow-upofneonatalsepsis.PediatrInfectDisJ.2020
+Aug;39(8):749–55.
+[1] WynnJL.Definingneonatalsepsis.CurrOpinPediatr.2016 [19] ZhouM,ChengS,YuJ,LuQ.Interleukin-8fordiagnosisofneonatal
+Apr;28(2):135–40. sepsis:ameta-analysis.PLoSOne.2015May;10(5):e0127170.
+[2] ShaneAL,SánchezPJ,StollBJ.Neonatalsepsis.Lancet.2017 [20] SackGH, Jr.SerumamyloidA(SAA)proteins.SubcellBiochem.
+Oct;390(10104):1770–80. 2020;94:421–36.
+[3] Fleischmann-StruzekC,GoldfarbDM,SchlattmannP, [21] SuiYD,XinWN,FengLL.Comparisonoftheclinicalapplication
+SchlapbachLJ,ReinhartK,KissoonN.Theglobalburdenofpae- valuesofPCT,hs-CRPandSAAdetectionintheearlydiagnosisof
+diatricandneonatalsepsis:Asystematicreview.LancetRespir sepsis.PakJMedSci.2020Nov-Dec;36(7):1683–7.
+Med.2018Mar;6(3):223–30. [22] BalayanS,ChauhanN,ChandraR,JainU.Molecularimprinting
+[4] DongY,BasmaciR,TitomanlioL,SunB,MercierJC.Neonatal basedelectrochemicalbiosensorforidentificationofserumamy-
+sepsis:WithinandbeyondChina.ChinMedJ(Engl).2020 loidA(SAA),aneonatalsepsisbiomarker.IntJBiolMacromol.2022
+Sep;133(18):2219–28. Jan;195:589–97.
+[5] ProcianoyRS,SilveiraRC.Thechallengesofneonatalsepsisman- [23] SubspecialtyGroupofNeonatology,theSocietyofPediatric,
+agement.JPediatr(RioJ).2020;96(Suppl1):80–6. ChineseMedicalAssociation;ProfessionalCommitteeofInfectious
+[6] GlaserMA,HughesLM,JnahA,NewberryD.Neonatalsepsis:A Diseases,NeonatologySociety,ChineseMedicalDoctor
+reviewofpathophysiologyandcurrentmanagementstrategies. Association.Expertconsensusonthediagnosisandmanagement
+AdvNeonatalCare.2021Feb;21(1):49–60. ofneonataLsepsis.ChinJPediatrics.2019April;57(4):252–7(In
+[7] SprostonNR,AshworthJJ.RoleofC-reactiveproteinatsitesof Chinese).
+inflammationandinfection.FrontImmunol.2018Apr;9:754. [24] CelikIH,HannaM,CanpolatFE,PammiM.Diagnosisofneonatal
+[8] DuClosTW.FunctionofC-reactiveprotein.AnnMed.2000 sepsis:Thepast,presentandfuture.PediatrRes.2022
+May;32(4):274–8. Jan;91(2):337–50.
+[9] CarriganSD,ScottG,TabrizianM.Towardresolvingthechallenges [25] TziallaC,ManzoniP,AchilleC,BollaniL,StronatiM,BorghesiA.
+ofsepsisdiagnosis.ClinChem.2004Aug;50(8):1301–14. Newdiagnosticpossibilitiesforneonatalsepsis.AmJPerinatol.
+[10] AloisioE,DolciA,PanteghiniM.Procalcitonin:Betweenevidence 2018May;35(6):575–7.
+andcriticalissues.ClinChimActa.2019Sep;496:7–12. [26] BrownJVE,MeaderN,WrightK,CleminsonJ,McGuireW.
+[11] RuanL,ChenGY,LiuZ,ZhaoY,XuGY,LiSF,etal.Thecombination AssessmentofC-reactiveproteindiagnostictestaccuracyforlate-
+ofprocalcitoninandC-reactiveproteinorpresepsinalone onsetinfectioninnewborninfants:Asystematicreviewandmeta-
+improvestheaccuracyofdiagnosisofneonatalsepsis:Ameta- analysis.JAMAPediatr.2020Mar;174(3):260–8.
+analysisandsystematicreview.CritCare.2018Nov;22(1):316. [27] CelikIH,DemirelG,CanpolatFE,ErdeveO,DilmenU.Inflammatory
+[12] ChenB,ZhouH,LiuX,YangW,LuoY,ZhuS,etal.Correlationsof responsestohepatitisBvirusvaccineinhealthyterminfants.EurJ
+graymattervolumewithperipheralcytokinesinParkinson’sdis- Pediatr.2013Jun;172(6):839–42.
+ease.NeurobiolDis.2024Oct;3:106693. [28] BoscarinoG,MigliorinoR,CarboneG,DavinoG,Dell’OrtoVG,
+[13] YonezawaK,HiguchiS,ShimizuS,MinematsuT,HarunaM. PerroneS,etal.Biomarkersofneonatalsepsis:Whereweareand
+Relationshipbetweencytokinesandfaceskinsymptomsinnew- wherewearegoing.Antibiotics(Basel).2023Jul;12(8):1233.
+bornsintwoJapanesecities.SkinResTechnol.2024 [29] ShannonE,NoveckR,SandovalF,KamathB,KearneyM.
+Oct;30(10):e70098. Thalidomidesuppressedinterleukin-6butnottumornecrosis
+[14] GagerGM,BiesingerB,HoferF,WinterMP,HengstenbergC, factor-alphainvolunteerswithexperimentalendotoxemia.Transl
+JilmaB,etal.Interleukin-6levelisapowerfulpredictoroflong- Res.2007Nov;150(5):275–80.
+
+--- page 12 ---
+12  YingChenetal.
+[30] CortésJS,LosadaPX,FernándezLX,BeltránE,DeLauraI, [34] ChauhanN,TiwariS,JainU.Potentialbiomarkersforeffective
+NarváezCF,etal.Interleukin-6asabiomarkerofearly-onset screeningofneonatalsepsisinfections:Anoverview.Microb
+neonatalsepsis.AmJPerinatol.2021Aug;38(S01):e338–46. Pathog.2017Jun;107:234–42.
+[31] QiuX,ZhangL,TongY,QuY,WangH,MuD.Interleukin-6for [35] Witkowska-PiłaszewiczOD,ŻmigrodzkaM,WinnickaA,
+earlydiagnosisofneonatalsepsiswithprematureruptureofthe MiśkiewiczA,StrzelecK,CywińskaA.SerumamyloidAinequine
+membranes:Ameta-analysis.Med(Baltim).2018 healthanddisease.EquineVetJ.2019May;51(3):293–8.
+Nov;97(47):e13146. [36] TrenchevskaO,YassineHN,BorgesCR,NelsonRW,NedelkovD.
+[32] vanLeeuwenLM,FourieE,vandenBrinkG,BekkerV,van Developmentofquantitativemassspectrometricimmunoassayfor
+HoutenMA.Diagnosticvalueofmaternal,cordbloodandneonatal serumamyloidA.Biomarkers.2016Dec;21(8):743–51.
+biomarkersforearly-onsetsepsis:Asystematicreviewandmeta- [37] BengnérJ,QuttinehM,GäddlinPO,SalomonssonK,FaresjöM.
+analysis.ClinMicrobiolInfect.2024Jul;30(7):850–7. SerumamyloidA-Aprimecandidateforidentificationofneonatal
+[33] NordsieckK,BaumannL,HintzeV,PisabarroMT,SchnabelrauchM, sepsis.ClinImmunol.2021Aug;229:108787.
+Beck-SickingerAG,etal.Theeffectofinterleukin-8truncationson [38] ArnonS,LitmanovitzI,RegevRH,BauerS,Shainkin-KestenbaumR,
+itsinteractionswithglycosaminoglycans.Biopolymers.2018 DolfinT.SerumamyloidA:anearlyandaccuratemarkerofneo-
+Aug;109(10):e23103. natalearly-onsetsepsis.JPerinatol.2007May;27(5):297–302.
+
