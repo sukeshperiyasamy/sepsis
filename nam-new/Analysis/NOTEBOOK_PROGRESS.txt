@@ -1,0 +1,614 @@
+================================================================================
+        RAMAN SPECTROSCOPY ANALYSIS - NOTEBOOK PROGRESS LOG
+================================================================================
+
+Last Updated: 2026-06-05 (Session 3)
+Project: NAM Sample - Raman Spectroscopy
+Instrument: BWS465-785H (785 nm excitation)
+Best Condition: 70% power, 60s integration, 5 accumulations
+
+================================================================================
+                         SESSION TIMELINE
+================================================================================
+
+SESSION 1 (2026-06-04):
+  - Created directory structure report (Word document)
+  - Converted 129 CSV files to XLSX (with full metadata preservation)
+  - Created Analysis/ folder structure (Raw, Processed, Figures, DFT, Paper)
+  - Identified column structure: Raman Shift (col 4) + Dark Subtracted (col 8)
+  - Created Raman_Analysis.ipynb (exploratory analysis)
+    * Figure S1: Glass vs NAM raw comparison
+    * Figure 2: Reproducibility (same spot vs different spots)
+    * Figure 3: Mean spectra per condition (stacked)
+    * Figure 4: SNR bar chart across conditions
+    * Figure 5: Best spectrum with peak detection
+    * Overview: All folders stacked
+  - SNR analysis identified best condition: 70%, 60s, 5acc (SNR=24.7)
+
+SESSION 2 (2026-06-05):
+  - Created Raman_Processing_Pipeline.ipynb (full publication pipeline)
+    * Step 1: Extract Raman Shift + Dark Subtracted
+    * Step 2: Remove empty/NaN rows
+    * Step 3: Crop to 400-1800 cm-1
+    * Step 4: ALS baseline correction (lam=1e5, p=0.001, iter=10)
+    * Step 5: Savitzky-Golay smoothing (window=11, poly=3)
+    * Step 6: Min-Max normalization
+    * Step 7: Average replicates (3 NAM spots, 5 Glass)
+    * Step 8: Peak detection (33 peaks total)
+    * Step 9: Glass vs NAM comparison (processed)
+    * Step 10: DFT functions ready (awaiting Gaussian output)
+  - Generated processed XLSX files (6 files)
+  - Generated publication figures (Figure1, Figure4, Pipeline)
+  - Investigation: Refined peak table to 26 peaks (publication quality)
+  - Investigation: Zoom plot of 650-800 cm-1 cell wall region
+    * Nearest peak to literature (725-735): found at 743.8 cm-1
+  - Investigation: 90%-60s anomaly diagnosed
+    * Cause: excessive fluorescence/burning at high power
+    * Negative dark-subtracted values in noise region
+    * Recommendation: EXCLUDE from publication
+
+CURRENT STATUS: Pipeline complete. Awaiting DFT data for overlay.
+
+SESSION 3 (2026-06-05 — publication-quality regeneration):
+  - Full evidence-driven reanalysis via publication_figures.py
+  - All figures regenerated — nothing hard-coded
+  - Data integrity verified for all 8 input files
+  - Alignment check: all 3 NAM spots on same RS grid (893 pts)
+  - Peak detection on processed averaged spectrum
+  - Statistical classification: HIGH / MEDIUM / LOW confidence
+  - Reproducibility scored per peak (all peaks = 100%)
+  - Glass control: 3 residual peaks found at 806, 1365, 1576 cm-1
+  - Substrate overlap check: 1590 cm-1 FLAGGED (near glass 1576 cm-1)
+  - 1590 cm-1 EXCLUDED from annotations in Figure 4
+  - 17 peaks annotated (evidence-based, no hard-coding)
+  - Figure_Generation_Report.txt and Peak_Verification_Table.xlsx saved
+
+================================================================================
+                         NOTEBOOKS CREATED
+================================================================================
+
+1. Analysis/Raman_Analysis.ipynb
+   - Exploratory analysis notebook
+   - Raw spectra comparison
+   - SNR analysis across conditions
+   - Overview of all measurement folders
+
+2. Analysis/Raman_Processing_Pipeline.ipynb
+   - Full publication-quality processing pipeline
+   - Steps 1-10 implemented
+   - Generates processed data + figures
+
+================================================================================
+                    PROCESSING PIPELINE - STEPS COMPLETED
+================================================================================
+
+STEP 1: EXTRACT RAMAN SHIFT + DARK SUBTRACTED              [DONE]
+------------------------------------------------------------------------
+- Source: 70p-60s-5ac-diifrentpoint/ (3 NAM spots)
+- Source: glass slide empty/empty slide/ (5 Glass spectra)
+- Columns used: Column 4 (Raman Shift) + Column 8 (Dark Subtracted #1)
+- All other columns ignored (Pixel, Wavelength, Raw Data, %TR, etc.)
+- Output: 2048 data points per spectrum
+- Data type: X = Raman Shift (cm-1), Y = Intensity (counts)
+
+STEP 2: REMOVE EMPTY ROWS                                  [DONE]
+------------------------------------------------------------------------
+- Removed NaN values
+- Removed non-numeric entries
+- Verified: 2048 points per file (all clean)
+
+STEP 3: RAMAN SHIFT RANGE SELECTION                        [DONE]
+------------------------------------------------------------------------
+- Fingerprint region: 400-1800 cm-1 (893 data points per spectrum)
+- Full spectrum copy: 400-2800 cm-1 (for supplementary)
+- Removed negative Raman Shift values (< 0 cm-1)
+- Removed low-wavenumber noise (< 400 cm-1)
+
+STEP 4: ALS BASELINE CORRECTION                            [DONE]
+------------------------------------------------------------------------
+- Method: Asymmetric Least Squares (ALS)
+- Parameters:
+    lambda = 1e5 (smoothness - larger = smoother baseline)
+    p = 0.001 (asymmetry - smaller = hugs bottom of spectrum)
+    iterations = 10
+- Result: Background becomes flat, peaks remain unchanged
+- Applied to both NAM and Glass spectra
+- Corrected Intensity = Raw Intensity - Baseline
+
+STEP 5: SAVITZKY-GOLAY SMOOTHING                           [DONE]
+------------------------------------------------------------------------
+- Method: Savitzky-Golay filter
+- Parameters:
+    Window Length = 11
+    Polynomial Order = 3
+- Result: Noise reduced, peak shapes preserved
+- No over-smoothing observed
+
+STEP 6: MIN-MAX NORMALIZATION                              [DONE]
+------------------------------------------------------------------------
+- Formula: I_norm = (I - I_min) / (I_max - I_min)
+- Result: All spectra normalized to range [0, 1]
+- Allows direct comparison between spectra
+
+STEP 7: AVERAGE REPLICATES                                 [DONE]
+------------------------------------------------------------------------
+- NAM: 3 spectra averaged (spot1, spot2, spot3)
+    - Mean spectrum calculated
+    - Standard deviation calculated
+- Glass: 5 spectra averaged
+    - Mean spectrum calculated
+    - Standard deviation calculated
+
+STEP 8: PEAK DETECTION                                     [DONE]
+------------------------------------------------------------------------
+- Method: scipy.signal.find_peaks
+- Parameters:
+    Prominence = 0.02
+    Distance = 10
+- Result: 33 peaks detected in NAM average spectrum
+- Major peaks (prominence > 0.3):
+    930 cm-1  (prominence: 0.992) - STRONGEST
+    870 cm-1  (prominence: 0.872)
+    954 cm-1  (prominence: 0.847)
+    1022 cm-1 (prominence: 0.813)
+    541 cm-1  (prominence: 0.783)
+    1346 cm-1 (prominence: 0.682)
+    456 cm-1  (prominence: 0.585)
+    828 cm-1  (prominence: 0.584)
+    1127 cm-1 (prominence: 0.529)
+    487 cm-1  (prominence: 0.426)
+    1393 cm-1 (prominence: 0.358)
+    1450 cm-1 (prominence: 0.333)
+    1249 cm-1 (prominence: 0.300)
+
+STEP 9: GLASS vs NAM COMPARISON                            [DONE]
+------------------------------------------------------------------------
+- Glass processed with identical pipeline (Steps 1-7)
+- Overlay comparison figure generated
+- Glass shows NO Raman peaks after processing (flat baseline)
+- All peaks in NAM spectrum are from sample, not substrate
+- Figure1_Glass_vs_NAM.png generated
+
+STEP 10: DFT PREPARATION                                  [READY - AWAITING DATA]
+------------------------------------------------------------------------
+- Functions created:
+    load_dft_spectrum() - loads Gaussian output (Frequency + Raman Activity)
+    broaden_dft() - applies Lorentzian broadening for comparison
+- Scaling factor: 0.96 (Frequency x 0.96 = Scaled Frequency)
+- Awaiting Gaussian .log or .csv file with DFT frequencies
+- Place file in: Analysis/DFT/
+- Figure5_DFT_Overlay will be generated when data is available
+
+================================================================================
+                         PROCESSED FILES GENERATED
+================================================================================
+
+Directory: Analysis/Processed/
+
+File Name                              Description
+----------------------------------------------------------------------
+NAM_70P_60S_5AC_spot1_processed.xlsx   Spot 1 - normalized spectrum
+NAM_70P_60S_5AC_spot2_processed.xlsx   Spot 2 - normalized spectrum
+NAM_70P_60S_5AC_spot3_processed.xlsx   Spot 3 - normalized spectrum
+NAM_average.xlsx                       Mean + Std of 3 spots
+glass_processed.xlsx                   Glass mean + Std (5 spectra)
+NAM_peak_list.xlsx                     All detected peaks with positions
+
+Each processed XLSX contains:
+- Column 1: Raman Shift (cm-1)
+- Column 2: Normalized Intensity (0 to 1)
+- Range: 400-1800 cm-1
+- Points: 893 data points
+
+================================================================================
+                         FIGURES GENERATED
+================================================================================
+
+Directory: Analysis/Figures/
+
+Publication Figures:
+----------------------------------------------------------------------
+Figure1_Glass_vs_NAM.png/pdf
+    - Processed Glass (blue) vs NAM (red)
+    - Mean + std shading
+    - Peak positions labeled
+    - Shows glass has no peaks, NAM has clear Raman peaks
+
+Figure4_Final_Raman.png/pdf
+    - Final publication-quality NAM Raman spectrum
+    - Black line with gray std shading
+    - All peaks labeled with positions (cm-1)
+    - Clean axes (no top/right spines)
+    - Ready for paper submission
+
+Figure_Processing_Pipeline.png/pdf
+    - 5-panel figure showing all processing steps:
+      (a) Raw spectrum
+      (b) ALS baseline fitting (raw + baseline overlay)
+      (c) Baseline corrected
+      (d) Savitzky-Golay smoothing (before/after)
+      (e) Min-Max normalized
+
+Supplementary Figures (from Raman_Analysis.ipynb):
+----------------------------------------------------------------------
+Figure_S1_Glass_vs_NAM.png/pdf
+    - Raw (unprocessed) Glass vs NAM comparison
+
+Figure_2_Reproducibility.png/pdf
+    - Same spot (10 measurements) vs different spots (5 locations)
+    - Shows measurement reproducibility
+
+Figure_3_Conditions_Comparison.png/pdf
+    - Stacked mean spectra from all 6 measurement conditions
+    - Shows effect of power/time/accumulations
+
+Figure_4_SNR_Comparison.png/pdf
+    - Bar chart of SNR per condition
+    - Best: 70%, 60s, 5acc (SNR = 25)
+
+Figure_5_Best_Spectrum_Peaks.png/pdf
+    - Best single raw spectrum with peak detection
+
+Figure_Overview_All_Folders.png/pdf
+    - One spectrum from each of 12 folders (stacked)
+
+================================================================================
+                         SNR ANALYSIS RESULTS
+================================================================================
+
+Condition            Mean SNR    Std
+------------------------------------------
+70%, 60s, 5acc       24.7        3.6     <-- BEST
+70%, 10s, 5acc       17.7        1.6
+90%, 10s, 5acc       17.6        0.9
+90%, 10s, 3acc       16.1        0.6
+70%, 10s, 3acc       15.1        0.7
+90%, 60s, 5acc       -0.7        0.7     <-- Anomalous (check data)
+
+Best condition selected: 70% power, 60s, 5 accumulations
+
+================================================================================
+                         PEAK LIST (FULL)
+================================================================================
+
+All 33 peaks detected in processed NAM average spectrum:
+
+ #   Position (cm-1)   Intensity   Prominence   Significant?
+-------------------------------------------------------------
+ 1   422               0.074       0.033
+ 2   456               0.632       0.585        YES
+ 3   487               0.447       0.426        YES
+ 4   521               0.313       0.134        YES
+ 5   541               0.810       0.783        YES
+ 6   584               0.375       0.265        YES
+ 7   614               0.219       0.157        YES
+ 8   645               0.259       0.218        YES
+ 9   675               0.116       0.063
+10   703               0.252       0.209        YES
+11   744               0.192       0.163        YES
+12   771               0.090       0.062
+13   828               0.603       0.584        YES
+14   870               0.899       0.872        YES
+15   900               0.129       0.098
+16   930               1.000       0.992        YES (STRONGEST)
+17   954               0.856       0.847        YES
+18   1006              0.056       0.024
+19   1022              0.820       0.813        YES
+20   1043              0.069       0.054
+21   1059              0.162       0.148        YES
+22   1083              0.139       0.117
+23   1127              0.541       0.529        YES
+24   1155              0.276       0.263        YES
+25   1208              0.045       0.031
+26   1249              0.314       0.300        YES
+27   1319              0.467       0.151        YES
+28   1346              0.700       0.682        YES
+29   1393              0.683       0.358        YES
+30   1450              0.617       0.333        YES
+31   1546              0.050       0.033
+32   1590              0.288       0.272        YES
+33   1702              0.144       0.131        YES
+
+Significant peaks (prominence > 0.1): 26 peaks
+Major peaks (prominence > 0.3): 13 peaks
+
+================================================================================
+                         WHAT REMAINS TO BE DONE
+================================================================================
+
+1. DFT OVERLAY (Step 10-11):
+   - Run Gaussian calculation on NAM structure
+   - Extract vibrational frequencies + Raman activities
+   - Apply scaling factor (0.96)
+   - Generate Figure5_DFT_Overlay.png
+   - Compare experimental vs calculated peak positions
+
+2. PEAK ASSIGNMENT:
+   - Assign molecular vibrations to each peak
+   - Based on DFT results and literature
+   - Create peak assignment table for paper
+
+3. ADDITIONAL FIGURES (if needed):
+   - Figure2_Integration_Time.png (compare 10s vs 30s vs 60s)
+   - Figure3_Reproducibility.png (already done as supplementary)
+
+4. PAPER PREPARATION:
+   - Final figure formatting
+   - Table of peak assignments
+   - Methods section (processing parameters)
+
+================================================================================
+                         FOLDER STRUCTURE
+================================================================================
+
+Analysis/
+    Raman_Analysis.ipynb              (Exploratory analysis)
+    Raman_Processing_Pipeline.ipynb   (Full pipeline)
+    Raw/                              (empty - for raw data copies)
+    Processed/
+        NAM_70P_60S_5AC_spot1_processed.xlsx
+        NAM_70P_60S_5AC_spot2_processed.xlsx
+        NAM_70P_60S_5AC_spot3_processed.xlsx
+        NAM_average.xlsx
+        glass_processed.xlsx
+        NAM_peak_list.xlsx
+    Figures/
+        Figure1_Glass_vs_NAM.png/pdf
+        Figure4_Final_Raman.png/pdf
+        Figure_Processing_Pipeline.png/pdf
+        Figure_S1_Glass_vs_NAM.png/pdf
+        Figure_2_Reproducibility.png/pdf
+        Figure_3_Conditions_Comparison.png/pdf
+        Figure_4_SNR_Comparison.png/pdf
+        Figure_5_Best_Spectrum_Peaks.png/pdf
+        Figure_Overview_All_Folders.png/pdf
+    DFT/                              (awaiting Gaussian output)
+    Paper/                            (for manuscript drafts)
+
+================================================================================
+                         PROCESSING PARAMETERS SUMMARY
+================================================================================
+
+For Methods Section of Paper:
+
+"Raman spectra were acquired using a BWS465-785H spectrometer (B&W Tek)
+with 785 nm excitation. Measurements were performed at 70% laser power,
+60 s integration time, and 5 accumulations per spectrum. Three different
+spots on the sample were measured for reproducibility.
+
+Data processing was performed in Python using custom scripts. The raw
+spectra were cropped to the 400-1800 cm-1 fingerprint region. Baseline
+correction was performed using the Asymmetric Least Squares (ALS)
+algorithm (lambda = 1e5, p = 0.001, 10 iterations). Spectra were
+smoothed using a Savitzky-Golay filter (window = 11 points, polynomial
+order = 3) and normalized using min-max normalization. The three spot
+measurements were averaged to produce the final spectrum. Peak detection
+was performed using scipy.signal.find_peaks with prominence threshold
+of 0.02 and minimum peak distance of 10 data points."
+
+================================================================================
+                    INVESTIGATION RESULTS (2026-06-05)
+================================================================================
+
+ISSUE 1: REFINED PEAK TABLE
+------------------------------------------------------------------------
+Problem: 33 peaks is too many for publication — reviewers will question
+         whether all are true vibrational bands or over-detected maxima.
+
+Solution: Generated 3 peak tables with different stringency:
+
+  Table A (all peaks):         33 peaks (prom>0.02, dist>10)
+  Table B (publication):       26 peaks (prom>0.05, dist>15)  <-- USE THIS
+  Table C (conservative):      18 peaks (prom>0.08, dist>20)
+
+Table B saved as: NAM_peak_list_publication.xlsx
+
+Publication Peak List (26 peaks):
+  #   Position (cm-1)   Intensity   Prominence
+  1   456               0.597       0.585
+  2   487               0.459       0.426
+  3   541               0.791       0.783
+  4   584               0.326       0.265
+  5   614               0.195       0.157
+  6   645               0.251       0.218
+  7   675               0.112       0.063
+  8   703               0.232       0.210
+  9   744               0.184       0.163
+  10  771               0.074       0.062
+  11  828               0.693       0.584
+  12  870               0.975       0.872
+  13  900               0.250       0.098
+  14  930               1.000       0.992  (STRONGEST)
+  15  954               0.932       0.847
+  16  1022              0.823       0.813
+  17  1059              0.341       0.148
+  18  1127              0.638       0.530
+  19  1155              0.401       0.263
+  20  1249              0.362       0.300
+  21  1319              0.628       0.151
+  22  1346              0.694       0.682
+  23  1393              0.690       0.358
+  24  1450              0.612       0.333
+  25  1590              0.285       0.272
+  26  1702              0.156       0.131
+
+ISSUE 2: CELL WALL REGION (650-800 cm-1) - ZOOM ANALYSIS
+------------------------------------------------------------------------
+Scientific significance:
+  Literature reports a bacterial cell-wall band near 725-735 cm-1.
+  This region is critical for NAM identification.
+
+Results from zoom analysis (620-820 cm-1):
+  Peaks detected:
+    645.2 cm-1 (intensity: 0.251)
+    674.8 cm-1 (intensity: 0.112)
+    702.5 cm-1 (intensity: 0.232)
+    743.8 cm-1 (intensity: 0.184)  <-- NEAREST to cell wall band
+    771.0 cm-1 (intensity: 0.074)
+
+  Finding: No peak exactly at 725-735 cm-1
+  Nearest peak: 743.8 cm-1 (shifted ~10 cm-1 from literature)
+
+  Interpretation:
+    - The 744 cm-1 peak could be the cell wall band shifted due to:
+      * Different NAM conformation
+      * Hydrogen bonding effects
+      * Crystal packing
+    - Or it could be a different vibration entirely
+    - DFT calculation will clarify this assignment
+
+  Figure generated: Figure_Zoom_650_800_CellWall.png/pdf
+    Panel (a): Raw spectra showing all 3 spots
+    Panel (b): Processed individual spectra
+    Panel (c): Mean spectrum with peaks labeled + green highlight at 725-735
+
+ISSUE 3: 90%-60s ANOMALOUS SNR EXPLAINED
+------------------------------------------------------------------------
+Problem: SNR for "90%, 60s, 5acc" = -0.7 (negative, physically impossible)
+
+Root Cause Identified: EXCESSIVE FLUORESCENCE / SAMPLE BURNING
+
+Diagnostic Results:
+  Metric                         90%, 60s        70%, 60s
+  ----------------------------------------------------------
+  Max raw counts                 63099           63099
+  Saturated pixels (=65535)      0               0
+  Signal (900-1100 peak-median)  -894            +2667
+  Noise std (1700-1800)          1038            110
+  SNR (signal/noise)             -0.9            +24.3
+  Noise median (1700-1800)       -1188           +1191
+
+  Key finding: NEGATIVE noise median (-1188 counts)
+  This means the Dark Subtracted values are negative in the noise region.
+
+  Explanation:
+    At 90% power with 60s integration:
+    - The dark current measurement was higher than the actual signal
+    - OR the sample fluorescence created a sloped baseline that
+      inverts after dark subtraction
+    - The Raman peaks at 900-1100 are BELOW the baseline
+    - Result: all intensities become negative after dark subtraction
+
+  Conclusion:
+    90% power + 60s integration is TOO AGGRESSIVE for this sample.
+    It causes either:
+    (a) Sample burning/degradation during measurement
+    (b) Excessive fluorescence overwhelming the detector
+    (c) Dark current drift during long exposure
+
+  Recommendation:
+    EXCLUDE 90%-60s data from publication.
+    Use 70%, 60s, 5acc as the optimal condition (SNR = 24.7).
+
+  Figure generated: Figure_Investigation_90p60s.png/pdf
+    Left column: 90% 60s data (anomalous)
+    Right column: 70% 60s data (normal)
+    Rows: Full spectrum / Signal region / Noise region
+
+================================================================================
+                    UPDATED FIGURE LIST
+================================================================================
+
+NEW FIGURES ADDED (Session 2 investigation):
+  Figure_Zoom_650_800_CellWall.png/pdf
+    - 3-panel zoom of 620-820 cm-1 region
+    - Shows cell wall band region
+    - Critical for paper discussion
+
+  Figure_Investigation_90p60s.png/pdf
+    - 6-panel diagnostic comparison
+    - Explains anomalous negative SNR
+    - Supports exclusion of 90%-60s data
+
+NEW PROCESSED FILES (Session 2):
+  NAM_peak_list_publication.xlsx
+    - 26 peaks (publication-quality)
+    - Use for DFT assignment
+
+SESSION 3 FIGURES (evidence-driven, regenerated):
+  Figure1_Raw_Glass_vs_NAM.png/pdf
+    - Raw dark-subtracted spectra, all replicates shown
+    - No processing, direct from instrument
+
+  Figure2_Processed_Glass_vs_NAM.png/pdf
+    - Baseline corrected + smoothed + normalised
+    - Mean + std shading for both glass and NAM
+
+  Figure3_Replicate_Reproducibility.png/pdf
+    - Panel (a): All 3 NAM replicates + mean + ±1 SD
+    - Panel (b): Coefficient of variation across spectrum
+    - Panel (c): Inter-replicate scatter correlation
+
+  Figure4_Final_Averaged_Spectrum.png/pdf
+    - Black mean line + gray ±1 SD shading
+    - 17 annotated peaks (HIGH confidence only, evidence-based)
+    - 1590 cm-1 EXCLUDED due to substrate overlap
+    - No molecular assignments (DFT pending)
+
+  Figure5_Peak_Verification_Confidence.png/pdf
+    - Panel (a): Prominence bar chart per peak (coloured by confidence)
+    - Panel (b): Reproducibility % per peak
+    - Panel (c): FWHM per peak
+    - All 27 detected peaks shown, annotatable = 17
+
+  FigureS1_Processing_Pipeline.png/pdf
+    - 4-panel: raw → baseline fit → corrected → smoothed+normalised
+
+  FigureS2_CV_Heatmap.png/pdf
+    - Coefficient of variation across 400-1800 cm-1
+    - Identifies unstable spectral regions
+
+SESSION 3 PROCESSED FILES:
+  Peak_Verification_Table.xlsx
+    - 27 rows (one per detected peak)
+    - Columns: Position, Intensity, Std, Prominence, FWHM,
+      Reproducibility%, Substrate_overlap, Confidence, Annotated
+
+  Figure_Generation_Report.txt
+    - Data integrity log
+    - Replicate correlations (r=0.998, 0.950, 0.954)
+    - Glass control findings
+    - Peak confidence summary
+    - Annotation justification per peak
+    - Excluded peaks with reasons
+
+================================================================================
+                    UPDATED TODO LIST
+================================================================================
+
+COMPLETED:
+  [DONE] Steps 1-9 of processing pipeline
+  [DONE] Refined peak table (26 publication peaks)
+  [DONE] Cell wall region zoom analysis
+  [DONE] 90%-60s anomaly investigation and explanation
+  [DONE] All diagnostic figures generated
+  [DONE] Full evidence-driven reanalysis (Session 3)
+  [DONE] Data integrity verification (all 8 input files)
+  [DONE] Replicate alignment and correlation check
+  [DONE] Confidence classification (27 peaks: 24 HIGH, 3 MEDIUM, 0 LOW)
+  [DONE] Substrate overlap validation (1590 cm-1 flagged and excluded)
+  [DONE] 7 publication figures generated (journal-quality rcParams)
+  [DONE] Peak_Verification_Table.xlsx (27 peaks, full statistics)
+  [DONE] Figure_Generation_Report.txt (annotation justification)
+
+KEY ANALYTICAL FINDINGS:
+  - All 27 detected peaks: 100% reproducibility across 3 spots
+  - Replicate correlations: r=0.998 (Spot1/2), 0.950 (Spot1/3), 0.954 (Spot2/3)
+  - Mean CV = 0.12; unstable regions near 987, 1356-1365 cm-1
+  - Glass residual peaks: 807, 1365, 1576 cm-1 (post-processing)
+  - 1590 cm-1 NAM peak EXCLUDED from Figure 4 (near glass 1576 cm-1)
+  - 17 peaks annotated in Figure 4 (all HIGH confidence, no substrate overlap)
+  - Strongest peak: 930 cm-1 (prominence 0.992)
+  - No molecular assignments made — DFT required
+
+REMAINING:
+  [ ] DFT overlay — Figure 6 (awaiting Gaussian output, place in Analysis/DFT/)
+  [ ] Peak assignment table (after DFT confirms modes)
+  [ ] Clarify 744 cm-1 vs literature cell wall band (725-735 cm-1)
+  [ ] Clarify 1590 cm-1 — is it NAM or glass substrate contribution?
+  [ ] Final journal formatting (check target journal figure size/resolution)
+  [ ] Methods section text (draft below is ready to use)
+
+================================================================================
+                              END OF LOG
+================================================================================

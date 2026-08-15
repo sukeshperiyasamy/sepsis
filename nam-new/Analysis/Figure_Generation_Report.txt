@@ -1,0 +1,105 @@
+================================================================================
+PUBLICATION FIGURE GENERATION REPORT
+Evidence-Driven Raman Analysis
+================================================================================
+Date: 2026-06-05
+Instrument: BWS465-785H, 785 nm
+Sample: NAM  |  Condition: 70% power, 60s, 5acc
+Replicates: 3 NAM spots, 5 Glass spectra
+
+────────────────────────────────────────────────────────────────────────────────
+1. DATA INTEGRITY
+────────────────────────────────────────────────────────────────────────────────
+  spot1.xlsx: 2048 pts | max=63186 | neg%=0.1% | sat_pixels=0
+  spot2.xlsx: 2048 pts | max=63174 | neg%=0.1% | sat_pixels=0
+  spot3.xlsx: 2048 pts | max=62938 | neg%=0.2% | sat_pixels=0
+
+────────────────────────────────────────────────────────────────────────────────
+2. REPLICATE CORRELATIONS
+────────────────────────────────────────────────────────────────────────────────
+  Spot 1 vs Spot 2: Pearson r = 0.9984
+  Spot 1 vs Spot 3: Pearson r = 0.9500
+  Spot 2 vs Spot 3: Pearson r = 0.9539
+
+  Mean CV across fingerprint: 0.120  Max CV: 0.720
+  Unstable regions (CV>0.3 cm-1 count): 73
+
+────────────────────────────────────────────────────────────────────────────────
+3. GLASS CONTROL
+────────────────────────────────────────────────────────────────────────────────
+  Glass peaks after processing: 3
+  Positions: [806.6, 1365.2, 1576.1]
+  NAM peaks with substrate overlap: 1
+
+────────────────────────────────────────────────────────────────────────────────
+4. PEAK VERIFICATION SUMMARY
+────────────────────────────────────────────────────────────────────────────────
+  Total detected: 27
+  HIGH confidence: 24
+  MEDIUM confidence: 3
+  LOW confidence: 0
+  Annotated in Figure 4: 17
+
+────────────────────────────────────────────────────────────────────────────────
+5. ANNOTATION JUSTIFICATION (Figure 4)
+────────────────────────────────────────────────────────────────────────────────
+  Rules applied:
+    - Confidence must be HIGH or MEDIUM
+    - Must not overlap with glass substrate peaks (±15 cm-1)
+    - Minimum label separation: 35 cm-1 (greedy by prominence)
+    - No molecular assignments without DFT support
+
+  456.4 cm-1 | prom=0.585 | rep=100% | FWHM=10.5 cm-1 | HIGH
+  541.0 cm-1 | prom=0.783 | rep=100% | FWHM=10.6 cm-1 | HIGH
+  583.7 cm-1 | prom=0.265 | rep=100% | FWHM=10.6 cm-1 | HIGH
+  645.2 cm-1 | prom=0.218 | rep=100% | FWHM=12.0 cm-1 | HIGH
+  702.5 cm-1 | prom=0.209 | rep=100% | FWHM=10.7 cm-1 | HIGH
+  743.8 cm-1 | prom=0.163 | rep=100% | FWHM=12.5 cm-1 | HIGH
+  828.5 cm-1 | prom=0.584 | rep=100% | FWHM=11.5 cm-1 | HIGH
+  870.3 cm-1 | prom=0.872 | rep=100% | FWHM=11.9 cm-1 | HIGH
+  929.8 cm-1 | prom=0.992 | rep=100% | FWHM=11.1 cm-1 | HIGH
+  1022.4 cm-1 | prom=0.813 | rep=100% | FWHM=14.4 cm-1 | HIGH
+  1059.2 cm-1 | prom=0.148 | rep=100% | FWHM=9.5 cm-1 | HIGH
+  1127.2 cm-1 | prom=0.529 | rep=100% | FWHM=24.2 cm-1 | HIGH
+  1249.4 cm-1 | prom=0.300 | rep=100% | FWHM=20.3 cm-1 | HIGH
+  1345.9 cm-1 | prom=0.682 | rep=100% | FWHM=54.9 cm-1 | HIGH
+  1393.3 cm-1 | prom=0.358 | rep=100% | FWHM=22.9 cm-1 | HIGH
+  1450.3 cm-1 | prom=0.333 | rep=100% | FWHM=27.1 cm-1 | HIGH
+  1702.1 cm-1 | prom=0.131 | rep=100% | FWHM=21.4 cm-1 | HIGH
+
+────────────────────────────────────────────────────────────────────────────────
+6. PEAKS NOT ANNOTATED (LOW confidence or substrate overlap)
+────────────────────────────────────────────────────────────────────────────────
+  487.1 cm-1 | prom=0.426 | rep=100% | EXCLUDED: confidence=HIGH
+  613.7 cm-1 | prom=0.157 | rep=100% | EXCLUDED: confidence=HIGH
+  674.8 cm-1 | prom=0.063 | rep=100% | EXCLUDED: confidence=MEDIUM
+  771.0 cm-1 | prom=0.062 | rep=100% | EXCLUDED: confidence=MEDIUM
+  900.1 cm-1 | prom=0.098 | rep=100% | EXCLUDED: confidence=MEDIUM
+  954.3 cm-1 | prom=0.847 | rep=100% | EXCLUDED: confidence=HIGH
+  1083.0 cm-1 | prom=0.117 | rep=100% | EXCLUDED: confidence=HIGH
+  1155.4 cm-1 | prom=0.263 | rep=100% | EXCLUDED: confidence=HIGH
+  1319.0 cm-1 | prom=0.151 | rep=100% | EXCLUDED: confidence=HIGH
+  1590.1 cm-1 | prom=0.272 | rep=100% | EXCLUDED: substrate overlap
+
+────────────────────────────────────────────────────────────────────────────────
+7. FIGURES GENERATED
+────────────────────────────────────────────────────────────────────────────────
+  Figure1_Raw_Glass_vs_NAM.png/pdf
+  Figure2_Processed_Glass_vs_NAM.png/pdf
+  Figure3_Replicate_Reproducibility.png/pdf
+  Figure4_Final_Averaged_Spectrum.png/pdf
+  Figure5_Peak_Verification_Confidence.png/pdf
+  FigureS1_Processing_Pipeline.png/pdf
+  FigureS2_CV_Heatmap.png/pdf
+
+────────────────────────────────────────────────────────────────────────────────
+8. DFT STATUS
+────────────────────────────────────────────────────────────────────────────────
+  DFT data: NOT AVAILABLE
+  Figure 6 (Experimental vs DFT Overlay): PENDING
+  No molecular vibration assignments have been made.
+  Peak labels show POSITION ONLY — no mode assignments.
+
+================================================================================
+END OF REPORT
+================================================================================

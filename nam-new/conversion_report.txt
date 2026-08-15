@@ -1,0 +1,278 @@
+====================================================================================================
+CSV TO XLSX CONVERSION REPORT
+====================================================================================================
+Generated: 2026-06-04 15:10:01
+Base Directory: c:\Users\sukes\Downloads\nam-new
+
+OVERALL STATISTICS
+----------------------------------------------------------------------------------------------------
+Total CSV Files Found: 129
+Successfully Converted & Verified: 129
+Failed Conversions: 0
+Verification Status: ALL PASSED [OK]
+Total Processing Time: 83.61 seconds
+
+ACTION TAKEN: All files passed verification. CSV files will be deleted.
+
+DETAILED FILE LISTING
+----------------------------------------------------------------------------------------------------
+  1. [OK] 70p-5ac-10s-diifrentpoint\spot1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.808s
+  2. [OK] 70p-5ac-10s-diifrentpoint\spot10.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.647s
+  3. [OK] 70p-5ac-10s-diifrentpoint\spot2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.614s
+  4. [OK] 70p-5ac-10s-diifrentpoint\spot3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.624s
+  5. [OK] 70p-5ac-10s-diifrentpoint\spot4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.640s
+  6. [OK] 70p-5ac-10s-diifrentpoint\spot5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.717s
+  7. [OK] 70p-5ac-10s-diifrentpoint\spot6.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.618s
+  8. [OK] 70p-5ac-10s-diifrentpoint\spot7.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.635s
+  9. [OK] 70p-5ac-10s-diifrentpoint\spot8.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.700s
+ 10. [OK] 70p-5ac-10s-diifrentpoint\spot9.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.614s
+ 11. [OK] 70p-5ac-30s-diifrentspot\spot1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.610s
+ 12. [OK] 70p-5ac-30s-diifrentspot\spot2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.661s
+ 13. [OK] 70p-5ac-30s-diifrentspot\spot3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.719s
+ 14. [OK] 70p-60s-5ac-diifrentpoint\spot1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.633s
+ 15. [OK] 70p-60s-5ac-diifrentpoint\spot2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.611s
+ 16. [OK] 70p-60s-5ac-diifrentpoint\spot3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.683s
+ 17. [OK] 90p-30s-5ac-diifrentpoint\spot1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.697s
+ 18. [OK] 90p-30s-5ac-diifrentpoint\spot2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.628s
+ 19. [OK] 90p-30s-5ac-diifrentpoint\spot3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.616s
+ 20. [OK] 90p-30s-5ac-diifrentpoint\spot4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.677s
+ 21. [OK] 90p-30s-5ac-diifrentpoint\spot5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.618s
+ 22. [OK] 90p-30s-5acc-samespot\samespot1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.641s
+ 23. [OK] 90p-30s-5acc-samespot\samespot10.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.686s
+ 24. [OK] 90p-30s-5acc-samespot\samespot2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.608s
+ 25. [OK] 90p-30s-5acc-samespot\samespot3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.623s
+ 26. [OK] 90p-30s-5acc-samespot\samespot4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.617s
+ 27. [OK] 90p-30s-5acc-samespot\samespot5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.670s
+ 28. [OK] 90p-30s-5acc-samespot\samespot6.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.613s
+ 29. [OK] 90p-30s-5acc-samespot\samespot7.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.601s
+ 30. [OK] 90p-30s-5acc-samespot\samespot8.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.705s
+ 31. [OK] 90p-30s-5acc-samespot\samespot9.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.691s
+ 32. [OK] 90p-60s-5a-samespot\samespot1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.623s
+ 33. [OK] 90p-60s-5a-samespot\samespot2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.571s
+ 34. [OK] 90p-60s-5a-samespot\samespot3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.634s
+ 35. [OK] 90p-60s-5a-samespot\samespot4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.531s
+ 36. [OK] 90p-60s-5a-samespot\samespot5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.560s
+ 37. [OK] 90p-60s-5ac-diffrentspot\spot1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.639s
+ 38. [OK] 90p-60s-5ac-diffrentspot\spot2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.599s
+ 39. [OK] 90p-60s-5ac-diffrentspot\spot3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.581s
+ 40. [OK] 90p-60s-5ac-diffrentspot\spot4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.564s
+ 41. [OK] 90p-60s-5ac-diffrentspot\spot5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.638s
+ 42. [OK] NAM-70p-10s-3acc\NAM-samespot1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.579s
+ 43. [OK] NAM-70p-10s-3acc\NAM-samespot10.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.597s
+ 44. [OK] NAM-70p-10s-3acc\NAM-samespot11.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.637s
+ 45. [OK] NAM-70p-10s-3acc\NAM-samespot2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.641s
+ 46. [OK] NAM-70p-10s-3acc\NAM-samespot3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.646s
+ 47. [OK] NAM-70p-10s-3acc\NAM-samespot4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.613s
+ 48. [OK] NAM-70p-10s-3acc\NAM-samespot5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.678s
+ 49. [OK] NAM-70p-10s-3acc\NAM-samespot6.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.587s
+ 50. [OK] NAM-70p-10s-3acc\NAM-samespot7.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.627s
+ 51. [OK] NAM-70p-10s-3acc\NAM-samespot8.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.676s
+ 52. [OK] NAM-70p-10s-3acc\NAM-samespot9.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.651s
+ 53. [OK] NAM-70p-10s-5ac\NAM-samespot1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.624s
+ 54. [OK] NAM-70p-10s-5ac\NAM-samespot10.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.759s
+ 55. [OK] NAM-70p-10s-5ac\NAM-samespot11.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.756s
+ 56. [OK] NAM-70p-10s-5ac\NAM-samespot2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.652s
+ 57. [OK] NAM-70p-10s-5ac\NAM-samespot3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.650s
+ 58. [OK] NAM-70p-10s-5ac\NAM-samespot4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.667s
+ 59. [OK] NAM-70p-10s-5ac\NAM-samespot5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.629s
+ 60. [OK] NAM-70p-10s-5ac\NAM-samespot6.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.631s
+ 61. [OK] NAM-70p-10s-5ac\NAM-samespot7.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.660s
+ 62. [OK] NAM-70p-10s-5ac\NAM-samespot8.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.699s
+ 63. [OK] NAM-70p-10s-5ac\NAM-samespot9.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.602s
+ 64. [OK] NAM-90p-10s-3ac\NAM-samespot1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.614s
+ 65. [OK] NAM-90p-10s-3ac\NAM-samespot10.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.732s
+ 66. [OK] NAM-90p-10s-3ac\NAM-samespot11.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.679s
+ 67. [OK] NAM-90p-10s-3ac\NAM-samespot12.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.649s
+ 68. [OK] NAM-90p-10s-3ac\NAM-samespot2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.625s
+ 69. [OK] NAM-90p-10s-3ac\NAM-samespot3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.696s
+ 70. [OK] NAM-90p-10s-3ac\NAM-samespot4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.655s
+ 71. [OK] NAM-90p-10s-3ac\NAM-samespot5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.658s
+ 72. [OK] NAM-90p-10s-3ac\NAM-samespot6.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.668s
+ 73. [OK] NAM-90p-10s-3ac\NAM-samespot7.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.641s
+ 74. [OK] NAM-90p-10s-3ac\NAM-samespot8.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.636s
+ 75. [OK] NAM-90p-10s-3ac\NAM-samespot9.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.653s
+ 76. [OK] NAM-90p-10s-5ac\NAM-samespot1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.676s
+ 77. [OK] NAM-90p-10s-5ac\NAM-samespot10.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.638s
+ 78. [OK] NAM-90p-10s-5ac\NAM-samespot11.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.644s
+ 79. [OK] NAM-90p-10s-5ac\NAM-samespot2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.700s
+ 80. [OK] NAM-90p-10s-5ac\NAM-samespot3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.588s
+ 81. [OK] NAM-90p-10s-5ac\NAM-samespot4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.579s
+ 82. [OK] NAM-90p-10s-5ac\NAM-samespot5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.575s
+ 83. [OK] NAM-90p-10s-5ac\NAM-samespot6.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.640s
+ 84. [OK] NAM-90p-10s-5ac\NAM-samespot7.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.584s
+ 85. [OK] NAM-90p-10s-5ac\NAM-samespot8.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.627s
+ 86. [OK] NAM-90p-10s-5ac\NAM-samespot9.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.707s
+ 87. [OK] glass slide empty\NAM-10S_70P_3AC_S1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.707s
+ 88. [OK] glass slide empty\NAM-10S_70P_3AC_S2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.639s
+ 89. [OK] glass slide empty\NAM-10S_70P_3AC_S3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.683s
+ 90. [OK] glass slide empty\NAM-10S_70P_3AC_S4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.680s
+ 91. [OK] glass slide empty\NAM-10S_70P_3AC_S5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.667s
+ 92. [OK] glass slide empty\NAM-10S_70P_5AC_S1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.642s
+ 93. [OK] glass slide empty\NAM-10S_70P_5AC_S2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.679s
+ 94. [OK] glass slide empty\NAM-10S_70P_5AC_S3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.639s
+ 95. [OK] glass slide empty\NAM-10S_70P_5AC_S4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.641s
+ 96. [OK] glass slide empty\NAM-10S_70P_5AC_S5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.660s
+ 97. [OK] glass slide empty\NAM-10S_80P_3AC_S1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.687s
+ 98. [OK] glass slide empty\NAM-10S_80P_3AC_S2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.666s
+ 99. [OK] glass slide empty\NAM-10S_80P_3AC_S3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.703s
+100. [OK] glass slide empty\NAM-10S_80P_3AC_S4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.716s
+101. [OK] glass slide empty\NAM-10S_80P_3AC_S5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.630s
+102. [OK] glass slide empty\NAM-10S_80P_3AC_S6.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.633s
+103. [OK] glass slide empty\NAM-10S_80P_3AC_S7.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.709s
+104. [OK] glass slide empty\NAM-10S_80P_5AC_S2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.656s
+105. [OK] glass slide empty\NAM-10S_80P_5AC_S4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.648s
+106. [OK] glass slide empty\NAM-10S_80P_5AC_S5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.618s
+107. [OK] glass slide empty\NAM-10S_80P_5AC_S6.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.651s
+108. [OK] glass slide empty\NAM-10S_90P_3AC_S1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.722s
+109. [OK] glass slide empty\NAM-10S_90P_3AC_S2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.673s
+110. [OK] glass slide empty\NAM-10S_90P_3AC_S3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.608s
+111. [OK] glass slide empty\NAM-10S_90P_3AC_S4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.712s
+112. [OK] glass slide empty\NAM-10S_90P_3AC_S5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.612s
+113. [OK] glass slide empty\NAM-10S_90P_3AC_S6.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.658s
+114. [OK] glass slide empty\NAM-10S_90P_5AC_S1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.611s
+115. [OK] glass slide empty\NAM-10S_90P_5AC_S2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.686s
+116. [OK] glass slide empty\NAM-10S_90P_5AC_S3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.683s
+117. [OK] glass slide empty\NAM-10S_90P_5AC_S4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.633s
+118. [OK] glass slide empty\NAM-10S_90P_5AC_S5.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.684s
+119. [OK] glass slide empty\NAM_10P_S1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.606s
+120. [OK] glass slide empty\NAM_10P_S2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.616s
+121. [OK] glass slide empty\NAM_10P_S3.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.630s
+122. [OK] glass slide empty\NAM_10P_S4.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.698s
+123. [OK] glass slide empty\NAM_5P_S1.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.810s
+124. [OK] glass slide empty\NAM_5P_S2.csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.605s
+125. [OK] glass slide empty\empty slide\glassslide (1).csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.686s
+126. [OK] glass slide empty\empty slide\glassslide (2).csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.602s
+127. [OK] glass slide empty\empty slide\glassslide (3).csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.564s
+128. [OK] glass slide empty\empty slide\glassslide (4).csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.577s
+129. [OK] glass slide empty\empty slide\glassslide (5).csv
+     Rows: 2048 -> 2048, Cols: 15 -> 15, Time: 0.610s
+
+====================================================================================================
