@@ -1,0 +1,29 @@
+figure,filename,width,height,caption
+1.1,Figure_1.1_a_Sepsis_progression_from_infection_to_organ_dysfunction_and_septic_shoc.jpeg,398,585,Sepsis progression from infection to organ dysfunction and septic shock.
+1.1,Figure_1.1_b_Sepsis_progression_from_infection_to_organ_dysfunction_and_septic_shoc.jpeg,906,494,Sepsis progression from infection to organ dysfunction and septic shock.
+1.2,Figure_1.2_a_Comparison_of_conventional_diagnostic_methods_based_on_turnaround_time.jpeg,292,173,"Comparison of conventional diagnostic methods based on turnaround time, complexity,"
+1.2,Figure_1.2_b_Comparison_of_conventional_diagnostic_methods_based_on_turnaround_time.jpeg,683,292,"Comparison of conventional diagnostic methods based on turnaround time, complexity,"
+3.1,Figure_3.1_Graphical_representation_of_project_objectives.png,1082,642,Graphical representation of project objectives.
+4.1,Figure_4.1_Proposed_framework_for_SERS-based_analysis_of_bacterial_sepsis_biomark.jpeg,998,456,Proposed framework for SERS-based analysis of bacterial sepsis biomarkers.
+4.2,Figure_4.2_Molecular_structure_of_N-Acetylmuramic_Acid_NAM.png,266,199,Molecular structure of N-Acetylmuramic Acid (NAM).
+4.3,Figure_4.3_Simulated_Raman_spectrum_of_N-Acetylmuramic_Acid_generated_using_DFT.png,1589,382,Simulated Raman spectrum of N-Acetylmuramic Acid generated using DFT
+4.4,Figure_4.4_Stacked_Raman_spectra_of_NAM_recorded_under_multiple_laser_power_and.jpeg,1181,418,Stacked Raman spectra of NAM recorded under multiple laser power and
+4.5,Figure_4.5_Variation_of_Raman_peak_intensity_with_laser_power_for_NAM_measurement.png,683,570,Variation of Raman peak intensity with laser power for NAM measurements.
+4.6,Figure_4.6_Effect_of_integration_time_on_Raman_peak_intensity_of_NAM.png,730,317,Effect of integration time on Raman peak intensity of NAM.
+4.7,Figure_4.7_Heatmap_showing_spectral_quality_signal-to-noise_ratio_across_differen.png,688,348,Heatmap showing spectral quality / signal-to-noise ratio across different laser power
+4.8,Figure_4.8_Comparative_overlay_of_experimental_and_simulated_Raman_spectra_of_N-.png,1068,461,Comparative overlay of experimental and simulated Raman spectra of N-
+4.9,Figure_4.9_Peak_matching_and_error_analysis_between_experimental_and_simulated_NA.jpeg,1196,620,Peak matching and error analysis between experimental and simulated NAM
+4.10,Figure_4.10_a_Representative_fragment_models_used_for_theoretical_simulation_of_Lipo.png,437,259,Representative fragment models used for theoretical simulation of Lipoteichoic Acid
+4.10,Figure_4.10_b_Representative_fragment_models_used_for_theoretical_simulation_of_Lipo.png,225,194,Representative fragment models used for theoretical simulation of Lipoteichoic Acid
+4.10,Figure_4.10_c_Representative_fragment_models_used_for_theoretical_simulation_of_Lipo.png,217,140,Representative fragment models used for theoretical simulation of Lipoteichoic Acid
+4.11,Figure_4.11_Simulated_Raman_spectra_of_individual_LTA_fragments_Glycerol-Phosphate.png,1166,1041,"Simulated Raman spectra of individual LTA fragments: Glycerol-Phosphate, D-"
+4.12,Figure_4.12_Composite_theoretical_Raman_spectrum_of_Lipoteichoic_Acid_generated_fr.png,1422,463,Composite theoretical Raman spectrum of Lipoteichoic Acid generated from
+4.13,Figure_4.13_Comparison_of_experimental_Raman_spectrum_with_reconstructed_theoretic.jpeg,1487,735,Comparison of experimental Raman spectrum with reconstructed theoretical LTA
+4.14,Figure_4.14_a_Representative_molecular_fragments_selected_for_Lipopolysaccharide_LPS.png,225,104,Representative molecular fragments selected for Lipopolysaccharide (LPS)
+4.14,Figure_4.14_b_Representative_molecular_fragments_selected_for_Lipopolysaccharide_LPS.png,319,279,Representative molecular fragments selected for Lipopolysaccharide (LPS)
+4.14,Figure_4.14_c_Representative_molecular_fragments_selected_for_Lipopolysaccharide_LPS.png,223,175,Representative molecular fragments selected for Lipopolysaccharide (LPS)
+4.14,Figure_4.14_d_Representative_molecular_fragments_selected_for_Lipopolysaccharide_LPS.png,238,217,Representative molecular fragments selected for Lipopolysaccharide (LPS)
+4.15,Figure_4.15_Simulated_Raman_spectra_of_representative_LPS_molecular_fragments.png,1276,1378,Simulated Raman spectra of representative LPS molecular fragments.
+4.16,Figure_4.16_Optimized_experimental_Raman_spectrum_of_Lipopolysaccharide_LPS.png,710,493,Optimized experimental Raman spectrum of Lipopolysaccharide (LPS).
+4.17,Figure_4.17_Comparison_of_reconstructed_composite_spectrum_with_experimental_Raman.png,1378,682,Comparison of reconstructed composite spectrum with experimental Raman
+4.18,Figure_4.18_Quantitative_fitted_composite_Raman_spectrum_of_Lipopolysaccharide_usi.png,986,590,Quantitative fitted composite Raman spectrum of Lipopolysaccharide using NNLS

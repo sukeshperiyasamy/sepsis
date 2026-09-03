@@ -1,0 +1,42 @@
+exp,nearest_DFT_scaled_cm1,delta,label,matched,match_within_2,match_within_3,match_within_5,match_within_10,match_within_15,match_within_18,rel_intensity,confidence,quality,raman_activity,dft_assignment
+458.0,460.4531,2.4531000000000063,460.4531,True,False,True,True,True,True,True,0.6259,1.0,high,1.0267,Skeletal bending / ring torsion
+488.0,494.1746,6.174599999999998,494.1746,True,False,False,False,True,True,True,0.4617,1.0,high,2.8443,Skeletal bending / ring torsion
+523.0,513.3702,-9.629800000000046,513.3702,True,False,False,False,True,True,True,0.2729,1.0,high,2.2868,Skeletal bending / ring torsion
+542.0,555.6174,13.617399999999975,555.6174,True,False,False,False,False,True,True,0.8018,1.0,high,3.1763,Skeletal bending / ring torsion
+585.0,582.1444,-2.8555999999999813,582.1444,True,False,True,True,True,True,True,0.3448,1.0,high,0.9102,Skeletal bending / ring torsion
+616.0,619.3932,3.393199999999979,619.3932,True,False,False,True,True,True,True,0.1881,0.925,high,0.4591,Skeletal deformation + δ(C–C–O)
+646.0,640.1482,-5.851800000000026,640.1482,True,False,False,False,True,True,True,0.2641,1.0,high,1.8678,Skeletal deformation + δ(C–C–O)
+677.0,692.1882,15.188200000000052,692.1882,True,False,False,False,False,False,True,0.1319,0.975,high,1.4704,Skeletal deformation + δ(C–C–O)
+704.0,692.1882,-11.811799999999948,692.1882,True,False,False,False,False,True,True,0.2519,1.0,high,1.4704,Skeletal deformation + δ(C–C–O)
+745.0,731.2735,-13.726499999999987,731.2735,True,False,False,False,False,True,True,0.1857,0.9,high,5.2899,γ(O–H) carboxylic acid out-of-plane
+772.0,793.1881,21.188099999999963,793.1881,True,False,False,False,False,False,False,0.1016,1.0,high,7.4059,Skeletal deformation + δ(C–C–O)
+831.0,793.1881,-37.81190000000004,793.1881,True,False,False,False,False,False,False,0.6511,1.0,high,7.4059,Skeletal deformation + δ(C–C–O)
+872.0,872.968,0.9679999999999609,872.968,True,True,True,True,True,True,True,0.9218,1.0,high,3.2128,γ(CH₂) hydroxymethyl wagging
+930.0,926.6717,-3.328300000000013,926.6717,True,False,False,True,True,True,True,1.0,1.0,high,3.5677,Ring breathing / ν(C–C–O)
+956.0,979.4666,23.46659999999997,979.4666,True,False,False,False,False,False,False,0.9576,1.0,high,2.6436,Ring breathing / ν(C–C–O)
+1008.0,1006.2194,-1.7806000000000495,1006.2194,True,True,True,True,True,True,True,0.3051,0.95,tentative,1.967,ν(C–O)/ν(C–C) pyranose ring
+1024.0,1021.5243,-2.4756999999999607,1021.5243,True,False,True,True,True,True,True,0.7534,1.0,high,2.3081,ν(C–O) + δ(C–O–H)
+1044.0,1042.2021,-1.797900000000027,1042.2021,True,True,True,True,True,True,True,0.2615,1.0,tentative,7.653,ν(C–O) + δ(C–O–H)
+1059.0,1054.8156,-4.184400000000096,1054.8156,True,False,False,True,True,True,True,0.3322,1.0,high,1.7834,ν(C–O) + δ(C–O–H)
+1085.0,1079.8347,-5.165299999999888,1079.8347,True,False,False,False,True,True,True,0.3187,1.0,tentative,0.6177,ν(C–O) + δ(C–O–H)
+1113.0,1116.5775,3.5775000000001,1116.5775,True,False,False,True,True,True,True,0.3821,0.975,tentative,3.0549,ν(C–O) + δ(C–O–H)
+1128.0,1124.6265,-3.373499999999922,1124.6265,True,False,False,True,True,True,True,0.613,1.0,high,2.7463,ν(C–O) + δ(C–O–H)
+1157.0,1156.2142,-0.7858000000001084,1156.2142,True,True,True,True,True,True,True,0.4003,1.0,high,3.271,ν(C–O) + δ(C–O–H)
+1190.0,1192.1274,2.1274000000000797,1192.1274,True,False,True,True,True,True,True,0.1685,0.975,high,2.9903,ν(C–O) + δ(C–O–H)
+1208.0,1208.22,0.22000000000002728,1208.22,True,True,True,True,True,True,True,0.0833,0.875,tentative,2.1252,δ(C–H) + ν(C–O) coupled
+1249.0,1242.2736,-6.726400000000012,1242.2736,True,False,False,False,True,True,True,0.3244,1.0,high,3.8466,δ(C–H) + ν(C–O) coupled
+1300.0,1306.2071,6.207100000000082,1306.2071,True,False,False,False,True,True,True,0.1996,0.975,tentative,1.3069,δ(C–H) + ν(C–O) coupled
+1321.0,1324.8202,3.8202000000001135,1324.8202,True,False,False,True,True,True,True,0.4765,1.0,high,0.7146,δ(C–H) + ν(C–O) coupled
+1346.0,1345.6873,-0.3126999999999498,1345.6873,True,True,True,True,True,True,True,0.4865,1.0,high,5.3597,δ(C–H) / δs(CH₃) umbrella
+1395.0,1387.6065,-7.393499999999904,1387.6065,True,False,False,False,True,True,True,0.4661,0.975,high,7.7676,δ(C–H) / δs(CH₃) umbrella
+1451.0,1443.9352,-7.064800000000105,1443.9352,True,False,False,False,True,True,True,0.4932,1.0,high,5.2297,δ(CH₂) scissoring / δas(CH₃)
+1544.0,1535.2416,-8.758399999999938,1535.2416,True,False,False,False,True,True,True,0.0977,0.775,high,2.1544,Amide II: δ(N–H) + ν(C–N)
+1590.0,1535.2416,-54.75839999999994,1535.2416,True,False,False,False,False,False,False,0.2818,1.0,high,2.1544,Amide II: δ(N–H) + ν(C–N)
+1633.0,1722.8223,89.82230000000004,1722.8223,True,False,False,False,False,False,False,0.0786,0.95,tentative,12.8047,Amide I: ν(C=O)
+1652.0,1722.8223,70.82230000000004,1722.8223,True,False,False,False,False,False,False,0.0704,0.85,tentative,12.8047,Amide I: ν(C=O)
+1700.0,1722.8223,22.82230000000004,1722.8223,True,False,False,False,False,False,False,0.172,0.9,high,12.8047,Amide I: ν(C=O)
+1726.0,1722.8223,-3.177699999999959,1722.8223,True,False,False,True,True,True,True,0.0803,0.925,tentative,12.8047,Amide I: ν(C=O)
+1751.0,1759.2355,8.235500000000002,1759.2355,True,False,False,False,True,True,True,0.0733,0.85,tentative,10.169,ν(C=O) carboxylic acid
+1758.0,1759.2355,1.2355000000000018,1759.2355,True,True,True,True,True,True,True,0.0724,0.675,tentative,10.169,ν(C=O) carboxylic acid
+1768.0,1759.2355,-8.764499999999998,1759.2355,True,False,False,False,True,True,True,0.0777,0.85,high,10.169,ν(C=O) carboxylic acid
+1792.0,1759.2355,-32.7645,1759.2355,True,False,False,False,False,False,False,0.0647,0.95,tentative,10.169,ν(C=O) carboxylic acid

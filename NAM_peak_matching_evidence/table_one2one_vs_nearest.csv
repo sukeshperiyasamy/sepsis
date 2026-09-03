@@ -1,0 +1,3 @@
+Method,Experimental peaks,Matches (tol=18),Unique DFT modes used,Matching %
+Nearest-neighbour (many-to-one allowed),41,33,30,80.5
+One-to-one (Hungarian),41,30,30,73.2
