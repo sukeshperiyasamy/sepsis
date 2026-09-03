@@ -1,0 +1,9 @@
+LPS_experimental_band_cm-1,DFT_band_fragment,Delta_Exp_minus_DFT_cm-1,Literature_band_cm-1,Literature_assignment,SERS_band,Blank_substrate_status,Final_evidence_classification
+721.0,717.9 (KDO),3.1,Not available,No literature band found within a reasonable tolerance of this position,Not available,Not available (no LPS-specific blank-substrate control exists),Candidate
+748.0,750.4 (Heptose),-2.4,Not available,No literature band found within a reasonable tolerance of this position,Not available,Not available (no LPS-specific blank-substrate control exists),Candidate
+1659.0,1659.1 (KDO),-0.1,Not available,No literature band found within a reasonable tolerance of this position,Not available,Not available (no LPS-specific blank-substrate control exists),Candidate
+1693.0,1692.1 (KDO),0.9,Not available,No literature band found within a reasonable tolerance of this position,Not available,Not available (no LPS-specific blank-substrate control exists),Candidate
+972.0,962.4 (Heptose),9.6,989,Carbohydrate (KDO) ring/C-O [sample-type attribution conflicting -- see Section 5],Not available,Not available (no LPS-specific blank-substrate control exists),Strong candidate
+1124.0,1122.3 (KDO),1.7,1131,Lipid acyl chain (C-C stretch) [sample-type attribution conflicting -- see Section 5],Not available,Not available (no LPS-specific blank-substrate control exists),Strong candidate
+1354.0,1354.8 (KDO),-0.8,1330,Phospholipid (CH2 wagging / P-related) [sample-type attribution conflicting -- see Section 5],Not available,Not available (no LPS-specific blank-substrate control exists),Strong candidate
+902.0,913.2 (Heptose),-11.2,850,Glycosidic linkage (C-O-C) [sample-type attribution conflicting -- see Section 5],Not available,Not available (no LPS-specific blank-substrate control exists),Unconfirmed

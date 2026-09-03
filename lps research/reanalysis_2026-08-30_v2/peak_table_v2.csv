@@ -1,0 +1,44 @@
+Experimental_peak_cm-1,DFT_mode_cm-1,Delta_cm-1_(Exp-DFT),Component_fragment,Other_fragments_within_tol,Classification
+279.0,278.6,0.4,Heptose,Glucosamine;Phosphoric_Acid,Matched - uncertain
+310.0,311.2,-1.2,Glucosamine,Heptose,Matched - uncertain
+426.0,425.9,0.1,Phosphoric Acid,Glucosamine;Heptose;KDO,Matched - uncertain
+467.0,467.0,0.0,Glucosamine,Heptose;KDO,Matched - uncertain
+489.0,490.3,-1.3,Glucosamine,Heptose;KDO;Myristic_Acid,Matched - uncertain
+511.0,502.5,8.5,Myristic Acid,,Matched - uncertain
+542.0,541.5,0.5,Heptose,Glucosamine;KDO,Matched - uncertain
+587.0,581.7,5.3,Heptose,Glucosamine,Matched - uncertain
+629.0,619.7,9.3,Glucosamine,KDO,Matched - uncertain
+655.0,651.5,3.5,Myristic Acid,Heptose;KDO,Matched - uncertain
+674.0,676.3,-2.3,Heptose,KDO,Matched - uncertain
+698.0,683.5,14.5,KDO,,Matched - uncertain
+721.0,717.9,3.1,KDO,,Matched - confident
+748.0,750.4,-2.4,Heptose,,Matched - confident
+771.0,777.9,-6.9,Phosphoric Acid,,Matched - uncertain
+902.0,913.2,-11.2,Heptose,KDO;Phosphoric_Acid,Matched - uncertain
+972.0,962.4,9.6,Heptose,,Matched - uncertain
+1033.0,1031.0,2.0,Myristic Acid,Glucosamine;Heptose;KDO;Phosphoric_Acid,Matched - uncertain
+1090.0,1098.0,-8.0,Heptose,Glucosamine,Matched - uncertain
+1101.0,1102.8,-1.8,Glucosamine,Heptose;Myristic_Acid,Matched - uncertain
+1124.0,1122.3,1.7,KDO,Glucosamine;Myristic_Acid,Matched - uncertain
+1195.0,1196.4,-1.4,Glucosamine,Heptose;KDO,Matched - uncertain
+1354.0,1354.8,-0.8,KDO,Glucosamine;Heptose,Matched - uncertain
+1630.0,1635.6,-5.6,Glucosamine,,Matched - uncertain
+1659.0,1659.1,-0.1,KDO,,Matched - confident
+1693.0,1692.1,0.9,KDO,,Matched - confident
+736.0,-,-,-,-,Unmatched
+1574.0,-,-,-,-,Unmatched
+1584.0,-,-,-,-,Unmatched
+1595.0,-,-,-,-,Unmatched
+1615.0,-,-,-,-,Unmatched
+1705.0,-,-,-,-,Unmatched
+1716.0,-,-,-,-,Unmatched
+1727.0,-,-,-,-,Unmatched
+1750.0,-,-,-,-,Unmatched
+1772.0,-,-,-,-,Unmatched
+1793.0,-,-,-,-,Unmatched
+1815.0,-,-,-,-,Unmatched
+1840.0,-,-,-,-,Unmatched
+1863.0,-,-,-,-,Unmatched
+1888.0,-,-,-,-,Unmatched
+1923.0,-,-,-,-,Unmatched
+1998.0,-,-,-,-,Unmatched

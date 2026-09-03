@@ -1,0 +1,1266 @@
+{
+  "summary": {
+    "experimental_file": "sec-60_power-20_i-30.xlsx",
+    "experimental_metadata": {
+      "average number": 30,
+      "laser_powerlevel": 20
+    },
+    "native_exp_range_cm1": [
+      -46.169047190162,
+      2841.92207588685
+    ],
+    "fragment_report": {
+      "KDO": {
+        "file": "3-Deoxy-D-Manno-Octulosonic Acid_raman_act.txt",
+        "exists": true,
+        "n_discrete_modes": 84,
+        "has_native_broadened_curve": true,
+        "native_curve_points": 500
+      },
+      "Glucosamine": {
+        "file": "D-glucosamine-opt_raman_act.txt",
+        "exists": true,
+        "n_discrete_modes": 69,
+        "has_native_broadened_curve": true,
+        "native_curve_points": 500
+      },
+      "Heptose": {
+        "file": "L-Glycero-D-Manno-Heptose-opt_raman_act.txt",
+        "exists": true,
+        "n_discrete_modes": 78,
+        "has_native_broadened_curve": true,
+        "native_curve_points": 500
+      },
+      "Myristic_Acid": {
+        "file": "Myristic Acid-opt_raman_act.txt",
+        "exists": true,
+        "n_discrete_modes": 126,
+        "has_native_broadened_curve": true,
+        "native_curve_points": 500
+      },
+      "Phosphoric_Acid": {
+        "file": "Phosphoric acid-opt_raman_act.txt",
+        "exists": true,
+        "n_discrete_modes": 18,
+        "has_native_broadened_curve": true,
+        "native_curve_points": 500
+      }
+    },
+    "preprocessing_order": [
+      "window 200-2000 cm-1",
+      "ALS baseline correction",
+      "Savitzky-Golay smoothing (11,3)",
+      "min-max normalization (last)"
+    ],
+    "scale_factor": 0.9613,
+    "matching_tolerance_cm1": 15.0,
+    "confident_delta_threshold_cm1": 5.0,
+    "dft_activity_threshold_fraction": 0.05,
+    "peak_detection": {
+      "prominence": 0.08,
+      "min_spacing_cm1": 10
+    },
+    "n_experimental_peaks": 43,
+    "n_dft_candidate_modes": 178,
+    "n_matched_confident": 4,
+    "n_matched_uncertain": 22,
+    "n_unmatched_experimental": 17,
+    "n_component_specific_dft_only": 152,
+    "mae_all_matched_cm1": 3.9431155189038476,
+    "rmse_all_matched_cm1": 5.569276637388708,
+    "mae_confident_cm1": 1.6400306445499666,
+    "rmse_confident_cm1": 2.0264749198589516,
+    "whole_curve_fit_SECONDARY_ONLY": {
+      "rmse": 0.21782509912850773,
+      "r2": 0.05075052566494187,
+      "pearson_r": 0.4976426577413402,
+      "nnls_weights_fraction": {
+        "KDO": 0.43695947780111194,
+        "Glucosamine": 0.28533081726818516,
+        "Heptose": 0.26990515091938855,
+        "Myristic_Acid": 0.00780455401131436,
+        "Phosphoric_Acid": 0.0
+      },
+      "caveat": "Whole-curve fit is reported only as a secondary/exploratory diagnostic. It compares the experimental spectrum to a linear composite of 5 independently-broadened fragment curves (visualization broadening, FWHM=20 cm-1) -- it does NOT represent an intact-LPS calculation, ignores inter-fragment coupling, and its R^2 should not be read as a validation metric. Peak-level MAE/RMSE above are the primary, more defensible quantitative result."
+    }
+  },
+  "matches": [
+    {
+      "exp": 279.0,
+      "dft": 278.61271575259997,
+      "delta": 0.3872842474000322,
+      "frag": "Heptose",
+      "exp_prominence": 0.3046572815596034,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "Phosphoric_Acid"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 310.0,
+      "dft": 311.22235828590004,
+      "delta": -1.222358285900043,
+      "frag": "Glucosamine",
+      "exp_prominence": 0.22687136569237884,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 426.0,
+      "dft": 425.8824924419,
+      "delta": 0.11750755809998736,
+      "frag": "Phosphoric_Acid",
+      "exp_prominence": 0.698538080820337,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "KDO",
+        "Phosphoric_Acid"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 467.0,
+      "dft": 466.9951824271,
+      "delta": 0.00481757289998086,
+      "frag": "Glucosamine",
+      "exp_prominence": 0.13093941655984015,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "KDO"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 489.0,
+      "dft": 490.32446744460003,
+      "delta": -1.3244674446000317,
+      "frag": "Glucosamine",
+      "exp_prominence": 0.2933432731976844,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "KDO",
+        "Myristic_Acid"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 511.0,
+      "dft": 502.518988607,
+      "delta": 8.481011393000017,
+      "frag": "Myristic_Acid",
+      "exp_prominence": 0.23184952065090594,
+      "frags_within": [
+        "Myristic_Acid"
+      ],
+      "unique": true,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 542.0,
+      "dft": 541.4588127889,
+      "delta": 0.5411872111000093,
+      "frag": "Heptose",
+      "exp_prominence": 0.3132736417271272,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "KDO"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 587.0,
+      "dft": 581.707508444,
+      "delta": 5.292491555999959,
+      "frag": "Heptose",
+      "exp_prominence": 0.5050457955978485,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 629.0,
+      "dft": 619.6522150532,
+      "delta": 9.347784946799948,
+      "frag": "Glucosamine",
+      "exp_prominence": 0.17979010938043588,
+      "frags_within": [
+        "Glucosamine",
+        "KDO"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 655.0,
+      "dft": 651.5431387576001,
+      "delta": 3.4568612423998957,
+      "frag": "Myristic_Acid",
+      "exp_prominence": 0.23896562400604307,
+      "frags_within": [
+        "Heptose",
+        "KDO",
+        "Myristic_Acid"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 674.0,
+      "dft": 676.3182228203001,
+      "delta": -2.318222820300093,
+      "frag": "Heptose",
+      "exp_prominence": 0.181865384735225,
+      "frags_within": [
+        "Heptose",
+        "KDO"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 698.0,
+      "dft": 683.5315536628001,
+      "delta": 14.468446337199907,
+      "frag": "KDO",
+      "exp_prominence": 0.11297917103213015,
+      "frags_within": [
+        "KDO"
+      ],
+      "unique": true,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 721.0,
+      "dft": 717.8782739478,
+      "delta": 3.1217260521999606,
+      "frag": "KDO",
+      "exp_prominence": 0.1756738831552198,
+      "frags_within": [
+        "KDO"
+      ],
+      "unique": true,
+      "classification": "Matched - confident"
+    },
+    {
+      "exp": 748.0,
+      "dft": 750.4119862780001,
+      "delta": -2.411986278000086,
+      "frag": "Heptose",
+      "exp_prominence": 0.08276681318775331,
+      "frags_within": [
+        "Heptose"
+      ],
+      "unique": true,
+      "classification": "Matched - confident"
+    },
+    {
+      "exp": 771.0,
+      "dft": 777.857418507,
+      "delta": -6.857418507000034,
+      "frag": "Phosphoric_Acid",
+      "exp_prominence": 0.20746495582069382,
+      "frags_within": [
+        "Phosphoric_Acid"
+      ],
+      "unique": true,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 902.0,
+      "dft": 913.1575211426,
+      "delta": -11.15752114259999,
+      "frag": "Heptose",
+      "exp_prominence": 0.20210954261877506,
+      "frags_within": [
+        "Heptose",
+        "KDO",
+        "Phosphoric_Acid"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 972.0,
+      "dft": 962.382414187,
+      "delta": 9.617585813000005,
+      "frag": "Heptose",
+      "exp_prominence": 0.15908918061577226,
+      "frags_within": [
+        "Heptose"
+      ],
+      "unique": true,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 1033.0,
+      "dft": 1031.009159763,
+      "delta": 1.9908402369999294,
+      "frag": "Myristic_Acid",
+      "exp_prominence": 0.2698336259639405,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "KDO",
+        "Myristic_Acid",
+        "Phosphoric_Acid"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 1090.0,
+      "dft": 1097.98090242,
+      "delta": -7.980902419999893,
+      "frag": "Heptose",
+      "exp_prominence": 0.9772974802950749,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 1101.0,
+      "dft": 1102.8412544460002,
+      "delta": -1.841254446000221,
+      "frag": "Glucosamine",
+      "exp_prominence": 0.4100108125308494,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "Myristic_Acid"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 1124.0,
+      "dft": 1122.259091474,
+      "delta": 1.740908526000112,
+      "frag": "KDO",
+      "exp_prominence": 0.08953738789440668,
+      "frags_within": [
+        "Glucosamine",
+        "KDO",
+        "Myristic_Acid"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 1195.0,
+      "dft": 1196.408370968,
+      "delta": -1.4083709680000993,
+      "frag": "Glucosamine",
+      "exp_prominence": 0.2636140445528798,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "KDO"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 1354.0,
+      "dft": 1354.778095149,
+      "delta": -0.7780951489999097,
+      "frag": "KDO",
+      "exp_prominence": 0.940664423687915,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "KDO"
+      ],
+      "unique": false,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 1630.0,
+      "dft": 1635.625543089,
+      "delta": -5.625543089000075,
+      "frag": "Glucosamine",
+      "exp_prominence": 0.2194623633552712,
+      "frags_within": [
+        "Glucosamine"
+      ],
+      "unique": true,
+      "classification": "Matched - uncertain"
+    },
+    {
+      "exp": 1659.0,
+      "dft": 1659.102844274,
+      "delta": -0.1028442740000628,
+      "frag": "KDO",
+      "exp_prominence": 0.11572048143415192,
+      "frags_within": [
+        "KDO"
+      ],
+      "unique": true,
+      "classification": "Matched - confident"
+    },
+    {
+      "exp": 1693.0,
+      "dft": 1692.0764340260002,
+      "delta": 0.9235659739997573,
+      "frag": "KDO",
+      "exp_prominence": 0.09124224954511789,
+      "frags_within": [
+        "KDO"
+      ],
+      "unique": true,
+      "classification": "Matched - confident"
+    }
+  ],
+  "unmatched": [
+    [
+      736.0,
+      0.11041295079321033
+    ],
+    [
+      1574.0,
+      0.10220593349386509
+    ],
+    [
+      1584.0,
+      0.22919353557762856
+    ],
+    [
+      1595.0,
+      0.13671146888230526
+    ],
+    [
+      1615.0,
+      0.42981855367069416
+    ],
+    [
+      1705.0,
+      0.09242170846957182
+    ],
+    [
+      1716.0,
+      0.13079180135808388
+    ],
+    [
+      1727.0,
+      0.22630305721288996
+    ],
+    [
+      1750.0,
+      0.13964161088605062
+    ],
+    [
+      1772.0,
+      0.1617115223370111
+    ],
+    [
+      1793.0,
+      0.16624808038170524
+    ],
+    [
+      1815.0,
+      0.1690380766378346
+    ],
+    [
+      1840.0,
+      0.23661578591486454
+    ],
+    [
+      1863.0,
+      0.09058566955689916
+    ],
+    [
+      1888.0,
+      0.08214634182540172
+    ],
+    [
+      1923.0,
+      0.10263176908023611
+    ],
+    [
+      1998.0,
+      0.10026563838097953
+    ]
+  ],
+  "component_specific": [
+    {
+      "dft": 333.2505506698,
+      "frag": "KDO",
+      "activity": 0.0739561638
+    },
+    {
+      "dft": 352.47491453720005,
+      "frag": "KDO",
+      "activity": 0.2574814365
+    },
+    {
+      "dft": 388.93689856820004,
+      "frag": "KDO",
+      "activity": 0.0885382839
+    },
+    {
+      "dft": 432.1662433005,
+      "frag": "KDO",
+      "activity": 0.0770270394
+    },
+    {
+      "dft": 469.17045917080003,
+      "frag": "KDO",
+      "activity": 0.1521017305
+    },
+    {
+      "dft": 474.75131419850004,
+      "frag": "KDO",
+      "activity": 0.0974651048
+    },
+    {
+      "dft": 492.7768975526,
+      "frag": "KDO",
+      "activity": 0.0857002216
+    },
+    {
+      "dft": 531.4059882386,
+      "frag": "KDO",
+      "activity": 0.1043547135
+    },
+    {
+      "dft": 559.6690445696,
+      "frag": "KDO",
+      "activity": 0.0897890759
+    },
+    {
+      "dft": 617.7710518897,
+      "frag": "KDO",
+      "activity": 0.1132422235
+    },
+    {
+      "dft": 647.9857923522001,
+      "frag": "KDO",
+      "activity": 0.0849658293
+    },
+    {
+      "dft": 786.1724866278001,
+      "frag": "KDO",
+      "activity": 0.262117939
+    },
+    {
+      "dft": 831.6757057609,
+      "frag": "KDO",
+      "activity": 0.2661205121
+    },
+    {
+      "dft": 851.0560645858001,
+      "frag": "KDO",
+      "activity": 0.110653187
+    },
+    {
+      "dft": 858.1452127717,
+      "frag": "KDO",
+      "activity": 0.2973401875
+    },
+    {
+      "dft": 890.8279064146,
+      "frag": "KDO",
+      "activity": 0.1346249899
+    },
+    {
+      "dft": 950.5589115661,
+      "frag": "KDO",
+      "activity": 0.1665672166
+    },
+    {
+      "dft": 989.7707067440001,
+      "frag": "KDO",
+      "activity": 0.1431486929
+    },
+    {
+      "dft": 1019.7724471590001,
+      "frag": "KDO",
+      "activity": 0.1949898781
+    },
+    {
+      "dft": 1042.609522544,
+      "frag": "KDO",
+      "activity": 0.1434726763
+    },
+    {
+      "dft": 1053.774320295,
+      "frag": "KDO",
+      "activity": 0.2478171869
+    },
+    {
+      "dft": 1074.206261532,
+      "frag": "KDO",
+      "activity": 0.326534726
+    },
+    {
+      "dft": 1134.255548307,
+      "frag": "KDO",
+      "activity": 0.1029477606
+    },
+    {
+      "dft": 1141.01474661,
+      "frag": "KDO",
+      "activity": 0.0653718099
+    },
+    {
+      "dft": 1166.890875815,
+      "frag": "KDO",
+      "activity": 0.0948568228
+    },
+    {
+      "dft": 1180.814643018,
+      "frag": "KDO",
+      "activity": 0.0908259341
+    },
+    {
+      "dft": 1224.31398712,
+      "frag": "KDO",
+      "activity": 0.1290371009
+    },
+    {
+      "dft": 1237.18396765,
+      "frag": "KDO",
+      "activity": 0.0784737176
+    },
+    {
+      "dft": 1261.292439189,
+      "frag": "KDO",
+      "activity": 0.1311565801
+    },
+    {
+      "dft": 1273.072449714,
+      "frag": "KDO",
+      "activity": 0.0658578931
+    },
+    {
+      "dft": 1300.1712371630001,
+      "frag": "KDO",
+      "activity": 0.0661341074
+    },
+    {
+      "dft": 1307.907433495,
+      "frag": "KDO",
+      "activity": 0.2453693055
+    },
+    {
+      "dft": 1330.0330795890002,
+      "frag": "KDO",
+      "activity": 0.1924037977
+    },
+    {
+      "dft": 1337.253692279,
+      "frag": "KDO",
+      "activity": 0.3103136425
+    },
+    {
+      "dft": 1341.562046619,
+      "frag": "KDO",
+      "activity": 0.234268056
+    },
+    {
+      "dft": 1349.326466719,
+      "frag": "KDO",
+      "activity": 0.1819328282
+    },
+    {
+      "dft": 1370.554470099,
+      "frag": "KDO",
+      "activity": 0.1143806859
+    },
+    {
+      "dft": 1396.628636717,
+      "frag": "KDO",
+      "activity": 0.089435151
+    },
+    {
+      "dft": 1420.433962301,
+      "frag": "KDO",
+      "activity": 0.1304593563
+    },
+    {
+      "dft": 200.0535830581,
+      "frag": "Glucosamine",
+      "activity": 0.1227885838
+    },
+    {
+      "dft": 235.58106909440002,
+      "frag": "Glucosamine",
+      "activity": 0.0200957196
+    },
+    {
+      "dft": 254.15337548140002,
+      "frag": "Glucosamine",
+      "activity": 0.0140175592
+    },
+    {
+      "dft": 274.01845348920006,
+      "frag": "Glucosamine",
+      "activity": 0.1042794527
+    },
+    {
+      "dft": 276.0096874253,
+      "frag": "Glucosamine",
+      "activity": 0.0489816217
+    },
+    {
+      "dft": 336.5340236665,
+      "frag": "Glucosamine",
+      "activity": 0.1290599255
+    },
+    {
+      "dft": 367.6582740915,
+      "frag": "Glucosamine",
+      "activity": 0.0721384664
+    },
+    {
+      "dft": 383.91215847440003,
+      "frag": "Glucosamine",
+      "activity": 0.0746811561
+    },
+    {
+      "dft": 401.6152900856,
+      "frag": "Glucosamine",
+      "activity": 0.2215460807
+    },
+    {
+      "dft": 411.5140019038,
+      "frag": "Glucosamine",
+      "activity": 0.1415907529
+    },
+    {
+      "dft": 433.71582044850004,
+      "frag": "Glucosamine",
+      "activity": 0.2670881885
+    },
+    {
+      "dft": 531.6144874795,
+      "frag": "Glucosamine",
+      "activity": 0.0883970241
+    },
+    {
+      "dft": 578.4037770111,
+      "frag": "Glucosamine",
+      "activity": 0.0234817009
+    },
+    {
+      "dft": 858.0948368065,
+      "frag": "Glucosamine",
+      "activity": 0.0295384545
+    },
+    {
+      "dft": 872.7096960377,
+      "frag": "Glucosamine",
+      "activity": 0.0759270237
+    },
+    {
+      "dft": 932.4170551318001,
+      "frag": "Glucosamine",
+      "activity": 0.0464102533
+    },
+    {
+      "dft": 1014.377400847,
+      "frag": "Glucosamine",
+      "activity": 0.0156233584
+    },
+    {
+      "dft": 1028.953631199,
+      "frag": "Glucosamine",
+      "activity": 0.0311129517
+    },
+    {
+      "dft": 1041.036778066,
+      "frag": "Glucosamine",
+      "activity": 0.0473201936
+    },
+    {
+      "dft": 1060.3017107160001,
+      "frag": "Glucosamine",
+      "activity": 0.0534489205
+    },
+    {
+      "dft": 1065.5200220230001,
+      "frag": "Glucosamine",
+      "activity": 0.0298580842
+    },
+    {
+      "dft": 1081.144771124,
+      "frag": "Glucosamine",
+      "activity": 0.061431778
+    },
+    {
+      "dft": 1112.975951956,
+      "frag": "Glucosamine",
+      "activity": 0.0890315517
+    },
+    {
+      "dft": 1135.862293966,
+      "frag": "Glucosamine",
+      "activity": 0.0291290223
+    },
+    {
+      "dft": 1160.961192895,
+      "frag": "Glucosamine",
+      "activity": 0.055946219
+    },
+    {
+      "dft": 1172.6251168320002,
+      "frag": "Glucosamine",
+      "activity": 0.0870273831
+    },
+    {
+      "dft": 1208.203098996,
+      "frag": "Glucosamine",
+      "activity": 0.0496639748
+    },
+    {
+      "dft": 1247.556336972,
+      "frag": "Glucosamine",
+      "activity": 0.0268760374
+    },
+    {
+      "dft": 1264.342749832,
+      "frag": "Glucosamine",
+      "activity": 0.1163180971
+    },
+    {
+      "dft": 1278.9446853460001,
+      "frag": "Glucosamine",
+      "activity": 0.0484530693
+    },
+    {
+      "dft": 1299.3077494380002,
+      "frag": "Glucosamine",
+      "activity": 0.0299705829
+    },
+    {
+      "dft": 1342.943578914,
+      "frag": "Glucosamine",
+      "activity": 0.1647658773
+    },
+    {
+      "dft": 1352.935850216,
+      "frag": "Glucosamine",
+      "activity": 0.1363581756
+    },
+    {
+      "dft": 1360.2840081900001,
+      "frag": "Glucosamine",
+      "activity": 0.0538571256
+    },
+    {
+      "dft": 1369.37886749,
+      "frag": "Glucosamine",
+      "activity": 0.0232474659
+    },
+    {
+      "dft": 1388.078094316,
+      "frag": "Glucosamine",
+      "activity": 0.0167877116
+    },
+    {
+      "dft": 1392.673521675,
+      "frag": "Glucosamine",
+      "activity": 0.072156721
+    },
+    {
+      "dft": 1435.1434672850003,
+      "frag": "Glucosamine",
+      "activity": 0.0332315956
+    },
+    {
+      "dft": 1471.0444558620002,
+      "frag": "Glucosamine",
+      "activity": 0.1156183
+    },
+    {
+      "dft": 214.4127143794,
+      "frag": "Heptose",
+      "activity": 0.1515939294
+    },
+    {
+      "dft": 225.6129831391,
+      "frag": "Heptose",
+      "activity": 0.0328185459
+    },
+    {
+      "dft": 235.86421231900002,
+      "frag": "Heptose",
+      "activity": 0.1023464002
+    },
+    {
+      "dft": 247.9145038746,
+      "frag": "Heptose",
+      "activity": 0.0276523692
+    },
+    {
+      "dft": 264.0039319374,
+      "frag": "Heptose",
+      "activity": 0.0286368833
+    },
+    {
+      "dft": 281.8138341783,
+      "frag": "Heptose",
+      "activity": 0.0399553381
+    },
+    {
+      "dft": 289.6929738977,
+      "frag": "Heptose",
+      "activity": 0.1396566822
+    },
+    {
+      "dft": 306.2588222405,
+      "frag": "Heptose",
+      "activity": 0.1029656552
+    },
+    {
+      "dft": 316.5230385834,
+      "frag": "Heptose",
+      "activity": 0.13078642
+    },
+    {
+      "dft": 360.26158680960003,
+      "frag": "Heptose",
+      "activity": 0.0762267136
+    },
+    {
+      "dft": 382.1732158007,
+      "frag": "Heptose",
+      "activity": 0.1537517121
+    },
+    {
+      "dft": 398.65522051880004,
+      "frag": "Heptose",
+      "activity": 0.1539609985
+    },
+    {
+      "dft": 438.19821911480005,
+      "frag": "Heptose",
+      "activity": 0.4193406744
+    },
+    {
+      "dft": 478.0030623726,
+      "frag": "Heptose",
+      "activity": 0.0414205139
+    },
+    {
+      "dft": 668.4000687404,
+      "frag": "Heptose",
+      "activity": 0.0729793072
+    },
+    {
+      "dft": 829.1510676034001,
+      "frag": "Heptose",
+      "activity": 0.1841691677
+    },
+    {
+      "dft": 839.4022112276,
+      "frag": "Heptose",
+      "activity": 0.3474758172
+    },
+    {
+      "dft": 877.9655259224,
+      "frag": "Heptose",
+      "activity": 0.0604994253
+    },
+    {
+      "dft": 982.1601427090001,
+      "frag": "Heptose",
+      "activity": 0.0912742904
+    },
+    {
+      "dft": 1002.605628663,
+      "frag": "Heptose",
+      "activity": 0.0845376521
+    },
+    {
+      "dft": 1013.8784284690001,
+      "frag": "Heptose",
+      "activity": 0.0382855742
+    },
+    {
+      "dft": 1017.5198040299999,
+      "frag": "Heptose",
+      "activity": 0.0611357124
+    },
+    {
+      "dft": 1026.4200769840002,
+      "frag": "Heptose",
+      "activity": 0.3561162767
+    },
+    {
+      "dft": 1037.0427496,
+      "frag": "Heptose",
+      "activity": 0.2052967842
+    },
+    {
+      "dft": 1051.694153612,
+      "frag": "Heptose",
+      "activity": 0.0789666583
+    },
+    {
+      "dft": 1069.583696674,
+      "frag": "Heptose",
+      "activity": 0.1997865974
+    },
+    {
+      "dft": 1149.036256782,
+      "frag": "Heptose",
+      "activity": 0.0242242045
+    },
+    {
+      "dft": 1161.235865144,
+      "frag": "Heptose",
+      "activity": 0.0548303681
+    },
+    {
+      "dft": 1176.9060452830001,
+      "frag": "Heptose",
+      "activity": 0.1197187102
+    },
+    {
+      "dft": 1187.191743797,
+      "frag": "Heptose",
+      "activity": 0.2470606656
+    },
+    {
+      "dft": 1196.535224116,
+      "frag": "Heptose",
+      "activity": 0.0546622708
+    },
+    {
+      "dft": 1202.662136957,
+      "frag": "Heptose",
+      "activity": 0.066559106
+    },
+    {
+      "dft": 1216.9272425640002,
+      "frag": "Heptose",
+      "activity": 0.0428180456
+    },
+    {
+      "dft": 1224.424700041,
+      "frag": "Heptose",
+      "activity": 0.2120678926
+    },
+    {
+      "dft": 1255.8078670080001,
+      "frag": "Heptose",
+      "activity": 0.1081027992
+    },
+    {
+      "dft": 1275.7053158320002,
+      "frag": "Heptose",
+      "activity": 0.1303671905
+    },
+    {
+      "dft": 1288.280090745,
+      "frag": "Heptose",
+      "activity": 0.1663310047
+    },
+    {
+      "dft": 1297.8876401740001,
+      "frag": "Heptose",
+      "activity": 0.1394780942
+    },
+    {
+      "dft": 1322.533814868,
+      "frag": "Heptose",
+      "activity": 0.0241903308
+    },
+    {
+      "dft": 1337.708396792,
+      "frag": "Heptose",
+      "activity": 0.207048307
+    },
+    {
+      "dft": 1349.5795673960001,
+      "frag": "Heptose",
+      "activity": 0.0447135397
+    },
+    {
+      "dft": 1354.821469005,
+      "frag": "Heptose",
+      "activity": 0.2701780479
+    },
+    {
+      "dft": 1358.8371651730001,
+      "frag": "Heptose",
+      "activity": 0.1007858609
+    },
+    {
+      "dft": 1372.6320412720002,
+      "frag": "Heptose",
+      "activity": 0.0527770631
+    },
+    {
+      "dft": 1378.2532141830002,
+      "frag": "Heptose",
+      "activity": 0.1019573856
+    },
+    {
+      "dft": 1397.587879535,
+      "frag": "Heptose",
+      "activity": 0.0378939956
+    },
+    {
+      "dft": 1406.566652247,
+      "frag": "Heptose",
+      "activity": 0.0492093633
+    },
+    {
+      "dft": 1438.898333924,
+      "frag": "Heptose",
+      "activity": 0.1647314802
+    },
+    {
+      "dft": 610.545143398,
+      "frag": "Myristic_Acid",
+      "activity": 0.1147465038
+    },
+    {
+      "dft": 849.4421082155,
+      "frag": "Myristic_Acid",
+      "activity": 0.1390882767
+    },
+    {
+      "dft": 869.4662977154001,
+      "frag": "Myristic_Acid",
+      "activity": 0.1263618441
+    },
+    {
+      "dft": 1030.097280196,
+      "frag": "Myristic_Acid",
+      "activity": 0.0774044138
+    },
+    {
+      "dft": 1036.44751264,
+      "frag": "Myristic_Acid",
+      "activity": 0.0834520089
+    },
+    {
+      "dft": 1066.648847774,
+      "frag": "Myristic_Acid",
+      "activity": 0.1770945808
+    },
+    {
+      "dft": 1105.248118934,
+      "frag": "Myristic_Acid",
+      "activity": 0.1805854596
+    },
+    {
+      "dft": 1121.729732403,
+      "frag": "Myristic_Acid",
+      "activity": 0.1110483019
+    },
+    {
+      "dft": 1282.959362536,
+      "frag": "Myristic_Acid",
+      "activity": 0.655144569
+    },
+    {
+      "dft": 1286.625751123,
+      "frag": "Myristic_Acid",
+      "activity": 0.7775647464
+    },
+    {
+      "dft": 1432.8772986650001,
+      "frag": "Myristic_Acid",
+      "activity": 0.1219348327
+    },
+    {
+      "dft": 1458.2841115970002,
+      "frag": "Myristic_Acid",
+      "activity": 1.3261117643
+    },
+    {
+      "dft": 1459.2751542190001,
+      "frag": "Myristic_Acid",
+      "activity": 0.1803400657
+    },
+    {
+      "dft": 1463.742565257,
+      "frag": "Myristic_Acid",
+      "activity": 0.0985060575
+    },
+    {
+      "dft": 1470.650601639,
+      "frag": "Myristic_Acid",
+      "activity": 0.2232100982
+    },
+    {
+      "dft": 214.2227403508,
+      "frag": "Phosphoric_Acid",
+      "activity": 0.138731507
+    },
+    {
+      "dft": 271.26687739550005,
+      "frag": "Phosphoric_Acid",
+      "activity": 0.0818988846
+    },
+    {
+      "dft": 376.8981397287,
+      "frag": "Phosphoric_Acid",
+      "activity": 0.0825168818
+    },
+    {
+      "dft": 418.0193718257,
+      "frag": "Phosphoric_Acid",
+      "activity": 0.0967993196
+    },
+    {
+      "dft": 447.41010419290006,
+      "frag": "Phosphoric_Acid",
+      "activity": 0.0873061027
+    },
+    {
+      "dft": 875.3055396088,
+      "frag": "Phosphoric_Acid",
+      "activity": 0.0232160732
+    },
+    {
+      "dft": 888.0241528795001,
+      "frag": "Phosphoric_Acid",
+      "activity": 0.0348887833
+    },
+    {
+      "dft": 995.4669667979999,
+      "frag": "Phosphoric_Acid",
+      "activity": 0.0516036882
+    },
+    {
+      "dft": 1030.9203740950002,
+      "frag": "Phosphoric_Acid",
+      "activity": 0.0313538367
+    },
+    {
+      "dft": 1037.5451538190002,
+      "frag": "Phosphoric_Acid",
+      "activity": 0.0667204415
+    },
+    {
+      "dft": 1296.871930594,
+      "frag": "Phosphoric_Acid",
+      "activity": 0.0571471392
+    }
+  ]
+}

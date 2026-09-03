@@ -1,0 +1,397 @@
+{
+  "summary": {
+    "n_exp_peaks_detected": 43,
+    "n_dft_candidates": 178,
+    "n_matches_within_tol": 26,
+    "n_defensible_matches": 26,
+    "n_high": 4,
+    "n_moderate": 20,
+    "n_low": 2,
+    "mae_matched": 3.9431155189038476,
+    "rmse_matched": 5.569276637388708,
+    "tolerance_cm1": 15.0,
+    "fit_corrected": {
+      "rmse": 0.21782509912850773,
+      "r2": 0.05075052566494187,
+      "r": 0.4976426577413402,
+      "weights_frac": {
+        "KDO": 0.43695947780111194,
+        "Glucosamine": 0.28533081726818516,
+        "Heptose": 0.26990515091938855,
+        "Myristic_Acid": 0.00780455401131436,
+        "Phosphoric_Acid": 0.0
+      }
+    },
+    "fit_equal_weight_corrected": {
+      "rmse": 0.23958112971611328,
+      "r2": -0.14833801343440634,
+      "r": 0.41304992528488527
+    },
+    "fit_old_buggy_pipeline": {
+      "rmse": 0.23991660898694744,
+      "r2": -468.16502587038093,
+      "r": 0.45229149020620235,
+      "published_rmse": 0.185045,
+      "published_r2": 0.179946,
+      "published_r": 0.507839
+    },
+    "native_exp_range": [
+      -46.169047190162,
+      2841.92207588685
+    ],
+    "fragment_raw_peak_counts": {
+      "KDO": 84,
+      "Glucosamine": 69,
+      "Heptose": 78,
+      "Myristic_Acid": 126,
+      "Phosphoric_Acid": 18
+    }
+  },
+  "matches": [
+    {
+      "exp": 279.0,
+      "dft": 278.61271575259997,
+      "delta": 0.3872842474000322,
+      "frag": "Heptose",
+      "exp_prominence": 0.3046572815596034,
+      "n_frag_within_tol": 3,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "Phosphoric_Acid"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 310.0,
+      "dft": 311.22235828590004,
+      "delta": -1.222358285900043,
+      "frag": "Glucosamine",
+      "exp_prominence": 0.22687136569237884,
+      "n_frag_within_tol": 2,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 426.0,
+      "dft": 425.8824924419,
+      "delta": 0.11750755809998736,
+      "frag": "Phosphoric_Acid",
+      "exp_prominence": 0.698538080820337,
+      "n_frag_within_tol": 4,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "KDO",
+        "Phosphoric_Acid"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 467.0,
+      "dft": 466.9951824271,
+      "delta": 0.00481757289998086,
+      "frag": "Glucosamine",
+      "exp_prominence": 0.13093941655984015,
+      "n_frag_within_tol": 3,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "KDO"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 489.0,
+      "dft": 490.32446744460003,
+      "delta": -1.3244674446000317,
+      "frag": "Glucosamine",
+      "exp_prominence": 0.2933432731976844,
+      "n_frag_within_tol": 4,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "KDO",
+        "Myristic_Acid"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 511.0,
+      "dft": 502.518988607,
+      "delta": 8.481011393000017,
+      "frag": "Myristic_Acid",
+      "exp_prominence": 0.23184952065090594,
+      "n_frag_within_tol": 1,
+      "frags_within": [
+        "Myristic_Acid"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 542.0,
+      "dft": 541.4588127889,
+      "delta": 0.5411872111000093,
+      "frag": "Heptose",
+      "exp_prominence": 0.3132736417271272,
+      "n_frag_within_tol": 3,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "KDO"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 587.0,
+      "dft": 581.707508444,
+      "delta": 5.292491555999959,
+      "frag": "Heptose",
+      "exp_prominence": 0.5050457955978485,
+      "n_frag_within_tol": 2,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 629.0,
+      "dft": 619.6522150532,
+      "delta": 9.347784946799948,
+      "frag": "Glucosamine",
+      "exp_prominence": 0.17979010938043588,
+      "n_frag_within_tol": 2,
+      "frags_within": [
+        "Glucosamine",
+        "KDO"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 655.0,
+      "dft": 651.5431387576001,
+      "delta": 3.4568612423998957,
+      "frag": "Myristic_Acid",
+      "exp_prominence": 0.23896562400604307,
+      "n_frag_within_tol": 3,
+      "frags_within": [
+        "Heptose",
+        "KDO",
+        "Myristic_Acid"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 674.0,
+      "dft": 676.3182228203001,
+      "delta": -2.318222820300093,
+      "frag": "Heptose",
+      "exp_prominence": 0.181865384735225,
+      "n_frag_within_tol": 2,
+      "frags_within": [
+        "Heptose",
+        "KDO"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 698.0,
+      "dft": 683.5315536628001,
+      "delta": 14.468446337199907,
+      "frag": "KDO",
+      "exp_prominence": 0.11297917103213015,
+      "n_frag_within_tol": 1,
+      "frags_within": [
+        "KDO"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "exp": 721.0,
+      "dft": 717.8782739478,
+      "delta": 3.1217260521999606,
+      "frag": "KDO",
+      "exp_prominence": 0.1756738831552198,
+      "n_frag_within_tol": 1,
+      "frags_within": [
+        "KDO"
+      ],
+      "confidence": "High"
+    },
+    {
+      "exp": 748.0,
+      "dft": 750.4119862780001,
+      "delta": -2.411986278000086,
+      "frag": "Heptose",
+      "exp_prominence": 0.08276681318775331,
+      "n_frag_within_tol": 1,
+      "frags_within": [
+        "Heptose"
+      ],
+      "confidence": "High"
+    },
+    {
+      "exp": 771.0,
+      "dft": 777.857418507,
+      "delta": -6.857418507000034,
+      "frag": "Phosphoric_Acid",
+      "exp_prominence": 0.20746495582069382,
+      "n_frag_within_tol": 1,
+      "frags_within": [
+        "Phosphoric_Acid"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 902.0,
+      "dft": 913.1575211426,
+      "delta": -11.15752114259999,
+      "frag": "Heptose",
+      "exp_prominence": 0.20210954261877506,
+      "n_frag_within_tol": 3,
+      "frags_within": [
+        "Heptose",
+        "KDO",
+        "Phosphoric_Acid"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "exp": 972.0,
+      "dft": 962.382414187,
+      "delta": 9.617585813000005,
+      "frag": "Heptose",
+      "exp_prominence": 0.15908918061577226,
+      "n_frag_within_tol": 1,
+      "frags_within": [
+        "Heptose"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 1033.0,
+      "dft": 1031.009159763,
+      "delta": 1.9908402369999294,
+      "frag": "Myristic_Acid",
+      "exp_prominence": 0.2698336259639405,
+      "n_frag_within_tol": 5,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "KDO",
+        "Myristic_Acid",
+        "Phosphoric_Acid"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 1090.0,
+      "dft": 1097.98090242,
+      "delta": -7.980902419999893,
+      "frag": "Heptose",
+      "exp_prominence": 0.9772974802950749,
+      "n_frag_within_tol": 2,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 1101.0,
+      "dft": 1102.8412544460002,
+      "delta": -1.841254446000221,
+      "frag": "Glucosamine",
+      "exp_prominence": 0.4100108125308494,
+      "n_frag_within_tol": 3,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "Myristic_Acid"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 1124.0,
+      "dft": 1122.259091474,
+      "delta": 1.740908526000112,
+      "frag": "KDO",
+      "exp_prominence": 0.08953738789440668,
+      "n_frag_within_tol": 3,
+      "frags_within": [
+        "Glucosamine",
+        "KDO",
+        "Myristic_Acid"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 1195.0,
+      "dft": 1196.408370968,
+      "delta": -1.4083709680000993,
+      "frag": "Glucosamine",
+      "exp_prominence": 0.2636140445528798,
+      "n_frag_within_tol": 3,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "KDO"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 1354.0,
+      "dft": 1354.778095149,
+      "delta": -0.7780951489999097,
+      "frag": "KDO",
+      "exp_prominence": 0.940664423687915,
+      "n_frag_within_tol": 3,
+      "frags_within": [
+        "Glucosamine",
+        "Heptose",
+        "KDO"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 1630.0,
+      "dft": 1635.625543089,
+      "delta": -5.625543089000075,
+      "frag": "Glucosamine",
+      "exp_prominence": 0.2194623633552712,
+      "n_frag_within_tol": 1,
+      "frags_within": [
+        "Glucosamine"
+      ],
+      "confidence": "Moderate"
+    },
+    {
+      "exp": 1659.0,
+      "dft": 1659.102844274,
+      "delta": -0.1028442740000628,
+      "frag": "KDO",
+      "exp_prominence": 0.11572048143415192,
+      "n_frag_within_tol": 1,
+      "frags_within": [
+        "KDO"
+      ],
+      "confidence": "High"
+    },
+    {
+      "exp": 1693.0,
+      "dft": 1692.0764340260002,
+      "delta": 0.9235659739997573,
+      "frag": "KDO",
+      "exp_prominence": 0.09124224954511789,
+      "n_frag_within_tol": 1,
+      "frags_within": [
+        "KDO"
+      ],
+      "confidence": "High"
+    }
+  ]
+}
