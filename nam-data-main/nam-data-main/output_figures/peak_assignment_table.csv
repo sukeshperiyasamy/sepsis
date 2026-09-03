@@ -1,0 +1,14 @@
+#,Nominal (cm⁻¹),Experimental (cm⁻¹),DFT Simulated (cm⁻¹),Δ Exp−Sim (cm⁻¹),Functional Group Assignment
+1,458,458.2,447.3,10.9,Ring deformation
+2,489,489.0,503.4,-14.4,Pyranose skeletal
+3,541,541.0,526.7,14.3,C–C–O deformation
+4,830,830.2,815.0,15.1,Anomeric C–H / glycosidic
+5,872,871.9,886.9,-14.9,C–O–C stretch
+6,956,955.9,965.7,-9.8,Pyranose ring breathing
+7,1024,1024.0,1009.5,14.5,C–O stretch
+8,1086,1084.6,1078.3,6.3,C–O stretch
+9,1157,1155.4,1156.9,-1.6,C–O–C stretch (glycosidic)
+10,1319,1319.0,1333.9,-15.0,Amide III (N–H bend + C–N str.)
+11,1452,1451.8,1437.2,14.5,CH₂ / CH₃ bending
+12,1546,1547.9,1532.2,15.6,Amide II (N–H bend + C–N str.)
+13,1701,1700.7,1715.7,-15.0,C=O stretch (carboxylic acid)
