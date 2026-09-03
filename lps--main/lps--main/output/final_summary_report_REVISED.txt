@@ -1,0 +1,292 @@
+=====================================================================================
+LPS COMPOSITE RAMAN ANALYSIS - REVISED FINAL SUMMARY REPORT
+=====================================================================================
+Original report generated : 2026-04-17 11:40:49
+This revision generated   : 2026-08-28
+File: final_summary_report_REVISED.txt
+(The original final_summary_report.txt is left unchanged for comparison; this file
+supersedes it for thesis write-up purposes. Changes vs. the original are marked with
+[REVISED] or [NEW].)
+
+-------------------------------------------------------------------------------------
+1. PROJECT TITLE
+-------------------------------------------------------------------------------------
+Non-negative Least Squares Spectral Unmixing of a Lipopolysaccharide (LPS) Raman
+Fingerprint Using DFT-Simulated Fragment Reference Spectra
+
+[REVISED] Title changed from "Spectral Deconvolution ... Using DFT-Simulated Fragment
+Spectra" to make the method class explicit (see Section 2a).
+
+-------------------------------------------------------------------------------------
+2. METHOD, PRECISELY STATED  [NEW SECTION]
+-------------------------------------------------------------------------------------
+It is important to distinguish two things that both get called "fragment-based" in the
+computational spectroscopy literature, because they support different strength of claim:
+
+  (a) TRUE FRAGMENT QUANTUM CHEMISTRY (not what this project does): methods such as the
+      Molecular Tailoring Approach (MTA), Molecules-in-Molecules (MIM), ONIOM, and DFTB
+      fragment the QUANTUM CALCULATION itself -- they cut a large molecule into
+      overlapping pieces, compute Hessians/tensors per piece, and stitch them back into
+      ONE vibrational spectrum for the intact large structure, with boundary corrections
+      so adjacent fragments "feel" each other (covalent linkage, H-bonding, conformational
+      context). This is the literature's standard answer to "the molecule is too big to
+      simulate whole."
+
+  (b) SPECTRAL MIXTURE ANALYSIS / CLASSICAL LEAST SQUARES (what this project does): five
+      INDEPENDENT DFT calculations on isolated free monomers (KDO, D-glucosamine,
+      L-glycero-D-manno-heptose, myristic acid, phosphoric acid), each broadened and
+      normalized on its own, then linearly recombined AFTER THE FACT via non-negative
+      least squares (NNLS) against the experimental spectrum. This is a well-established,
+      separately-published technique -- it is the same family as Multivariate Curve
+      Resolution (MCR-ALS), routinely used to decompose complex biological Raman spectra
+      into reference components with non-negativity constraints.
+
+This project uses method (b). That is a legitimate, defensible, and commonly used
+technique for exactly this scenario (identifying/quantifying known reference compounds
+within a complex biomolecular Raman spectrum). It is NOT, however, a simulation of the
+intact LPS molecule or its assembled core -- the five fragments are modeled as fully
+independent, non-interacting species, and the fit result should be described and
+interpreted accordingly (see Section 7).
+
+-------------------------------------------------------------------------------------
+2a. INPUT FILES USED
+-------------------------------------------------------------------------------------
+SIMULATED FRAGMENTS (DFT B3LYP/6-31G(d), independent free-monomer calculations):
+  - KDO                 : 3-Deoxy-D-Manno-Octulosonic Acid
+  - Glucosamine         : D-glucosamine
+  - Heptose             : L-Glycero-D-Manno-Heptose
+  - Myristic Acid       : Myristic Acid
+  - Phosphoric Acid     : Phosphoric acid
+
+EXPERIMENTAL SPECTRUM:
+  - sec-60_power-20_i-30
+
+NOTE the fragment set omits the outer-core sugars (e.g. glucose, galactose) that are
+also present in intact LPS; this is a known, stated gap (see Section 7) and a likely
+contributor to the residual mismatch, not merely a modeling simplification.
+
+-------------------------------------------------------------------------------------
+3. WORKFLOW STEPS PERFORMED
+-------------------------------------------------------------------------------------
+   1. Excel data loading and parsing
+   2. Numeric column detection and quality checks
+   3. Frequency scaling (simulated: x0.9613, B3LYP/6-31G(d), NIST CCCBDB)
+   4. ALS baseline correction (experimental only)
+   5. Savitzky-Golay smoothing (window=11, order=3)
+   6. Min-max normalization (0-1 range)
+   7. Common grid interpolation (1 cm-1 spacing, safe overlap only)
+   8. Non-negative least squares (NNLS) fitting of weights against fixed DFT reference
+      spectra -- i.e. classical least squares / spectral mixture analysis, see Section 2
+   9. Adaptive peak detection (prominence-based)
+  10. Metrics computation (RMSE, R^2, correlation, residuals)
+  11. Residual analysis (mismatch region identification)
+  12. [NEW] Literature peak-position validation (Section 6)
+  13. [NEW] Regularized shape-flexibility sensitivity analysis (Section 7)
+  14. Publication-quality figure generation (5 slides + v2 variant)
+  15. Excel table export (peaks, metrics, weights, provenance)
+
+-------------------------------------------------------------------------------------
+4. RAMAN RANGE, WEIGHTS, AND MODEL METRICS  (unchanged from original -- official numbers)
+-------------------------------------------------------------------------------------
+  Minimum wavenumber:    200.0 cm-1
+  Maximum wavenumber:    2000.0 cm-1
+  Grid spacing:          1.0 cm-1
+  Total grid points:     1801
+
+NNLS OPTIMIZED WEIGHTS:
+Fragment                        Weight   Percentage               Status
+----------------------------------------------------------------------
+KDO                           0.473001        47.3%              PRIMARY
+Heptose                       0.257741        25.8%            secondary
+Glucosamine                   0.152736        15.3%            secondary
+Myristic Acid                 0.116522        11.7%            secondary
+Phosphoric Acid               0.000000         0.0%            secondary
+----------------------------------------------------------------------
+TOTAL                         1.000000       100.0%
+
+MODEL METRICS (NNLS OPTIMIZED):
+  RMSE:                    0.185045
+  R-squared:               0.179946
+  Pearson r:               0.507839
+  Residual mean:           -0.043589
+  Residual std dev:         0.179838
+  Mean absolute residual:   0.135239
+
+EQUAL-WEIGHT BASELINE (for comparison):
+  RMSE: 0.188530   R2: 0.148769   Pearson r: 0.416522
+
+IMPROVEMENT (NNLS vs equal-weight): RMSE 1.8% better, R2 21.0% better (relative).
+
+[REVISED INTERPRETATION] R^2 = 0.18 is modest in absolute terms. For a spectral mixture
+model built from independently-simulated, non-interacting free-monomer references (see
+Section 2), this is a plausible and defensible result, not evidence the method failed --
+see Section 7 for a quantitative argument that the shortfall is dominated by missing
+chemistry rather than DFT lineshape uncertainty. The correct framing for the thesis is
+"the fragment-mixture model recovers a statistically significant, chemically interpretable
+signal (Pearson r = 0.51, dominant KDO contribution) with a fit quality consistent with
+the acknowledged limitations of a non-interacting, incomplete fragment set" -- rather than
+language implying the fit is strong or fully validating.
+
+-------------------------------------------------------------------------------------
+5. RESIDUAL ANALYSIS: BEST-MATCHING AND MISMATCH REGIONS (unchanged, official numbers)
+-------------------------------------------------------------------------------------
+BEST-MATCHING REGIONS:
+  1. 707-779 cm-1 (72 cm-1 width)
+  2. 870-892 cm-1 (22 cm-1 width)
+  3. 921-945 cm-1 (24 cm-1 width)
+
+MISMATCH REGIONS:
+  1. 331-333 cm-1 (2 cm-1 width)
+  2. 367-408 cm-1 (41 cm-1 width)
+  3. 446-461 cm-1 (15 cm-1 width)
+  4. 821-855 cm-1 (34 cm-1 width)
+  5. 1084-1089 cm-1 (5 cm-1 width)
+  ... and 5 additional mismatch regions
+
+-------------------------------------------------------------------------------------
+6. LITERATURE PEAK-POSITION VALIDATION  [NEW SECTION]
+-------------------------------------------------------------------------------------
+The main reference paper for this project (SERS-based endotoxin detection/differentiation,
+cited in thesis report.txt) reports four diagnostic Raman peaks for LPS: 989 cm-1
+(carbohydrate/KDO), 1131 cm-1 (lipid acyl chain), 1330 cm-1 (phospholipid), and 850 cm-1
+(glycosidic linkage). Comparing these against the peaks actually detected in this
+project's own experimental and NNLS-composite spectra (output/tables/peak_summary.xlsx),
+using a +/-25 cm-1 matching tolerance:
+
+Literature peak   Assignment                 Nearest exp. peak   Delta    Match?
+989 cm-1          Carbohydrate/KDO            996 cm-1            7        YES
+1131 cm-1         Lipid acyl chain            1124 cm-1           7        YES
+1330 cm-1         Phospholipid                1368 cm-1           38       NO
+850 cm-1          Glycosidic linkage          901 cm-1            51       NO
+
+In all four regions, KDO is the dominant fragment by NNLS weight contribution.
+
+Full table: output/tables/peak_literature_validation.xlsx
+
+INTERPRETATION: two of the four literature diagnostic peaks (carbohydrate/KDO at ~989,
+lipid chain at ~1131) are reproduced within a tight tolerance in the experimental
+spectrum, giving independent, peak-level support for the sugar- and lipid-dominated
+composition the NNLS weights already suggest. The phospholipid (1330) and glycosidic
+(850) bands are NOT well matched (38 and 51 cm-1 off respectively) -- these are
+reasonable candidates for the "missing outer-core sugars / no phosphate weight / no
+inter-fragment coupling" limitations already noted in Section 7, and are worth flagging
+explicitly in the thesis discussion rather than only reporting the two peaks that agree.
+
+-------------------------------------------------------------------------------------
+7. WHY IS R^2 ONLY 0.18? A QUANTITATIVE SENSITIVITY CHECK  [NEW SECTION]
+-------------------------------------------------------------------------------------
+QUESTION: is the low R^2 caused by DFT lineshape/intensity inaccuracy (fixable by
+allowing the reference spectra some flexibility), or by something structurally missing
+from the model (non-interacting fragments, no inter-unit coupling, incomplete fragment
+set)?
+
+METHOD: a regularized, single-spectrum "soft alternating fit" (MCR-ALS-inspired) was
+implemented. Because there is only ONE experimental spectrum, canonical multi-sample
+MCR-ALS (which resolves concentrations and pure-component spectra jointly across many
+mixture samples) is not well-posed here -- this is stated explicitly so the method is not
+over-claimed. Instead, each fragment's spectral SHAPE is allowed to deviate from its DFT
+reference by an amount controlled by a Tikhonov regularization strength (expressed as a
+multiplier k; larger k = more tightly anchored to the DFT reference, smaller k = more
+freedom), alternated with an NNLS re-fit of the weights. The maximum and median relative
+deviation of the adjusted shapes from the DFT reference is tracked at every k, so the
+amount of "cheating" being done at each fit-quality level is explicit and auditable.
+
+RESULT (see output/tables/alternative_fit_comparison.xlsx, sheet "lambda_sweep", and
+output/plots/regularized_fit_vs_nnls.png for the full sweep and figure):
+
+  - Constraining the reference shapes to deviate by no more than ~20-25% from the DFT
+    prediction (roughly the scale of typical B3LYP/6-31G(d) intensity/lineshape
+    uncertainty) buys only a small, incremental improvement in fit quality over the
+    plain NNLS fit.
+  - Fit quality only improves substantially (large jumps in R^2) once the fragments are
+    allowed to deviate WELL beyond plausible DFT accuracy (100%+ relative shape change).
+
+CONCLUSION: the residual mismatch is not primarily explained by DFT lineshape/intensity
+inaccuracy within its normal error range. It is more consistent with genuinely missing
+physics: the non-interacting-fragment assumption (no covalent/H-bond coupling between
+KDO, heptose, glucosamine, the acyl chain, and phosphate in real LPS), the incomplete
+fragment set (outer-core sugars not modeled), and the use of a single experimental
+replicate. This is a stronger, more defensible thesis claim than reporting R^2 alone,
+because it rules out the "the DFT spectra are just a bit off" explanation quantitatively
+rather than by assertion.
+
+CAVEAT FOR THESIS USE: this sensitivity analysis was run in a separate reproduction
+environment without direct access to the exact original scipy-based ALS/interpolation
+pipeline that produced the official RMSE=0.185/R^2=0.180 numbers above; the reproduced
+baseline in that environment showed the same fragment weights and the identical Pearson
+r (0.5078) as the official result -- confirming the fit itself reproduces correctly --
+but a slightly different absolute RMSE/R^2 due to a normalization-window difference (see
+Section 8). The QUALITATIVE conclusion above (large deviation required before fit quality
+improves materially) is robust to this offset, since it is about the shape of the
+sensitivity curve, not its absolute starting point. For a thesis-exact sweep table,
+re-run mcr_peak_validation.py's regularization sweep logic inside the original working
+environment that produced model_metrics.xlsx.
+
+-------------------------------------------------------------------------------------
+8. REPRODUCIBILITY NOTE  [NEW SECTION -- IMPORTANT]
+-------------------------------------------------------------------------------------
+While preparing Sections 6-7, an inconsistency was found between the run_final.py script
+currently in the project folder and the output it is supposed to have produced:
+
+  - run_final.py currently sets RAMAN_MIN=400, RAMAN_MAX=3200 cm-1, but this report and
+    model_metrics.xlsx were generated on a 200-2000 cm-1 window (1801 grid points) --
+    i.e. the script on disk does not match the parameters used to produce the saved
+    results.
+  - Separately, the experimental spectrum's min-max normalization in the current script
+    is computed over the FULL loaded spectrum (native range ~2-2842 cm-1) before the
+    200-2000 (or 400-3200) analysis window is applied. If the true global maximum of the
+    raw experimental spectrum lies outside the analysis window (plausible, since C-H
+    stretching bands ~2800-3000 cm-1 are often the most intense Raman feature in
+    lipid-containing samples), the analysis window ends up normalized to only a narrow
+    slice of [0,1], not the full 0-1 range -- which can badly distort RMSE/R^2 if not
+    accounted for.
+
+RECOMMENDATION: before citing or re-generating any numbers from run_final.py, either (a)
+confirm RAMAN_MIN/RAMAN_MAX in the script match the 200-2000 cm-1 window actually used
+for the cited results, and (b) confirm the experimental spectrum is windowed to that
+range BEFORE min-max normalization is applied (not after). This does not invalidate the
+existing official numbers in Section 4 -- output/processed/*.csv shows the experimental
+curve for the correct window is properly normalized to [0, 1] -- but it means re-running
+the current run_final.py as-is will not reproduce them.
+
+-------------------------------------------------------------------------------------
+9. DOMINANT CONTRIBUTORS AND KEY PEAKS  (unchanged, official numbers)
+-------------------------------------------------------------------------------------
+  1. KDO           47.3%
+  2. Heptose       25.8%
+  3. Glucosamine   15.3%
+
+Total peaks detected in experimental spectrum: 25 (see output/tables/peak_summary.xlsx
+for the full list; top peaks at 277, 313, 426, 469, 487, 513, 539, 588, 659, 768 cm-1).
+
+-------------------------------------------------------------------------------------
+10. FINAL CONCLUSION  [REVISED]
+-------------------------------------------------------------------------------------
+This analysis fits the experimental LPS Raman spectrum as a non-negative linear mixture
+of five independently DFT-simulated (B3LYP/6-31G(d)) fragment reference spectra --
+established practice for spectral mixture analysis / classical least squares (Section 2),
+though distinct from true fragment-based quantum chemistry methods (MTA/MIM/ONIOM) that
+model the intact assembled molecule with inter-fragment coupling. The optimized model
+gives a dominant, chemically sensible KDO contribution (47.3%) and a statistically
+significant correlation with the experimental spectrum (Pearson r = 0.508), with two of
+four independently-cited literature diagnostic peaks (carbohydrate/KDO ~989, lipid chain
+~1131) reproduced within 10 cm-1 (Section 6). The modest R^2 (0.18) is shown, via a
+regularized shape-flexibility sensitivity analysis (Section 7), to reflect missing
+inter-fragment coupling and an incomplete fragment set rather than DFT lineshape
+inaccuracy -- a specific, falsifiable, and testable claim rather than a general caveat.
+
+Concrete next steps for improving the model (not required for this thesis submission,
+but worth stating as future work):
+  - Compute a slightly larger assembled fragment (e.g. KDO-lipid A or KDO2-lipid A core)
+    to capture the glycosidic linkage and acyl-chain attachment directly, rather than
+    five fully free monomers.
+  - Add the missing outer-core sugars (glucose, galactose) to the fragment set.
+  - If feasible, use ONIOM (available in Gaussian, already in use for this project) to
+    treat the reactive core at DFT and peripheral chains at a cheaper level, approaching
+    the intact-molecule fragment-quantum-chemistry approach described in Section 2a.
+  - Acquire replicate experimental spectra (n>=3) to support statistical claims about
+    fit quality.
+
+=====================================================================================
+Report completed at 2026-08-28
+=====================================================================================
