@@ -13,3 +13,9 @@ Thumbs.db
 .idea/
 *.tmp
 *.log
+
+# Office temporary files
+~$*
+
+# Temporary
+_to_delete/
