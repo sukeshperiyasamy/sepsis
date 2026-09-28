@@ -1,0 +1,401 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<title>TCS Project — August Review & Upcoming Work Plan</title>
+<!--[if gte mso 9]>
+<xml><w:WordDocument><w:View>Print</w:View><w:Zoom>90</w:Zoom><w:DoNotOptimizeForBrowser/></w:WordDocument></xml>
+<![endif]-->
+<style>
+  @page Section1 { size: 8.5in 11.0in; margin: 0.7in 0.75in 0.7in 0.75in; }
+  div.Section1 { page: Section1; }
+  body { font-family: Calibri, Arial, sans-serif; font-size: 10.5pt; color: #1a1a1a; line-height: 1.35; }
+  h1 { font-size: 18pt; color: #1F3864; border-bottom: 2px solid #1F3864; padding-bottom: 5px; margin: 0 0 4px 0; }
+  h2 { font-size: 13.5pt; color: #ffffff; background-color:#1F3864; margin-top: 20px; margin-bottom: 8px; padding: 4px 8px; }
+  h3 { font-size: 11.5pt; color: #1F3864; margin-top: 14px; margin-bottom: 5px; }
+  p { margin: 4px 0; }
+  .subtitle { font-size: 10pt; color: #444444; margin: 1px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 6px 0 12px 0; }
+  th, td { border: 1px solid #999999; padding: 4px 6px; font-size: 9pt; text-align: left; vertical-align: top; }
+  th { background-color: #3B5998; color: #ffffff; font-weight: bold; }
+  tr:nth-child(even) td { background-color: #F2F5FA; }
+  ul, ol { margin: 4px 0; padding-left: 20px; }
+  li { margin: 2px 0; }
+  .caution { background-color: #FCE4E4; border: 1px solid #C00000; padding: 6px 9px; margin: 8px 0; }
+  .key { background-color: #EAF1DD; border: 1px solid #5A8F29; padding: 6px 9px; margin: 8px 0; }
+  .qbox { background-color: #FCE4E4; border: 1px solid #C00000; padding: 6px 9px; margin: 8px 0; }
+  .checklist { background-color: #EAF1DD; border: 1px solid #5A8F29; padding: 8px 10px; margin: 8px 0; }
+  .verbal { background-color: #F2F5FA; border-left: 4px solid #1F3864; padding: 8px 12px; margin: 8px 0; font-style: italic; }
+  code { font-family: Consolas, monospace; background-color: #F0F0F0; padding: 1px 3px; font-size: 9pt; }
+</style>
+</head>
+<body>
+<div class="Section1">
+
+<h1>TCS Project — August Review &amp; Upcoming Work Plan</h1>
+<p class="subtitle"><strong>Sukesh P (M24IM1007)</strong> — M.Tech Joint IDRP, IIT Jodhpur &amp; AIIMS Jodhpur &middot; Project No. R/S/TCS/AA/20250112</p>
+<p class="subtitle">Prepared for the 2:30 PM work-plan discussion with Prof. Ajay Agarwal &middot; 18 September 2026</p>
+<p class="subtitle">Built strictly from documents in your project folder (dated Aug 2025 &ndash; Aug 2026, evidence weighted toward August 2026). Nothing below is invented; unresolved items are marked as such.</p>
+
+<hr>
+
+<h2>1. Executive Summary</h2>
+<p>The project (SERS-based detection of sepsis biomarkers NAM, LTA, LPS) has a strong, largely finished <strong>reference/computational foundation</strong>: DFT + powder Raman characterization of all three biomarkers is complete to varying degrees of rigor (NAM strongest, LPS moderate, LTA weakest/needs rerun). The <strong>Ag/Si SERS substrate</strong> reliably enhances the benchmark dye R6G (confirmed across multiple independent studies, including a very strong August 12 result reaching SNR&nbsp;450), but <strong>no biomarker (NAM, LTA, or LPS) has yet been successfully, reproducibly detected by SERS</strong>. An LTA signal that looked positive on 14 August was later shown, on pixel-level re-examination, to be a single-detector-pixel artifact — corrected to NOT DETECTED. LPS has never been attempted on any substrate. As of today (18 September), <strong>no experimental work has been executed since the mid-August planning documents</strong> — the immediately-next experiment (LPS detection, fully protocoled) has not yet started. The project's own most recent self-assessment (dated 3 Aug 2026) describes the platform as "a promising research prototype and reference-analysis framework, not yet a clinically validated sepsis diagnostic device," and that framing still holds. This document reconstructs what was actually done in August, what August's own documents said should happen next, and turns that into a concrete plan to discuss with Prof. Ajay today.</p>
+
+<h2>2. Documents Reviewed</h2>
+<p>The project folder contains roughly 1,900+ files; most are raw CSV spectra or bundled Python environments. The documents below are the ones that carry the narrative, results, and future-work statements relevant to this review — all read in full (or via prior full-text extraction) before this document was written.</p>
+<table>
+<tr><th>Document</th><th>Date</th><th>Type</th><th>Relevance</th><th>Key contents</th></tr>
+<tr><td>Project_Status_Report_Sepsis_SERS_As_of_August_2026.docx</td><td>Evidence cutoff 3 Aug 2026</td><td>Self-audit report</td><td>Definitely relevant</td><td>Whole-project synthesis; substrate contamination blocking issue; NAM/LTA/LPS quantitative summary</td></tr>
+<tr><td>NAM_Raman_Archive/ (300 files incl. 00_READ_ME_FIRST, ANALYSIS_PROTOCOL, manuscript)</td><td>Compiled 5 Aug 2026</td><td>Definitive experiment+DFT archive</td><td>Definitely relevant</td><td>227 NAM spectra, final Gaussian16 DFT, 41 bands/30 matched, manuscript v2</td></tr>
+<tr><td>Boronic_Acid_Design_Rationale.docx/.md</td><td>7 Aug 2026</td><td>Design rationale</td><td>Definitely relevant</td><td>4-MPBA capture chemistry proposal for NAM</td></tr>
+<tr><td>NAM_Capture_Strategies.docx/.md</td><td>Aug 2026</td><td>Strategy doc</td><td>Definitely relevant</td><td>9 ranked capture strategies; commercial-substrate control idea</td></tr>
+<tr><td>NAM_Detection_Experimental_Plan.docx/.md</td><td>Aug 2026</td><td>Staged plan</td><td>Definitely relevant</td><td>7-stage go/no-go plan for NAM-on-substrate</td></tr>
+<tr><td>NAM_SERS_Sensor_Report.docx / NAM_SERS_Engineering_Report.docx</td><td>4 Aug 2026</td><td>Engineering design</td><td>Definitely relevant</td><td>Substrate architecture recommendation, failure-mode analysis</td></tr>
+<tr><td>NAM_Paper_Publication_Assessment.docx / _Submission_Strategy.docx</td><td>4 Aug 2026</td><td>Publication review</td><td>Definitely relevant</td><td>Manuscript readiness (~60% complete at review time)</td></tr>
+<tr><td>Data_Quality_Assessment_Publication_Guide.docx</td><td>4 Aug 2026</td><td>Rubric</td><td>Definitely relevant</td><td>Publication-readiness scoring of NAM paper (~65/70)</td></tr>
+<tr><td>Publication_Strategy_Research_Papers.docx / SERS_Nanobiosensor_Project_Timeline_Research_Plan.docx / Special_Issue_Strategy_Oct2026.docx</td><td>4 Aug 2026</td><td>Strategy</td><td>Definitely relevant (aspirational)</td><td>9-10 paper plan; target metrics are goals, not achieved results</td></tr>
+<tr><td>R6G_Research_Briefing.docx</td><td>7 Aug 2026</td><td>Literature cross-check</td><td>Definitely relevant</td><td>Validates R6G peak list/DFT match against literature</td></tr>
+<tr><td>SERS_Substrate_Procurement.docx/.md</td><td>7 Aug 2026</td><td>Procurement plan</td><td>Definitely relevant</td><td>Commercial substrate + Lee-Meisel colloid backup plan</td></tr>
+<tr><td>Consolidated_Experimental_Report_AllSessions (.docx/.pdf)</td><td>~14-16 Aug 2026</td><td>Session-level report</td><td>Definitely relevant, most granular</td><td>Full Session 1/2/3 raw results, root-cause analysis, methodological corrections</td></tr>
+<tr><td>Updated_Project_Progress_Report_With_Experiments</td><td>~14-16 Aug 2026</td><td>Progress report</td><td>Definitely relevant</td><td>Stage 1/Stage 2 status table, DFT parameters, remaining-work list</td></tr>
+<tr><td>Document_A_Experimental_Execution_Plan_SOP</td><td>13 Aug 2026</td><td>SOP</td><td>Definitely relevant</td><td>NAM AgNO&#8323; concentration-series SOP (not yet executed)</td></tr>
+<tr><td>Document_B_Scientific_Rationale_Decision_Log</td><td>13 Aug 2026</td><td>Decision log</td><td>Definitely relevant</td><td>Why AgNO&#8323; chosen as variable; literature evidence table; decision tree</td></tr>
+<tr><td>Experiment_Plan_LPS.docx, Experiment_Plan_LTA.docx</td><td>Aug 2026 (undated within doc)</td><td>Full protocols</td><td>Definitely relevant</td><td>Ready-to-run LPS/LTA detection protocols</td></tr>
+<tr><td>Next_Experiment_Plan_BareAg_NAM_Optimization.docx</td><td>12 Aug 2026 (follow-up)</td><td>Plan</td><td>Definitely relevant</td><td>AgNO&#8323; concentration series design</td></tr>
+<tr><td>LPS_Substrate_Strategy.docx</td><td>16 Aug 2026</td><td>Strategy</td><td>Definitely relevant</td><td>Alternative two-step MACE architectures for LPS</td></tr>
+<tr><td>data-of-nam-powder/ + NAM_paper_analysis/ (raw+process files)</td><td>Apr-Aug 2026</td><td>Raw data + process audit</td><td>Definitely relevant</td><td>227 NAM spectra provenance, self-corrections (dehydration-band false lead, RMSE-window artefact)</td></tr>
+<tr><td>r6g-from-my-pc/ (97 spectra + pipeline)</td><td>17 Jun 2026 dataset, referenced/validated Aug</td><td>Raw data + DFT validation</td><td>Definitely relevant background</td><td>R6G DFT-vs-experiment validation, RMSE 4.62 cm&#8315;&sup1;</td></tr>
+<tr><td>Monthly Progress Report-June.docx / -July.docx</td><td>Jun/Jul 2026</td><td>Progress reports</td><td>Definitely relevant background</td><td>Substrate fabrication history; July substrate-reproduction failure (contamination)</td></tr>
+<tr><td>Project Report_SERS.docx / finalmtp.docx (Masters report)</td><td>Nov 2025 / Apr 2026</td><td>Formal reports</td><td>Possibly relevant (superseded framing)</td><td>Earlier neonatal-protein-panel framing; superseded by NAM/LPS/LTA panel</td></tr>
+<tr><td>12-08-26.../, 13-08-2026-raw-si/, 14-08-26-lta.../ (raw CSV folders)</td><td>12-14 Aug 2026</td><td>Raw spectra (~400+ files)</td><td>Definitely relevant (primary evidence)</td><td>Underlying raw data for Sessions 1-3, exact timestamps preserved</td></tr>
+<tr><td>Presentation decks (Oct 2025-Jan 2026)</td><td>Oct 2025-Jan 2026</td><td>Slide decks</td><td>Possibly relevant (historical only)</td><td>Confirms panel stability, pre-August chronology, no August content</td></tr>
+<tr><td>sideropores/ folder (16 files)</td><td>10 Apr 2026</td><td>Exploratory brainstorm</td><td>Possibly relevant</td><td>Alternative biomarker direction (siderophores) — not pursued, no August evidence either way</td></tr>
+<tr><td>mail/ (procurement emails, lab publications)</td><td>Dec 2025-Jun 2026</td><td>Correspondence</td><td>Possibly relevant</td><td>Confirms reagent sourcing (NAM/LPS/LTA Sigma catalog numbers), lab's own prior SERS publications</td></tr>
+<tr><td>Bundled .venv / node_modules / duplicate scan copies</td><td>various</td><td>Tooling artifacts</td><td>Not relevant</td><td>~36,000+ files excluded — installed packages, not authored content</td></tr>
+</table>
+
+<h2>3. August Timeline (Reconstructed)</h2>
+<table>
+<tr><th>Date</th><th>Event</th></tr>
+<tr><td>By 3 Aug 2026 (cutoff)</td><td>Comprehensive self-audit written (<code>Project_Status_Report...As_of_August_2026</code>). States: July substrate-reproduction attempt <strong>failed due to contamination</strong>, blocking all downstream NAM/LTA/LPS-on-substrate work. NAM/LTA/LPS DFT+powder-Raman reference work all rated "completed" to varying quality. Recommends refabrication with a revised cleaning protocol.</td></tr>
+<tr><td>4 Aug 2026</td><td>Intensive planning/strategy push: NAM capture-chemistry design docs (Boronic_Acid_Design_Rationale is dated 7 Aug per file metadata but referenced from this cluster), NAM_SERS_Sensor_Report/_Engineering_Report, both NAM-paper publication-readiness assessments, Data_Quality_Assessment guide, Publication_Strategy, SERS_Nanobiosensor_Timeline, Special_Issue_Strategy — all same-day or near-same-day.</td></tr>
+<tr><td>5 Aug 2026</td><td><code>NAM_Raman_Archive</code> (300-file definitive archive) compiled — consolidates the 227-spectrum NAM dataset, final Gaussian&nbsp;16 DFT, and manuscript v2. This is analysis/organization of existing data, not new spectral acquisition.</td></tr>
+<tr><td>7 Aug 2026</td><td><code>R6G_Research_Briefing</code> (literature cross-check of R6G peak assignments) and <code>SERS_Substrate_Procurement</code> (commercial-substrate + in-house Lee-Meisel colloid backup plan, to isolate whether NAM's difficulty is fabrication-related or intrinsic) written — still addressing the contamination-blocked substrate.</td></tr>
+<tr><td><strong>12 Aug 2026</strong></td><td><strong>New substrate fabrication + validation session</strong> (177 spectra). One-step MACE: 0.170&nbsp;g AgNO&#8323; + 8.6&nbsp;mL HF/50&nbsp;mL DI, etch times 2/5/10&nbsp;min. R6G strongly SERS-active on all three (2-min etch strongest, SNR&nbsp;450 at 1509&nbsp;cm&#8315;&sup1;, non-monotonic vs. etch time). NAM measured across all conditions — <strong>not reproducibly detected</strong> (isolated SNR&nbsp;3.0-3.3 hits, rejected). This is the practical resolution of the "contamination blocked" status from early August: the substrate now works again (for R6G), on a freshly fabricated batch.</td></tr>
+<tr><td><strong>13 Aug 2026</strong></td><td>Instrument/Si reference calibration session (45 spectra): &minus;2 to &minus;3&nbsp;cm&#8315;&sup1; calibration offset discovered; 3-5-pixel artifact-rejection rule established from Si TO-phonon FWHM; SNR found to scale faster than &radic;t. Same day: <strong>NAM molecular-weight correction</strong> (275.25&rarr;293.27&nbsp;g/mol) discovered. <code>Document_A</code> (AgNO&#8323; concentration-series SOP) and <code>Document_B</code> (rationale/decision log) written, planning the next NAM experiment.</td></tr>
+<tr><td><strong>14 Aug 2026</strong></td><td>LTA detection attempt (15 spots). Initial apparent signal at 1095&nbsp;cm&#8315;&sup1; (SNR&nbsp;7-9) — on pixel-level re-examination, shown to be a <strong>single-detector-pixel artifact</strong> (pixel 640, identical across 3 spectra). <strong>Corrected verdict: LTA NOT DETECTED.</strong> This finding produced the despiking rule now applied project-wide.</td></tr>
+<tr><td>16 Aug 2026</td><td><code>LPS_Substrate_Strategy</code> written — proposes a new two-step MACE architecture ("Sensor A") decoupling Si etching from Ag growth, since the current one-step process couples them; recommends a 2-day fast-track LPS protocol.</td></tr>
+<tr><td>(Undated within Aug, same cluster)</td><td><code>Experiment_Plan_LPS</code>, <code>Experiment_Plan_LTA</code>, <code>Next_Experiment_Plan_BareAg_NAM_Optimization</code> — full, ready-to-execute protocols for the next three experiments, synthesizing everything above.</td></tr>
+<tr><td>18 Sept 2026 (today)</td><td><strong>No experimental session has occurred since 16 Aug.</strong> Confirmed directly by you earlier this month ("I have not started any experiments"). The LPS experiment (Priority 1, fully protocoled) has not yet begun.</td></tr>
+</table>
+
+<h2>4. Experiments Completed</h2>
+<table>
+<tr><th>Experiment/Activity</th><th>Date</th><th>Status</th></tr>
+<tr><td>NAM powder Raman + DFT reference study (227 spectra, Gaussian 16 B3LYP-D3BJ/6-311++G(d,p))</td><td>Nov 2025-Aug 2026 (compiled 5 Aug)</td><td><strong>COMPLETED &mdash; successful</strong> (as a reference/molecular study, not a SERS or clinical result)</td></tr>
+<tr><td>LPS fragment DFT + NNLS fit vs. powder Raman</td><td>Mar-Apr 2026 (referenced in Aug status report)</td><td><strong>COMPLETED &mdash; modest/preliminary</strong> (R&sup2;=0.18)</td></tr>
+<tr><td>LTA fragment DFT + powder Raman (12-spot reproducibility study)</td><td>Mar-Apr 2026</td><td><strong>COMPLETED &mdash; inconclusive on fragment fit</strong> (good peak correlation 0.9787, but a separate 136-file branch has an unresolved NaN-metrics fitting error, and a broader NNLS run gives R&sup2;=&minus;0.29)</td></tr>
+<tr><td>R6G/Ag-Si substrate validation (June batch, 97-99 spectra, 8 fabrication conditions)</td><td>Jun 2026</td><td><strong>COMPLETED &mdash; successful for R6G</strong> (84.58% peak match, RMSE 3.67&nbsp;cm&#8315;&sup1;) but reproducibility below target (mean corr. 0.7754 vs. 0.90 target)</td></tr>
+<tr><td>Substrate reproduction attempt (July)</td><td>Jul 2026</td><td><strong>COMPLETED &mdash; unsuccessful/null</strong> (contamination; R6G bands not recovered)</td></tr>
+<tr><td>Fresh substrate fabrication + R6G + NAM (Session 1)</td><td>12 Aug 2026</td><td>R6G: <strong>COMPLETED &mdash; successful</strong> (SNR up to 450). NAM: <strong>COMPLETED &mdash; unsuccessful/null</strong> (not reproducible)</td></tr>
+<tr><td>Instrument/Si calibration (Session 2)</td><td>13 Aug 2026</td><td><strong>COMPLETED &mdash; successful</strong> (calibration offset and artifact-width rule established)</td></tr>
+<tr><td>LTA detection attempt (Session 3)</td><td>14 Aug 2026</td><td><strong>COMPLETED &mdash; unsuccessful/null</strong> (after artifact correction)</td></tr>
+<tr><td>LPS SERS detection</td><td>&mdash;</td><td><strong>NOT STARTED</strong></td></tr>
+<tr><td>NAM AgNO&#8323; concentration-optimization series (Groups A-D)</td><td>&mdash;</td><td><strong>PLANNED, NOT STARTED</strong> (SOP ready: Document_A)</td></tr>
+<tr><td>LTA repeat with corrected despiking protocol</td><td>&mdash;</td><td><strong>PLANNED, NOT STARTED</strong></td></tr>
+<tr><td>Boronic-acid (4-MPBA) functionalization</td><td>&mdash;</td><td><strong>NOT STARTED</strong> (reagent availability unconfirmed)</td></tr>
+<tr><td>Commercial reference substrate / Lee-Meisel colloid control</td><td>&mdash;</td><td><strong>PLANNED (7 Aug), NOT STARTED</strong></td></tr>
+</table>
+
+<h2>5. Results Obtained</h2>
+<h3>NAM</h3>
+<ul>
+<li>Reference powder spectrum from 22 independent measurements, mean pairwise correlation 0.986.</li>
+<li>41 reproducible bands (400-1800&nbsp;cm&#8315;&sup1;), 30 matched to DFT modes, MAE 9.27&nbsp;cm&#8315;&sup1;, RMSE 10.29&nbsp;cm&#8315;&sup1;, r=0.9996.</li>
+<li>Laser-damage threshold: safe up to 80% power/25&nbsp;s and 70-90%/30&nbsp;s; destroyed at 90%/60&nbsp;s.</li>
+<li>Two novel vibrational assignments: 872&nbsp;cm&#8315;&sup1; = hydroxymethyl wagging (not ring mode); 731&nbsp;cm&#8315;&sup1; = carboxylic-acid O&ndash;H wag (47.9% displacement, 0.5% ring character) &mdash; argues <em>against</em> muramic acid as the source of the widely-used bacterial 730&nbsp;cm&#8315;&sup1; SERS discrimination band.</li>
+<li>On-substrate (SERS) detection: mean SNR only <strong>0.89</strong> in the June/July branch; on the fresh 12&nbsp;Aug substrate, no reproducible hit above SNR&nbsp;3 in any of 3 etch conditions &times; 2 power levels.</li>
+<li>NAM MW corrected from 275.25 to <strong>293.27&nbsp;g/mol</strong> (13 Aug) &mdash; old molarity figures ~6.5% too high.</li>
+</ul>
+<h3>LTA</h3>
+<ul>
+<li>12-spot reproducibility study: 7 characteristic peaks, average correlation 0.9787, average peak CV 16.74%.</li>
+<li>Expanded 136-file branch: best condition 20&nbsp;s/40% power, SNR&nbsp;139.03, but an unresolved NaN-valued fitting branch exists.</li>
+<li>14&nbsp;Aug SERS attempt: apparent 1095&nbsp;cm&#8315;&sup1; hit (SNR&nbsp;7-9) &mdash; <strong>reclassified NOT DETECTED</strong> after pixel-level analysis showed a single-pixel detector artifact.</li>
+</ul>
+<h3>LPS</h3>
+<ul>
+<li>Fragment DFT (KDO, heptose, D-glucosamine, myristic acid, phosphoric acid) + NNLS fit vs. powder Raman: R&sup2;=0.1799, RMSE 0.185, Pearson r=0.5078 (21% R&sup2; improvement over equal-weighting baseline). Explicitly characterized in-source as "a preliminary reconstruction rather than a high-fidelity identity proof."</li>
+<li>No SERS/substrate measurement has ever been attempted for LPS.</li>
+</ul>
+<h3>Substrate / R6G</h3>
+<ul>
+<li>June batch: 84.58% peak-matching accuracy, mean shift error +0.81&nbsp;cm&#8315;&sup1;, MAE 3.25, RMSE 3.67&nbsp;cm&#8315;&sup1;, mean reproducibility correlation 0.7754 (below 0.90 target).</li>
+<li>12&nbsp;Aug batch: all 8 standard R6G bands detected on all 3 etch-time substrates; 2-min etch strongest (SNR&nbsp;450 at 1509&nbsp;cm&#8315;&sup1;); etch-time effect confirmed <strong>non-monotonic</strong> (10-min beats 5-min but not 2-min).</li>
+</ul>
+
+<h2>6. Failed / Null / Inconclusive Experiments</h2>
+<table>
+<tr><th>Experiment</th><th>Outcome</th><th>Root cause (as documented)</th></tr>
+<tr><td>Substrate reproduction, July 2026</td><td>Failed/null</td><td>Contamination during etching/rinsing/drying (exact mechanism not pinned down); corrective actions (fresh reagents per batch, documented cleaning protocol, immediate blank-after-fabrication) defined but only partially verifiable as followed in the 12&nbsp;Aug batch</td></tr>
+<tr><td>NAM-on-substrate detection (June/July branch and 12&nbsp;Aug batch)</td><td>Null (not reproducible)</td><td>Ranked root-cause analysis: (1) most likely &mdash; NAM lacks a thiol/strong Ag-binding group and has no resonance at 785&nbsp;nm (weak adsorption + weak intrinsic scattering, both at once); (2) droplet spreading on hydrophilic black-Si; (3) possibly-too-low effective near-surface concentration; substrate-inactivity and instrument-miscalibration explicitly excluded as causes</td></tr>
+<tr><td>LTA-on-substrate detection, 14&nbsp;Aug</td><td>Initially apparent positive, corrected to null</td><td>Single-detector-pixel fixed-pattern artifact at pixel 640, not a molecular signal; a genuine band on this instrument spans 4-5 pixels</td></tr>
+<tr><td>LTA fragment-model fit (expanded 136-file branch)</td><td>Inconclusive</td><td>NaN-valued weights/fit metrics in one analysis branch &mdash; explicitly flagged as "not usable until rerun/verified"</td></tr>
+<tr><td>LPS fragment-model global fit</td><td>Inconclusive/modest</td><td>R&sup2;=0.18 &mdash; peak-region matches reasonable, whole-spectrum shape agreement weak</td></tr>
+<tr><td>NAM full-spectrum shape agreement (vs. DFT)</td><td>Inconclusive despite good peak-position match</td><td>Cosine similarity only 0.5868, Pearson 0.1710 on the 81-spectrum validation branch &mdash; "should not be summarized as a perfect overlay"</td></tr>
+</table>
+
+<h2>7. Major Findings</h2>
+<ul>
+<li><strong>Calibration offset:</strong> instrument reads &minus;2 to &minus;3&nbsp;cm&#8315;&sup1; low vs. the textbook Si TO phonon (517.8 vs. 520-521&nbsp;cm&#8315;&sup1;) &mdash; a fixed, not random, offset. &plusmn;5&nbsp;cm&#8315;&sup1; tolerance now applied project-wide.</li>
+<li><strong>Artifact-rejection rule:</strong> any candidate peak narrower than 3 detector pixels (~5&nbsp;cm&#8315;&sup1;) must be rejected &mdash; discovered via the LTA pixel-640 false positive, now mandatory before any peak call across all analytes.</li>
+<li><strong>SNR vs. integration time is superlinear</strong> on this instrument (5.9&times; actual gain vs. 2.2&times; shot-noise-predicted, 5&rarr;25&nbsp;s) &mdash; longer integration is an unusually effective, currently under-used lever.</li>
+<li><strong>NAM molecular weight correction</strong> (275.25&rarr;293.27&nbsp;g/mol) affects all prior NAM molarity figures by ~6.5%.</li>
+<li><strong>R6G etch-time response is non-monotonic</strong> (2&nbsp;min &gt; 10&nbsp;min &gt; 5&nbsp;min) &mdash; substrate optimization cannot assume a simple trend, and only one substrate was made per condition so far (no batch-to-batch reproducibility data exists).</li>
+<li><strong>Novel NAM vibrational assignment (872&nbsp;cm&#8315;&sup1;)</strong> and <strong>evidence against a muramic-acid origin for the disputed bacterial 730&nbsp;cm&#8315;&sup1; band</strong> &mdash; potentially the project's most citable scientific contribution to date, independent of the SERS-detection outcome.</li>
+<li><strong>Root-cause consensus on NAM's SERS difficulty:</strong> structural (no Ag-binding group, non-resonant at 785&nbsp;nm), not an instrument or substrate-activity problem &mdash; substrate and instrument are both independently confirmed functional via R6G and Si-reference measurements respectively.</li>
+</ul>
+
+<h2>8. Work Already Completed vs Pending</h2>
+<table>
+<tr><th>Work package</th><th>Planned?</th><th>Completed?</th><th>Evidence</th><th>Result/status</th><th>Remaining work</th></tr>
+<tr><td>Substrate fabrication</td><td>Yes</td><td>Yes (multiple rounds)</td><td>Jun/Jul/12&nbsp;Aug sessions</td><td>Functional as of 12&nbsp;Aug (fresh batch)</td><td>Batch-to-batch reproducibility never tested (only 1 substrate/condition so far)</td></tr>
+<tr><td>Substrate characterization (FESEM/EDS/UV-Vis)</td><td>Yes (Masters report methodology)</td><td>Not established from available documents</td><td>&mdash;</td><td>No FESEM/EDS/UV-Vis data found anywhere in the reviewed documents</td><td>Full characterization outstanding</td></tr>
+<tr><td>R6G validation</td><td>Yes</td><td>Yes</td><td>Jun batch + 12&nbsp;Aug batch</td><td>Strong, reproducible signal (SNR to 450)</td><td>Formal EF calculation still not established from available documents</td></tr>
+<tr><td>Raman calibration</td><td>Implied</td><td>Yes</td><td>13&nbsp;Aug Si reference session</td><td>&minus;2 to &minus;3&nbsp;cm&#8315;&sup1; offset characterized</td><td>Laser power in mW at sample still not established from available documents</td></tr>
+<tr><td>NAM detection (SERS)</td><td>Yes</td><td>Attempted, not achieved</td><td>Jun/Jul + 12&nbsp;Aug</td><td>Null result, well-characterized</td><td>AgNO&#8323; optimization series (planned), then capture chemistry</td></tr>
+<tr><td>PGN detection</td><td>Treated as synonymous with NAM in these documents</td><td>See NAM row</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr><td>LPS detection</td><td>Yes</td><td>Not started</td><td>&mdash;</td><td>&mdash;</td><td>Full 2-day protocol ready to execute (Priority 1)</td></tr>
+<tr><td>LTA detection</td><td>Yes</td><td>Attempted, corrected to null</td><td>14&nbsp;Aug session</td><td>Pixel artifact, not a real signal</td><td>Repeat with despiking protocol; fresh LTA solution (stability window only 2 days at 4&deg;C)</td></tr>
+<tr><td>Biomarker/concentration optimization</td><td>Yes (NAM)</td><td>Not started</td><td>&mdash;</td><td>&mdash;</td><td>SOP ready (Document_A)</td></tr>
+<tr><td>Laser power optimization</td><td>Yes</td><td>Partially (power levels 5/10 tested, mW never measured)</td><td>Multiple sessions</td><td>Relative comparison only</td><td>Absolute mW measurement still open</td></tr>
+<tr><td>Integration time optimization</td><td>Yes</td><td>Partially</td><td>13&nbsp;Aug finding (superlinear SNR gain)</td><td>Longer integration identified as effective but not yet systematically exploited</td><td>Apply longer integration times in next round</td></tr>
+<tr><td>Accumulation optimization</td><td>Implied</td><td>Held constant (3) throughout</td><td>&mdash;</td><td>&mdash;</td><td>Not yet varied as an independent parameter</td></tr>
+<tr><td>Soaking/deposition optimization</td><td>Yes (droplet volume)</td><td>Partially</td><td>Coffee-ring issue identified 12&nbsp;Aug</td><td>Moved to 2-3&nbsp;&micro;L + hydrophobic barrier rings</td><td>Not yet validated on a repeat run</td></tr>
+<tr><td>Reproducibility testing</td><td>Yes (target CV&lt;10%, corr&gt;0.90)</td><td>Partially</td><td>Jun batch corr. 0.7754</td><td>Below target</td><td>No same-session blank existed for the 2-min substrate until the 12&nbsp;Aug fix; multi-substrate replicate testing still outstanding</td></tr>
+<tr><td>FESEM</td><td>Yes (methodology)</td><td>Not established from available documents</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr><td>EDS</td><td>Yes (methodology)</td><td>Not established from available documents</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr><td>UV-Vis</td><td>Yes (methodology)</td><td>Not established from available documents</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr><td>Spectral preprocessing (baseline/SG/normalization)</td><td>Yes</td><td>Yes, mature pipeline</td><td>Used consistently since Jun</td><td>ALS+SG+normalize standard across all branches</td><td>Despiking now added as a mandatory extra step</td></tr>
+<tr><td>Statistical analysis</td><td>Yes</td><td>Yes for DFT-vs-experiment; not yet for concentration-response</td><td>MAE/RMSE/Pearson throughout</td><td>Rigorous for reference spectra</td><td>No LOD/LOQ or dose-response statistics exist yet for any biomarker on-substrate</td></tr>
+<tr><td>Classification/ML</td><td>Yes (aspirational, Manuscript 2/objective 3)</td><td>Not started</td><td>&mdash;</td><td>&mdash;</td><td>No real spectral training data yet (needs on-substrate detections first)</td></tr>
+<tr><td>Multi-biomarker analysis</td><td>Yes (planned)</td><td>Not started</td><td>&mdash;</td><td>&mdash;</td><td>Planned only after &ge;1 biomarker individually detected</td></tr>
+<tr><td>Documentation</td><td>Ongoing</td><td>Strong for NAM reference study; weaker for substrate work</td><td>NAM_Raman_Archive is exemplary; substrate work spread across many overlapping docs</td><td>&mdash;</td><td>Method harmonization (DFT generations, power units) still flagged as unresolved</td></tr>
+<tr><td>Manuscript/report preparation</td><td>Yes</td><td>NAM manuscript drafted, not submitted</td><td>NAM_Raman_Archive/05_Manuscript</td><td>~85-100% complete per internal reviews, pending reagent lot/mW/blank data</td><td>No manuscript has been submitted anywhere per available documents</td></tr>
+</table>
+
+<h2>9. Future Work Explicitly Planned in August</h2>
+<table>
+<tr><th>Planned activity</th><th>Source document</th><th>Why planned</th><th>Completed?</th><th>Current status</th><th>Recommended next action</th></tr>
+<tr><td>Refabricate substrate with revised cleaning protocol</td><td>Project_Status_Report (Aug 3), July report</td><td>July batch contaminated</td><td>Yes</td><td>Done 12&nbsp;Aug; R6G restored</td><td>None &mdash; superseded</td></tr>
+<tr><td>Commercial reference substrate / Lee-Meisel colloid control</td><td>SERS_Substrate_Procurement (7 Aug)</td><td>Isolate "fabrication problem" vs. "NAM is intrinsically hard"</td><td>Not established from available documents</td><td>No evidence of purchase or in-house colloid prep found</td><td>Worth revisiting as a fast, cheap diagnostic if the AgNO&#8323; series (below) also fails</td></tr>
+<tr><td>NAM AgNO&#8323; concentration series (5/20/40/80&nbsp;mM, later revised to include 10&nbsp;mM)</td><td>Document_A/B (13 Aug), Next_Experiment_Plan (12 Aug)</td><td>Test whether nanostructure/hotspot density compensates for NAM's poor adsorption</td><td>No</td><td>Not started</td><td>Priority 2 experiment (after LPS)</td></tr>
+<tr><td>LPS detection (2-day fast-track, Sensor A architecture)</td><td>LPS_Substrate_Strategy (16 Aug), Experiment_Plan_LPS</td><td>Only analyte with a fully transferable published protocol</td><td>No</td><td>Not started</td><td>Priority 1 &mdash; do first</td></tr>
+<tr><td>LTA repeat with despiking + fresh solution</td><td>Experiment_Plan_LTA, Consolidated_Experimental_Report</td><td>14&nbsp;Aug result was an artifact, not a real negative</td><td>No</td><td>Not started</td><td>Priority 3</td></tr>
+<tr><td>4-MPBA (boronic acid) functionalization for NAM</td><td>Boronic_Acid_Design_Rationale, NAM_Capture_Strategies</td><td>NAM's structural deficiency needs a capture layer, not just nanostructure tuning</td><td>No</td><td>Reagent availability unconfirmed</td><td>Only after bare-Ag AgNO&#8323; series is exhausted</td></tr>
+<tr><td>Resolve LTA NaN-metrics fitting branch; harmonize NAM DFT generations</td><td>Project_Status_Report (Aug 3)</td><td>Data-quality/consistency issue flagged by the project's own audit</td><td>Not established from available documents</td><td>No evidence of a rerun</td><td>Should be done before any thesis/manuscript finalization</td></tr>
+<tr><td>Submit NAM manuscript</td><td>NAM_Paper_Publication_Assessment, Data_Quality_Assessment</td><td>Manuscript judged close to ready</td><td>No</td><td>Not submitted per any document reviewed</td><td>Close remaining gaps (reagent lot #, laser mW, matched blanks) and submit</td></tr>
+<tr><td>Measure absolute laser power in mW at the sample</td><td>Repeated across nearly every August document</td><td>Needed to compare against literature conditions and report absolute settings</td><td>No</td><td>Still open</td><td>Quick win &mdash; do this before the next session</td></tr>
+</table>
+
+<h2>10. Current Project Status</h2>
+<p><strong>Where exactly does the project stand:</strong> the computational/reference-spectroscopy foundation (DFT + powder Raman) for NAM is essentially complete and manuscript-ready; LPS and LTA reference work is complete but of more modest statistical quality and needs a harmonization pass. The Ag/Si SERS substrate fabrication process is functional and reproducibly enhances the benchmark dye R6G, most recently and strongly on 12&nbsp;August (SNR to 450). However, <strong>zero for three</strong> on the actual diagnostic goal: no biomarker (NAM, LTA, LPS) has been reproducibly detected via SERS on this substrate. NAM has been tried twice (null both times, well-characterized root cause). LTA has been tried once (initially appeared positive, corrected to null via a rigorous artifact check that is now itself one of the project's more valuable methodological contributions). LPS has never been attempted. No experimental work has occurred since 16&nbsp;August.</p>
+
+<h3>Scientific gaps</h3>
+<ul>
+<li>Whether NAM can be detected on this substrate class at all without capture chemistry &mdash; still open pending the AgNO&#8323; series.</li>
+<li>Whether LTA gives any genuine SERS signal on bare Ag &mdash; genuinely untested (14&nbsp;Aug attempt was corrupted by an artifact, not a clean negative).</li>
+<li>Whether LPS (best literature precedent of the three) is detectable on this platform at all &mdash; completely open, no data yet.</li>
+</ul>
+<h3>Experimental gaps</h3>
+<ul>
+<li>LPS detection experiment (never run).</li>
+<li>NAM AgNO&#8323; concentration series (Groups A-D).</li>
+<li>LTA repeat under the corrected protocol.</li>
+<li>Batch-to-batch substrate reproducibility (only 1 substrate/condition made so far, across all sessions).</li>
+</ul>
+<h3>Technical gaps</h3>
+<ul>
+<li>Absolute laser power in mW never measured.</li>
+<li>HF stock concentration never recorded/confirmed.</li>
+<li>No FESEM/EDS/UV-Vis substrate characterization found anywhere in the reviewed documents, despite being specified in the original Masters-report methodology.</li>
+</ul>
+<h3>Data gaps</h3>
+<ul>
+<li>No concentration-response/LOD data for any biomarker on-substrate.</li>
+<li>LTA's expanded 136-file fitting branch has unresolved NaN metrics.</li>
+<li>No enhancement-factor (EF) calculation exists for the R6G/Ag-Si substrate despite being a stated project KPI (target &gt;10&#8310;).</li>
+</ul>
+<h3>Validation gaps</h3>
+<ul>
+<li>Substrate reproducibility (mean correlation 0.7754) remains below the project's own 0.90 target.</li>
+<li>No independent-substrate replicate study has ever been run for any condition.</li>
+<li>No blank/control/matrix-interference testing has been done for any biomarker in anything beyond pure powder/buffer.</li>
+</ul>
+<h3>Documentation gaps</h3>
+<ul>
+<li>NAM DFT method has (at least) two generations (Gaussian 09 vs. 16) still not formally harmonized into one canonical protocol for the thesis/TCS deliverable.</li>
+<li>Power units inconsistently reported as % in some branches and W in others.</li>
+<li>No live experiment-logging spreadsheet was kept during the 12-14&nbsp;Aug sessions (post-hoc reconstruction was needed) &mdash; a logging convention now exists on paper (Experiment_Plan documents) but has not yet been used in practice.</li>
+</ul>
+<h3>Integration gaps</h3>
+<ul>
+<li>No ML/classification layer exists (needs real on-substrate detections first).</li>
+<li>No clinical-sample or blood-matrix work has started (biobank SOP exists on paper only, per earlier document review; no evidence of IRB/ethics approval or sample collection in this scope).</li>
+<li>No portable/point-of-care hardware integration has begun.</li>
+</ul>
+<p><strong>Dependency ranking</strong> (as implied by the documents' own staged plans, not an external scoring):</p>
+<ol>
+<li><strong>Must be completed first:</strong> LPS detection attempt (highest chance of a first real positive, unblocks confidence in the whole platform); resolving the absolute laser-power-in-mW gap (needed to interpret every other measurement correctly).</li>
+<li><strong>Can be done in parallel:</strong> NAM AgNO&#8323; series and LTA repeat &mdash; independent of each other and of LPS, though instrument/fume-hood time is shared.</li>
+<li><strong>Depends on previous results:</strong> NAM concentration series (only after AgNO&#8323; series analyzed); MPBA functionalization (only after bare-Ag NAM route is exhausted); cysteamine-SAM for LTA (only if bare-Ag LTA fails); cross-analyte comparison and LOD/LOQ work (only after at least one clean positive detection).</li>
+<li><strong>Final-stage work:</strong> ML classification, clinical/blood-matrix testing, POC hardware integration, manuscript submissions beyond the NAM reference paper.</li>
+</ol>
+
+<h2>11. Remaining Technical/Scientific Gaps</h2>
+<p>(Consolidated from Section 10 above &mdash; repeated here per the requested structure.) The single largest unresolved question is whether any of the three biomarkers can be detected label-free on the current bare-Ag/black-Si platform at all; LPS is the best-positioned to answer this first given its unique published precedent. The second-largest gap is basic substrate/instrument characterization that every other document keeps flagging but nothing has yet resolved: absolute laser power in mW, HF stock concentration, and FESEM/EDS/UV-Vis substrate characterization.</p>
+
+<h2>12. Proposed Upcoming Work Plan</h2>
+<h3>Phase 1 &mdash; Immediate priorities</h3>
+<table>
+<tr><th>Task</th><th>Detail</th></tr>
+<tr><td>Objective</td><td>Get the project's first real biomarker SERS detection</td></tr>
+<tr><td>Exact activity</td><td><strong>LPS detection, 2-day fast-track</strong> (Sensor A: 10-min one-step MACE control + 3 HNO&#8323;-stripped/re-deposited variants; R6G go/no-go gate; then LPS 100/10/1/0.1&nbsp;&micro;g/mL, 2&nbsp;&micro;L/spot, 9 spots primary)</td></tr>
+<tr><td>Required materials/resources</td><td>Sigma L2630 LPS (confirmed reagent), HNO&#8323; (new &mdash; confirm availability), pyrogen-free water, calcium gluconate gel (confirm in-date)</td></tr>
+<tr><td>Experimental setup</td><td>785&nbsp;nm, 30&nbsp;s integration, 3 accumulations, 400-1800&nbsp;cm&#8315;&sup1;</td></tr>
+<tr><td>Expected output</td><td>Presence/absence of 989 and 1330&nbsp;cm&#8315;&sup1; bands vs. concentration</td></tr>
+<tr><td>Success criterion</td><td>Both primary bands, SNR&ge;3, &ge;3 pixels wide, in &ge;5 of 9 spots, within &plusmn;5&nbsp;cm&#8315;&sup1;</td></tr>
+<tr><td>Data to record</td><td>Full EXP-LPS-{conc}-{TYPE}-S{spot} log per protocol</td></tr>
+<tr><td>Possible failure modes</td><td>HNO&#8323; strip damages nanostructure (R6G gate will catch this); LPS itself gives no signal (informative negative, still valuable)</td></tr>
+<tr><td>Decision point</td><td>R6G gate after Day 1 fabrication decides Sensor A vs. fallback Sensor B</td></tr>
+<tr><td>Next step</td><td>If detected &rarr; dilution series/LOD planning; if not &rarr; proceed to NAM/LTA experiments regardless, treat as informative</td></tr>
+</table>
+<h3>Phase 2 &mdash; Optimization</h3>
+<table>
+<tr><th>Parameter</th><th>Current value/range</th><th>Proposed range</th><th>Why it matters</th><th>Decision criterion</th></tr>
+<tr><td>AgNO&#8323; concentration (NAM)</td><td>20&nbsp;mM only (established)</td><td>5/20/40/80&nbsp;mM, fixed 2-min etch</td><td>Tests whether hotspot density compensates for NAM's poor adsorption</td><td>R6G gate (SNR&ge;10) then NAM band count/reproducibility</td></tr>
+<tr><td>Integration time</td><td>5&ndash;30&nbsp;s across sessions</td><td>Systematically extend given the superlinear SNR-vs-time finding</td><td>Cheapest available sensitivity lever on this instrument</td><td>SNR gain vs. time cost</td></tr>
+<tr><td>Laser power (mW)</td><td>Unmeasured, only relative levels "5"/"10"</td><td>Measure absolute mW first</td><td>Needed to interpret every other result correctly</td><td>One-time measurement, not iterative</td></tr>
+</table>
+<h3>Phase 3 &mdash; Validation</h3>
+<ul>
+<li>Repeatability: &ge;3 spots per condition, minimum, per protocol already defined.</li>
+<li>Reproducibility: independent-substrate replicates &mdash; not yet done for any condition; should be added to every future experiment (2nd substrate per condition minimum).</li>
+<li>Controls: same-session blank before every analyte measurement (a real gap in earlier sessions, now fixed in the written protocols).</li>
+<li>Specificity: bare unetched-Si negative control for LPS (already specified); GlcNAc/glucose selectivity testing deferred until NAM shows any bare-Ag signal.</li>
+<li>Concentration dependence: dilution series specified for all three biomarkers; not yet executed for any.</li>
+</ul>
+<h3>Phase 4 &mdash; Data analysis</h3>
+<ul>
+<li>Preprocessing: despike (mandatory, new) &rarr; ALS baseline &rarr; Savitzky-Golay smoothing &rarr; normalize &mdash; consistent with the mature pipeline already used for NAM reference data.</li>
+<li>Peak detection: SNR&ge;3, &ge;3-pixel width, &plusmn;5&nbsp;cm&#8315;&sup1; tolerance &mdash; now standard across all three biomarker protocols.</li>
+<li>Statistical analysis: currently strong for DFT-vs-experiment (MAE/RMSE/Pearson); needs extending to dose-response/LOD statistics once any positive detection exists.</li>
+<li>Classification: not yet appropriate &mdash; no real training data exists.</li>
+</ul>
+<h3>Phase 5 &mdash; Final prototype/project deliverable</h3>
+<p>Not yet definable in concrete engineering terms from the available documents &mdash; this is explicitly one of the items to confirm with Prof. Ajay today (see Section 20), since the TCS deliverable scope (hardware? software? sensing chemistry only?) has not been stated in any document reviewed.</p>
+
+<h2>13. Week-by-Week Timeline</h2>
+<div class="key"><strong>Project deadline not established from the available documents.</strong> The following is a provisional, practical timeline, not a confirmed schedule.</div>
+<table>
+<tr><th>Week</th><th>Tasks/experiments</th><th>Deliverables</th><th>Dependencies</th></tr>
+<tr><td>Week 1</td><td>Resolve laser-power-mW and HF-concentration gaps; confirm HNO&#8323;/pyrogen-free-water availability; run LPS Day 1+2</td><td>LPS detection verdict</td><td>Reagent confirmation</td></tr>
+<tr><td>Week 2</td><td>Analyze LPS data; run NAM AgNO&#8323; series (Groups A-D)</td><td>NAM optimization verdict</td><td>LPS session complete</td></tr>
+<tr><td>Week 3</td><td>LTA repeat with despiking protocol; analyze NAM series, decide on 5&times;/10&times; concentration follow-up</td><td>LTA corrected verdict</td><td>Fresh LTA solution prep</td></tr>
+<tr><td>Week 4</td><td>Consolidate all three verdicts; decide MPBA/cysteamine next steps; resolve LTA NaN-branch and NAM DFT-generation harmonization</td><td>Updated project status report</td><td>Weeks 1-3 results</td></tr>
+<tr><td>Beyond Week 4</td><td>Cross-analyte comparison, LOD/LOQ work, NAM manuscript submission, ML/clinical work as scoped with TCS</td><td>Per TCS-confirmed scope</td><td>First positive detection; TCS scope confirmation</td></tr>
+</table>
+
+<h2>14. Measurable Targets</h2>
+<table>
+<tr><th>Target</th><th>Measurement</th><th>Acceptance criterion</th><th>Required experiment</th><th>Evidence required</th><th>If not achieved</th></tr>
+<tr><td>Establish LPS detection</td><td>SNR at 989/1330&nbsp;cm&#8315;&sup1;</td><td>SNR&ge;3, &ge;3px, &ge;5/9 spots, &plusmn;5&nbsp;cm&#8315;&sup1; (protocol-defined; not yet agreed with Prof. Ajay)</td><td>LPS 2-day fast-track</td><td>Spectra + peak-fit log</td><td>Treat as informative negative; proceed to Sensor B or NAM/LTA work</td></tr>
+<tr><td>Determine whether nanostructure tuning helps NAM</td><td>NAM band count across AgNO&#8323; groups</td><td>&ge;2 primary bands, SNR&ge;3, in &ge;2/3 spots on best group</td><td>AgNO&#8323; series A-D</td><td>Comparative SNR table</td><td>Escalate to capture chemistry (MPBA) as the documented next step</td></tr>
+<tr><td>Confirm/deny LTA bare-Ag signal</td><td>Phosphate + lipid band co-occurrence</td><td>Both bands, SNR&ge;3, &ge;3/9 spots</td><td>LTA repeat</td><td>Despiked spectra</td><td>Move to cysteamine-SAM arm</td></tr>
+<tr><td>Measure absolute laser power</td><td>mW at sample</td><td>Single confirmed number, cross-checked against BWSpec display</td><td>One-time instrument check</td><td>Power-meter reading or vendor spec confirmation</td><td>N/A &mdash; quick win</td></tr>
+</table>
+<p class="key">Numerical acceptance criteria above (SNR&ge;3, &plusmn;5&nbsp;cm&#8315;&sup1;, etc.) are already used consistently across the August protocol documents, but <strong>have not been explicitly signed off by Prof. Ajay</strong> &mdash; recommend confirming these are the agreed thresholds before they're used to justify any published claim.</p>
+
+<h2>15. Experimental Strategy</h2>
+<p>Sequential, not parallel, by design intent in the source documents: LPS first (best precedent, de-risks the whole platform), then NAM (optimization track, already well-characterized as structurally hard), then LTA (repeat of a corrupted result). Each experiment uses a same-session blank and an R6G go/no-go gate before committing biomarker material, and every peak call now requires the despike + &plusmn;5&nbsp;cm&#8315;&sup1; + 3-pixel-width criteria established from the 13-14&nbsp;Aug findings.</p>
+
+<h2>16. Validation Strategy</h2>
+<p>As detailed in Phase 3 above: same-session blanks, R6G activity gate, &ge;3 spots/condition minimum (9 for primary concentrations), negative controls (unetched Si for LPS), and &mdash; the biggest currently-missing piece &mdash; independent-substrate replicates, which have never been run for any condition in this project to date.</p>
+
+<h2>17. Data Analysis Plan</h2>
+<p>As detailed in Phase 4 above: despike &rarr; ALS baseline &rarr; Savitzky-Golay &rarr; normalize &rarr; peak detection (SNR&ge;3, &ge;3px, &plusmn;5&nbsp;cm&#8315;&sup1;) &rarr; per-spot evaluation before averaging &rarr; (once positive) dose-response/LOD statistics &rarr; (much later) classification.</p>
+
+<h2>18. Risks and Contingency Plans</h2>
+<table>
+<tr><th>Risk</th><th>Evidence</th><th>Impact</th><th>Mitigation</th><th>Backup plan</th></tr>
+<tr><td>Weak/no SERS signal for NAM even after AgNO&#8323; optimization</td><td>Root-cause analysis identifies a structural (not fixable-by-nanostructure) limitation</td><td>High &mdash; NAM is the most novel target</td><td>Move to capture chemistry (MPBA)</td><td>Treat NAM as spectral-marker-only via bacterial capture, not a free-molecule binding target</td></tr>
+<tr><td>Substrate batch-to-batch variability</td><td>Only 1 substrate/condition ever made; etch-time response already shown non-monotonic</td><td>Medium-high &mdash; undermines any reproducibility claim</td><td>Add independent-substrate replicates to every future experiment</td><td>None documented &mdash; genuinely open</td></tr>
+<tr><td>Detector fixed-pattern artifacts mistaken for signal</td><td>14&nbsp;Aug LTA pixel-640 case</td><td>High if undetected &mdash; false positive risk</td><td>Mandatory despiking + 3-pixel-width rule, now standard</td><td>N/A, already implemented going forward</td></tr>
+<tr><td>Coffee-ring/droplet spreading on hydrophilic black-Si</td><td>Identified as a contributing factor to NAM/LTA null results</td><td>Medium</td><td>Hydrophobic barrier rings, 2&nbsp;&micro;L confined drops</td><td>Raman mapping instead of single-point (suggested in NAM_SERS_Sensor_Report, not yet implemented)</td></tr>
+<tr><td>LPS acute toxicity (H300)</td><td>Confirmed hazard classification, Sigma L2630</td><td>High (safety)</td><td>Fume hood weighing, locked storage, toxic-waste disposal</td><td>N/A &mdash; strict protocol adherence required</td></tr>
+<tr><td>HF handling across all three experiments</td><td>Standard across every fabrication step</td><td>High (safety)</td><td>Double gloves, face shield, calcium gluconate gel on hand, never work alone</td><td>N/A &mdash; non-negotiable</td></tr>
+<tr><td>LTA solution instability</td><td>Stable only 2 days at 4&deg;C aqueous</td><td>Medium &mdash; may partly explain the 14&nbsp;Aug result</td><td>Prepare fresh or single-use frozen aliquots</td><td>Discard and re-prep if age uncertain</td></tr>
+<tr><td>Insufficient instrument characterization (mW, HF concentration)</td><td>Flagged repeatedly across nearly every August document, never resolved</td><td>Medium &mdash; undermines comparability to literature</td><td>One-time measurements, quick to resolve</td><td>N/A</td></tr>
+<tr><td>TCS deliverable scope mismatch</td><td>No document defines the exact TCS requirement</td><td>High &mdash; could invalidate current prioritization</td><td>Confirm scope with Prof. Ajay today</td><td>Proceed with current biomarker-detection roadmap as the default until told otherwise</td></tr>
+</table>
+
+<h2>19. Expected Deliverables</h2>
+<ul>
+<li><strong>Near-term (this plan):</strong> LPS/NAM/LTA experimental verdicts with full logs; resolved laser-power/HF-concentration gaps; NAM manuscript submission.</li>
+<li><strong>Medium-term:</strong> first reproducible biomarker SERS detection; LOD/dose-response data for that biomarker; resolved LTA NaN-branch and NAM DFT-generation harmonization.</li>
+<li><strong>Longer-term (scope-dependent, needs TCS confirmation):</strong> multi-biomarker panel, ML classification layer, clinical/blood-matrix validation, possible POC hardware &mdash; none of which are yet scoped against an actual TCS requirement in any document reviewed.</li>
+</ul>
+
+<h2>20. Questions for Prof. Ajay</h2>
+<div class="qbox">
+<ol>
+<li><strong>What is the exact TCS deliverable/requirement?</strong> (No document defines this precisely &mdash; project number R/S/TCS/AA/20250112 is the only concrete TCS reference found.)</li>
+<li>What is the expected project deadline / milestone schedule? (Not established from available documents.)</li>
+<li>Given LPS/NAM/LTA are all still at "not yet detected" or "just corrected from a false positive," which should be the priority if time is constrained &mdash; continue as sequenced (LPS&rarr;NAM&rarr;LTA) or reprioritize?</li>
+<li>What validation level does TCS expect at this stage &mdash; proof of concept, working prototype, or something closer to deployable?</li>
+<li>Are FESEM/EDS/UV-Vis characterization (specified in the original Masters-report methodology but never evidenced as done) actually required, or can the project proceed on Raman/SERS evidence alone?</li>
+<li>Should the NAM manuscript be finalized/submitted in parallel with the experimental work, or does experimental work take priority right now?</li>
+<li>Is there a hardware/software integration expectation from TCS, or is the current scope purely the sensing chemistry?</li>
+<li>What resources (reagents like HNO&#8323;/H&#8322;O&#8322;, instrument time, possible commercial reference substrates) can be approved/expedited?</li>
+<li>How should responsibility be divided if other lab members (e.g., Dr. Mohamed Zaki Hafeez) are also working on adjacent parts of this project?</li>
+<li>Should the numerical acceptance criteria used throughout the August protocols (SNR&ge;3, &plusmn;5&nbsp;cm&#8315;&sup1;, etc.) be treated as formally agreed, or does Prof. Ajay want different thresholds?</li>
+</ol>
+</div>
+
+<h2>21. Decisions Required in Today's Meeting</h2>
+<div class="checklist">
+[ ] Confirm project objective (as it relates to the TCS deliverable specifically)<br>
+[ ] Confirm final deliverable (POC / prototype / deployable system)<br>
+[ ] Confirm timeline / deadline<br>
+[ ] Confirm my responsibilities vs. other team members<br>
+[ ] Confirm priority experiments (LPS&rarr;NAM&rarr;LTA sequencing, or reprioritize)<br>
+[ ] Confirm required resources (HNO&#8323;, H&#8322;O&#8322;, pyrogen-free water, possible commercial substrates)<br>
+[ ] Confirm validation requirements (acceptance criteria, replication level)<br>
+[ ] Confirm documentation requirements (what TCS needs to see/receive)<br>
+[ ] Confirm next milestone and its target date
+</div>
+
+<h2>22. 2-Minute Verbal Summary for the Meeting</h2>
+<div class="verbal">
+"During August, we completed the reference foundation for all three biomarkers &mdash; NAM's DFT-and-powder-Raman characterization is essentially manuscript-ready, with 41 identified bands and a genuinely novel finding about the disputed 730&nbsp;wavenumber bacterial marker band. LTA and LPS have complete but more preliminary reference models. On the sensing side, we refabricated our Ag/silicon SERS substrate on 12&nbsp;August after a contamination problem in July, and it now gives a very strong signal with our benchmark dye, R6G &mdash; up to 450 times the noise floor. <br><br>
+The honest finding is that none of our three actual target biomarkers have been detected yet. NAM was tried twice and shows no reproducible signal &mdash; we've traced that to NAM's own chemistry, not a fabrication or instrument problem. LTA looked positive on 14&nbsp;August, but when we checked it pixel-by-pixel, it turned out to be a single detector pixel acting up, not a real signal &mdash; so that's now a corrected null result, and figuring that out is actually one of our more useful findings, because it gave us a rule we now apply to every measurement. LPS, which has the best published precedent of the three, hasn't been attempted at all yet. <br><br>
+The remaining gap is straightforward: we need to actually run the LPS experiment first, since it's our best shot at a first real detection, then work through a substrate-optimization series for NAM, then repeat LTA properly. We also have a few basic measurements &mdash; like our actual laser power in milliwatts &mdash; that we've never pinned down and that every one of our planning documents flags as outstanding. <br><br>
+Therefore, I'd propose we lock in the LPS&rarr;NAM&rarr;LTA sequence starting this week, and I wanted to use today to confirm what TCS specifically needs from this project, our real deadline, and whether our current acceptance criteria are the right ones to work against."
+</div>
+
+<hr>
+<h3>What I need to take into the 2:30 PM meeting &mdash; top checklist</h3>
+<div class="checklist">
+1. This document (or at minimum Sections 20-22) open/printed<br>
+2. Clear statement: no experiment has been executed since 16&nbsp;August &mdash; be upfront about this<br>
+3. The one clear ask: confirm the exact TCS deliverable/requirement (biggest unknown)<br>
+4. The one clear proposal: LPS first, this week, pending HNO&#8323;/pyrogen-free-water confirmation<br>
+5. The one honest correction: LTA's 14&nbsp;Aug "signal" was a detector artifact, not a real result &mdash; say this proactively, don't let it surface as a surprise<br>
+6. The one open resource question: HNO&#8323; and H&#8322;O&#8322; availability for the new LPS substrate route<br>
+7. The one measurement to commit to doing regardless of what's decided: laser power in mW &mdash; cheap, unblocks everything else<br>
+8. A one-line status you can say without notes: "Substrate works (R6G confirmed), biomarkers don't yet &mdash; LPS is next."
+</div>
+
+</div>
+</body>
+</html>

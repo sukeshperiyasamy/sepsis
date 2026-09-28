@@ -1,0 +1,292 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<title>Sepsis SERS Biosensor — Experiment Roadmap & Action Plan</title>
+<!--[if gte mso 9]>
+<xml>
+<w:WordDocument>
+<w:View>Print</w:View>
+<w:Zoom>100</w:Zoom>
+<w:DoNotOptimizeForBrowser/>
+</w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+  @page Section1 {
+    size: 8.5in 11.0in;
+    margin: 1in 1in 1in 1in;
+  }
+  div.Section1 { page: Section1; }
+  body { font-family: Calibri, Arial, sans-serif; font-size: 11pt; color: #1a1a1a; line-height: 1.4; }
+  h1 { font-size: 20pt; color: #1F3864; border-bottom: 2px solid #1F3864; padding-bottom: 6px; margin-top: 0; }
+  h2 { font-size: 15pt; color: #1F3864; margin-top: 28px; margin-bottom: 8px; border-bottom: 1px solid #B7C6E0; padding-bottom: 3px; }
+  h3 { font-size: 12.5pt; color: #1F3864; margin-top: 18px; margin-bottom: 6px; }
+  h4 { font-size: 11.5pt; color: #333333; margin-top: 14px; margin-bottom: 4px; }
+  p { margin: 6px 0; }
+  .subtitle { font-size: 11pt; color: #444444; margin: 2px 0; }
+  .rule { border: none; border-top: 1px solid #cccccc; margin: 22px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 10px 0 16px 0; }
+  th, td { border: 1px solid #999999; padding: 5px 8px; font-size: 9.5pt; text-align: left; vertical-align: top; }
+  th { background-color: #1F3864; color: #ffffff; font-weight: bold; }
+  tr:nth-child(even) td { background-color: #F2F5FA; }
+  .caution { background-color: #FCE4E4; border: 1px solid #C00000; padding: 8px 10px; margin: 10px 0; }
+  .key { background-color: #EAF1DD; border: 1px solid #5A8F29; padding: 8px 10px; margin: 10px 0; }
+  strong { color: #1a1a1a; }
+  em { color: #333333; }
+  code { font-family: Consolas, monospace; background-color: #F0F0F0; padding: 1px 3px; font-size: 9.5pt; }
+  ul, ol { margin: 6px 0; padding-left: 24px; }
+  li { margin: 3px 0; }
+  .footer-note { font-style: italic; color: #555555; font-size: 9.5pt; margin-top: 20px; }
+</style>
+</head>
+<body>
+<div class="Section1">
+
+<h1>Sepsis SERS Biosensor — Experiment Roadmap &amp; Action Plan</h1>
+<p class="subtitle"><strong>Sukesh P (M24IM1007)</strong> — M.Tech Joint IDRP, IIT Jodhpur &amp; AIIMS Jodhpur</p>
+<p class="subtitle">PI: Prof. Ajay Agarwal (IIT Jodhpur) &middot; Co-PI: Prof. (Dr.) Neeraj (AIIMS Jodhpur) &middot; Co-PIs: TCS</p>
+<p class="subtitle">Prepared: 11 September 2026, from your own project reports and planning documents.</p>
+
+<p>Everything below is pulled directly from your existing reports (<code>Consolidated_Experimental_Report_AllSessions</code>, <code>Updated_Project_Progress_Report_With_Experiments</code>, <code>Document_A_Experimental_Execution_Plan_SOP</code>, <code>Document_B_Scientific_Rationale_Decision_Log</code>, <code>Experiment_Plan_LPS</code>, <code>Experiment_Plan_LTA</code>, <code>Next_Experiment_Plan_BareAg_NAM_Optimization</code>, <code>LPS_Substrate_Strategy</code>). No quantities, catalog numbers, or results below are invented — anything genuinely open is marked <strong>STILL UNRESOLVED / CONFIRM</strong>.</p>
+
+<hr class="rule">
+
+<h2>PART 0 — Honest Status Check: What "Not Started" Actually Means</h2>
+<p>You said you haven't started any experiments yet. That's true in the sense that matters most: <strong>no biomarker (NAM, LTA, or LPS) has yet been successfully detected by SERS.</strong> But three real lab sessions already happened (12, 13, 14 August 2026), plus a full computational/reference-spectroscopy stage before that. You're not starting from zero — you're starting from a well-characterized negative result with a clear, literature-grounded next move. Here's exactly where things stand.</p>
+
+<hr class="rule">
+
+<h2>PART 1 — What Has Actually Been Completed</h2>
+
+<h3>Stage 1 — Pure-standard DFT + powder Raman (complete, off-substrate)</h3>
+<table>
+<tr><th>Biomarker</th><th>DFT method</th><th>Powder Raman result</th></tr>
+<tr><td>NAM</td><td>B3LYP/6-31+G(d,p), full molecule, Opt+Freq+Raman</td><td>25 s integration, 80% power, SNR = 95.91. <strong>51 peaks matched to DFT</strong>, RMSE 2.12 cm&#8315;&sup1;, mean error 0.38 cm&#8315;&sup1; (&plusmn;10 cm&#8315;&sup1; tolerance). Strong result.</td></tr>
+<tr><td>LPS</td><td>B3LYP/6-31G(d), 5 fragments (Kdo, Heptose, D-glucosamine, myristic acid, phosphoric acid), UltraFine/Tight grid</td><td>60 s, 20% power, 30 accumulations. NNLS composite fit: R&sup2; = 0.180, RMSE 0.185, Pearson 0.508. Fragment contributions: Kdo 47.3%, Heptose 25.8%, D-glucosamine 15.3%, myristic acid 11.7%, phosphoric acid 0.0%.</td></tr>
+<tr><td>LTA</td><td>B3LYP/6-31G(d), 3 fragments, SMD water solvation</td><td>Acquisition parameters <strong>not available in the current report</strong>. NNLS fit: <strong>R&sup2; = &minus;0.2943 (poor)</strong>, Pearson 0.3448, RMSE 0.1928 — qualitative region-level agreement only (phosphate, carbohydrate, CH-deformation, amide bands); the 3-fragment model does not capture full polymeric LTA.</td></tr>
+</table>
+<p><strong>Reminder (your earlier instruction, still true):</strong> the old "51 NAM peaks" and "LPS R&sup2;=0.18" figures are powder-Raman-vs-DFT results, not SERS results. Don't let them stand in for SERS detection when you talk about this project.</p>
+
+<h3>Stage 2 — SERS substrate work (new, three real sessions)</h3>
+<p><strong>Fabrication used throughout:</strong> Si cleaned acetone &rarr; IPA &rarr; DI (5 min sonication each); native oxide stripped in ~10% HF dip (4.1 mL 49% HF + 15.9 mL DI), 30&ndash;60 s; one-step MACE bath = 0.170 g AgNO&#8323; + 8.6 mL conc. HF, made up to 50 mL DI (&asymp; <strong>20.0 mM AgNO&#8323;</strong>, confirmed by calculation; HF molarity &asymp;4.8 M <strong>if</strong> stock is 49% — <strong>STILL UNRESOLVED</strong>, HF stock concentration was never recorded). Etch times tested: 2, 5, 10 min, room temperature.</p>
+<p><strong>Instrument:</strong> B&amp;W Tek/Metrohm i-Raman Plus, BWS465-785H spectrometer + BTC665N-785H-SYS probe, actual laser wavelength 784.92 nm. Power reported only as arbitrary "power level" 5 or 10 — <strong>mW at sample is STILL UNRESOLVED</strong> across every session and every planning document. This is the single most repeated open item in your own records — resolve it before your next session if at all possible (check the BWSpec software's live power readout, or the printed spec on the laser head).</p>
+
+<h4>Session 1 (12 Aug) — Fabrication + R6G + NAM, 177 spectra</h4>
+<ul>
+<li>R6G: all 8 standard bands (612, 774, 1183, 1310, 1362, 1509, 1575, 1650 cm&#8315;&sup1;) detected on all 3 etch-time substrates, high SNR. <strong>2-min etch gave the strongest signal</strong> (1509 cm&#8315;&sup1;: 21,118 counts / SNR 450 — ~48&times; the 5-min substrate). 10-min beat 5-min but not 2-min — <strong>etch-time effect is not monotonic</strong>, and only one substrate was made per condition, so batch-to-batch reproducibility was never tested.</li>
+<li>NAM: measured on all 3 substrates &times; 2 power levels, target bands 930 cm&#8315;&sup1; (ring breathing) and 871 cm&#8315;&sup1; (CH&#8322; wagging) primary. Best individual hits: SNR 3.0 (1023 cm&#8315;&sup1;, isolated) and SNR 3.3 (930 cm&#8315;&sup1;, isolated) — <strong>neither reproduced across spots or conditions and both were correctly rejected</strong>. <strong>Verdict: NAM NOT DETECTED.</strong></li>
+</ul>
+
+<h4>Session 2 (13 Aug) — Instrument/Si reference characterization, 45 spectra</h4>
+<ul>
+<li>Si TO phonon found at <strong>517.8 cm&#8315;&sup1;</strong> vs. textbook 520&ndash;521 cm&#8315;&sup1; &rarr; fixed <strong>&minus;2 to &minus;3 cm&#8315;&sup1; calibration offset</strong> &rarr; <strong>&plusmn;5 cm&#8315;&sup1; tolerance</strong> now applied project-wide.</li>
+<li>Peak FWHM at best condition &asymp; 7.2 cm&#8315;&sup1; &asymp; 4&ndash;5 detector pixels &rarr; basis for the <strong>"reject any peak narrower than 3 pixels" artifact rule</strong> now mandatory before any peak call.</li>
+<li>SNR scales <em>faster</em> than &radic;t (5.9&times; actual vs. 2.2&times; shot-noise-predicted going 5&rarr;25 s) &rarr; <strong>longer integration is an unusually effective, underused lever</strong> on this specific instrument.</li>
+<li><strong>NAM molecular-weight correction discovered here:</strong> earlier work used 275.25 g/mol; the correct value is <strong>293.27 g/mol</strong> (PubChem CID 5462244, matches Sigma A3007, CAS 10597-89-4). 1 mg/mL NAM = <strong>3.41 mM</strong>, not 3.63 mM as previously logged — old NAM molarity figures are ~6.5% too high. <strong>Use 293.27 g/mol going forward.</strong></li>
+</ul>
+
+<h4>Session 3 (14 Aug) — LTA detection attempt, 15 spots</h4>
+<ul>
+<li>Apparent 1095 cm&#8315;&sup1; signal (SNR 7&ndash;9, 3 spots) initially looked positive.</li>
+<li>Pixel-level re-examination: the feature occupied <strong>exactly one detector pixel (index 640)</strong>, identical position across all 3 candidate spectra — a fixed-pattern detector artifact, not a molecular signal. <strong>Corrected verdict: LTA NOT DETECTED.</strong> This finding is what produced the mandatory despiking/pixel-width rule now used everywhere.</li>
+</ul>
+
+<h4>LPS — not yet attempted on any substrate. This is genuinely your first blank slate.</h4>
+
+<h3>Root-cause analysis for the NAM/LTA null results (ranked, from your own reports)</h3>
+<ol>
+<li><strong>Most probable:</strong> NAM has no thiol/strong Ag-binding group (amide-blocked nitrogen) and no resonance at 785 nm — weak adsorption + weak intrinsic Raman cross-section, both at once. This is a structural deficiency, not a fixable instrument problem.</li>
+<li>Droplet spreading on the strongly hydrophilic black-Si surface (coffee-ring effect carrying analyte outside the measured spot) — a real contributing factor, being corrected via hydrophobic barrier rings + smaller confined drop volumes (2 &micro;L).</li>
+<li>Bulk concentration too low — judged unlikely as primary cause (1 mg/mL / 3.41 mM is already high by SERS standards), but not fully excluded.</li>
+<li>Substrate not SERS-active — <strong>excluded</strong> (R6G confirms strong activity, SNR to 450).</li>
+<li>Instrument miscalibration — <strong>excluded</strong> (Session 2 Si reference data confirms correct operation).</li>
+</ol>
+
+<hr class="rule">
+
+<h2>PART 2 — Immediate Priority Roadmap: Your Next Three Experiments, In Order</h2>
+<p>Your own decision log (<code>Document_B</code>) sets this priority order explicitly: <strong>LPS = Priority 1</strong> (best published precedent, most transferable protocol), <strong>LTA = Priority 2</strong>, <strong>NAM optimization = ongoing track, gated on MPBA availability for a real fix</strong>. Do these in order — a working detection on <em>any</em> one biomarker de-risks the whole platform and gives you a validated substrate to apply to the others.</p>
+
+<h3>EXPERIMENT 1 (DO THIS FIRST): LPS Label-Free SERS Detection</h3>
+<p><strong>Why LPS first:</strong> it is the <em>only</em> one of your three analytes with a fully transferable, published, label-free SERS protocol on a silver substrate — exact volumes, drying method, acquisition settings, and a peak table, adapted from Wu, Zhao &amp; Zughaier (2021), <em>Biosensors</em> 11(7):234, DOI 10.3390/bios11070234. Lipid A's six saturated fatty-acyl chains are both strong Raman scatterers <em>and</em> drive real physisorption onto Ag — the exact combination NAM lacks.</p>
+
+<div class="caution"><strong>Reagent — CONFIRMED:</strong> Sigma-Aldrich <strong>L2630</strong>, <em>E. coli</em> O111:B4 LPS, phenol-extracted, CAS 93572-42-0, 10 mg pack (&#8377;12,773.50 indicative). <strong>CAUTION — acutely toxic:</strong> GHS06, H300 "fatal if swallowed," Acute Toxicity Category 2 (Oral). Weigh only in a fume hood/powder enclosure; never on an open bench. Locked 2&ndash;8&deg;C storage; collect all contaminated tips/tubes/substrates as toxic waste, never to drain.</div>
+
+<p><strong>Substrate — recommended new architecture, "Sensor A" (two-step MACE):</strong> your current one-step AgNO&#8323;/HF process couples Si etching and Ag growth into a single uncontrolled event. Both strongest published LPS benchmarks (Wu 2021; Yang 2022, <em>Nanoscale</em> 14(24):8806) used silver-nanorod arrays where Ag morphology is engineered <em>independently</em> of the support — not replicable without e-beam evaporation, but the underlying principle (decoupling Si structure from Ag growth) is replicable with chemistry you already have.</p>
+
+<p><strong>Day 1 — Fabrication (~3 hours, 4 Si pieces from one wafer):</strong></p>
+<table>
+<tr><th>Step</th><th>Action</th><th>Quantity/time</th></tr>
+<tr><td>1</td><td>Clean: acetone &rarr; IPA &rarr; DI</td><td>5 min sonication each</td></tr>
+<tr><td>2</td><td>Oxide strip</td><td>4.1 mL 49% HF + 15.9 mL DI (20 mL); 30&ndash;60 s</td></tr>
+<tr><td>3</td><td>MACE etch, all 4 pieces together</td><td>0.170 g AgNO&#8323; + 8.6 mL HF, to 50 mL DI; <strong>10 minutes</strong> (longer than your usual 2 min — deeper nanostructure)</td></tr>
+<tr><td>4</td><td>Rinse, N&#8322; dry</td><td>&ge;30 s running DI</td></tr>
+<tr><td>5</td><td><strong>Set aside Piece 1</strong> — do not strip it</td><td>This is your one-step (M0) comparison control</td></tr>
+<tr><td>6</td><td>HNO&#8323; Ag strip — Pieces 2, 3, 4</td><td>Dilute HNO&#8323; until the dark Ag deposit visibly lifts; rinse thoroughly</td></tr>
+<tr><td>7</td><td>Ag re-deposition, separate baths/times</td><td>5 mM AgNO&#8323; + 1 mL 49% HF in 50 mL. Piece 2: 30 s &middot; Piece 3: 60 s &middot; Piece 4: 120 s</td></tr>
+<tr><td>8</td><td>Rinse, N&#8322; dry, label immediately</td><td>&mdash;</td></tr>
+</table>
+
+<p><strong>Day 2 — Validation + detection (~4 hours):</strong></p>
+<table>
+<tr><th>Step</th><th>Action</th><th>Detail</th></tr>
+<tr><td>9</td><td>Same-session blank, all 4 pieces</td><td>3 spots each, 30 s, 3 acc., power 10, 400&ndash;1800 cm&#8315;&sup1;</td></tr>
+<tr><td>10</td><td>R6G 0.01 mM, all 4 pieces</td><td>3 spots each. <strong>GO/NO-GO GATE.</strong></td></tr>
+<tr><td>11</td><td>Compare 1509 cm&#8315;&sup1; across pieces 1&ndash;4</td><td>Pick the winner. If all re-deposited pieces lose badly to Piece 1, the HNO&#8323; strip is damaging the structure — fall back to "Sensor B" below.</td></tr>
+<tr><td>12</td><td>Hydrophobic barrier rings on winning piece</td><td>3&ndash;5 rings, ~3&ndash;4 mm apart, dry ~5 min</td></tr>
+<tr><td>13</td><td>LPS 100 &micro;g/mL, 2.0 &micro;L/spot</td><td>9 spots — primary detection attempt</td></tr>
+<tr><td>14</td><td>LPS negative control on <strong>unetched bare Si</strong></td><td>3 spots — mandatory (proves any signal is SERS, not ordinary Raman)</td></tr>
+<tr><td>15</td><td>If detected, dilution series</td><td>10 / 1 / 0.1 &micro;g/mL, 5 spots each</td></tr>
+<tr><td>16</td><td>Analyze</td><td>Despike &rarr; baseline-correct &rarr; per-spot criteria &rarr; only then average</td></tr>
+</table>
+
+<p><strong>LPS solution prep</strong> (1 mg into 1.00 mL pyrogen-free water = 1 mg/mL stock): vortex 2 min &rarr; sonicate 15 min &rarr; vortex 30 s before every draw. Haziness is normal — do not filter. Serial dilutions (100 &micro;L + 900 &micro;L water each step) give 100/10/1/0.1 &micro;g/mL working levels; re-vortex + re-sonicate at every dilution step, not just at stock stage.</p>
+
+<p><strong>Target peaks</strong> (Wu 2021, Table 1 — measured SERS on Ag, not calculated):</p>
+<table>
+<tr><th>cm&#8315;&sup1;</th><th>Assignment</th><th>Priority</th></tr>
+<tr><td><strong>989</strong></td><td>&beta;(CH), carbohydrate</td><td><strong>PRIMARY</strong></td></tr>
+<tr><td><strong>1330</strong></td><td>&delta;(CH), phospholipid</td><td><strong>PRIMARY</strong></td></tr>
+<tr><td>550, 680, 850, 1131, 1450</td><td>ring/fatty-acid/saccharide/lipid modes</td><td>secondary</td></tr>
+<tr><td>543, 552, 981</td><td>enteric-LPS variants (E. coli/Salmonella/Vibrio)</td><td>expect these closer to O111:B4 than the N. meningitidis values above</td></tr>
+</table>
+
+<p><strong>Detection verdict:</strong> DETECTED requires <em>both</em> 989 and 1330 cm&#8315;&sup1;, SNR&ge;3, &ge;3 pixels wide, in &ge;5 of 9 spots, within &plusmn;5 cm&#8315;&sup1;. Do not accept a single band alone.</p>
+
+<p><strong>Performance context:</strong> Yang 2022 reports LPS detectable at <strong>8.75 pg per measurement</strong> (&asymp;4.4 ng/mL in a 2 &micro;L drop). Your planned 100 &micro;g/mL delivers ~200 ng in 2 &micro;L — roughly <strong>23,000&times; more material</strong> than their detection threshold. This is exactly why LPS is the right first target: enormous margin for error.</p>
+
+<p><strong>Materials needed beyond what you have:</strong> HNO&#8323; (65&ndash;70% conc., for the Ag strip — confirm you have this), calcium gluconate gel (confirm in-date), pyrogen-free water (confirm availability; ordinary DI may carry background endotoxin).</p>
+
+<div class="caution"><strong>Fallback if Sensor A fails the R6G gate:</strong> "Sensor B" — HF/H&#8322;O&#8322; oxidant-controlled MACE. Brief AgNO&#8323;/HF seeding dip (5 mM AgNO&#8323; + 1 mL HF in 50 mL, 60 s) to deposit catalyst particles, then etch in ~4.8 M HF + 0.1 M H&#8322;O&#8322; for 5/15/30 min (a directly-reported working condition). New reagent needed: 30% H&#8322;O&#8322;. <strong>CAUTION:</strong> never pre-mix H&#8322;O&#8322; and HF for storage — prepare immediately before use.</div>
+
+<h3>EXPERIMENT 2: NAM Bare-Ag Optimization — AgNO&#8323; Concentration Series</h3>
+<p><strong>Rationale:</strong> R6G works strongly on your existing substrate, so the problem is not substrate SERS-activity — it's that NAM has no chemical reason to sit inside a hotspot. This experiment tests whether nanostructure geometry (particle size/density/gap spacing, which literature says tracks with AgNO&#8323; concentration) can partially compensate, while explicitly <em>not</em> touching NAM concentration or adding capture chemistry in the same round — that would make results uninterpretable.</p>
+
+<p><strong>Four groups, all at fixed 2-min etch, fixed NAM concentration (use corrected 293.27 g/mol MW):</strong></p>
+<table>
+<tr><th>Group</th><th>AgNO&#8323; target</th><th>Mass in 50 mL</th><th>Expected effect</th></tr>
+<tr><td>A — Low</td><td>5 mM</td><td>0.0425 g</td><td>Larger, sparser particles, wider gaps</td></tr>
+<tr><td>B — Baseline repeat</td><td>20 mM</td><td>0.170 g</td><td>Reproduces 12 Aug result; reproducibility check</td></tr>
+<tr><td>C — Medium-high</td><td>40 mM</td><td>0.340 g</td><td>Smaller, denser particles — best candidate to show improvement if hotspot density is the limiter</td></tr>
+<tr><td>D — High</td><td>80 mM</td><td>0.680 g</td><td>Risk of dendritic clustering (literature caution)</td></tr>
+</table>
+
+<p>Everything else held constant: 2-min etch, 8.6 mL HF/50 mL bath, same NAM stock/drop volume (2&ndash;3 &micro;L), 5 s integration, 3 accumulations, one fixed power level, &ge;3 spots per condition, same-session blank every time (fixes the gap where your 2-min substrate had <em>no</em> matched blank on 12 Aug).</p>
+
+<p><strong>Decision rule:</strong> Step 1 — discard any group whose R6G check doesn't clear SNR&ge;10 at 1509 cm&#8315;&sup1; (fabrication problem, not data). Step 2 — among survivors, prefer lowest spot-to-spot R6G variability. Step 3 — rank by how many NAM primary bands (930, 871 cm&#8315;&sup1;) clear SNR&ge;3 in &ge;2 of 3 spots. Step 4 — magnitude only as a tiebreaker.</p>
+
+<p><strong>If NAM is still not detected after Groups A&ndash;D</strong> (a realistic, informative outcome): run the conditional NAM concentration series (5&times;/10&times; = 18.2/36.3 mM using the corrected MW) on the single best AgNO&#8323; condition — <em>only after</em> Groups A&ndash;D are analyzed, not in parallel. No signal even at 10&times; points squarely at capture chemistry (MPBA) as the real fix, not further nanostructure tuning.</p>
+
+<p><strong>Explicitly not recommended for this round:</strong> persulfate (PDS) in the bath — no literature precedent for one-step Ag/HF MACE, real risk of re-oxidizing deposited Ag&#8304;.</p>
+
+<h3>EXPERIMENT 3: LTA Bare-Ag Detection (repeat, with corrected artifact protocol)</h3>
+<p><strong>Reagent — CONFIRMED:</strong> Sigma-Aldrich <strong>L2515</strong>, LTA from <em>S. aureus</em>, CAS 56411-57-5, 5/10/25 mg packs (&#8377;20,664.93 for 5 mg). No GHS pictogram, but <strong>WGK 3 (severely water-hazardous)</strong> — do not pour LTA solutions or rinse water to drain.</p>
+
+<div class="caution"><strong>CAUTION — aqueous stability is the tightest constraint in this protocol:</strong> stable only <strong>2 days at 4&deg;C</strong>, or 2 months as single-use frozen aliquots at &minus;20&deg;C. Prepare fresh on measurement day, or freeze single-use 100 &micro;L aliquots immediately. This may partly explain the 14 Aug null result if that solution had aged — <strong>confirm your 14 Aug stock's age before reusing it; if in doubt, discard and re-prep.</strong></div>
+
+<p><strong>Mandatory pre-analysis step:</strong> despike every spectrum (reject any peak &lt;3 pixels wide) before calling any peak — this is what the pixel-640 correction demands.</p>
+
+<p><strong>Prep:</strong> 1.0 mg LTA + 1.00 mL DI &rarr; vortex 2 min &rarr; sonicate 15 min &rarr; aliquot into 10&times; 100 &micro;L single-use portions, freeze unused ones. Dilution series: 500/100/10/1 &micro;g/mL (start higher than the LPS series — LTA has weaker published precedent, so the first goal is simply establishing whether <em>any</em> signal is obtainable).</p>
+
+<p><strong>Target bands</strong> (evidence-tiered — no complete published LTA SERS spectrum exists anywhere):</p>
+<table>
+<tr><th>cm&#8315;&sup1;</th><th>Assignment</th><th>Evidence tier</th></tr>
+<tr><td>1080&ndash;1095</td><td>&nu;<sub>s</sub>(PO&#8322;&#8315;), phosphate</td><td>Literature-confirmed for the functional group (not LTA-specific — also nucleic acids, LPS, wall teichoic acid)</td></tr>
+<tr><td>1225&ndash;1250</td><td>&nu;<sub>as</sub>(PO&#8322;&#8315;)</td><td>Literature-confirmed for the functional group</td></tr>
+<tr><td>1450</td><td>CH&#8323;/CH&#8322; lipid deformation</td><td>Confirmed via LPS Table 1 (shared lipid-tail chemistry)</td></tr>
+<tr><td>1131</td><td>&nu;(C-C) fatty acid</td><td>Confirmed via LPS Table 1</td></tr>
+<tr><td>850</td><td>&nu;(C-O-C) saccharide</td><td>Confirmed via LPS Table 1</td></tr>
+</table>
+
+<p><strong>Detection rule — stricter than a single band:</strong> because 1080&ndash;1095 cm&#8315;&sup1; is <em>not</em> LTA-specific, a valid detection needs <strong>both</strong> a phosphate band (1080&ndash;1095 or 1225&ndash;1250) <strong>and</strong> a lipid band (1450 or 1131), SNR&ge;3, &ge;3 pixels wide, in &ge;3 of 9 spots. A lone phosphate band is "possibly detected," never "detected."</p>
+
+<p><strong>Matrix:</strong> blank (3 spots) &rarr; R6G gate (3) &rarr; LTA 500/100 &micro;g/mL (9 spots each) &rarr; LTA 10/1 &micro;g/mL (5 spots each) &rarr; blank + 500 &micro;g/mL repeat on a 2nd substrate (reproducibility check). ~42 spectra, budget 3.5&ndash;4 hours.</p>
+
+<p><strong>If bare Ag gives nothing but R6G is strong:</strong> run a cysteamine-SAM arm (2-aminoethanethiol, Sigma M6500) — a thiol-anchored, positively-charged &minus;NH&#8323;&#8314; surface is a more rational capture strategy for LTA specifically than for NAM, since LTA's phosphodiester backbone is genuinely negatively charged. <strong>Do not add this in the same round as the bare-Ag baseline</strong> — test bare Ag first.</p>
+
+<hr class="rule">
+
+<h2>PART 3 — Conditional / Follow-On Experiments (once Part 2 produces a result)</h2>
+<ul>
+<li><strong>NAM 5&times;/10&times; concentration series</strong> — only after the AgNO&#8323; series is fully analyzed (see Experiment 2).</li>
+<li><strong>Cysteamine SAM for LTA</strong> — only if bare-Ag LTA fails (see Experiment 3).</li>
+<li><strong>Cross-analyte comparison</strong> — once at least one biomarker shows real signal, run LPS + LTA + NAM together on substrates from a single fabrication batch, matched concentration, identical settings, to determine which biomarker the platform is actually best suited to.</li>
+<li><strong>LOD/LOQ determination</strong> — only after a first positive detection, from a real concentration series (your own reports flag that you should not compute a statistical LOD from fewer than 5 concentration points with replicates — report an "observed lowest-detected concentration" instead until you have that).</li>
+<li><strong>Independent substrate replicates</strong> at the winning condition — never yet tested; only one substrate was fabricated per condition across all three sessions so far, so batch-to-batch fabrication reproducibility is still an open question.</li>
+<li><strong>Fabrication-to-measurement interval logging</strong> — track how long each substrate sits between etching and measurement (freshly-etched Ag tarnishes); this was never systematically tracked before.</li>
+</ul>
+
+<hr class="rule">
+
+<h2>PART 4 — Previously-Discussed Ideas Not Yet Implemented (the "dig up the ideas" ask)</h2>
+<p>These are documented in your own planning files as real options that were deliberately deferred, not forgotten:</p>
+
+<h4>Capture chemistry (the actual fix for NAM):</h4>
+<ul>
+<li><strong>MPBA (4-mercaptophenylboronic acid)</strong> — binds NAM's diol/carboxylic-acid functionality via the boronic-acid group, anchoring it in SERS-active regions. Flagged everywhere as <em>the</em> long-term fix for NAM once available. <strong>Explicit methodological caution from your own decision log:</strong> record the MPBA-only spectrum first to rule out spectral interference, since the functionalization itself could occupy SERS-active sites — this must be evaluated by controlled comparison, not assumed to help.</li>
+<li><strong>Cysteamine SAM</strong> — interim, more rational for LTA than NAM (see Experiment 3).</li>
+</ul>
+
+<h4>Alternative Si/Ag fabrication architectures catalogued but not yet built (from <code>LPS_Substrate_Strategy</code>, ranked #2&ndash;#5 after Sensor A):</h4>
+<ul>
+<li>Pre-made SiNWs + galvanic-displacement Ag coating — strongest reported numbers found (EF 2.3&times;10&#8312;, R6G LOD 10&#8315;&#185;&#8308; M), but full-text parameters are paywalled/unverified.</li>
+<li>Porous Si + Ag immersion plating — has a concrete, directly-reported recipe to copy verbatim (10 mM AgNO&#8323;, 5 min); NIR-relevant SERS demonstrated.</li>
+<li>HF/H&#8322;O&#8322; oxidant-controlled MACE (Sensor B, already detailed above as your fallback).</li>
+<li>MACE + photonic (UV/laser) reduction — highest verified EF (~1&times;10&#8312;), reusable substrate, but needs a controlled photoreduction setup you haven't used before.</li>
+<li>Lower-priority/less-supported options also catalogued: two-step MACE w/H&#8322;O&#8322; plating-then-etch, AgNP pre-deposition before MACE, KOH/IPA hierarchical texturing, thermal sintering to remove Ag remanence.</li>
+</ul>
+
+<h4>Downstream project directions (not started, per your own progress report's "remaining work" list):</h4>
+<ul>
+<li>Expand the pure-standard Raman reference library to additional bacterial components beyond NAM/LTA/LPS.</li>
+<li>Validate against whole cultured bacterial isolates, not just purified compounds.</li>
+<li>Machine-learning classification of SERS spectra — your literature review already found precedent (RamanNet reaching 100% differentiation accuracy on 11 endotoxin types in Yang 2022; a 2025 follow-up "DeepRaman," Heliyon, PMC11870271, not yet analyzed in detail).</li>
+<li>Evaluation on real clinical patient samples.</li>
+<li>Portable point-of-care prototype development.</li>
+</ul>
+
+<p>These map directly onto your project's original 5 objectives — objectives 3 (AI/ML), 4 (clinical validation), and 5 (point-of-care prototype) are <strong>all explicitly "not yet started"</strong> in your own progress report, and objective 2 (SERS sensing) is "in progress" pending the experiments in Part 2.</p>
+
+<hr class="rule">
+
+<h2>PART 5 — Open Items You Should Resolve (safety- and data-quality-critical, consolidated from every document)</h2>
+<table>
+<tr><th>#</th><th>Item</th><th>Why it matters</th></tr>
+<tr><td>1</td><td><strong>Exact laser power in mW</strong> for power levels "5" and "10"</td><td>Every acquisition-settings table in every plan depends on this; needed to compare against published mW figures (Wu 2021 used 100 mW) and decide integration time. Check BWSpec's live display or the BTC665N-785H-SYS spec label.</td></tr>
+<tr><td>2</td><td><strong>HF stock concentration</strong> (assumed 49% throughout — never confirmed)</td><td>Affects exact HF molarity in every bath; check the reagent bottle label.</td></tr>
+<tr><td>3</td><td><strong>Pyrogen-free water availability</strong></td><td>Needed for LPS work specifically — ordinary DI may carry background endotoxin and contaminate your blank.</td></tr>
+<tr><td>4</td><td><strong>Vacuum desiccator availability</strong></td><td>Preferred drying method for LPS; air-dry is an acceptable logged substitute if unavailable.</td></tr>
+<tr><td>5</td><td><strong>Whether your 14 Aug LTA stock is still usable</strong></td><td>Sigma's stability data (2 days at 4&deg;C) suggests it may have degraded — confirm prep date before reusing.</td></tr>
+<tr><td>6</td><td><strong>HNO&#8323; and H&#8322;O&#8322; availability</strong> (new reagents, needed for Sensors A and B respectively)</td><td>Confirm you have these before Day 1 of the LPS experiment.</td></tr>
+<tr><td>7</td><td><strong>Si wafer specs</strong> (resistivity, doping, orientation, thickness)</td><td>Never recorded anywhere in your files; orientation is conventionally assumed (100) but unconfirmed.</td></tr>
+<tr><td>8</td><td><strong>Calcium gluconate gel</strong> — confirm in-date and on-site</td><td>Mandatory first aid for every HF step across all three experiments.</td></tr>
+</table>
+
+<hr class="rule">
+
+<h2>PART 6 — Suggested Execution Timeline (starting now)</h2>
+<table>
+<tr><th>When</th><th>What</th></tr>
+<tr><td>Week 1</td><td>Resolve Part 5 items #1&ndash;#3, #6, #8 (mostly quick checks/confirmations). Order/confirm HNO&#8323;, pyrogen-free water. Run <strong>Experiment 1 (LPS)</strong> Day 1 + Day 2.</td></tr>
+<tr><td>Week 1&ndash;2</td><td>Analyze LPS data (despike &rarr; baseline &rarr; per-spot &rarr; average). Decide Sensor A vs. B based on the R6G gate. If LPS detected: begin planning the dilution/LOD series.</td></tr>
+<tr><td>Week 2</td><td>Run <strong>Experiment 2 (NAM AgNO&#8323; series, Groups A&ndash;D)</strong> — fabrication + R6G gate + full measurement matrix.</td></tr>
+<tr><td>Week 2&ndash;3</td><td>Analyze NAM series; decide whether to run the conditional 5&times;/10&times; concentration series.</td></tr>
+<tr><td>Week 3</td><td>Run <strong>Experiment 3 (LTA repeat)</strong> with corrected despiking protocol and fresh-prepped solution.</td></tr>
+<tr><td>Week 3&ndash;4</td><td>Analyze LTA; decide whether cysteamine-SAM arm is warranted.</td></tr>
+<tr><td>Ongoing</td><td>Log every spectrum using the file-naming/logging conventions in each protocol (<code>EXP-LPS-...</code>, <code>EXP-NAM-AG{conc}-...</code>, <code>EXP-LTA-...</code>) — none of your sessions so far kept a live logging spreadsheet, which made post-hoc analysis harder than it needed to be.</td></tr>
+<tr><td>After first positive detection</td><td>Move to cross-analyte comparison, LOD/LOQ determination, independent-substrate reproducibility testing (Part 3).</td></tr>
+<tr><td>Longer-term</td><td>MPBA functionalization for NAM once the reagent is available; ML classification; clinical-sample validation; POC prototype (Part 4).</td></tr>
+</table>
+
+<hr class="rule">
+
+<h2>PART 7 — Materials Cross-Reference</h2>
+<p>Everything above draws on the same chemical/PPE list already compiled in your procurement sheet (<code>Lab_Procurement_List.csv</code>, delivered separately), plus these additions specific to the new experiments: <strong>HNO&#8323;</strong> (Ag-strip step, Sensor A), <strong>H&#8322;O&#8322; 30%</strong> (Sensor B, only if needed), <strong>pyrogen-free/endotoxin-free water</strong> (LPS work), and <strong>cysteamine (Sigma M6500)</strong> (only if the LTA bare-Ag arm fails). None of these were in the original procurement list — add them if you plan to run Sensor B or the cysteamine arm.</p>
+
+<hr class="rule">
+
+<p class="footer-note">Every quantity, catalog number, and citation in this document is transcribed from your own project files. Where something was genuinely unresolved in those files, it's marked as such above rather than filled in with an assumed value — confirm those items before treating results as publication-traceable.</p>
+
+</div>
+</body>
+</html>

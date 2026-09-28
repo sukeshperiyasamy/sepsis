@@ -1,0 +1,108 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<title>TCS Project — Work Plan Meeting Note</title>
+<!--[if gte mso 9]>
+<xml><w:WordDocument><w:View>Print</w:View><w:Zoom>100</w:Zoom><w:DoNotOptimizeForBrowser/></w:WordDocument></xml>
+<![endif]-->
+<style>
+  @page Section1 { size: 8.5in 11.0in; margin: 0.75in 0.8in 0.75in 0.8in; }
+  div.Section1 { page: Section1; }
+  body { font-family: Calibri, Arial, sans-serif; font-size: 10.5pt; color: #1a1a1a; line-height: 1.35; }
+  h1 { font-size: 17pt; color: #1F3864; border-bottom: 2px solid #1F3864; padding-bottom: 5px; margin: 0 0 4px 0; }
+  h2 { font-size: 12.5pt; color: #1F3864; margin-top: 16px; margin-bottom: 5px; border-bottom: 1px solid #B7C6E0; padding-bottom: 2px; }
+  p { margin: 4px 0; }
+  .subtitle { font-size: 10pt; color: #444444; margin: 1px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 6px 0 10px 0; }
+  th, td { border: 1px solid #999999; padding: 4px 7px; font-size: 9.5pt; text-align: left; vertical-align: top; }
+  th { background-color: #1F3864; color: #ffffff; font-weight: bold; }
+  tr:nth-child(even) td { background-color: #F2F5FA; }
+  ul, ol { margin: 4px 0; padding-left: 20px; }
+  li { margin: 2px 0; }
+  .status-done { color: #2E7D32; font-weight: bold; }
+  .status-progress { color: #B8860B; font-weight: bold; }
+  .status-pending { color: #C00000; font-weight: bold; }
+  .note { font-style: italic; color: #555555; font-size: 9.5pt; }
+  .qbox { background-color: #FCE4E4; border: 1px solid #C00000; padding: 6px 9px; margin: 8px 0; }
+</style>
+</head>
+<body>
+<div class="Section1">
+
+<h1>TCS Project — Work Plan Meeting Note</h1>
+<p class="subtitle">Sukesh P (M24IM1007) &middot; Prep for 2:30 PM work-plan discussion &middot; 18 September 2026</p>
+<p class="note">Goal for this meeting: extract exact scope, deliverable, timeline, and my responsibilities from Prof. Ajay — not to lock in a detailed plan from assumptions. Everything below marked "known" comes from the sepsis SERS biosensor work already done (Co-PIs: TCS); everything else is a question to ask.</p>
+
+<h2>Objective (as understood so far — to be confirmed)</h2>
+<p>Develop a SERS-based biosensor platform for label-free detection of sepsis biomarkers (NAM, LTA, LPS) as a step toward a point-of-care diagnostic. <strong>TCS's specific role/interest in this (hardware, software/AI, data infrastructure, productization?) is not yet defined — this is question #1 below.</strong></p>
+
+<h2>Current Status</h2>
+<table>
+<tr><th>Area</th><th>Status</th><th>Detail</th></tr>
+<tr><td>Requirement understanding</td><td class="status-progress">In progress</td><td>Overall biosensor goal is clear (NAM/LTA/LPS detection via Raman/SERS). TCS-specific requirement/scope not yet received.</td></tr>
+<tr><td>Literature/background</td><td class="status-done">Completed (for current phase)</td><td>Targeted SERS literature review done for all three biomarkers, incl. direct benchmarks (Wu 2021, Yang 2022 for LPS) and substrate-fabrication literature (Kochylas 2021 and others for Ag/Si MACE).</td></tr>
+<tr><td>Existing prototype/code</td><td class="status-pending">Not started</td><td>No hardware device or software prototype yet. Only lab-bench substrate fabrication + benchtop Raman measurement so far — no integrated system.</td></tr>
+<tr><td>Dataset/data</td><td class="status-progress">Partial</td><td>Raw Raman spectra from 3 lab sessions (fabrication/R6G/NAM, instrument calibration, LTA attempt) plus DFT-computed reference spectra for all three biomarkers. No clinical or cultured-bacterial-isolate data yet.</td></tr>
+<tr><td>Hardware</td><td class="status-progress">Partial</td><td>Benchtop Raman spectrometer (785 nm) and substrate-fabrication setup (Si/Ag/HF) available. No dedicated/portable device hardware exists.</td></tr>
+<tr><td>Software</td><td class="status-progress">Partial</td><td>Custom Python spectral preprocessing pipeline exists (smoothing, baseline correction, normalization). No ML/classification pipeline or application software yet.</td></tr>
+<tr><td>Testing</td><td class="status-progress">In progress</td><td>Substrate SERS-activity validated (R6G control, strong signal). Biomarker detection attempted for NAM and LTA — both currently negative (see below). LPS SERS not yet attempted.</td></tr>
+</table>
+
+<p><strong>Completed:</strong> DFT + powder Raman reference spectra for NAM, LTA, LPS; substrate fabrication process established; SERS-activity of substrates confirmed (R6G).<br>
+<strong>Ongoing:</strong> Biomarker SERS detection experiments (LPS next, then NAM optimization, then LTA repeat) — full protocol and timeline already drafted.<br>
+<strong>Not started:</strong> Any hardware/software prototype, ML/AI classification, clinical-sample validation, point-of-care device work.</p>
+
+<h2>Proposed Work Packages (draft — to revise after this meeting)</h2>
+<ol>
+<li><strong>Requirement analysis</strong> — capture TCS's exact problem statement and deliverable expectations</li>
+<li><strong>System design</strong> — define what "the system" is (sensor only? sensor + software? sensor + device?), architecture accordingly</li>
+<li><strong>Development</strong> — biomarker SERS detection (in progress, my current track) + any software/AI/hardware component TCS defines</li>
+<li><strong>Integration</strong> — combine sensing, data pipeline, and any device/software component</li>
+<li><strong>Testing</strong> — functional, performance, and validation testing per TCS's expected rigor level</li>
+<li><strong>Documentation &amp; demo</strong> — technical documentation, prototype/demo, report</li>
+</ol>
+
+<h2>Proposed Milestones (rough — needs Prof. Ajay's timeline input)</h2>
+<table>
+<tr><th>Milestone</th><th>Content</th></tr>
+<tr><td>M1</td><td>Scope + requirements locked; architecture defined</td></tr>
+<tr><td>M2</td><td>First confirmed biomarker SERS detection (LPS, per current experimental roadmap)</td></tr>
+<tr><td>M3</td><td>Core module(s) developed/integrated per TCS scope</td></tr>
+<tr><td>M4</td><td>Testing/validation complete; demo-ready prototype + documentation</td></tr>
+</table>
+
+<h2>My Possible Responsibilities (not yet confirmed — let Prof. Ajay define first)</h2>
+<ul>
+<li>SERS experimentation and biomarker detection (already my current track)</li>
+<li>Python-based data analysis / spectral processing (already doing this)</li>
+<li>AI/ML classification, if that becomes part of TCS's scope</li>
+<li>Backend/API or data-pipeline work, if a software/data component is required</li>
+<li>Domain/medical-technology input (sepsis biomarker rationale)</li>
+</ul>
+
+<h2>Resources Required (to flag, not finalize)</h2>
+<ul>
+<li>Chemicals/consumables for ongoing SERS experiments (separately tracked in lab procurement list)</li>
+<li>Any TCS-provided data, specifications, hardware, or platform access — unknown until scope is defined</li>
+<li>Compute/software resources if an AI/ML component is in scope</li>
+</ul>
+
+<h2>Questions for Prof. Ajay (priority order)</h2>
+<div class="qbox">
+<ol>
+<li><strong>What is the exact TCS requirement/problem statement?</strong></li>
+<li>What is the expected final deliverable — proof of concept, working prototype, or deployable system?</li>
+<li>Is there an existing prototype/system we need to extend, or are we starting fresh?</li>
+<li>What TCS-provided resources/data/specifications exist, if any?</li>
+<li>What is the expected project duration and milestone schedule?</li>
+<li>Who is the technical point of contact from TCS?</li>
+<li>What technologies/platforms does TCS expect (specific software stack, hardware constraints, etc.)?</li>
+<li>What testing/validation requirements does TCS expect?</li>
+<li>What should be completed in the first 1&ndash;2 weeks?</li>
+<li>How does this TCS work-plan relate to the ongoing SERS biomarker-detection experiments — is it the same deliverable track, or a separate/parallel one?</li>
+</ol>
+</div>
+
+</div>
+</body>
+</html>
